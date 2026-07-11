@@ -1,0 +1,132 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.50.000.000,00 (lima puluh juta rupiah)",
+      "pidana_pengganti": "1 (satu) Bulan",
+      "pidana_penjara": "10 (sepuluh) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "13 Januari 2020",
+        "tanggal_selesai": "1 Febuari 2020"
+      },
+      {
+        "instansi_penetap": "Penyidik Perpanjangan Penuntut Umum",
+        "jenis_penetapan": "Penyidik Perpanjangan Penuntut Umum",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Februari 2020",
+        "tanggal_selesai": "12 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "26 Febuari 2020",
+        "tanggal_selesai": "16 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Pengadilan Negeri Tanjungpinang",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Pengadilan Negeri Tanjungpinang",
+        "nomor_surat": "",
+        "tanggal_mulai": "11 Maret 2020",
+        "tanggal_selesai": "9 April 2020"
+      },
+      {
+        "instansi_penetap": "Wakil Ketua Pengadilan Negeri Tanjungpinang",
+        "jenis_penetapan": "Perpanjangan Wakil Ketua Pengadilan Negeri",
+        "lokasi_penetapan": "Pengadilan Negeri Tanjungpinang",
+        "nomor_surat": null,
+        "tanggal_mulai": "10 April 2020",
+        "tanggal_selesai": "8 Juni 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa Ariadin telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana 'Nakhoda Yang Berlayar Tanpa Memiliki Surat Persetujuan Berlayar (SPB) Yang Dikeluarkan Oleh Syahbandar'. Menjatuhkan pidana penjara selama 10 (sepuluh) bulan dan denda sejumlah Rp.50.000.000,00 (lima puluh juta rupiah). Menetapkan masa penangkapan dan penahanan dikurangkan seluruhnya dari pidana yang dijatuhkan dan Terdakwa tetap ditahan. Barang bukti dirampas untuk Negara. Membebankan biaya perkara kepada Terdakwa sejumlah Rp.5000,00 (lima ribu rupiah).",
+    "lokasi_pengadilan": "Tanjungpinang",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Eduart M.P. Sihaloho, S.H., M.H.",
+        "Corpioner, S.H."
+      ],
+      "hakim_ketua": "Sumedi, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Tanjungpinang",
+    "nomor_putusan": "86/ Pid.Sus/ 2020/ PN.Tpg",
+    "panitera_pengganti": "Marni Hafti, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-04-13"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 323 ayat (1)",
+        "peraturan": "Undang-undang Republik Indonesia Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 302 ayat (1)",
+        "peraturan": "Undang-undang Republik Indonesia Nomor 17 tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Ariadin, selaku Nakhoda Kapal KM. Sumber Rejeki, berlayar dari Pelabuhan Jurong Singapura menuju Dapur 12 Pantai Pulau Batam pada tanggal 7 Januari 2020. Sekitar pukul 22.00 WIB di perairan Pulau Bulan, kapal dihentikan oleh Kapal Patroli KAL Welang I-4-60. Setelah pemeriksaan, Terdakwa tidak dapat memperlihatkan Surat Persetujuan Berlayar (SPB) dari Syahbandar dan kapal tidak dilengkapi alat kelengkapan seperti radio, peta laut, GPS, dan lampu kapal, sehingga kapal tidak laik laut. Terdakwa beserta ABK kemudian dibawa ke kantor Lantamal IV Tanjungpinang untuk penyidikan lebih lanjut.",
+      "lokasi_kejadian": "Perairan Pulau Bulan",
+      "tanggal_kejadian": "2020-01-07"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Buton Umur/tanggal lahir : 28 Tahun / 20 Desember 1991 Jenis kelamin : Laki - laki Kebangsaan : Indonesia Tempat tinggal : Dapur 12 Kp. Tua RT/RW 01/009 Kel. Sungai Pelunggut Kec. Sagulung Kota Batam Agama : Islam Pekerjaan : Nakhoda Kapal KM. Sumber Rejeki",
+        "nama": "Ariadin"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal KM Sumber Rezeki, Berbendera: Indonesia, Tonnage: GT 21, Jenis Kapal: Kapal Cargo, Terbuat dari: Kayu",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "SKK (60 MIL) An. ARIADIN",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Perlengkapan Kapal Kapal Barang No: PK.001/14/21/KSOP-TBA-2019",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Konstruksi Kapal Barang No: PK.002/15/21/KSOP-TBA-2019",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Garis Muat Kapal No: PK.002/16/21/KSOP-TBA-2019",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Radio Telekomunikasi Kapal Berukuran Tonage Kotor 35 s/d 300 No. PK.002/10/21/KSOP-TBA-2019",
+        "sumber": "Persidangan"
+      },
+      {
+        "nama_barang_bukti": "Halaman Pengukuhan",
+        "sumber": "Persidangan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar",
+        "referensi_peraturan": "Pasal 323 ayat (1) Jo Pasal 219 ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa Ariadin terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana 'Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar' dan kapal tidak dilengkapi dengan alat kelengkapan kapal yang menyebabkan kapal tidak laik laut."
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp50.000.000,00 (lima puluh juta rupiah)",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": "6 (enam) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": "Sp.Han/11/VIII/2018/Dit.Polair",
+        "tanggal_mulai": "17 Agustus 2018",
+        "tanggal_selesai": "5 September 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": "B-184/Epp.2/08/2018",
+        "tanggal_mulai": "6 September 2018",
+        "tanggal_selesai": "15 Oktober 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": "PRINT-118/T.1.12/Ep.2/10/2018",
+        "tanggal_mulai": "15 Oktober 2018",
+        "tanggal_selesai": "3 November 2018"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Manokwari",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": "238/Pid.B/2018/PN.Mnk.",
+        "tanggal_mulai": "02 November 2018",
+        "tanggal_selesai": "01 Desember 2018"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Manokwari",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": "238/Pid.B/2018/PN.Mnk.",
+        "tanggal_mulai": "02 Desember 2018",
+        "tanggal_selesai": "30 Januari 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa SUDARNO Alias NANNO terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"SEBAGAI NAHKODA YANG MELAYARKAN KAPANYA SEDANGKAN YANG BERSANGKUTAN MENGETAHUI BAHWA KAPAL TERSEBUT TIDAK LAIK LAUT\".",
+    "lokasi_pengadilan": "Manokwari",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "JULIUS MANIANI, S.H.",
+        "BEHINDS JEFRI TULAK, S.H., M.H."
+      ],
+      "hakim_ketua": "SONNY A.B. LAOEMOERY, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Manokwari",
+    "nomor_putusan": "238/Pid.B/2018/PN.Mnk.",
+    "panitera_pengganti": "Baharim L. Siantar, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-01-30"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "302 ayat (1) jo pasal 117 ayat (2)",
+        "peraturan": "UU RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 323 Ayat (1) jo. Pasal 219 ayat (1)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 302 ayat (1) jo. Pasal 117 ayat (2)",
+        "peraturan": "Undang-undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 323 Ayat (1) jo. Pasal 219 ayat (1)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 302 Ayat (1) jo. Pasal 117 ayat (2)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 302 Ayat (1) jo.Pasal 117 ayat (2)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 303 Ayat (1) jo. Pasal 117 ayat (2)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "302 Ayat (1) jo. Pasal 117 ayat (2)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Rabu, 01 Agustus 2018, sekitar pukul 10.00 WIT, Terdakwa SUDARNO Alias NANNO sebagai Nahkoda KM. Berlian Baru melayarkan kapalnya dari dermaga Pelabuhan Besar menuju perairan Tofoi untuk membeli bahan bakar minyak jenis Solar. Saat berada di perairan Kilo 9 Kabupaten Teluk Bintuni, KM. Berlian Baru ditemukan oleh Tim Lidik SubditGakkum Ditpolair Polda Papua. Kapal tersebut mengangkut profil tank dan drum plastik kosong yang dipersiapkan untuk menampung solar. Terdakwa berlayar tanpa didukung kelengkapan dokumen seperti Surat Persetujuan Berlayar, Surat Ijin oleh gerak, dan surat ijin pengangkutan barang berbahaya, sehingga kapal tidak memenuhi persyaratan kelaiklautan.",
+      "lokasi_kejadian": "perairan Kilo 9 Kabupaten Teluk Bintuni",
+      "tanggal_kejadian": "2018-08-01"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "TempatLahir: Barru (Sulsel); Umur/TanggalLahir: 35 Tahun / 10 November 1982; JenisKelamin: Laki-laki; Kebangsaan: Indonesia; Tempat Tinggal: Sambo, Kabupaten Teluk Bintuni; Agama: Islam; Pekerjaan: Nelayan (Nahkoda KM Berlian Baru)",
+        "nama": "SUDARNO Alias NANNO"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit KM BERLIAN BARU",
+        "sumber": "Dikembalikan kepada yang berhak yaitu Sdr. HARYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar pas kecil nama Kapal KM Berlian Baru dikeluarkan di Bintuni tanggal 11 September 2017",
+        "sumber": "Dikembalikan kepada yang berhak yaitu Sdr. HARYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Kesempurnaan Kapal KM Berlian Baru dikeluarkan di Bintuni tanggal 11 September 2017",
+        "sumber": "Dikembalikan kepada yang berhak yaitu Sdr. HARYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah profil tank ukuran 5.000 liter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah profil tank ukuran 3.000 liter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah drum plastik ukuran 300 liter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit mesin alkon",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Selang ukuran panjang 50 meter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit KM BERLIAN BARU",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar pas kecil nama Kapal KM Berlian Baru dikeluarkan di Bintuni tanggal 11 September 2017",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Kesempurnaan Kapal KM Berlian Baru dikeluarkan di Bintuni tanggal 11 September 2017",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah profil tank ukuran 5.000 liter",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah profil tank ukuran 3.000 liter",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah drum plastik ukuran 300 liter",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit mesin alkon",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "Selang ukuran panjang 50 meter",
+        "sumber": "diajukan di persidangan dan disita secara sah"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit KM BERLIAN BARU",
+        "sumber": "Dikembalikan kepada yang berhak yaitu Sdr. HARYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar pas kecil nama Kapal KM Berlian Baru dikeluarkan di Bintuni tanggal 11 September 2017",
+        "sumber": "Dikembalikan kepada yang berhak yaitu Sdr. HARYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Kesempurnaan Kapal KM Berlian Baru dikeluarkan di Bintuni tanggal 11 September 2017",
+        "sumber": "Dikembalikan kepada yang berhak yaitu Sdr. HARYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah profil tank ukuran 5.000 liter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah profil tank ukuran 3.000 liter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah drum plastik ukuran 300 liter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit mesin alkon",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Selang ukuran panjang 50 meter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Sebagai Nahkoda yang berlayar tanpa memiliki surat persetujuan berlayar yang dikeluarkan oleh syahbandar",
+        "referensi_peraturan": "Pasal 323 Ayat (1) jo. Pasal 219 ayat (1) Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Sebagai Nahkoda yang melayarkan kapalnya sedangkan yang bersangkutan mengetahui bahwa kapal tersebut tidak laik laut",
+        "referensi_peraturan": "Pasal 302 ayat (1) jo. Pasal 117 ayat (2) Undang-undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "SEBAGAI NAHKODA YANG MELAYARKAN KAPANYA SEDANGKAN YANG BERSANGKUTAN MENGETAHUI BAHWA KAPAL TERSEBUT TIDAK LAIK LAUT",
+        "referensi_peraturan": "Pasal 302 Ayat (1) jo. Pasal 117 ayat (2) Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa SUDARNO Alias NANNO terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana sebagai nahkoda yang melayarkan kapalnya sedangkan yang bersangkutan mengetahui bahwa kapal tersebut tidak laik laut."
+  }
+}

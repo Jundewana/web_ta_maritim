@@ -1,0 +1,160 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.60.000.000,- (enam puluh juta rupiah)",
+      "pidana_pengganti": "3 (tiga) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun dan 10 (sepuluh) bulan dikurangi selama terdakwa berada dalam tahanan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "kota",
+        "nomor_surat": "",
+        "tanggal_mulai": "29 Maret 2018",
+        "tanggal_selesai": "17 April 2018"
+      },
+      {
+        "instansi_penetap": "",
+        "jenis_penetapan": "Penangguhan Penahanan",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "18 April 2018",
+        "tanggal_selesai": "23 Mei 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "24 Mei 2018",
+        "tanggal_selesai": "02 Juni 2018"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara Cipinang Jakarta Timur",
+        "nomor_surat": "No.02/Pen.Pid.Sus.Prk./2018/PN.Jkt.Utr.",
+        "tanggal_mulai": "28 Mei 2018",
+        "tanggal_selesai": "16 Juni 2018"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Ketua Pengadilan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Cipinang Jakarta",
+        "nomor_surat": "No.02/Pen.Pid.Sus.Prk/2018/PN.Jkt.Utr.",
+        "tanggal_mulai": "17 Juni 2018",
+        "tanggal_selesai": "27 Juni 2018"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan terdakwa SUGIYANTO Bin H SEMANG terbukti bersalah secara sah menurut hukum, telah melakukan Tindak Pidana menggunakan alat tangkap yang dilarang (Trawl), dan mengoperasikan kapal penangkap ikan yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI).",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "GANJIL SUNARTO, SH.MM.",
+        "Drs. SUTARDJO,Msi."
+      ],
+      "hakim_ketua": "INDRI MURTINI, SH. MH."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "2/Pid.Sus-Prk/2018/PN.Jkt.Utr.",
+    "panitera_pengganti": "DOLY SIREGAR, SH",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2018-06-22"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 85 Jo Pasal 9 ayat (1)",
+        "peraturan": "UU RI No.45 tahun 2009 tentang perubahan atas UU RI No.31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 93 ayat (1) Jo Pasal 27 ayat (1)",
+        "peraturan": "UU RI No 45 Tahun 2009 tentang perubahan atas UU RI No.31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Minggu tanggal 25 Februari 2018, petugas KKP (Masinis KP. TAKALAMAUNGAN) melakukan patroli rutin di perairan Laut Utara Jawa. Sekitar pukul 11.56 WIB, mereka mendapati KM. Sumber sedang melakukan kegiatan penangkapan ikan. Setelah dilakukan pemeriksaan, didapati bahwa KM. Sumber menggunakan alat tangkap ikan Trawl yang dilarang dan Surat Izin Penangkapan Ikan (SIPI) kapal tersebut telah habis masa berlakunya sejak tanggal 04 September 2017.",
+      "lokasi_kejadian": "Laut Utara Jawa tepatnya pada koordinat 05° 46'.47.9\" LS – 107° 25'.48.3\" BT",
+      "tanggal_kejadian": "2018-02-25"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Jakarta. Umur/tanggal Lahir : 48 Tahun/12 Oktober 1969. Jenis kelamin : Laki-laki. Kebangsaan : Indonesia. Tempat tinggal : Jalan Kalibaru Barat VII, RT 013 / RW 005, Kelurahan Kalibaru, Kecamatan Cilincing, Jakarta Utara. Agama : Islam. Pendidikan : SD (Sekolah Dasar). Pekerjaan : Nelayan (Nahkoda KM.Sumber GT.21 No.440/Bb).",
+        "nama": "SUGIYANTO Bin H. SEMANG"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 Unit KM. SUMBER",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 Unit alat Komunikasi (radio)",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 Unit GPS merk GARMIN",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Surat Izin Berlayar Karantina Kesehatan",
+        "sumber": "Kantor Kesehatan Pelabuhan Kelas I Tanjung Priok di Kalibaru"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan (30 mil) atas nama SUGIYANTO",
+        "sumber": "Syahbandar Pelabuhan Kalibaru"
+      },
+      {
+        "nama_barang_bukti": "Buku Kesehatan Kapal KM. SUMBER",
+        "sumber": "Kalibaru"
+      },
+      {
+        "nama_barang_bukti": "Surat Izin Penangkap Ikan (SIPI) Nomor : 26.16.3196.101.00047",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Foto copy Surat Izin Usaha Perikanan (SIUP) Nomor : 0062/31.72/1.823.67 atas nama BUJANG SONY",
+        "sumber": "Kepala Kantor Pelayanan Terpadu Satu Pintu Jakarta Utara"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Kelaikan dan Pengawakan Kapal Penangkap Ikan Nomor : PK.001/5/18/UPP-Pmk-2016",
+        "sumber": "Kepala Kantor UPP Pamanukan"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar KM SUMBER",
+        "sumber": "Kantor Kesyahbandaran Utama Tanjung Priok"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar sementara KM. SUMBER milik Bujang Sony",
+        "sumber": "Kantor Kesyahbandaran Utama Tanjung Priok"
+      },
+      {
+        "nama_barang_bukti": "Uang hasil penjualan tangkapan ikan KM Sumber senilai Rp.432.000,- (empat ratus tiga puluh dua ribu rupiah), dengan total hasil tangkapan ikan sejumlah 144 Kg (seratus empat puluh empat kilo gram), dengan jenis ikan campur",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 Unit alat tangkap jaring Trawl",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 Unit mesin Gardan",
+        "sumber": null
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Menggunakan alat penangkapan ikan yang tidak sesuai dengan ukuran yang ditetapkan, alat penangkapan ikan yang tidak sesuai dengan persyaratan, atau standar yang ditetapkan untuk tipe alat tertentu dan/atau alat penangkapan ikan yang di larang (Trawl).",
+        "referensi_peraturan": "Pasal 85 Jo Pasal 9 ayat (1) UU RI No.45 tahun 2009 tentang perubahan atas UU RI No.31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Mengoperasikan kapal penangkap ikan yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI).",
+        "referensi_peraturan": "Pasal 93 ayat (1) Jo Pasal 27 ayat (1) UU RI No 45 Tahun 2009 tentang perubahan atas UU RI No.31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa SUGIYANTO Bin H SEMANG terbukti bersalah secara sah menurut hukum melakukan Tindak Pidana Perikanan dengan menggunakan alat tangkap yang dilarang (Trawl) dan mengoperasikan kapal penangkap ikan yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI) karena telah habis masa berlakunya."
+  }
+}

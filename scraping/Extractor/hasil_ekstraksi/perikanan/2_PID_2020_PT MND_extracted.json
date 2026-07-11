@@ -1,0 +1,156 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.400.000.000,- (empat ratus juta rupiah)",
+      "pidana_pengganti": "10 (sepuluh) bulan kurungan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "1. Menyatakan Terdakwa Nelson Luna Abella telahterbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Mengoperasikan kapal Perikanan berbendera asing di Zona Ekonomi Ekslusif Indonesia (ZEEI), yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)\" 2. Menjatuhkan pidana terhadap Terdakwa Nelson Luna Abella oleh karena itu dengan pidana Denda sebesar Rp. 400.000.000.- (empat ratus Juta Rupiah); 3. Menetapkan barang bukti berupa: 1 (satu) unit kapal penangkap ikan (pump boat) 2 (dua) unit katinting besera mesin 3 (satu) unit radio star merk uniden pro 520xl 4 (dua belas) alat penagkap hand line Dirampas Untuk Negara; 5 (satu) lembar dokumen kapal (license to operatoer fishing banca) Tetap Terlampir dalam Berkas Perkara Ini 4. Membebankan kepada Terdakwa untuk membayar biaya perkara sebesar Rp. 5.000.- (lima ribu rupiah );",
+        "nama_pengadilan": "Pengadilan Negeri Bitung",
+        "nomor_putusan": "13/Pid.Sus.PRK/2019/PN Bit",
+        "tanggal_putusan": "27 November 2019",
+        "tingkat_peradilan": "Pengadilan Perikanan"
+      },
+      {
+        "amar_putusan": null,
+        "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Bitung",
+        "nomor_putusan": "13/Pid.Sus-PRK/2019/PN Bit",
+        "tanggal_putusan": "27 November 2019",
+        "tingkat_peradilan": "Pengadilan Negeri"
+      }
+    ],
+    "kesimpulan_putusan": "Menerima permintaan banding dari Jaksa Penuntut Umum dan menguatkan putusan Pengadilan Perikanan pada Pengadilan Negeri Bitung Nomor 13/Pid.Sus-PRK/2019/PN Bit tanggal 27 November 2019, serta membebankan biaya perkara kepada terdakwa dalam kedua tingkat peradilan.",
+    "lokasi_pengadilan": "Manado",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "MARTIN PONTO BIDARA.SH.",
+        "DR. EDI HASMI.SH.MHum."
+      ],
+      "hakim_ketua": "IMANUEL SEMBIRING, SH"
+    },
+    "nama_pengadilan": "Pengadilan Tinggi Manado",
+    "nomor_putusan": "2 / PID / 2020 / PN MND",
+    "panitera_pengganti": "MARTIN JOPPY THEODORUS RURU.SH.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Bitung",
+        "gelar": "SH.MH.CLA.CPL.",
+        "kantor_hukum": "MRJ Law Office",
+        "nama": "Michael R. Jacobus",
+        "tanggal_surat_kuasa": "16 Oktober 2019"
+      },
+      {
+        "alamat_kantor": "Bitung",
+        "gelar": "SH.",
+        "kantor_hukum": "MRJ Law Office",
+        "nama": "Rosilin Masihor",
+        "tanggal_surat_kuasa": "16 Oktober 2019"
+      },
+      {
+        "alamat_kantor": "Bitung",
+        "gelar": "SH.",
+        "kantor_hukum": "MRJ Law Office",
+        "nama": "Debie Z. Hormati",
+        "tanggal_surat_kuasa": "16 Oktober 2019"
+      }
+    ],
+    "tanggal_putusan": "2020-02-13"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 ayat (2) jo Pasal 27 ayat (2) jo Pasal 102",
+        "peraturan": "Undang Undang RI No.45 Tahun 2009 Tentang Perubahan Atas Undang Undang RI No.31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 92 Jo Pasal 26 ayat (1) Jo Pasal 102",
+        "peraturan": "Undang - Undang RI No. 45 Tahun 2009 Tentang Perubahan Atas Undang - Undang RI No. 31 tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 93 Ayat (2) Jo Pasal 27ayat (2) Jo Pasal 102",
+        "peraturan": "Undang - Undang RI No. 45 Tahun 2009 Tentang Perubahan Atas Undang - Undang RI No. 31 tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 93 Ayat (2) Jo. Pasal 102",
+        "peraturan": "Undang-Undang No. 45 Tahun 2009 tentang Perubahan atas Undang-Undang No.31 tahun 2004 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa NELSON LUNA ABELLA selaku Nahkoda Kapal M/Bca NICOLE berbendera Philipina, berlayar dari Philipina menuju ke Perairan Indonesia (Laut Sulawesi) dan melakukan penangkapan ikan di Zona Ekonomi Eksklusif Indonesia (ZEEI) tanpa memiliki Surat Ijin Penangkapan Ikan (SIPI). Perbuatan ini terdeteksi oleh petugas pengawas perikanan pada tanggal 21 Agustus 2019, dan terdakwa beserta kapal diamankan di Dermaga PSDKP Bitung.",
+      "lokasi_kejadian": "Wilayah Pengelolaan Perikanan Republik Indonesia Laut Sulawesi pada posisi koordinat 03° 07.050' LU – 124° 20.283' BT (ZEEI Laut Sulawesi)",
+      "tanggal_kejadian": "2019-08-21"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : San Muigel Zabuaga Delsar Philipina; Umur/tanggal lahir : 45 Tahun / 28 Juni 1974; Jenis Kelamin : Laki - Laki; Kebangsaan : Philipina; Alamat : General Santos City Provinceof Philipina; Agama : Katholik; Pekerjaan : Nakhoda M/BCA. NICOLE; Pendidikan : SD (Elementary School);",
+        "nama": "NELSON LUNA ABELLA"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) ekor ikan tuna",
+        "sumber": "Berita Acara Pemusnahan Barang Bukti tanggal 23 Agustus 2019"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Kapal penangkap ikan (Pump boat)",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 Lembar dokumen kapal (license to operator fishing banca)",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "2 Unit katinting besreta mesin",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "12 Alat penangkap ikan hand line",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 unit radio star merk uniden pro 520 xl",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "2 unit Ketinting/Pakura beserta mesin",
+        "sumber": "Hasil pemeriksaan petugas pengawas perikanan"
+      },
+      {
+        "nama_barang_bukti": "12 unit alat penangkap ikan Handline",
+        "sumber": "Hasil pemeriksaan petugas pengawas perikanan"
+      },
+      {
+        "nama_barang_bukti": "1 unit Radio Star Merk Uniden Pro 520 XL",
+        "sumber": "Hasil pemeriksaan petugas pengawas perikanan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "barang siapa yang memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEE yang tidak memiliki Surat Ijin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 ayat (2) joPasal 27 ayat (2) jo Pasal 102 Undang Undang RI No.45 Tahun 2009 Tentang Perubahan Atas Undang Undang RI No.31 Tahun 2004 Tentang Perikanan."
+      },
+      {
+        "deskripsi_pelanggaran": "Perbuatan terdakwa sebagaimana diatur dan diancam pidana Pasal 92 Jo Pasal 26 ayat (1) Jo Pasal 102",
+        "referensi_peraturan": "Undang - Undang RI No. 45 Tahun 2009 Tentang Perubahan Atas Undang - Undang RI No. 31 tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "setiap orang yang memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki Surat Ijin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 Ayat (2) Jo Pasal 27ayat (2) Jo Pasal 102 Undang - Undang RI No. 45 Tahun 2009 Tentang Perubahan Atas Undang - Undang RI No. 31 tahun 2004 Tentang Perikanan."
+      },
+      {
+        "deskripsi_pelanggaran": "Mengoperasikan kapal Perikanan berbendera asing di Zona Ekonomi Ekslusif Indonesia (ZEEI), yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Kapal Perikanan Berbendera Asing Di Zona Ekonomi Ekslusif Indonesia (ZEEI), yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 Ayat (2) Jo. Pasal 102 Undang-Undang No. 45 Tahun 2009 tentang Perubahan atas Undang-Undang No.31 tahun 2004 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki Surat Ijin Penangkapan Ikan (SIPI)."
+  }
+}

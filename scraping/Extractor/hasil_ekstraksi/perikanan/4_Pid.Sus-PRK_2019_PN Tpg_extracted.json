@@ -1,0 +1,123 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.200.000.000,00",
+      "pidana_pengganti": "3 (tiga) bulan kurungan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "menolak permohonan kasasi dari Pemohon Kasasi Jaksa/ Penuntut Umum pada Kejaksaan Negeri Tanjung Pinang yang tidak sependapat dengan Judex Facti mengenai penjatuhan pidana denda tanpa subsidair kurungan pengganti denda.",
+        "nama_pengadilan": "Mahkamah Agung",
+        "nomor_putusan": "1206 K/ Pid.Sus/ 2015",
+        "tanggal_putusan": "23 Februari 2016",
+        "tingkat_peradilan": "Mahkamah Agung"
+      }
+    ],
+    "kesimpulan_putusan": "Menyatakan Terdakwa AMIRRUDIN PANJAITAN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana perikanan \"mengoperasikan kapal penangkap ikan berbendera Asing melakukan penangkapan ikan di ZEEI yang tidak memiliki SIPI\". Menjatuhkan pidana denda sebesar Rp.200.000.000,00 (dua ratus juta rupiah) dengan ketentuan apabila denda tidak dibayar diganti dengan pidana kurungan selama 3 (tiga) bulan.",
+    "lokasi_pengadilan": "Tanjung Pinang",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Drs. IMAM BUSTAN PRAMUDYA EDI, M.Si",
+        "ERRY THERESIA, S.H., M.H."
+      ],
+      "hakim_ketua": "ACEP SOPIAN SAURI, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Tanjung Pinang",
+    "nomor_putusan": "4/ Pid.Sus- PRK/ 2019/ PN Tpg",
+    "panitera_pengganti": "T.A. PANDIA",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-07-17"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 ayat (2) Jo Pasal 27 Ayat (2) Jo Pasal 102",
+        "peraturan": "Undang-Undang RI No.45 Tahun 2009 tentang Perubahan atas Undang-Undang RI No.31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 93 Ayat (2) Jo Pasal 27 Ayat (2)",
+        "peraturan": "Undang-Undang Nomor 45 Tahun 2009 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan."
+      },
+      {
+        "pasal": "Pasal 85 Jo Pasal 9",
+        "peraturan": "Undang-Undang RI No.45 Tahun 2009 tentang Perubahan atas Undang-Undang No.31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 93 ayat (2) Jo pasal 27 ayat (2) Jo Pasal 102",
+        "peraturan": "Undang-Undang RI No.45 Tahun 2009 tentang Perubahan atas Undang-Undang No.31 Tahun 2004 Tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa AMIRRUDIN PANJAITAN selaku Nahkoda KM PKFA 7836 berbendera Malaysia melakukan penangkapan ikan di Perairan Selat Malaka Zona Ekonomi Eksklusif (ZEE) Indonesia tanpa memiliki Surat Izin Penangkapan Ikan (SIPI). Kapal tersebut terdeteksi dan dikejar oleh KP. ORCA02, kemudian dihentikan dan diperiksa. Terdakwa tidak dapat menunjukkan dokumen perizinan yang sah dari Pemerintah Republik Indonesia. Di atas kapal ditemukan hasil tangkapan ikan dan alat tangkap berupa jaring Trawl. Terdakwa beserta ABK dan barang bukti dibawa ke Pangkalan PSDKP Batam untuk pemeriksaan lebih lanjut.",
+      "lokasi_kejadian": "Perairan Selat Malaka Zona Ekonomi Eksklusif (ZEE) Indonesia pada koordinat 03°20.906' LU - 100°28.041' BT",
+      "tanggal_kejadian": "2019-04-06"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Desa Sei Ciliong, Lingkungan IV, Tanjung Balai Asahan Umur/tanggal lahir : 42 Tahun/ tahun 1977 Jenis kelamin : Laki-laki Kebangsaan : Indonesia Tempat tinggal : Desa Sei Ciliong, Lingkungan IV Kab. Tanjung Balai Asahan Prov. Sumatra Utara Agama : Islam Pekerjaan : Nahkoda KM. PKFA 7836",
+        "nama": "AMIRRUDIN PANJAITAN"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 Unit Kapal KM. PKFA 7836",
+        "sumber": "Dirampas untuk negara"
+      },
+      {
+        "nama_barang_bukti": "1 Unit GPS (JMC) Model V - 6802 P",
+        "sumber": "Dirampas untuk negara"
+      },
+      {
+        "nama_barang_bukti": "1 Unit GPS Koden CVS - 118 MK",
+        "sumber": "Dirampas untuk negara"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Radio Super Star",
+        "sumber": "Dirampas untuk negara"
+      },
+      {
+        "nama_barang_bukti": "1 Buah Kompas Sailing",
+        "sumber": "Dirampas untuk negara"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Jaring Pukat Trawl",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "± 20 Kg Ikan Campuran",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "2 buah Bendera Malaysia",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 buku dokumen Lesan Vesel",
+        "sumber": "Dikembalikan kepada AMIRRUDIN PANJAITAN"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki SIPI yang dilakukan secara bersama-sama",
+        "referensi_peraturan": "Pasal 93 ayat (2) Jo Pasal 27 Ayat (2) Jo Pasal 102 Undang-Undang RI No.45 Tahun 2009 tentang Perubahan atas Undang-Undang RI No.31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 Ayat (2) Jo Pasal 27 Ayat (2) Undang-Undang Nomor 45 Tahun 2009 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "perbuatan terdakwa yang merupakan Nahkoda KM.PKFB 1546 bertentangan dengan Peraturan Menteri Kelautan dan Perikanan Nomor : 2/PERMEN-KP/2015 tentang Larangan Penggunaan Alat Penangkap Ikan Pukat Hela (TRAWLS) dan Pukat Tarik (Seine Nets) di Wilayah Pengelolaan Perikanan Negara Republik Indonesia pada Pasal 2 yang menerangkan bahwa Setiap Orang dilarang menggunakan alat penangkap ikan Pukat Hela (TRAWLS) dan Pukat Tarik (Seine Nets) di Wilayah Pengelolaan Perikanan Negara Republik Indonesia",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Nomor : 2/PERMEN-KP/2015 tentang Larangan Penggunaan Alat Penangkap Ikan Pukat Hela (TRAWLS) dan Pukat Tarik (Seine Nets) di Wilayah Pengelolaan Perikanan Negara Republik Indonesia pada Pasal 2"
+      },
+      {
+        "deskripsi_pelanggaran": "Perbuatan terdakwa",
+        "referensi_peraturan": "Pasal 85 Jo Pasal 9 Undang-Undang RI No.45 Tahun 2009 tentang Perubahan atas Undang-Undang No.31 Tahun 2004 Tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Mengoperasikan kapal penangkap ikan berbendera Asing melakukan penangkapan ikan di ZEEI yang tidak memiliki SIPI"
+  }
+}

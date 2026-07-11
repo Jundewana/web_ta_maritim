@@ -1,0 +1,1052 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp 100.000.000,- (seratus juta rupiah)",
+      "pidana_pengganti": "1 (satu) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penahanan Penyidik",
+        "lokasi_penetapan": "Rutan Maumere",
+        "nomor_surat": "",
+        "tanggal_mulai": "13 Februari 2020",
+        "tanggal_selesai": "3 Maret 2020"
+      },
+      {
+        "instansi_penetap": "JPU",
+        "jenis_penetapan": "Perpanjangan Penahanan JPU",
+        "lokasi_penetapan": "Rutan Maumere",
+        "nomor_surat": "",
+        "tanggal_mulai": "4 Maret 2020",
+        "tanggal_selesai": "13 Maret 2020"
+      },
+      {
+        "instansi_penetap": "JPU",
+        "jenis_penetapan": "Penahanan JPU",
+        "lokasi_penetapan": "Rutan Maumere",
+        "nomor_surat": "",
+        "tanggal_mulai": "6 Maret 2020",
+        "tanggal_selesai": "15 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim PN M",
+        "jenis_penetapan": "Penahanan Majelis Hakim",
+        "lokasi_penetapan": "Rutan Maumere",
+        "nomor_surat": "",
+        "tanggal_mulai": "13 Maret 2020",
+        "tanggal_selesai": "1 April 2020"
+      },
+      {
+        "instansi_penetap": "Ketua PN Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan Ketua PN",
+        "lokasi_penetapan": "Rutan Maumere",
+        "nomor_surat": "",
+        "tanggal_mulai": "2 April 2020",
+        "tanggal_selesai": "11 April 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa I H. NASIR, Terdakwa II SALDI, Terdakwa III ANWAR, Terdakwa IV HADIS dan Terdakwa V M. YASIR telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Dengan sengaja melakukan penangkapan ikan menggunakan bahah peledak yang membahayakan lingkungan di wilayah pengelolaan perikanan Republik Indonesia\" dan menjatuhkan pidana penjara serta denda.",
+    "lokasi_pengadilan": "Maumere",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "DODI EFRIZON, S.H.",
+        "ARIEF MAHARDIKA, S.H."
+      ],
+      "hakim_ketua": "CONSILIA INA L. PALANG AMA, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Maumere",
+    "nomor_putusan": "2/Pid.Sus-Prk/2020/PN.Mme",
+    "panitera_pengganti": "ELLEN LUCIA WILLY MARIA SUPIT, SH",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-04-09"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 84 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Undang – Undang Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 8 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Undang – Undang Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 55 ayat (1) Ke-1",
+        "peraturan": "KUHP"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada tanggal 11 Februari 2020 sekitar pukul 18.00 Wita, anggota Lanal Maumere menerima informasi mengenai aktivitas penangkapan ikan menggunakan bahan peledak/bom ikan di perairan Desa Lamatutu, Kecamatan Tanjung Bunga, Kabupaten Flores Timur. Setelah mendalami informasi, anggota Lanal berkoordinasi dengan kepala desa dan Linmas untuk menyusun strategi penangkapan. Pada tanggal 12 Februari 2020 sekitar pukul 00.00 Wita, tim Lanal Maumere bergerak menuju target dan berhasil mengamankan para terdakwa beserta barang bukti di Perairan Teluk Waiwulo Desa Lamatutu Kecamatan Tanjung Bunga Kabupaten Flores Timur. Para terdakwa mengakui perbuatan mereka menangkap ikan menggunakan bahan peledak yang mereka rakit sendiri di atas kapal, dan telah melakukan pengeboman sebanyak 3 kali, menghasilkan sekitar 200 kg ikan campuran.",
+      "lokasi_kejadian": "Perairan Teluk Waiwulo Desa Lamatutu Kecamatan Tanjung Bunga Kabupaten Flores Timur",
+      "tanggal_kejadian": "2020-02-12"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Parumaan. Umur/ tanggal lahir : 23 Tahun / 02 Agustus 1996. Jenis Kelamin : Laki-laki. Kebangsaan/Kewarganegaraan Tempat tinggal : Dusun Waturia Desa Kolisia Kec. Magepanda, Kab. Sikka, Provinsi. NTT. Agama : Islam. Pekerjaan : Nelayan. Pendidikan : SMA.",
+        "nama": "M. YASIR"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir: Parumaan. Umur/ tanggal lahir: 60 tahun / Tahun 1960. Jenis Kelamin: Laki-laki. Kebangsaan/Kewarganegaraan: Indonesia. Tempat tinggal: Desa Parumaan Kec. Alok Timur, Kab. Sikka, Provinsi. NTT. Agama: Islam. Pekerjaan: Nelayan. Pendidikan: -",
+        "nama": "H. NASIR"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir: Parumaan. Umur/ tanggal lahir: 23 Tahun / 05 September 1996. Jenis Kelamin: Laki-laki. Kebangsaan/Kewarganegaraan: Indonesia. Tempat tinggal: Desa Parumaan, Kec. Alok Timur, Kab. Sikka, Provinsi. NTT. Agama: Islam. Pekerjaan: Nelayan. Pendidikan: SD (tidak berijasah).",
+        "nama": "SALDI"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir: Parumaan. Umur/ tanggal lahir: 31 Tahun / 07 Mei 1988. Jenis Kelamin: Laki-laki. Kebangsaan/Kewarganegaraan: Indonesia. Tempat tinggal: Desa Parumaan, Kec. Alok Timur, Kab. Sikka, Provinsi. NTT. Agama: Islam. Pekerjaan: Nelayan. Pendidikan: D3 (Diploma Tiga).",
+        "nama": "ANWAR"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir: Parumaan. Umur/ tanggal lahir: 29 Tahun / 05 Desember 1990. Jenis Kelamin: Laki-laki. Kebangsaan/Kewarganegaraan : Indonesia.",
+        "nama": "HADIS"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008 ukuran 13 (tiga belas) meter/7 GT.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit sampan dan dayung.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kompresor dan tabung kompresor.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set selang kompresor.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah cool box, 4 buah warna kuning, 1 buah warna putih.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang kaki katak.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang mouthfish.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring).",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit Accu 12 volt, 1 (satu) unit solar cell, 1 (satu) unti pompa celup.",
+        "sumber": "Dikembalikan kepada pemiliknya"
+      },
+      {
+        "nama_barang_bukti": "27 (dua puluh tujuh) botol bir (bom ikan siap pakai).",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) botol bir (bom ikan yang sudah dirakit).",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "7 (tujuh) buah detonator utuh.",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal.",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "28 (dua puluh delapan) buah detonator bakar.",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap pakai).",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek Api, Obat Nyamuk.",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran ± 200 kg.",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "perahu motor",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "sampan",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "detonator",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "botol bir berisi bahan peledak",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "aki",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "dakor",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "sepatu katak",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "kacamata selam",
+        "sumber": "Anggota Lanal"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008, ukuran 13 (tiga belas) meter / 7 GT",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit sampan dan dayung",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompresor dan tabung Kompresor",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set Selang Kompresor",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah Cool box, 4 buah warna kuning, 1 buah warna putih",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "27 (dua puluh tujuh) botol bir (bom ikan siap pakai)",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) botol bir (bom ikan yang sudah dirakit)",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "7 (tujuh) buah Detonator utuh",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 (dua puluh delapan) buah Detonator bakar",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap rakit)",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek api, Obat nyamuk",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang kaki katak",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang Mouthfiece",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring)",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit Accu 12 Volt, 1 (satu) unit solar Cell, 1 (satu) unit Pompa celup",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran ± 200 kg",
+        "sumber": "Penyergapan dan Penangkapan oleh anggota Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008, ukuran 13 (tiga belas) meter / 7 GT",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit sampan dan dayung",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompresor dan tabung Kompresor",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set Selang Kompresor",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah Cool box, 4 buah warna kuning, 1 buah warna putih",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "27 (dua puluh tujuh) botol bir (bom ikan siap pakai)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) botol bir (bom ikan yang sudah dirakit)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "7 (tujuh) buah Detonator utuh",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "28 (dua puluh delapan) buah Detonator bakar",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap rakit)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek api, Obat nyamuk",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang kaki katak",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang Mouthfiece",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit Accu 12 Volt, 1 (satu) unit solar Cell, 1 (satu) unit Pompa celup",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran ± 200 kg",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008, ukuran 13 meter / 7 GT",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 unit sampan dan dayung",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 unit Kompresor dan tabung Kompresor",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 set Selang Kompresor",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "5 buah Cool box, 4 buah warna kuning, 1 buah warna putih",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "27 botol bir (bom ikan siap pakai)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "8 botol bir (bom ikan yang sudah dirakit)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "7 buah Detonator utuh",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "28 buah Detonator bakar",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap rakit)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek api, Obat nyamuk",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "2 pasang kaki katak",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "2 pasang Mouthfiece",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring)",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "2 unit Accu 12 Volt, 1 unit solar Cell, 1 unit Pompa celup",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran ± 200 kg",
+        "sumber": "penyergapan dan penangkapan"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak \u0013 200 kg ikan campuran",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "cool box",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak ± 200 kg ikan campuran yang tersimpan di cool box",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "box",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "sisa bahan baku untuk membuat bom"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "sisa bahan baku untuk membuat bom"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "sisa bahan baku untuk membuat bom"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak ± 200 kg ikan campuran",
+        "sumber": "cool box"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "± 200 kg ikan campuran",
+        "sumber": "cool box"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "Tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "bahan peledak",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "detonator",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "pupuk (Amunium Nitrat)",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "korek api",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "botol bir yang berisi bahan peledak siap pakai",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "detonator",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "pupuk siap rakit",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "korek api",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008 ukuran 13 (tiga belas) meter/7 GT.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit sampan dan dayung.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kompresor dan tabung kompresor.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set selang kompresor.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah cool box, 4 buah warna kuning, 1 buah warna putih.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "27 (dua puluh tujuh) botol bir (bom ikan siap pakai).",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) botol bir (bom ikan yang sudah dirakit).",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "7 (tujuh) buah detonator utuh.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "28 (dua puluh delapan) buah detonator bakar.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap pakai).",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek Api, Obat Nyamuk.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang kaki katak.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang mouthfish.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring).",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit Accu 12 volt, 1 (satu) unit solar cell, 1 (satu) unti pompa celup.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran \u0013 200 kg.",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak \\u00b1 200 kg ikan campuran",
+        "sumber": "cool box"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patrol Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak ± 200 kg ikan campuran",
+        "sumber": "cool box"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak ± 200 kg ikan campuran",
+        "sumber": "cool box"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak \u0013 200 kg ikan campuran",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "cool box",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "ikan hasil pengeboman sebanyak \u0013 200 kg ikan campuran",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "cool box",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "selang",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "28 buah botol bir bom rakitan siap pakai",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "karung kosong bekas pupuk",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "potongan sandal",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "batangan korek api kayu",
+        "sumber": "tim patroli Lanal Maumere"
+      },
+      {
+        "nama_barang_bukti": "perahu motor",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "sampan",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "detonator",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "botol bir berisi bahan peledak siap pakai",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "kabel",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "kompresor",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "aki",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "dakor",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "sepatu katak",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "kacamata selam",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "ikan sebanyak 200 (dua ratus) kilogram",
+        "sumber": "penangkapan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008 ukuran 13 (tiga belas) meter/7 GT.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit sampan dan dayung.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kompresor dan tabung kompresor.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set selang kompresor.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah cool box, 4 buah warna kuning, 1 buah warna putih.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang kaki katak.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang mouthfish.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring).",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit Accu 12 volt, 1 (satu) unit solar cell, 1 (satu) unti pompa celup.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "27 (dua puluh tujuh) botol bir (bom ikan siap pakai).",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) botol bir (bom ikan yang sudah dirakit).",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "7 (tujuh) buah detonator utuh.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "28 (dua puluh delapan) buah detonator bakar.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap pakai).",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek Api, Obat Nyamuk.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran ± 200 kg.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal Motor Niaga tanpa nama bermesin 3 unit Jiandong 35 PK, Jiandong 25 PK, Tianli 33 PK, bendera Indonesia, tahun pembuatan 2008 ukuran 13 (tiga belas) meter/7 GT.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit sampan dan dayung.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kompresor dan tabung kompresor.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set selang kompresor.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah cool box, 4 buah warna kuning, 1 buah warna putih.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang kaki katak.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "2 (dua) pasang mouthfish.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "Sodo (jaring).",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit Accu 12 volt, 1 (satu) unit solar cell, 1 (satu) unti pompa celup.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "27 (dua puluh tujuh) botol bir (bom ikan siap pakai).",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) botol bir (bom ikan yang sudah dirakit).",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "7 (tujuh) buah detonator utuh.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "Potongan sandal.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "28 (dua puluh delapan) buah detonator bakar.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "Bahan Peledak (pupuk siap pakai).",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "Kabel, Baterai, Korek Api, Obat Nyamuk.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      },
+      {
+        "nama_barang_bukti": "Ikan campuran – 200 kg.",
+        "sumber": "perkara Nomor 3/Pid.Sus-Prk/2020/PN Mme atas nama Terdakwa SAIBATUL, dkk."
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Melakukan penangkapan ikan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan lingkungannya di wilayah pengelolaan perikanan Republik Indonesia.",
+        "referensi_peraturan": "Pasal 84 ayat (1) Jo Pasal 8 ayat (1) Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan Jo. Pasal 55 ayat (1) Ke-1 KUHP."
+      }
+    ],
+    "perbuatan_terdakwa": "Dengan sengaja melakukan penangkapan ikan menggunakan bahan peledak yang membahayakan lingkungan di wilayah pengelolaan perikanan Republik Indonesia."
+  }
+}

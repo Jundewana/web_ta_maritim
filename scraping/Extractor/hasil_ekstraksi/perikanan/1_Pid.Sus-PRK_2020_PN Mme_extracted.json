@@ -1,0 +1,320 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp100.000.000,00 (seratus juta rupiah)",
+      "pidana_pengganti": "1 (satu) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "8 Januari 2020",
+        "tanggal_selesai": "27 Januari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "28 Januari 2020",
+        "tanggal_selesai": "6 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "5 Pebruari 2020",
+        "tanggal_selesai": "14 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Penahanan",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Pebruari 2020",
+        "tanggal_selesai": "1 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Maret 2020",
+        "tanggal_selesai": "11 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "8 Januari 2020",
+        "tanggal_selesai": "27 Januari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "28 Januari 2020",
+        "tanggal_selesai": "6 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "5 Pebruari 2020",
+        "tanggal_selesai": "14 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Pebruari 2020",
+        "tanggal_selesai": "1 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Maret 2020",
+        "tanggal_selesai": "11 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "8 Januari 2020",
+        "tanggal_selesai": "27 Januari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "28 Januari 2020",
+        "tanggal_selesai": "6 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "5 Pebruari 2020",
+        "tanggal_selesai": "14 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Pebruari 2020",
+        "tanggal_selesai": "1 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Maret 2020",
+        "tanggal_selesai": "11 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "8 Januari 2020",
+        "tanggal_selesai": "27 Januari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "28 Januari 2020",
+        "tanggal_selesai": "6 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "5 Pebruari 2020",
+        "tanggal_selesai": "14 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Pebruari 2020",
+        "tanggal_selesai": "1 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Maret 2020",
+        "tanggal_selesai": "11 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "8 Januari 2020",
+        "tanggal_selesai": "27 Januari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "28 Januari 2020",
+        "tanggal_selesai": "6 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "5 Pebruari 2020",
+        "tanggal_selesai": "14 Pebruari 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Pebruari 2020",
+        "tanggal_selesai": "1 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara di Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Maret 2020",
+        "tanggal_selesai": "11 Maret 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa I. NUJRIL, Terdakwa II. SAHRIJAL, Terdakwa III. SATRAT, Terdakwa IV. SARAT dan Terdakwa V. SADRATI, telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"dengan sengaja turut serta di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya\".",
+    "lokasi_pengadilan": "Maumere",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "DODI EFRIZON, S.H.",
+        "ARIEF MAHARDIKA, S.H."
+      ],
+      "hakim_ketua": "JOHNICOL RICHARD FRANS SINE, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Maumere",
+    "nomor_putusan": "1/Pid.Sus-Prk/2020/PN Mme",
+    "panitera_pengganti": "ALBERTUS ASAN GELI, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "10 Maret 2020"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 84 Ayat (1) Jo. Pasal 8 Ayat (1) Jo. Pasal 55 Ayat (1) Ke-1",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009, Tentang Perubahan Undang-Undang Republik Indonesia Nomor 31 Tahun 2004, Tentang Perikanan dan Kitab Undang-Undang Hukum Pidana"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Para Terdakwa, yaitu NUJRIL, SAHRIJAL, SATRAT, SARAT, dan SADATRI, secara bersama-sama melakukan penangkapan ikan menggunakan bahan peledak (bom ikan) di Perairan Koja Doi. Terdakwa NUJRIL merakit dan melemparkan bom ikan ke gerombolan ikan, sementara Terdakwa SARAT menghidupkan kompresor sebagai alat bantu pernapasan bagi Terdakwa SAHRIJAL dan Terdakwa SATRAT yang menyelam mengambil ikan mati. Terdakwa SADATRI juga ikut menyelam mengambil ikan tanpa alat bantu pernapasan. Perbuatan ini terungkap setelah anggota Polairud Polda NTT melakukan penyelidikan berdasarkan informasi adanya penangkapan ikan menggunakan bahan peledak di wilayah tersebut, dan kemudian menangkap para Terdakwa di lokasi kejadian.",
+      "lokasi_kejadian": "Perairan Koja Doi, Desa Koja Doi, Kecamatan Alok Timur, Kabupaten Sikka, Provinsi NTT",
+      "tanggal_kejadian": "07 Januari 2020"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Parumaan; Umur/tanggal lahir : 37 tahun/23 Pebruari 1982; Jenis Kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Parumaan, RT.009, RW.005, Desa Parumaan, Kecamatan Alok Timur, Kabupaten Sikka; Agama : Islam; Pekerjaan : Nelayan",
+        "nama": "SADATRI"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir : Parumaan; Umur/tanggal lahir : 42 tahun /8 Pebruari 1977; Jenis Kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Parumaan B, RT.013, RW.004, Desa Parumaan, Kecamatan Alok Timur, Kabupaten Sikka; Agama : Islam; Pekerjaan : Nelayan;",
+        "nama": "NUJRIL"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir : Parumaan; Umur/tanggal lahir : 27 tahun/8 September 1992; Jenis Kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Parumaan B, RT.004, RW.004, Desa Parumaan, Kecamatan Alok Timur, Kabupaten Sikka; Agama : Islam; Pekerjaan : Nelayan;",
+        "nama": "SAHRIJAL"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir : Parumaan;Umur/tanggal lahir : 35 tahun/1 Januari 1985;Jenis Kelamin : Laki-laki;Kebangsaan : Indonesia;Tempat tinggal : Parumaan B, RT.009, RW.005, Desa Parumaan,Kecamatan Alok Timur, Kabupaten Sikka;A g a m a : Islam;Pekerjaan : Nelayan;",
+        "nama": "SATRAT"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir : Parumaan;Umur/tanggal lahir : 41 tahun/7 Juli 1979;Jenis Kelamin : Laki-laki;Kebangsaan : Indonesia;Tempat tinggal : Parumaan B, RT.013, RW.004, Desa Parumaan,Kecamatan Alok Timur, Kabupaten Sikka;Agama : Islam;Pekerjaan : Nelayan;",
+        "nama": "SARAT"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit perahu motor warna ungu",
+        "sumber": "Terdakwa SAHRIJAL"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah sampan",
+        "sumber": "Terdakwa NUJRIL dan Terdakwa SADATRI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kompresor beserta selang dan 2 (dua) buah dakor",
+        "sumber": "Terdakwa SAHRIJAL"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah dayung sampan",
+        "sumber": "Terdakwa NUJRIL dan Terdakwa SADATRI"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) buah masker selam",
+        "sumber": "Terdakwa SAHRIJAL dan Terdakwa SATRAT"
+      },
+      {
+        "nama_barang_bukti": "4 (empat) pasang sepatu katak",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "102 (seratus dua) ekor ikan jenis campuran",
+        "sumber": "Para Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah korek api gas",
+        "sumber": "Terdakwa NUJRIL"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bungkus rokok merek Arrow",
+        "sumber": "Terdakwa NUJRIL"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah kotak plastic warna putih",
+        "sumber": "Terdakwa NUJRIL"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah jerigen potong",
+        "sumber": "Terdakwa NUJRIL"
+      },
+      {
+        "nama_barang_bukti": "bahan peledak jenis bom",
+        "sumber": "Terdakwa NUJRIL"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "dengan sengaja turut serta di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya",
+        "referensi_peraturan": "Pasal 84 Ayat (1) Jo. Pasal 8 Ayat (1) Undang Undang Repulik Indonesia Nomor 31 Tahun 2004, Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009, Tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004, Tentang Perikanan Jo. Pasal 55 Ayat (1) Kitab Undang-Undang Hukum Pidana"
+      }
+    ],
+    "perbuatan_terdakwa": "Para Terdakwa, yaitu NUJRIL, SAHRIJAL, SATRAT, SARAT, dan SADATRI, secara sah dan meyakinkan bersalah melakukan tindak pidana \"dengan sengaja turut serta di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya\"."
+  }
+}

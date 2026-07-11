@@ -1,0 +1,107 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": null,
+      "pidana_pengganti": null,
+      "pidana_penjara": "10 (sepuluh) Bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "24 Februari 2020",
+        "tanggal_selesai": "14 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri",
+        "jenis_penetapan": "Hakim Pengadilan Negeri",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "26 Februari 2020",
+        "tanggal_selesai": "26 Maret 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa IFAN RANGGAWULAN terbukti secara sah dan meyakinkan menurut hukum bersalah melakukan tindak Pidana “Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar”. Menjatuhkan pidana penjara selama 10 (sepuluh) Bulan, dengan ketentuan pidana tersebut tidak perlu dijalankan kecuali di kemudian hari ada perintah lain dalam Putusan Hakim, oleh karena Terdakwa sebelum lewat masa percobaan selama 1 (satu) tahun berakhir melakukan tindak pidana.",
+    "lokasi_pengadilan": "Sorong",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Dedy Lean Sahusilawane, S.H.",
+        "Donald F Sopacua, S.H."
+      ],
+      "hakim_ketua": "Willem Marco Erari, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Sorong",
+    "nomor_putusan": "32/Pid.B/2020/PN Son",
+    "panitera_pengganti": "DAHLIANI, S.Sos., SH",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Epicentrum Walk 5 th floor, Suites 529 A, Jl.HR Rasuna Said, Karet Kuningan Setiabudi",
+        "gelar": "Dr.© SE,SH,M.Hum",
+        "kantor_hukum": "HDS & Associates Law Firm",
+        "nama": "Henry Dunant Simanjuntak",
+        "tanggal_surat_kuasa": "14 Januari 2020"
+      },
+      {
+        "alamat_kantor": "Epicentrum Walk 5 th floor, Suites 529 A, Jl.HR Rasuna Said, Karet Kuningan Setiabudi",
+        "gelar": "SH",
+        "kantor_hukum": "HDS & Associates Law Firm",
+        "nama": "Nani Mulyani",
+        "tanggal_surat_kuasa": "14 Januari 2020"
+      }
+    ],
+    "tanggal_putusan": "2020-03-05"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 323",
+        "peraturan": "UU. RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 99 ayat (1)",
+        "peraturan": "Undang-Undang RI Nomor 32 tahun 2009 Tentang Perlindungan dan Pengelolaan Lingkungan Hidup"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Kamis tanggal 2 Januari 2020, terdakwa Ifan Ranggawulan selaku Nahkoda KLM. LAMIMA berlabuh jangkar di perairan Pulau Banos. Keesokan harinya, Jumat tanggal 3 Januari 2020 sekitar pukul 19.00 WIT, cuaca buruk disertai angin kencang menyebabkan kapal terseret, hanyut, dan kandas menabrak terumbu karang, mengakibatkan kerusakan terumbu karang seluas 146 m². Karena ketakutan dan memikirkan keselamatan kapal serta awak, terdakwa memutuskan membawa kapal berlayar menuju Pelabuhan Sorong tanpa dilengkapi Surat Persetujuan Berlayar dari Syahbandar.",
+      "lokasi_kejadian": "seputaran pulau Banos, Distrik Misool Timur kab. Raja Ampat, Propinsi Papua Barat",
+      "tanggal_kejadian": "2020-01-03"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Bojonegoro, Umur/Tanggal lahir : 38/5 Desember 1981, Jenis kelamin : Laki-laki, Kebangsaan : Indonesia, Tempat tinggal : Tambak Gringsing Baru RT/RW : 009/003 Kel. Perak Timur, Kec. Pabean Cantian, Kota Surabaya, Propinsi Jawa Timur, Agama : Islam, Pekerjaan : Nahkoda KM. LAMIMA",
+        "nama": "Ifan Ranggawulan"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (Satu) unit kapal KLM. LAMIMA",
+        "sumber": "DIKEMBALIKAN PADA PEMILIKNYA"
+      },
+      {
+        "nama_barang_bukti": "1 (Satu) Bundel Dokumen kapal KLM. LAMIMA",
+        "sumber": "DIKEMBALIKAN PADA PEMILIKNYA"
+      },
+      {
+        "nama_barang_bukti": "1 (Satu) kantong bening berisikan serpihan kayu bekas kapal KLM. LAMIMA pada saat menabrak terumbu karang yang ditemukan di TKP.",
+        "sumber": "DIRAMPAS UNTUK DIMUSNAHKAN"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar",
+        "referensi_peraturan": "Pasal 323 UU. RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "kelalaiannya mengakibatkan dilampauinya kriteria kerusakan lingkungan, yaitu menabrak terumbu karang dan mengakibatkan terjadi kerusakan terumbu karang sepanjang panjang 22 meter dan lebarnya bervariasi dari 2-9,5 meter, dengan luas kerusakan 146 m² (Total Kerusakan).",
+        "referensi_peraturan": "Pasal 99 ayat (1) Undang-Undang RI Nomor 32 tahun 2009 Tentang Perlindungan dan Pengelolaan Lingkungan Hidup"
+      }
+    ],
+    "perbuatan_terdakwa": "Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar"
+  }
+}

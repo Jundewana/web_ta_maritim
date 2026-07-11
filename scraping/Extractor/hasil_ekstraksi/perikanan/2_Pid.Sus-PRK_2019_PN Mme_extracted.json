@@ -1,0 +1,192 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp100.000.000,00",
+      "pidana_pengganti": "15 (lima belas) hari kurungan",
+      "pidana_penjara": "6 (enam) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Kepolisian",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-09-08",
+        "tanggal_selesai": "2019-09-27"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-09-28",
+        "tanggal_selesai": "2019-11-06"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-10-07",
+        "tanggal_selesai": "2019-10-16"
+      },
+      {
+        "instansi_penetap": "Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-10-15",
+        "tanggal_selesai": "2019-10-24"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Pengadilan Negeri Maumere",
+        "nomor_surat": null,
+        "tanggal_mulai": "25 Oktober 2019",
+        "tanggal_selesai": "8 Nopember 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa ABD GANI alias GANI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana memiliki dan mengoperasikan kapal penangkap ikan di wilayah pengelolaan perikanan Negara Republik Indonesia tanpa dilengkapi Surat Ijin Penangkapan Ikan (SIPI).",
+    "lokasi_pengadilan": "Maumere",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "DODI EFRIZON, S.H.",
+        "ARIEF MAHARDIKA, S.H."
+      ],
+      "hakim_ketua": "CONSILIA INA L. PALANG AMA, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Maumere",
+    "nomor_putusan": "2/Pid.Sus-Prk/2019/PN Mme",
+    "panitera_pengganti": "YACOBUS KASI",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-10-31"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 Ayat (1) Jo. Pasal 27 Ayat (1)",
+        "peraturan": "Undang-Undang RI Nomor 45 Tahun 2009, Tentang Perubahan Atas Undang-Undang RI Nomor 31 Tahun 2004, Tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa ABD GANI alias GANI, selaku Nakhoda Kapal KMN Permata Indah Bungin GT 26, melakukan penangkapan lobster di perairan Flores, Nusa Tenggara Timur (Tanjung Bunga, Wairiang, Wowong, Baranusa) dari tanggal 23 Juli 2019 hingga 7 September 2019. Surat Izin Penangkapan Ikan (SIPI) kapal tersebut telah habis masa berlakunya sejak 4 September 2019. Pada tanggal 7 September 2019, kapal ditangkap di Perairan Kolisia, Kecamatan Magepanda, Kabupaten Sikka, saat dalam perjalanan menuju Maumere untuk menjual hasil tangkapan lobster.",
+      "lokasi_kejadian": "Perairan Tanjung Bunga, Kabupaten Flores Timur; Perairan Wairiang, Wowong Kabupaten Lembata; Perairan Baranusa Kabupaten Alor; Perairan Kolisia, Kecamatan Magepanda, Kabupaten Sikka, Provinsi Nusa Tenggara Timur",
+      "tanggal_kejadian": "2019-07-23 sampai 2019-09-07"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Pulau Bungin; Umur/tanggal lahir: 46 tahun/14 Agustus 1973; Jenis Kelamin: Laki-laki; Kebangsaan: Indonesia; Tempat tinggal: Dusun Sekatek, RT.010, RW.004, Kelurahan Pulau Bungin, Kecamatan Alas, Kabupaten Sumbawa; Agama: Islam; Pekerjaan: Nelayan (Nakhoda KMN. Permata Indah Bungin GT.26); Pemilik Kapal KMN Permata Indah Bungin GT 26",
+        "nama": "ABD GANI alias GANI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) lembar kwitansi hasil pelelangan lobster",
+        "sumber": "Terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Rp32.813.500,00 (tiga puluh juta delapan ratus tiga belas ribu lima ratus rupiah) uang hasil pelelangan lobster",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kapal KMN PERMATA INDAH BUNGI GT 26",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit kompresor",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) rol selang",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit sekoci",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Persetujuan Berlayar Nomor : 04-UPP II/WK.III/ 7405/VII/2019",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ijin Penangakapan Ikan Operasi Tunggal (SIPI-OT) Nomor: 26.18.5297.45.00212",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar Sertifikat Kelaikan dan Pengawakan Kapal Pengkap Ikan Nomor: AL. 501/18/16/UUP-Bnt/2019",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ijin Usaha Perikanan Perseorangan (SIUP-OI) Nomor: 02.17.01.5297.0068",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ukur Dalam Negeri Nomor : 186/Pa",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Pas Besar No. Urut 150",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kapal KMN PERMATA INDAH BUNGI GT 26",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit kompresor",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) rol selang",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) unit sekoci",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Persetujuan Berlayar Nomor : 04-UPP II/WK.III/ 7405/VII/2019",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ijin Penangkapan Ikan Operasi Tunggal (SIPI-OT) Nomor: 26.18.5297.45.00212",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar Sertifikat Kelaikan dan Pengawakan Kapal Pengkap Ikan Nomor: AL. 501/18/16/UUP-Bnt/2019",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ijin Usaha Perikanan Perseorangan (SIUP-OI) Nomor: 02.17.01.5297.0068",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ukur Dalam Negeri Nomor : 186/Pa",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Pas Besar No. Urut 150",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ukur Dalam Negeri Nomor : 186/Pa",
+        "sumber": "Dikembalikan kepada Terdakwa ABD GANI alias GANI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Pas Besar No. Urut 150",
+        "sumber": "Dikembalikan kepada Terdakwa ABD GANI alias GANI"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera Indonesia melakukan penangkapan ikan di wilayah Pengelolaan Perikanan Negara Republik Indonesia dan/atau di laut lepas, yang tidak memiliki SIPI",
+        "referensi_peraturan": "Pasal 93 Ayat (1) Jo. Pasal 27 Ayat (1) Undang-Undang RI Nomor 45 Tahun 2009, Tentang Perubahan Atas Undang-Undang RI Nomor 31 Tahun 2004, Tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa ABD GANI alias GANI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana memiliki dan mengoperasikan kapal penangkap ikan di wilayah pengelolaan perikanan Negara Republik Indonesia tanpa dilengkapi Surat Ijin Penangkapan Ikan (SIPI), karena SIPI yang dimiliki sudah habis masa berlakunya dan tidak diperpanjang, serta tidak mengurus SIPI untuk wilayah tangkapan di Nusa Tenggara Timur."
+  }
+}

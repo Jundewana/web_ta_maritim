@@ -1,0 +1,200 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp 200.000.000,- (dua ratus juta rupiah)",
+      "pidana_pengganti": "kurungan selama 3 (tiga) bulan",
+      "pidana_penjara": "2 (dua) Tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "21 April 2017",
+        "tanggal_selesai": "10 Mei 2017"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "11 Mei 2017",
+        "tanggal_selesai": "20 Mei 2017"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "16 Mei 2017",
+        "tanggal_selesai": "27 Mei 2017"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Pengadilan Negeri Jakarta Utara",
+        "nomor_surat": "02/Pid.Sus Perikanan/2017/PN.JKT.UT",
+        "tanggal_mulai": "23 Mei 2017",
+        "tanggal_selesai": "11 Juni 2017"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Ketua Pengadilan",
+        "lokasi_penetapan": "Pengadilan Negeri Jakarta Utara",
+        "nomor_surat": "02/Pid.Sus Perikanan/2017/PN.JKT.UT",
+        "tanggal_mulai": "12 Mei 2017",
+        "tanggal_selesai": "21 Juni 2017"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa ILHAM GUSTIAWAN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana perikanan \"Secara bersama sama dan berlanjut dengan mengadakan dan mengedarkan ikan yang dilarang yang merugikan sumber daya ikan di Wilayah Pengelolaan Perikanan Republik Indonesia\". Menjatuhkan pidana penjara selama 2 (dua) Tahun dan pidana denda sebesar Rp 200.000.000,- (dua ratus juta rupiah), dengan ketentuan apabila pidana denda tersebut tidak dibayar maka diganti dengan kurungan selama 3 (tiga) bulan. Menetapkan masa penahanan yang telah dijalani Terdakwa dikurangkan seluruhnya dari pidana yang dijatuhkan dan menetapkan Terdakwa tetap dalam Tahanan. Membebankan kepada Terdakwa untuk membayar biaya perkara sebesar Rp.5.000.- (lima ribu rupiah).",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "GANJIL SUNARTO, S.H., M.M.",
+        "IR. JOKO MARTOYO SM, S.H., M.M."
+      ],
+      "hakim_ketua": "RAMSES PASARIBU, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "03/Pid.Sus.PRKN/2017/PN.Jkt.Utr",
+    "panitera_pengganti": "LISNUR FAUZIAH, S.H., M.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": "S. A. H., Low Office",
+        "nama": "Anthoni James Harahap",
+        "tanggal_surat_kuasa": "31 Mei 2017"
+      },
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": "S. A. H., Low Office",
+        "nama": "Fikri Abdulah Ajiz",
+        "tanggal_surat_kuasa": "31 Mei 2017"
+      },
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": "S. A. H., Low Office",
+        "nama": "Leo Simon Likumahwa",
+        "tanggal_surat_kuasa": "31 Mei 2017"
+      },
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": "S. A. H., Low Office",
+        "nama": "Sanriko Alfrius Bernado",
+        "tanggal_surat_kuasa": "31 Mei 2017"
+      },
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": "S. A. H., Low Office",
+        "nama": "Yunita Pranata",
+        "tanggal_surat_kuasa": "31 Mei 2017"
+      }
+    ],
+    "tanggal_putusan": "2017-06-20"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 88 juncto Pasal 16",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009"
+      },
+      {
+        "pasal": "Pasal 55 ayat (1) ke-1",
+        "peraturan": "Kitab Undang Undang Hukum Pidana (KUHP)"
+      },
+      {
+        "pasal": "Pasal 64 ayat (1)",
+        "peraturan": "Kitab Undang Undang Hukum Pidana (KUHP)"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Ilham Agustian bekerja untuk Danis Pranmukti dalam pembelian benih lobster dari nelayan di Pelabuhan Ratu Sukabumi. Benih lobster tersebut kemudian ditampung di gudang milik Danis Pranmukti di Sukabumi, dikemas, dan diangkut oleh Riswan Pustia Mukti ke tempat penampungan di Jonggol, Bogor, dengan tujuan akhir diekspor ke Singapura. Kegiatan pengangkutan benih lobster ini dilakukan sebanyak 4 kali, dengan yang terakhir pada tanggal 18 April 2017, saat petugas kepolisian melakukan penangkapan di Jonggol.",
+      "lokasi_kejadian": "Perairan Pelabuhan Ratu, Kabupaten Sukabumi, Jawa Barat dan Perumahan Citra Indah City Bukit Aster AS 25 No.29, Kelurahan Singa Jaya, Kecamatan Jonggol, Kabupaten Bogor, Jawa Barat",
+      "tanggal_kejadian": "2017-04-18"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Sukabumi Umur/tanggal Lahir : 28 Tahun / 16 Agustus 1989 Jenis kelamin : Laki-laki Kebangsaan : Indonesia Tempat tinggal : Jalan Bayangkara Rt.01/Rw.06 Kel. Pelabuhan Ratu, Kec. Pelabuhan Ratu, Kab. Sukabumi, Jawa Barat Agama : Islam Pekerjaan : Tukang Ojek pendidikan",
+        "nama": "ILHAM AGUSTIAN"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "48.229 ekor baby lobster",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "1 mesin Chiller merk Haila",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "1 mesin chiller merk Resun",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "3 pompa udara merk Resun",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "1 pompa udara merk Luckines",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "2 buah tabung oxigen",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "8 buah Stereofoam",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "1 sak plastik putih",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "1 bungkus karet gelang",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      },
+      {
+        "nama_barang_bukti": "1 unit mobil Toyota Avanza warna putih Nomor Polisi F 1883 US beserta STNK atas nama PARTA",
+        "sumber": "Petugas Kepolisian/Bareskrim"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "tindak pidana Perikanan",
+        "referensi_peraturan": "pasal 88 ayat (1) UU RI Nomor 31 tahun 2004 tentang Perikanan Jo UURI No.45 tahun 2009 tentang perubahan atas UU No.31 tahun 2004 tentang perikanan Jo pasal 55 ayat (1) ke-1 KUHP Jo Pasal 64 ayat (1) KUHP."
+      },
+      {
+        "deskripsi_pelanggaran": "mengeluarkan benih lobster yang dilarang dari Wilayah Pengelolaan Perikanan Republik Indonesia (WPPRI) dari Pelabuhan Ratu dari Sukabumi ke Jakarta tanpa tindakan Karanina",
+        "referensi_peraturan": "Pasal 88 ayat (1) UU RI No.45 tahun 2009 tentang perubahan atas UU RI No.31 tahun 2004 tentang Perikanan dan Pasal 7, Pasal 9 Jo. Pasal 31 ayat (1) UU No. 16 tahun 1992 tenang Karantina Hewan Ikan dan Tumbuhan Jo. Pasal 55 ayat (1) ke-1 KUHP Jo. Pasal 64 ayat (1) KUHP Jo. Pasal 53 KUHP;"
+      },
+      {
+        "deskripsi_pelanggaran": "melanggar pasal 88 juncto pasal 16 Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 juncto pasal 55 ayat (1) ke-1 Kitab Undang Undang Hukum Pidana (KUHP) juncto pasal 64 ayat (1) Kitab Undang Undang Hukum Pidana (KUHP)",
+        "referensi_peraturan": "pasal 88 juncto pasal 16 Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 juncto pasal 55 ayat (1) ke-1 Kitab Undang Undang Hukum Pidana (KUHP) juncto pasal 64 ayat (1) Kitab Undang Undang Hukum Pidana (KUHP)"
+      },
+      {
+        "deskripsi_pelanggaran": "Penangkapan dan/atau pengeluaran Lobster (Panulirus spp.) dari Wilayah Negara Republik Indonesia termasuk menjual benih lobster dilarang untuk lobster berukuran panjang karapas dibawah 8 (delapan) cm atau berat dibawah 200 (dua ratus) gram per ekor sehingga membawa benih lobster dengan ukuran sekitar 0,5 s/d 0,6 cm keluar wilayah Pengelolaan Perikanan Republik Indonesia (WPPN-RI) dilarang oleh Pemerintah.",
+        "referensi_peraturan": "peraturan Menteri Kelautan dan Perikanan No. 56/PERMEN-KP/2016 tanggal 27 Desember 2016 tentang Larangan Penangkapan dan/atau pengeluaran Lobster (Panulirus spp.), Kepiting (Scylla spp.) dan Rajungan (Portunus spp.) dari wilayah Negara Republik Indonesia"
+      },
+      {
+        "deskripsi_pelanggaran": "Penangkapan dan/atau Pengeluaran LOBSTER (Panilurus spp), Kepting (Scylla spp), dan Rajungan (Partumus spp) dari Wilayah Negara Republik Indonesia",
+        "referensi_peraturan": "Peraturan Menteri Kelautan Nomor: 56/PERMEN-KP/2016, tanggal 23 Desember 2016 tentang Larangan Penangkapan dan/atau Pengeluaran LOBSTER (Panilurus spp), Kepting (Scylla spp), dan Rajungan (Partumus spp) dari Wilayah Negara Republik Indonesia"
+      },
+      {
+        "deskripsi_pelanggaran": "Penangkapan dan/atau Pengeluaran benih lobster (Pannilurus spp) dari Wilayah Negara Republik Indonesia",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Nomor: 56/PERMEN-KP/2016"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa ILHAM AGUSTIAN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana perikanan \"Secara bersama sama dan berlanjut dengan mengadakan dan mengedarkan ikan yang dilarang yang merugikan sumber daya ikan di Wilayah Pengelolaan Perikanan Republik Indonesia\"."
+  }
+}

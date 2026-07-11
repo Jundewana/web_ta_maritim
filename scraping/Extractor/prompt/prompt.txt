@@ -1,0 +1,138 @@
+Buatkan saya satu skenario dengan pasangan pertanyaan jawaban kompleks serupa/relevan dengan ringkasan hasil ekstraksi dokumen putusan. Bayangkan kamu juga berperan sebagai user umum yang ingin mencari informasi dalam suatu kasus skenario yang dihasilkan. Cantumkan juga konteks hukum yang dipakai untuk menjawab pertanyaan dan jawaban. Contoh pertanyaan yang diharapkan :
+"Jika si A mengirim kepiting bertelur ke luar negeri tanpa izin, apakah kemungkinan pidana yang akan diterima si A?" (Bukan berarti harus disamakan pertanyaannya, ini contoh saja). Hasil juga harus mencakup seperti berikut :
+
+Skenario:
+...
+
+Analisis QA:
+1. ...
+2. ...
+
+Pertanyaan:
+...
+
+Jawaban:
+...
+
+Konteks Hukum:
+- Pasal ...
+- UU ....
+- dll
+
+
+
+Opsi 2 :
+Berdasarkan ringkasan hasil ekstraksi dokumen putusan (format json), buatkan satu skenario kasus analogis yang memiliki unsur fakta dan konteks hukum yang serupa dengan putusan tersebut, namun disajikan dalam bentuk pertanyaan dari sudut pandang pengguna umum yang sedang mencari informasi hukum.
+
+Tujuannya adalah menghasilkan satu pasangan question-answer legal reasoning yang dapat digunakan sebagai dataset sistem QA berbasis GraphRAG.
+
+Ketentuan:
+
+Skenario harus tetap mempertahankan unsur hukum utama dari putusan asli, tetapi disajikan dalam bentuk kasus baru yang relevan.
+Pertanyaan harus bersifat kompleks, berbasis skenario, dan membutuhkan penalaran hukum, bukan pertanyaan faktual sederhana.
+Jawaban harus menjelaskan alasan hukum secara eksplisit berdasarkan fakta skenario, unsur tindak pidana/perdata, serta pertimbangan hukum yang relevan.
+Cantumkan konteks hukum yang digunakan untuk menjawab, berupa pasal, undang-undang, atau pertimbangan hakim yang relevan.
+Hindari membuat fakta atau dasar hukum yang tidak didukung oleh ringkasan putusan.
+
+Gunakan format output berikut:
+
+Skenario:
+...
+
+Step-by-step pembuatan QA:
+
+1...
+2...
+...
+
+Pertanyaan:
+...
+
+Jawaban:
+...
+
+Konteks Hukum:
+- Pasal ...
+- UU ....
+- dll
+
+
+Opsi 3:
+Berdasarkan ringkasan hasil ekstraksi dokumen putusan dalam format JSON, buatkan satu skenario kasus analogis yang memiliki unsur fakta dan konteks hukum serupa dengan putusan tersebut, lalu hasilkan satu pasangan question-answer legal reasoning untuk dataset sistem QA berbasis GraphRAG.
+
+Gunakan hanya fakta, unsur hukum, dan konteks hukum yang terdapat dalam JSON. Jangan menambahkan fakta, pasal, atau interpretasi hukum yang tidak tersurat atau tidak dapat disimpulkan langsung dari JSON.
+
+Ketentuan:
+
+1. Skenario harus mempertahankan unsur hukum utama dari putusan asli, tetapi dikemas dalam kasus baru yang analogis dan relevan.
+2. Pertanyaan harus berbasis skenario dan menuntut penalaran atas hubungan antara fakta kejadian, unsur pelanggaran, dan dasar hukum yang relevan.
+3. Jawaban harus menjelaskan alasan hukum secara eksplisit berdasarkan unsur perbuatan, pasal yang relevan, dan konsekuensi hukumnya.
+4. Konteks hukum harus memuat pasal, undang-undang, atau pertimbangan hukum yang benar-benar terdapat pada data JSON.
+5. Jangan membuat asumsi tambahan di luar informasi pada JSON.
+
+Gunakan contoh format berikut, untuk menyusun output:
+
+Skenario:
+...
+
+Step-by-step pembuatan QA:
+
+1. .... 
+2. ...
+....
+
+Pertanyaan:
+...
+
+Jawaban:
+...
+
+Konteks Hukum:
+
+1. Pasal ...
+2. UU ...
+3. dsb....
+
+
+ prompt = f"""Anda adalah ahli hukum Indonesia yang berpengalaman dalam membuat materi pembelajaran kasus hukum.
+
+Berdasarkan ringkasan hasil ekstraksi dokumen putusan berikut (dalam format JSON):
+
+{json.dumps(extracted_data, indent=2, ensure_ascii=False)}
+
+Buatlah satu skenario kasus analogis yang memiliki unsur fakta dan konteks hukum yang serupa (kasus pelayaran/perikanan) dengan putusan tersebut, namun disajikan dalam bentuk pertanyaan dari sudut pandang pengguna umum yang sedang mencari informasi hukum.
+
+Tujuannya adalah menghasilkan satu pasangan question-answer legal reasoning yang dapat digunakan sebagai dataset sistem QA berbasis GraphRAG.
+
+Ketentuan:
+
+1. Skenario harus tetap mempertahankan unsur hukum utama dari putusan asli, tetapi disajikan dalam bentuk kasus baru yang relevan.
+2. Pertanyaan harus bersifat kompleks, berbasis skenario, dan membutuhkan penalaran hukum, bukan pertanyaan faktual sederhana.
+3. Jawaban harus menjelaskan alasan hukum secara eksplisit berdasarkan fakta skenario, unsur tindak pidana/perdata, serta pertimbangan hukum yang relevan.
+4. Cantumkan konteks hukum yang digunakan untuk menjawab, berupa pasal, undang-undang, atau pertimbangan hakim yang relevan.
+5. Hindari membuat fakta atau dasar hukum yang tidak didukung oleh ringkasan putusan.
+
+Output format WAJIB (gunakan separator yang jelas): 
+
+=== SKENARIO ===
+[skenario detail di sini]
+
+=== STEP-BY-STEP ===
+1. [langkah 1]
+2. [langkah 2]
+3. [langkah 3]
+...
+
+=== PERTANYAAN ===
+[pertanyaan kompleks di sini]
+
+=== JAWABAN ===
+[jawaban dengan penjelasan alasan hukum di sini]
+
+=== KONTEKS HUKUM ===
+- Pasal: [pasal dan uraian]
+- UU: [undang-undang yang relevan]
+- [informasi hukum lainnya]
+
+Mulai sekarang:
+"""

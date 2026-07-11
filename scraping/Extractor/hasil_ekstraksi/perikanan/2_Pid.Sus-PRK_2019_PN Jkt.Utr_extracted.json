@@ -1,0 +1,211 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp70.000.000,00",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": "",
+        "tanggal_mulai": "26 Juli 2019",
+        "tanggal_selesai": "14 Agustus 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": "",
+        "tanggal_mulai": "15 Agustus 2019",
+        "tanggal_selesai": "16 Agustus 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": "",
+        "tanggal_mulai": "24 September 2019",
+        "tanggal_selesai": "29 September 2019"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": "",
+        "tanggal_mulai": "30 September 2019",
+        "tanggal_selesai": "19 Oktober 2019"
+      },
+      {
+        "instansi_penetap": "Hakim perpanjangan Ketua Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Hakim perpanjangan",
+        "lokasi_penetapan": "Rumah Tahanan Negara",
+        "nomor_surat": "",
+        "tanggal_mulai": "20 Oktober 2019",
+        "tanggal_selesai": "29 Oktober 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Majelis Hakim menyatakan Terdakwa UCOK TAMAN Bin DERMAWAN TAMAN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana perikanan \"dengan sengaja mengadakan dan/atau mengedarkan ikan yang dilarang yang merugikan sumberdaya ikan dan/atau lingkungan sumberdaya ikan di Wilayah Pengelolaan Perikanan Republik Indonesia\". Terdakwa dijatuhi pidana penjara selama 1 (satu) tahun dan denda sebesar Rp70.000.000,00 (tujuh puluh juta rupiah), dengan ketentuan apabila denda tidak dibayar maka diganti dengan pidana kurungan selama 2 (dua) bulan. Penahanan yang telah dijalani Terdakwa dikurangkan seluruhnya dari pidana yang dijatuhkan, dan Terdakwa diperintahkan tetap dalam tahanan. Barang bukti berupa 1 unit Container dikembalikan kepada yang berhak melalui Terdakwa, muatan Container ikan beku dirampas untuk Negara, dan 2 unit handphone dirampas untuk dimusnahkan. Terdakwa dibebankan biaya perkara sebesar Rp5.000,00.",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Ganjil Sunarto, S.H., M.M.",
+        "Drs. Sutardjo, M.Si."
+      ],
+      "hakim_ketua": "Agung Purbantoro, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "02/Pid.Sus-Prk/2019/PN Jkt.Utr",
+    "panitera_pengganti": "Ari Palti Siregar, ST., S.H., M.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jalan Menteng Nomor 64 B, Lagoa- Koja, Jakarta Utara 14270",
+        "gelar": "Ir., S.H.",
+        "kantor_hukum": "JD & Partners",
+        "nama": "Andi Darti",
+        "tanggal_surat_kuasa": "2019-10-04"
+      },
+      {
+        "alamat_kantor": "Jalan Menteng Nomor 64 B, Lagoa- Koja, Jakarta Utara 14270",
+        "gelar": "S.H.",
+        "kantor_hukum": "JD & Partners",
+        "nama": "Jonri Simanjuntak",
+        "tanggal_surat_kuasa": "2019-10-04"
+      }
+    ],
+    "tanggal_putusan": "2019-10-24"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 88 Jo. Pasal 16 ayat (1)",
+        "peraturan": "Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 88 Jo. Pasal 16 ayat (1)",
+        "peraturan": "Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 88",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 16 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 88",
+        "peraturan": "Undang-undang RI Nomor 31 tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 88 juncto Pasal 16",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009"
+      },
+      {
+        "pasal": "Pasal 88 juncto Pasal 16",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009"
+      },
+      {
+        "pasal": "Pasal 88 juncto Pasal 16 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 tahun 2009 tentang Perubahan atas Undang Undang Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 191 ayat (2)",
+        "peraturan": "Undang-undang Nomor 8 Tahun 1981 tentang Hukum Acara Pidana"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa UCOK TAMAN Bin DERMAWAN TAMAN, selaku penanggung jawab CV. USAHA MANDIRI, pada tanggal 10 Juli 2019 menghubungi TRI LESTARINI dari PT. KARYAJASA NUSANTARA WISESA untuk mengirimkan ikan beku dari Balikpapan ke Jakarta. Pengiriman dilakukan menggunakan kapal MV. TANTO ALAM Voyage 241 yang berangkat pada tanggal 15 Juli 2019. Container HKSU 6952031 yang berisi muatan ikan beku milik Terdakwa tiba di Pelabuhan Tanjung Priok pada tanggal 22 Juli 2019. Pada tanggal 23 Juli 2019, container tersebut digeledah dan diamankan oleh pihak Kepolisian di Pelabuhan Tanjung Priok, Jakarta Utara. Hasil pemeriksaan menunjukkan muatan tersebut, yang sebagian besar adalah kepiting soka, tidak dilengkapi dengan dokumen karantina ikan dan sebagian besar kepiting memiliki ukuran di bawah standar yang diizinkan (lebar karapas < 15 cm atau berat < 200 gram). Terdakwa mengakui kesalahannya karena tidak mengurus sertifikat kesehatan ikan dan mutu hasil perikanan domestik.",
+      "lokasi_kejadian": "Pelabuhan Tanjung Priok, Jakarta Utara",
+      "tanggal_kejadian": "2019-07-23"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir: Balikpapan; Umur/tanggal lahir: 44 tahun / 24 April 1975; Agama: Budha; Jenis Kelamin: Laki-laki; Kebangsaan/kewarganegaraan: Indonesia; Tempat tinggal: Jalan Mulawarman RT.005/000, Kelurahan Teritip, Kecamatan Balikpapan Timur, Kota Balikpapan, Kalimantan Timur; Pekerjaan: Wiraswata (Penanggung jawab CV. USAHA MANDIRI).",
+        "nama": "UCOK TAMAN Bin DERMAWAN TAMAN"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) Unit Container dengan nomor HKSU 6952031",
+        "sumber": "dikembalikan kepada yang berhak melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Muatan Container kurang lebih 12.088,1 kilogram (sisa setelah penyisihan 11.922,58 kilogram) Ikan Beku Campuran",
+        "sumber": "dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit Handphone merk Samsung Seri S.8+",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit Handphone merk Nokia Warna Putih",
+        "sumber": "dirampas untuk dimusnahkan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Dengan sengaja memasukkan, mengeluarkan, mengadakan, mengedarkan dan/atau memelihara ikan yang merugikan masyarakat, pembudidayaan ikan, sumber daya ikan, dan/atau lingkungan sumber daya ikan ke dalam dan/atau ke luar wilayah pengelolaan perikanan Repubiik Indonesia",
+        "referensi_peraturan": "Pasal 88 Jo. Pasal 16 ayat (1) Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "dengan sengaja memasukkan, megeluarkan, mengadakan, mengedarkan, dan/atau memelihara ikan yang merugikan masyarakat, pembudidayaan ikan, sumberdayaikan, dan/atau lingkungan sumber daya ikan kedalam dan/atau keluar wilayah pengelolaan perikanan Republik Indonesia, yaitu berupa 4.630 kilogram kepiting dalam keadaan beku yang setelah disisihkan memiliki berat 4.577,58 kilogram dalam kondisi tidak bertelur dengan lebar karapas kurang dari 15 (lima belas) sentimeter atau berat kurang dari 200 (duaratus) gram",
+        "referensi_peraturan": "Pasal 88 Jo. Pasal 16 ayat (1) Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Setiap orang yang dengan sengaja memasukkan, mengeluarkan, mengadakan, mengedarkan, dan/atau memelihara ikan yang merugikan masyarakat, pembudidayaan ikan, sumber daya ikan, dan/atau lingkungan sumber daya ikan ke dalam dan/atau ke luar wilayah pengelolaan perikanan Republik Indonesia sebagaimana dimaksud dalam Pasal 16 ayat (1)",
+        "referensi_peraturan": "Pasal 88 Undang-undang RI Nomor 31 tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "perbuatan Terdakwa yang melakukan pengiriman ikan yang terdiri dari: Udang kupas, Cumi besar, ikan, cunang, kerang, kepiting soka dalam keadaan beku dengan Container dari Balikpapan menuju Jakarta dengan maksud untuk jual tanpa dilengkapi dengan dokumen yang resmi dan syah adalah perbuatan melawan hukum",
+        "referensi_peraturan": "Pasal 88 juncto Pasal 16 Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009"
+      },
+      {
+        "deskripsi_pelanggaran": "dengan sengaja mengadakan dan/atau mengedarkan ikan yang dilarang yang merugikan sumberdaya ikan dan/atau lingkungan sumberdaya ikan di Wilayah Pengelolaan Perikanan Republik Indonesia",
+        "referensi_peraturan": "Pasal 88 juncto Pasal 16 ayat (1) Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 tahun 2009 tentang Perubahan atas Undang Undang Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Terdapat kepiting di bawah ukuran (karapas di bawah 15 cm dan berat di bawah 200 gram) di dalam container yang mengangkut ikan milik Terdakwa.",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Nomor 56/Permen-KP/2016"
+      },
+      {
+        "deskripsi_pelanggaran": "Kepiting Scylla serrata dengan lebar karapas kurang dari 15 sentimeter atau berat kurang dari 200 gram tidak memenuhi persyaratan untuk ditangkap dan diperdagangkan.",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan nomor 56/Permen-KP/2016"
+      },
+      {
+        "deskripsi_pelanggaran": "Pemilik muatan tidak dapat menunjukkan dokumen karantina ikan berupa sertifikat kesehatan ikan dan produk perikanan domestik.",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Nomor 05 Tahun 2005 tentang Tindakan Karantina Ikan Untuk Pengeluaran Media Pembawa HPIK"
+      },
+      {
+        "deskripsi_pelanggaran": "Kegiatan pengiriman atau membawa kepiting dengan ukuran yang tidak memenuhi persyaratan (lebar karapas < 15 cm dan berat < 200 gram) merupakan kegiatan pengeluaran dari WPPNRI 713.",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan RI Nomor 18/PERMEN-KP/2014 tentang Wilayah Pengelolaan Perikanan Negara Republik Indonesia dan Pasal 16 (1) UU RI Nomor 31 tahun 2004 tentang Perikanan yang telah dirubah dengan UU RI Nomor 45 tahun 2009 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Pengeluaran media pembawa dari suatu area ke area lain di dalam wilayah Negara Republik Indonesia tidak dilengkapi Sertifikat Kesehatan Ikan Domestik (KI – D2) yang diterbitkan oleh Karantina.",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Nomor 05 Tahun 2005 tentang Tindakan Karantina Ikan Untuk Pengeluaran Media Pembawa HPIK"
+      },
+      {
+        "deskripsi_pelanggaran": "Pengiriman hasil laut (kepiting soka, udang kupas, cumi besar, cimping (kerang), ikan cunang, daging kepiting soka) tidak dilengkapi sertifikat kesehatan.",
+        "referensi_peraturan": "Undang-undang Nomor 31 tahun 2004 tentang Perikanan, Pasal 21"
+      },
+      {
+        "deskripsi_pelanggaran": "Pengumpulan atau perolehan kepiting soka tidak sesuai dengan ketentuan penangkapan dan/atau pengeluaran kepiting (Scylla spp) berdasarkan tanggal dan ukuran/berat.",
+        "referensi_peraturan": "Pasal 3 huruf (b) dan huruf (d) Peraturan Menteri Kelautan dan Perikanan RI Nomor 56/PERMEN-KP/2016 tentang Larangan Penangkapan Ikan dan / atau Pengeluaran Lobster (Panulirus spp), Kepiting (Scylla spp) dan Rajungan (Portunus spp) dari Wilayah Pengelolaan Perikanan Republik Indonesia (WPPRI)"
+      },
+      {
+        "deskripsi_pelanggaran": "Komoditi ikan (Udang Kupas, Cumi besar, Ikan Cunang, Cimping (Kerang) dan daging kepiting) yang dikirimkan untuk diperdagangkan tidak memiliki/disertai dokumen resmi berupa Sertifikat Kesehatan Ikan dari Balai Karantina Ikan Kota Balikpapan maupun Surat Keterangan Asal Ikan (SKAI) dari Kantor Dinas Kelautan dan Perikanan Kota Balikpapan.",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Nomor 56/Permen KP/2016 tentang Larangan Penangkapan dan/atau Pengeluaran Lobster (Panulirus spp), Kepiting (Scylla spp) dan Rajungan (Portonus spp)"
+      },
+      {
+        "deskripsi_pelanggaran": "Pengumpulan/pengadaan Kepiting Soka dari Nelayan dan/atau pembudidaya ikan tidak didukung dengan Surat Keterangan Asal Ikan (SKAI) dari Dinas Kelautan dan Perikanan setempat.",
+        "referensi_peraturan": "Pasal 3 huruf d Peraturan Menteri Kelautan Perikanan Nomor 56/Permen KP/2016 tentang Larangan Penangkapan dan/atau Pengeluaran Lobster (Panulirus spp), Kepiting (Scylla spp) dan Rajungan (Portanus spp) dari Wilayah Negara Republik Indonesia"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa UCOK TAMAN Bin DERMAWAN TAMAN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana perikanan \"dengan sengaja mengadakan dan/atau mengedarkan ikan yang dilarang yang merugikan sumberdaya ikan dan/atau lingkungan sumberdaya ikan di Wilayah Pengelolaan Perikanan Republik Indonesia\", yaitu kepiting soka dengan ukuran di bawah standar yang diatur dalam Peraturan Menteri Kelautan dan Perikanan Nomor 56/Permen-KP/2016, tanpa dilengkapi sertifikat kesehatan ikan."
+  }
+}

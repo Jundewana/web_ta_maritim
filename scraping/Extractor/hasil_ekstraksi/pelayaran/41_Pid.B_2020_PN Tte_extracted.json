@@ -1,0 +1,198 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.10.000.000,00",
+      "pidana_pengganti": "3 (tiga) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun dan 8 (delapan) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "2 Juli 2019",
+        "tanggal_selesai": "21 Juli 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "12 Februari 2020",
+        "tanggal_selesai": "2 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Pengadilan Negeri",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "26 Februari 2020",
+        "tanggal_selesai": "26 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Wakil Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Perpanjangan",
+        "lokasi_penetapan": "Rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "27 Maret 2020",
+        "tanggal_selesai": "25 Mei 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan terdakwa MASRI KARIM Alias MASRI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"berlayar tidak memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar mengakibatkan kecelakaan kapal yang mengakibatkan kerugian harta benda\" sebagaimana dalam dakwaan kesatu subsidair Penuntut Umum. Menjatuhkan pidana penjara selama 1 (satu) tahun dan 8 (delapan) bulan serta denda sejumlah Rp.10.000.000,00 (sepuluh juta rupiah).",
+    "lokasi_pengadilan": "Ternate",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Rudy Wibowo, S.H., M.H.",
+        "Sugiannur, S.H."
+      ],
+      "hakim_ketua": "Toni Irfan, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Ternate",
+    "nomor_putusan": "41/Pid.B/2020/PN Tte",
+    "panitera_pengganti": "Abd. Halik Buamona, S.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jalan Putra Mafu Tubu, Kel. Tuguiha, RT 001/RW 001, Kec. Tidore Selatan, Kota Tidore Kepulauan",
+        "gelar": "S.H.",
+        "kantor_hukum": "Counselors Attornes At Law \"Muhammad Sanusi Taran, S.H. & Associates\"",
+        "nama": "M. Sanusi Taran",
+        "tanggal_surat_kuasa": "11 Maret 2020"
+      },
+      {
+        "alamat_kantor": "Jalan Putra Mafu Tubu, Kel. Tuguiha, RT 001/RW 001, Kec. Tidore Selatan, Kota Tidore Kepulauan",
+        "gelar": "S.H., M.H.",
+        "kantor_hukum": "Counselors Attornes At Law \"Muhammad Sanusi Taran, S.H. & Associates\"",
+        "nama": "Ilwan La Upe",
+        "tanggal_surat_kuasa": "11 Maret 2020"
+      },
+      {
+        "alamat_kantor": "Jalan Putra Mafu Tubu, Kel. Tuguiha, RT 001/RW 001, Kec. Tidore Selatan, Kota Tidore Kepulauan",
+        "gelar": "S.H.",
+        "kantor_hukum": "Counselors Attornes At Law \"Muhammad Sanusi Taran, S.H. & Associates\"",
+        "nama": "Sulardin Buton",
+        "tanggal_surat_kuasa": "11 Maret 2020"
+      }
+    ],
+    "tanggal_putusan": "2020-05-19"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "323 ayat (2)",
+        "peraturan": "UU RI Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "323 ayat (1)",
+        "peraturan": "UU Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "323 ayat (2)",
+        "peraturan": "UU Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "360 ayat (1)",
+        "peraturan": "KUHPidana"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa MASRI KARIM Alias MASRI, selaku nakhoda Speedboat Delta, berlayar dari Pelabuhan Bastiong Ternate menuju Pelabuhan Rum Tidore pada hari Sabtu, 22 Juni 2019, sekitar pukul 17.00 WIT, dengan mengangkut 16 penumpang dan barang bawaan tanpa Surat Persetujuan Berlayar (SPB). Sekitar 20 meter dari dermaga, terdakwa tidak melihat kapal Kayu Mila yang akan bersandar dan menabraknya, mengakibatkan penumpang KM Mila bernama LUTFIANA RAHMAWATI JABIR mengalami luka berat dengan lengan kiri putus.",
+      "lokasi_kejadian": "Perairan Pelabuhan Bastiong, Kota Ternate",
+      "tanggal_kejadian": "2019-06-22"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Tidore, Umur/Tanggal lahir: 28 tahun / 28 Agustus 1992, Jenis kelamin: Laki-laki, Kebangsaan: Indonesia, Tempat tinggal: Kel. Rum Balebunga, Kec. Tidore Utara, Kota Tidore, Agama: Islam, Pekerjaan: Nakhoda, Pendidikan: SMA (Tamat)",
+        "nama": "MASRI KARIM Alias MASRI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit spead Boad Delta",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar SKK 30 Mil An. Masri Karim",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Asli Pas Kecil Spead Boad DELTA",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Asli Sertifikat kesempurnaan Speaad Boad Delta",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Speedboat Delta",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli pas kecil speedboat Delta",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kesempurnaan Speedboat Delta",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit speedboat",
+        "sumber": "diajukan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar SKK 30 Mil An. MASRI KARIM",
+        "sumber": "diajukan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli pas kecil speedboat delta",
+        "sumber": "diajukan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kesempurnaan speedboat delta",
+        "sumber": "diajukan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit speedboat",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar SKK 30 Mil An. MASRI KARIM",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli pas kecil speedboat delta",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kesempurnaan speedboat delta",
+        "sumber": "Putusan Pengadilan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "berlayar tidak memiliki surat persetujuan berlayar (SPB) yang dikeluarkan oleh syahbandar mengakibatkan kecelakaan kapal sehingga mengakibatkan kerugian harta benda",
+        "referensi_peraturan": "pasal 323 ayat (2) UU RI Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang berlayar tanpa memiliki surat persetujuan berlayar yang dikeluarkan oleh syahbandar. Terdakwa selaku nakhoda kapal speed boat delta yang berangkat dari pelabuhan Bastiong Kota Ternate dengan tujuan pelabuhan Rum Kota Tidore dengan mengangkut 16 (enam belas) orang penumpang tidak memiliki surat persetujuan berlayar yang dikeluarkan oleh syahbandar Pelabuhan Rum Kota Tidore Kepulauan.",
+        "referensi_peraturan": "Pasal 323 ayat (1) UU Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "terdakwa selaku nakhoda kapal speed boat delta yang berangkat dari pelabuhan bastiong Kota Ternate dengan tujuan pelabuhan rum Kota Tidore dengan mengangkut 16 (enam belas) orang penumpang tidak memiliki surat persetujuan berlayar yang dikeluarkan oleh syahbandar Pelabuhan Rum Kota Tidore Kepulauan.",
+        "referensi_peraturan": "Pasal 323 ayat (2) UU Nomor 17 tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "terdakwa selaku nakhoda Speed boat delta berukuran2 Gt (Grose Tonagge) dengan memuat 16 (enam belas) orang penumpang dan barang-barang bawaan penumpang dari pelabuhan Bastiong menuju Pelabuhan rum Tidore Kota Tidore, terdakwa yang memegang kemudi/motoris, setelah sekitar 20 (dua puluh) meter mau keluar dari dermaga speed boat bastiong, tiba-tiba ada kapal kayu mila keluar menuju pelabuhan Rum Kota Tidore dan tersangka tidak sempat memperhatikan kedepan sehingga menabrak kapal kayu Mila yang mengakibatkan penumpang yang bernama LUTFIANA RAHMAWATI JABIR mengalami luka permanen (tangan kiri putus)",
+        "referensi_peraturan": "Pasal 360 ayat (1) KUHPidana"
+      },
+      {
+        "deskripsi_pelanggaran": "terdakwa selaku nakhoda kapal speed boat delta yang berangkat dari pelabuhan bastiong Kota Ternate dengan tujuan pelabuhan rum Kota Tidore dengan mengangkut 16 (enam belas) orang penumpang tidak memiliki surat persetujuan berlayar yang dikeluarkan oleh Syahbandar Pelabuhan Rum Kota Tidore Kepulauan",
+        "referensi_peraturan": null
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa MASRI KARIM Alias MASRI, sebagai nakhoda Speedboat Delta, berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar, dan karena kelalaiannya menabrak kapal lain (KM Mila) yang mengakibatkan kecelakaan kapal dan kerugian harta benda serta luka berat pada penumpang (lengan kiri putus)."
+  }
+}

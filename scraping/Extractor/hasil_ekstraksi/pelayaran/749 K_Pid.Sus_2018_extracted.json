@@ -1,0 +1,83 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Tidak ada denda yang dijatuhkan kepada Terdakwa.",
+      "pidana_pengganti": "Tidak ada pidana pengganti yang dijatuhkan kepada Terdakwa.",
+      "pidana_penjara": "Terdakwa dibebaskan dari segala dakwaan, sehingga tidak ada pidana penjara."
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "1. Menyatakan Terdakwa SYAFRIZAL JOHAR sebagaimana tersebut di atas, tidak terbukti secara sah dan meyakinkan melakukan tindak pidana \"Mempekerjakan seseorang di kapal tanpa Sijil\"; 2. Membebaskan Terdakwa dari dakwaan Jaksa Penuntut Umum tersebut; 3. Memulihkan hak Terdakwa dalam kemampuan, kedudukan dan harkat serta martabatnya; 4. Menyatakan barang bukti berupa: - 1 (satu) unit Kapal TB Cahaya Sakti 21, - 1 (satu) bendel buku Sijil Kapal Cahaya Sakti 21, Dikembalikan kepada Terdakwa; 5. Membebankan biaya perkara kepada Negara;",
+        "nama_pengadilan": "Pengadilan Negeri Surabaya",
+        "nomor_putusan": "3444/Pid.Sus/2016/PN.Sby.",
+        "tanggal_putusan": "20 April 2017",
+        "tingkat_peradilan": "Pengadilan Negeri"
+      }
+    ],
+    "kesimpulan_putusan": "Mahkamah Agung menolak permohonan kasasi dari Pemohon Kasasi/Penuntut Umum pada Kejaksaan Negeri Tanjung Perak. Biaya perkara pada seluruh tingkat peradilan dan pada tingkat kasasi dibebankan kepada Negara karena Terdakwa dibebaskan dari segala dakwaan.",
+    "lokasi_pengadilan": null,
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Maruap Dohmatiga Pasaribu, S.H., M.Hum.",
+        "Dr. H. Eddy Army, S.H., M.H."
+      ],
+      "hakim_ketua": "Sri Murwahyuni, S.H., M.H."
+    },
+    "nama_pengadilan": "MAHKAMAH AGUNG",
+    "nomor_putusan": "749 K/Pid.Sus/2018",
+    "panitera_pengganti": "Rozi Yhond Roland, S.H., M.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2018-10-04"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 312 juncto Pasal 145",
+        "peraturan": "Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa SYAFRIZAL JOHAR didakwa melanggar Pasal 312 juncto Pasal 145 Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran karena mempekerjakan seseorang di kapal tanpa Sijil. Kapal TB. Cahaya Sakti 21 tidak berlayar sejak Desember 2015 dan semua ABK diturunkan. Terdakwa, selaku sub agen kapal, diperintahkan pemilik kapal untuk mencari 3 orang pekerja untuk menjaga kapal. Ketiga orang tersebut kemudian menggeser posisi kapal dari Pelabuhan Gresik ke perairan Kamal, Bangkalan, Madura.",
+      "lokasi_kejadian": "Pelabuhan Gresik, perairan Kamal, Bangkalan, Madura",
+      "tanggal_kejadian": "2016-06-01"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Sabang; Umur / Tanggal lahir : 53 Tahun / 21 April 1963; Jenis kelamin : Laki-laki; Kewarganegaraan : Indonesia; Tempat tinggal : Jalan Ikan Lumba-Lumba 1 Nomor 6 Surabaya; Agama : Islam; Pekerjaan : Swasta (Pimpinan PT. Pulau WEH);",
+        "nama": "SYAFRIZAL JOHAR"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit kapal TB. Cahaya Sakti 21",
+        "sumber": "Menetapkan barang bukti berupa:"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bendel buku Sijil kapal TB. Cahaya Sakti 21",
+        "sumber": "Menetapkan barang bukti berupa:"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal TB Cahaya Sakti 21",
+        "sumber": "Menyatakan barang bukti berupa:"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bendel buku Sijil Kapal Cahaya Sakti 21",
+        "sumber": "Menyatakan barang bukti berupa:"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "melanggar Pasal 312 juncto Pasal 145 Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran",
+        "referensi_peraturan": "Pasal 312 juncto Pasal 145 Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "melakukan tindak pidana pelayaran sebagaimana diatur dan diancam pidana dalam Pasal 312 juncto Pasal 145 Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran",
+        "referensi_peraturan": "Pasal 312 juncto Pasal 145 Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa SYAFRIZAL JOHAR didakwa melanggar Pasal 312 juncto Pasal 145 Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran, yaitu 'Mempekerjakan seseorang di kapal tanpa Sijil'. Namun, Mahkamah Agung berpendapat bahwa Terdakwa hanya mencarikan pekerja untuk menjaga kapal, dan kewenangan untuk mensijil orang-orang yang dipekerjakan adalah pemilik kapal, bukan Terdakwa selaku agen kapal. Perbuatan Terdakwa tidak memenuhi semua unsur pasal tindak pidana pada dakwaan tunggal Penuntut Umum."
+  }
+}

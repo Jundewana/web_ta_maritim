@@ -1,0 +1,151 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp. 50.000.000,- (lima puluh juta rupiah)",
+      "pidana_pengganti": "4 (empat) bulan kurungan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "MENGADILI: 1. Menyatakan Terdakwa YOEL PEMBERIAN telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"dengan sengaja diwilayah pengelolaan perikanan Republik Indonesia melakukan kegiatan pengelolaan perikanan yang tidak mematuhi daerah penangkapan ikan\"; 2. Menjatuhkan pidana kepada Terdakwa YOEL PEMBERIAN tersebut oleh karena itu dengan pidana denda sebesar Rp. 50.000.000,- (lima puluh juta rupiah) dengan ketentuan apabila denda tersebut tidak dibayar maka diganti dengan pidana kurungan selama 4 (empat) bulan; 3. Menyatakan barang bukti berupa: 1 (satu) unit kapal ikan KM SENTOSA XII; 1 (satu) bundle dokumen KM. SENTOSA XII; 8 (delapan) buah lampu; ±2500 (dua ribu lima ratus) liter bahan bakar solar; 1 (satu) unit GPS FURUNO GP-32; 1 (satu) unit Radio SSB Icom IC-718; 1 (satu) unit Radio Icom IC-3200 H; 1 (satu) buah teropong; 1 (satu) unit Kompas magnet; 1 (satu) unit Echo Sounder FCV -620; Dirampas untuk Negara. 4. Membebani terdakwa untuk membayar biaya perkara masing sebesar Rp.3.000 (tiga ribu rupiah);",
+        "nama_pengadilan": "Pengadilan Negeri Sorong",
+        "nomor_putusan": "7/Pid.Sus.Prk/2017/PN Son",
+        "tanggal_putusan": "30 Oktober 2017",
+        "tingkat_peradilan": "Pengadilan Perikanan pada Pengadilan Negeri"
+      }
+    ],
+    "kesimpulan_putusan": "Menerima permintaan banding dari terdakwa YOEL PEMBERIAN dan menguatkan Putusan Pengadilan Sorong Nomor 7/Pid.Sus.Prk/ 2017/PN Son. Tanggal 30 Oktober 2017 atas nama terdakwa YOEL PEMBERIAN yang dimohonkan banding. Membebankan biaya perkara kepada Terdakwa dalam dua tingkat peradilan, sedangkan ditingkat banding sebesar Rp.3.000.- (tiga ribu rupiah).",
+    "lokasi_pengadilan": "Jayapura",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "JOHNY ASWAR, SH.",
+        "BOEDI SOESANTO, S.H."
+      ],
+      "hakim_ketua": "SUPRIYONO, SH. M.Hum."
+    },
+    "nama_pengadilan": "Pengadilan Tinggi Jayapura",
+    "nomor_putusan": "3/Pid.Sus-PRK /2017/PT JAP",
+    "panitera_pengganti": "HASAN, SH.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Gedung Kopi Lantai 4 Suite 405 JL. R.P. Soeroso No.20 Menteng Cikini, Jakarta Pusat",
+        "gelar": "SH",
+        "kantor_hukum": "FIRMA HUKUM PUSAT KONSULTASI & ADVOKASI HUKUM KEMARITIMAN DAN PERIKANAN",
+        "nama": "BINTON SIANTURI",
+        "tanggal_surat_kuasa": "2 Nopember 2017"
+      }
+    ],
+    "tanggal_putusan": "2018-01-18"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 100 Jo Pasal 7 ayat (2) huruf C",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 tahun 2004 tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Republik Indonesia Nomor 45 tahun 2009 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa YOEL PEMBERIAN sebagai Nakhoda kapal lampu KM. SENTOSA XII berbendera Indonesia dengan ukuran 27 GT membawa 4 ABK berangkat dari Pelabuhan Perikanan Bitung menuju Laut Maluku pada 27 Mei 2017 untuk mencari rumpon. Karena tidak menemukan rumpon di Laut Maluku, Terdakwa mengarahkan kapal keluar jalur yang diizinkan menuju Perairan Samudera Pasifik. Pada 31 Mei 2017 sekitar pukul 06.30 Wit, kapal KM. SENTOSA XII ditemukan tertambat di rumpon di Perairan Samudera Pasifik pada koordinat 00° 21' 104\" LS - 131° 25' 595\" BT oleh Tim Patroli Pengawasan KP. HIU MACAN TUTUL 01. Jalur kegiatan penangkapan ikan yang tertera dalam SIPI KM. SENTOSA XII seharusnya di wilayah Laut Sulawesi dan Laut Maluku, bukan di Perairan Pasifik. Terdakwa kemudian diamankan untuk pemeriksaan lebih lanjut.",
+      "lokasi_kejadian": "Perairan Samudera Pasifik tepatnya pada titik koordinat 00° 21' 104\" LS - 131° 25' 595\" BT",
+      "tanggal_kejadian": "2017-05-31"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Gunung Woka; Umur/tanggal lahir : 42 tahun / 05 Juli 1975; Jenis kelamin : Laki-Laki; Kebangsaan : Indonesia; Tempat tinggal : USW KM. SENTOSA XII; Agama : Kristen; Pekerjaan : Nahkoda KM. SENTOSA XII; Pendidikan : SMA (Tamat);",
+        "nama": "YOEL PEMBERIAN"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal KM. SENTOSA XII",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundle Dokumen KM.SENTOSA XII",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "± 2500 liter BBM solar.",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS Furuno GP. 32",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) buah lampu alat bantu penangkap ikan.",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit radio ssb IKOM IC-718",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit radio ICOM IC-2200 H.",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit teropong.",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kompas magnet.",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit echo Sounder FCV-620.",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit kapal ikan KM SENTOSA XII",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundle dokumen KM. SENTOSA XII",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "8 (delapan) buah lampu",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "±2500 (dua ribu lima ratus) liter bahan bakar solar",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS FURUNO GP-32",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Radio SSB Icom IC-718",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Radio Icom IC-3200 H",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah teropong",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompas magnet",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Echo Sounder FCV -620",
+        "sumber": "Putusan Pengadilan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "melakukan usaha dan atau kegiatan pengelolaan perikanan melanggar daerah, jalur dan waktu atau musim penangkapan ikan",
+        "referensi_peraturan": "Pasal 100 Jo Pasal 7 ayat (2) huruf C Undang-Undang Republik Indonesia Nomor 31 tahun 2004 tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Republik Indonesia Nomor 45 tahun 2009 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Melakukan usaha dan atau kegiatan pengelolaan perikanan melanggar daerah, jalur dan waktu atau musim penangkapan ikan di wilayah pengelolaan perikanan Republik Indonesia."
+  }
+}

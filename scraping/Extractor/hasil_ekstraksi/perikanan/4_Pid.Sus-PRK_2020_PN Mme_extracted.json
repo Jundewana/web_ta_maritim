@@ -1,0 +1,456 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp100.000.000,00 (seratus juta rupiah)",
+      "pidana_pengganti": "3 (tiga) bulan kurungan",
+      "pidana_penjara": "1 (SATU) tahun 8 (DELAPAN) BULAN"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "tahanan rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "03 September 2020",
+        "tanggal_selesai": "22 September 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penyidik Perpanjangan",
+        "lokasi_penetapan": "tahanan rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "23 September 2020",
+        "tanggal_selesai": "02 Oktober 2020"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "tahanan rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "25 September 2020",
+        "tanggal_selesai": "04 September 2020"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri",
+        "jenis_penetapan": "Hakim Pengadilan Negeri",
+        "lokasi_penetapan": "tahanan rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "30 September 2020",
+        "tanggal_selesai": "19 Oktober 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Hakim Pengadilan Negeri Perpanjangan Pertama",
+        "lokasi_penetapan": "tahanan rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "20 Oktober 2020",
+        "tanggal_selesai": "29 Oktober 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa KASDIN AWALUDIN Alias KASDIN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana 'dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya'. Menjatuhkan pidana penjara selama 1 tahun 8 bulan dan denda Rp100.000.000,00. Menetapkan masa penahanan dikurangkan seluruhnya dari pidana yang dijatuhkan dan Terdakwa tetap ditahan. Memerintahkan barang bukti dimusnahkan. Membebankan biaya perkara sejumlah Rp5.000,00 kepada Terdakwa.",
+    "lokasi_pengadilan": "Maumere",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "FELICIA MOSIANTO, S.H.",
+        "WIDYASTOMO ISWORO, S.H."
+      ],
+      "hakim_ketua": "JOHNICOL RICHARD FRANS SINE, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Maumere",
+    "nomor_putusan": "4/Pid.Sus-Prk/2020/PN Mme",
+    "panitera_pengganti": "LUKAS KATAN LETON",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-10-20"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 84 Ayat (1) Jo Pasal 8 Ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Nomor 45 tahun 2009 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Rabu tanggal 02 September 2020 sekitar pukul 05.00 WITA, Terdakwa KASDIN AWALUDIN alias KASDIN berangkat dari rumahnya di Desa Kolisia menuju Perairan Taka Garas menggunakan sampan hijau dengan membawa perlengkapan termasuk 2 bom ikan. Sekitar pukul 06.00 WITA, Terdakwa tiba di lokasi. Pukul 07.00 WITA, Terdakwa melihat gerombolan ikan, lalu mengambil satu bom ikan dalam botol Bir, membakar sumbunya, dan melemparnya, namun tidak meledak. Terdakwa kemudian mengambil bom ikan kedua dalam botol Kratingdaeng, membakar sumbunya, dan melemparnya hingga meledak. Setelah ledakan, Terdakwa menyelam untuk mengambil 41 ekor ikan yang mati. Sekitar pukul 07.10 WITA, Saksi PUTU SULATRA mendengar dentuman dan melihat Terdakwa menggunakan teropong. Pukul 07.40 WITA, Terdakwa ditangkap oleh tim patroli Polair SIKKA di Perairan Taka Garas.",
+      "lokasi_kejadian": "Perairan Taka Garas, Desa Kolisia, Kecamatan Magepanda, Kabupaten Sikka, Provinsi Nusa Tenggara Timur",
+      "tanggal_kejadian": "2020-09-02"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Permaan; Umur/Tanggal lahir: 45 Tahun / 08 September 1975; Jenis kelamin: Laki-laki; Kebangsaan: Indonesia; Tempat tinggal: Waturia, RT. 018, RW. 005, Desa Kolisia, Kecamatan Magepanda, Kabupaten Sikka; Agama: Islam; Pekerjaan: Nelayan",
+        "nama": "KASDIN AWALUDIN Alias KASDIN"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam lis merah",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas merk Class Mild",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sodo",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 jerigen potong",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran, disisihkan sebanyak 4 ekor untuk dijadikan sampel pengujian laboratorium",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah Sodo",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah Korek api gas merk class mild",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah Gunting",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam lis merah",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jerigen potong",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "terdakwa beserta barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan dari kayu",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah bunde atau sodo",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah kacamata selam",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jerigen warna putih yang telah dipotong sebagai tempat penyimpanan barang-barang di atas sampan",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan kayu warna hijau",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah kacamata selam",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jerigen warna putih yang telah dipotong sebagai tempat penyimpanan barang-barang di atas sampan",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan kayu warna hijau",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam lis merah",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas merek Class Mild",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sodo",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jeringen potong",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan dari kayu",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah bunde atau sodo",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah kacamata selam",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jerigen warna putih yang telah dipotong sebagai tempat penyimpanan barang-barang di atas sampan",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan kayu warna hijau",
+        "sumber": "barang bukti yang disita dan diamankan dari Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Saksi menyatakan kenal dengan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam lis merah",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas merek Class Mild",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sodo",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jeringen potong",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran",
+        "sumber": "Terdakwa menyatakan kenal dengan barang bukti yang ditunjukkan dipersidangan berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam lis merah",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas merk Class Mild",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "1 buah sodo",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "1 jerigen potong",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran, disisihkan sebanyak 4 ekor untuk dijadikan sampel pengujian laboratorium",
+        "sumber": "berikut"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan dari kayu",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah bunde atau sodo",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah kacamata selam",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jerigen warna putih yang telah dipotong sebagai tempat penyimpanan barang-barang di atas sampan",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan kayu warna hijau",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sampan warna hijau",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah dayung sampan",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam lis merah",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah korek api gas merk Class Mild",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sodo",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 jerigen potong",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran, disisihkan sebanyak 4 ekor untuk dijadikan sampel pengujian laboratorium",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah gunting",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah sodo",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "1 jerigen potong",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "41 ekor ikan jenis campuran, disisihkan sebanyak 4 ekor untuk dijadikan sampel pengujian laboratorium",
+        "sumber": "Terdakwa berupa"
+      },
+      {
+        "nama_barang_bukti": "4 (empat) ekor ikan jenis campuran",
+        "sumber": "hasil tangkapan ikan"
+      },
+      {
+        "nama_barang_bukti": "4 (empat) ekor ikan jenis campuran",
+        "sumber": "BERITA ACARA PEMERIKSAAN LABORATORIS KRIMINALISTIK dari LABORATORIUM FORENSIK CABANG DENPASAR Nomor LAB: 966/KBF/2020 tertanggal 14 September 2020"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Penangkapan ikan menggunakan bahan peledak di WPP-RI",
+        "referensi_peraturan": "Pasal 84 Ayat (1) Jo Pasal 8 Ayat (1) Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Nomor 45 Tahun 2009 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "melakukan penangkapan ikan menggunakan bahan peledak",
+        "referensi_peraturan": "pasal 84 Ayat (1) Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Setiap Orang; Dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dan/atau pembudidayaan ikan; Dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya;",
+        "referensi_peraturan": "Pasal 84 Ayat (1) Jo Pasal 8 Ayat (1) Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Nomor 45 tahun 2009 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak",
+        "referensi_peraturan": "Pasal 84 Ayat (1) Jo Pasal 8 Ayat (1) Undang-Undang R.I. Nomor 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Nomor 45 tahun 2009 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya"
+  }
+}

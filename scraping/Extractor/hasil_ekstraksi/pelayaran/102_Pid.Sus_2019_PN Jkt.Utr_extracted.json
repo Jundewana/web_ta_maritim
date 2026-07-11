@@ -1,0 +1,63 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp. 18.000.000,-",
+      "pidana_pengganti": "3 (tiga) bulan kurungan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa Rustan, telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"pelayaran\" sebagaimana diatur dalam pasal 305 jo pasal 130 ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaran.",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "AGUS DARWANTA, S.H.",
+        "RONALD SALNOFRI BYA, S.H.M.H."
+      ],
+      "hakim_ketua": "TAUFAN MANDALA, S.H.M.Hum."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "102/Pid.Sus/2019/PN Jkt.Utr.",
+    "panitera_pengganti": "BUDI UTOYO, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-04-08"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "305 jo pasal 130 ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Kamis tanggal 17 Mei 2018 sekitar pukul 21.30 WIB, Terdakwa Rustan selaku Nakhoda kapal SPOB Kallyse berlayar dari Sunda Kelapa Jakarta Utara menuju perairan Lampung. Terdakwa mengetahui bahwa radio kapal tersebut rusak namun tetap berlayar. Pada hari Kamis tanggal 24 Mei 2018, sekira jam 23.00 WIB, kapal SPOB Kallyse diamankan oleh petugas dari Komando Patkamla Pulau Sebesi II-3-63 di perairan Mutun Teluk Lampung setelah panggilan via radio tidak tersambung dan pemeriksaan menemukan radio kapal tidak dapat digunakan.",
+      "lokasi_kejadian": "perairan Mutun Teluk Lampung pada posisi koordinat 05° 30' 05\" U – 105° 16' 15\" T",
+      "tanggal_kejadian": "2018-05-24"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir: Sanuale/ Sopeng Umur / tanggal lahir: 27 Tahun/ 25 Juni 1991 Jenis Kelamin: Laki-laki Kebangsaan: Indonesia Alamat: Sanuale RT.003/001 Kabupaten Soppeng Sulawesi Selatan Agama: Islam Pekerjaan: Nakhoda SPOB Kallyse Pendidikan: D.3",
+        "nama": "Rustan"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) buah MT Kallyse",
+        "sumber": "Dikembalikan kepada saksi Muhammad Fadli."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundel dokumen kapal MT Kallyse",
+        "sumber": "Dikembalikan kepada saksi Muhammad Fadli."
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Tidak memelihara kapalnya sehingga tidak memenuhi sesuai persyaratan keselamatan kapal",
+        "referensi_peraturan": "pasal 305 jo pasal 130 ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa Rustan, selaku Nakhoda kapal SPOB Kallyse, tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan kapal, yaitu tetap melakukan pelayaran meskipun mengetahui radio pada kapal tersebut rusak dan tidak berfungsi."
+  }
+}

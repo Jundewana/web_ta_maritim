@@ -1,0 +1,734 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.100.000.000",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": "5 (lima) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "26 Oktober 2018",
+        "tanggal_selesai": "2 November 2018"
+      },
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "2 Pebruari 2018",
+        "tanggal_selesai": "3 Pebruari 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "4 Februari 2019",
+        "tanggal_selesai": "23 Februari 2019"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "24 Februari 2019",
+        "tanggal_selesai": "25 Maret 2019"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Pengadilan Negeri",
+        "nomor_surat": "",
+        "tanggal_mulai": "5 Maret 2019",
+        "tanggal_selesai": "3 April 2019"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Pengadilan Negeri",
+        "nomor_surat": "",
+        "tanggal_mulai": "4 April 2019",
+        "tanggal_selesai": "2 Juni 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan terdakwa Samiadi Nor Bin Samidri telah terbukti secara sah dan meyakinkan bersalah melakukan Tindak Pidana \"Turut serta melakukan perbuatan Nahkoda yang melayarkan kapalnya sedangkan yang bersangkutan mengetahui bahwa kapal tersebut tidak Layak Laut sebagaimana ketentuan pasal 117 ayat (2) yang mengakibatkan kematian seseorang dan kerugian harta benda\".",
+    "lokasi_pengadilan": "Unaaha",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Iin Fajrul Huda, S.H., M.H.",
+        "Lely Salempang, S.H., M.H."
+      ],
+      "hakim_ketua": "Agus Maksum Mulyohadi, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Unaaha",
+    "nomor_putusan": "40/Pid.Sus/2019/PN Unh",
+    "panitera_pengganti": "Rina Ariani Anwar, S.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jl. M.T. Haryono No. 9 A telp (0401) 3194709 Kambu, Kendari Sultra",
+        "gelar": "Dr., S.H., M.H.",
+        "kantor_hukum": "M.Dahlan Moga&Partners",
+        "nama": "Muhammad Dahlan Moga",
+        "tanggal_surat_kuasa": "2019-02-07"
+      },
+      {
+        "alamat_kantor": "Jl. M.T. Haryono No. 9 A telp (0401) 3194709 Kambu, Kendari Sultra",
+        "gelar": "S.H., M.H.",
+        "kantor_hukum": "M.Dahlan Moga&Partners",
+        "nama": "Muhamad Saleh",
+        "tanggal_surat_kuasa": "2019-02-07"
+      },
+      {
+        "alamat_kantor": "Jl. M.T. Haryono No. 9 A telp (0401) 3194709 Kambu, Kendari Sultra",
+        "gelar": "S.H.",
+        "kantor_hukum": "M.Dahlan Moga&Partners",
+        "nama": "Muh. Ramli Jaya",
+        "tanggal_surat_kuasa": "2019-02-07"
+      }
+    ],
+    "tanggal_putusan": "2019-05-27"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "302 ayat (1) Jo. ayat 3 jo pasal 117 Ayat 2 jo pasal 55 ayat (1) ke 1",
+        "peraturan": "UU RI No 17 tahun 2008 tentang pelayaran Jo KUHP"
+      },
+      {
+        "pasal": "302 Ayat (1) Jo Ayat 3 jo pasal 117 Ayat 2 Jo. Pasal 56 Ke (1)",
+        "peraturan": "UU RI No 17 tahun 2008 tentang pelayaran Jo. KUHP"
+      },
+      {
+        "pasal": "359 Jo. Pasal 55 ayat (1) ke 1",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "359 Jo. Pasal 56 ke (1)",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "359",
+        "peraturan": "KUHP"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada tanggal 17 Juli 2018, kapal KM. BUNGA MELATI 79 GT 1471 yang dinahkodai saksi ABDUL CHOLIQ Bin H DIMYATI berangkat dari pelabuhan Tarjun Kalimantan Selatan menuju pelabuhan Luwuk Sulawesi Tengah dengan mengangkut semen 2500 ton, melebihi kapasitas maksimal kapal yang seharusnya 1000-1500 ton. Terdakwa Samiadi Nor Bin Samidri, sebagai Syahbandar, menerbitkan Surat Persetujuan Berlayar (SPB) tanpa melakukan pemeriksaan fisik kapal dan dokumen yang memadai, meskipun mengetahui kapal tersebut tidak laik laut. Pada tanggal 19 Juli 2018 sekitar pukul 21.45 Wita, saat melintas di perairan Selat Wawonii, KM. BUNGA MELATI 79 GT 1471 menabrak kapal tongkang GOLDEN WAY 3310 dan tenggelam. Kejadian ini mengakibatkan satu ABK meninggal dunia dan kerugian materiil sebesar Rp.5.000.000.000.",
+      "lokasi_kejadian": "perairan Selat Wawonii, Kabupaten Konawe Kepulauan, Sulawesi Tenggara",
+      "tanggal_kejadian": "2018-07-19"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Kandangan, Umur/Tanggal lahir: 55 tahun/27 Maret 1964, Jenis kelamin: Laki-laki, Kebangsaan: Indonesia, Tempat tinggal: Jl. Pasar Lama No. 16 RT 002 RW 001 Kel. Batu Licin Kec. Batu Licin Kab. Tanah Bumbu Provinsi Kalimantan Selatan, Agama: Islam, Pekerjaan: PNS (Syahbandar)",
+        "nama": "Samiadi Nor Bin Samidri"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "surat laut No. PK205/821/SL-PM/DK-13",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "Certificate Of Nattionality",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "Surat Ukur Internasional (1969) No. 2801/Ka",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "Tonase Kotor",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "Tonase bersih",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat garis muat internasional (1966) sementara No. 00987-SB/DI.s/2018",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat klasifikasi sementara, mesin",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat klasifikasi sementara, lambung",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat keselamatan kontruksi kapal barang No. PK.001/60/06/SBY.tpr-18",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat keselamatan perlengkapan kapal barang No. PK.001/60/07/SBY.tpr-18",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "catatan perlengkapan memenuhi persyaratan peraturan No. PK.001/60/07/SBY.tpr-18",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat keselamatan radio kapal barang No. PK.002/22/15/SBY.tpr-18",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "catatan perlengkapan untuk memenuhi persyaratan peraturan No. PK.002/22/15/SBY.tpr-18",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat nasional No. PK.401/3576/SNPP/LK-16",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "suplemen sertifikat nasional pencegahan pencemaran dari kapal yang berlayar dalam negeri",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat nasional sistem anti teritip",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat nasional anti teritip",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "dokumen penyesuain manajemen kesehatan No. PK.401/4009/Doc/DK-14",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "pengukuhan untuk verifikasi tahunan",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat manajemen keselamatan",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "persetujuan rencana pengoperasian kapal pada trayek tidak tetap dan tidak teratur angkutan laut dalam negeri",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "daftar deviasi",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat pengawasan obat-obatan dan alat kesehatan kapal",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat pengawasan kualitas air",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertifikat bebas tindakan sanitasi kapal",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertificate No. 15/MU/05/FE/2018",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "sertificate No. 86/MU/ILR/05/2018",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "survey and Test Report",
+        "sumber": "Dikembalikan kepada saksi ABDUL CHOLIQ"
+      },
+      {
+        "nama_barang_bukti": "foto copy surat laut No. PK205/821/SL-PM/DK-13",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy Certificate Of Nationality",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy Surat Ukur Internasional (1969) No. 2801/Ka",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy Tonase Kotor",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy Tonase bersih",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy sertifikat garis muat internasional (1966) sementara No. 00987-SB/DI.s/2018",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy sertifikat klasifikasi sementara, mesin",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy sertifikat klasifikasi sementara, lambung",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat keselamatan kontruksi kapal barang No. PK.001/60/06/SBY.tpr-18",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat keselamatan perlengkapan kapal barang No. PK.001/60/07/SBY.tpr-18",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy catatan perlengkapan memenuhi persyaratan peraturan No. PK.001/60/07/SBY.tpr-18",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat keselamatan radio kapal barang No. PK.002/22/15/SBY.tpr-18",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy catatan perlengkapan untuk memenuhi persyaratan peraturan No. PK.002/22/15/SBY.tpr-18",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat nasional No. PK.401/3576/SNPP/LK-16",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy suplemen sertifikat nasional pencegahan pencemaran dari kapal yang berlayar dalam negeri",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat nasional sistem anti teritip",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat nasional anti teritip",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy dokumen penyesuain manajemen kesehatan No. PK.401/4009/Doc/DK-14",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy pengukuhan untuk verifikasi tahunan",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat manajemen keselamatan",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy persetujuan rencana pengoperasian kapal pada trayek tidak tetap dan tidak teratur angkutan laut dalam negeri",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy daftar deviasi",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat pengawasan obat-obatan dan alat kesehatan kapal",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat pengawasan kualitas air",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat bebas tindakan sanitasi kapal",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertificate No. 15/MU/05/FE/2018",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertificate No. 86/MU/ILR/05/2018",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy survey and Test Report",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy Dry Dock Coating Report",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy Surat Persetujuan Berlayar Kapal KM Bunga melati 79 GT 1471",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy lembar surat pernyataan Nahkoda kapal, tanggal 17 juli 2018",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "foto copy pemeriksaan kelengkapan dan Validasi Surat Daftar Dokumen kapal dalam rangka penerbitan Surat Persetujuan Berlayar",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Lembar Foto Copy Daftar Pemeriksaan Pemenuhan Kewajiban Kapal Lainnya Dalam Rangka Penerbitan Surat Persetujuan berlayar",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy Daftar Awak Kapal KM Bunga melati 79 GT 1471 tanggal 17 Juli 2018",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy pemberitahuan kedatangan kapal KM Bunga Melati 79 GT 1471",
+        "sumber": "dokumen"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy surat laut No. PK205/821/SL-PM/DK-13",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy Certificate Of Nattionality",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy Surat Ukur Internasional (1969) No. 2801/Ka",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy Tonase Kotor",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy Tonase bersih",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy sertifikat garis muat internasional (1966) sementara No. 00987-SB/DI.s/2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy sertifikat klasifikasi sementara, mesin",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy sertifikat klasifikasi sementara, lambung",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy sertifikat keselamatan kontruksi kapal barang No. PK.001/60/06/SBY.tpr-18",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy sertifikat keselamatan perlengkapan kapal barang No. PK.001/60/07/SBY.tpr-18",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "4 (empat) lembar foto copy catatan perlengkapan memenuhi persyaratan peraturan No. PK.001/60/07/SBY.tpr-18",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy sertifikat keselamatan radio kapal barang No. PK.002/22/15/SBY.tpr-18",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy catatan perlengkapan untuk memenuhi persyaratan peraturan No. PK.002/22/15/SBY.tpr-18",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy sertifikat nasional No. PK.401/3576/SNPP/LK-16",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "10 (sepuluh) lembar foto copy suplemen sertifikat nasional pencegahan pencemaran dari kapal yang berlayar dalam negeri",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy sertifikat nasional sistem anti teritip",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy sertifikat nasional anti teritip",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy dokumen penyesuain manajemen kesehatan No. PK.401/4009/Doc/DK-14",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy pengukuhan untuk verifikasi tahunan",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy sertifikat manajemen keselamatan",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy persetujuan rencana pengoperasian kapal pada trayek tidak tetap dan tidak teratur angkutan laut dalam negeri",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy daftar deviasi",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy sertifikat pengawasan obat-obatan dan alat kesehatan kapal",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy sertifikat pengawasan kualitas air",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy sertifikat bebas tindakan sanitasi kapal",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy certificate No. 15/MU/05/FE/2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy certificate No. 86/MU/ILR/05/2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy survey and Test Report",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar Foto Copy Dry Dock Coating Report.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy Surat Persetujuan Berlayar Kapal KM Bunga melati 79 GT 1471.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) foto copy lembar surat pernyataan Nahkoda kapal, tanggal 17 juli 2018.",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy pemeriksaan kelengkapan dan Validasi Surat Daftar Dokumen kapal dalam rangka penerbitan Surat Persetujuan Berlayar",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Lembar Foto Copy Daftar Pemeriksaan Pemenuhan Kewajiban Kapal Lainnya Dalam Rangka Penerbitan Surat Persetujuan berlayar",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy Daftar Awak Kapal KM Bunga melati 79 GT 1471 tanggal 17 juli 2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy pemberitahuan kedatangan kapal KM Bunga Melati 79 GT 1471",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Foto Copy Pemberitahuan keberangkatan kapal KM Bunga melati 79 GT 1471",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar foto copy Permohonan Penerbitan Ijin Berlayar, tanggal 17 Juli 2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "foto copy surat laut No. PK205/821/SL-PM/DK-13",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy Certificate Of Nattionality",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy Surat Ukur Internasional (1969) No. 2801/Ka",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy Tonase Kotor",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy Tonase bersih",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy sertifikat garis muat internasional (1966) sementara No. 00987-SB/DI.s/2018",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy sertifikat klasifikasi sementara, mesin",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy sertifikat klasifikasi sementara, lambung",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat keselamatan kontruksi kapal barang No. PK.001/60/06/SBY.tpr-18",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat keselamatan perlengkapan kapal barang No. PK.001/60/07/SBY.tpr-18",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy catatan perlengkapan memenuhi persyaratan peraturan No. PK.001/60/07/SBY.tpr-18",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat keselamatan radio kapal barang No. PK.002/22/15/SBY.tpr-18",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy catatan perlengkapan untuk memenuhi persyaratan peraturan No. PK.002/22/15/SBY.tpr-18",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat nasional No. PK.401/3576/SNPP/LK-16",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy suplemen sertifikat nasional pencegahan pencemaran dari kapal yang berlayar dalam negeri",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat nasional sistem anti teritip",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat nasional anti teritip",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy dokumen penyesuain manajemen kesehatan No. PK.401/4009/Doc/DK-14",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy pengukuhan untuk verifikasi tahunan",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat manajemen keselamatan",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy persetujuan rencana pengoperasian kapal pada trayek tidak tetap dan tidak teratur angkutan laut dalam negeri",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy daftar deviasi",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat pengawasan obat-obatan dan alat kesehatan kapal",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat pengawasan kualitas air",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertifikat bebas tindakan sanitasi kapal",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertificate No. 15/MU/05/FE/2018",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy sertificate No. 86/MU/ILR/05/2018",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy survey and Test Report",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy Dry Dock Coating Report",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy Surat Persetujuan Berlayar Kapal KM Bunga melati 79 GT 1471",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy lembar surat pernyataan Nahkoda kapal, tanggal 17 juli 2018",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy pemeriksaan kelengkapan dan Validasi Surat Daftar Dokumen kapal dalam rangka penerbitan Surat Persetujuan Berlayar",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy Daftar Pemeriksaan Pemenuhan Kewajiban Kapal Lainnya Dalam Rangka Penerbitan Surat Persetujuan berlayar",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy Daftar Awak Kapal KM Bunga melati 79 GT 1471 tanggal 17 juli 2018",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy pemberitahuan kedatangan kapal KM Bunga Melati 79 GT 1471",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Foto Copy Pemberitahuan keberangkatan kapal KM Bunga melati 79 GT 1471",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "foto copy Permohonan Penerbitan Ijin Berlayar, tanggal 17 juli 2018",
+        "sumber": "Putusan Pengadilan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "melakukan, menyuruh melakukan dan turut serta melakukan perbuatan, Nahkoda yang melayarkan kapalnya sedangkan yang bersangkutan mengetahui bahwa kapal tersebut tidak Layak Laut yang mengakibatkan kematian seseorang dan kerugian harta benda",
+        "referensi_peraturan": "Pasal 302 Ayat (1) Jo ayat 3 Jo. Pasal 117 Ayat 2 UU RI No 17 Tahun 2008 Tentang Pelayaran Jo. Pasal 55 Ayat (1) ke 1 KUHPidana"
+      },
+      {
+        "deskripsi_pelanggaran": "terdakwa tidak pernah melakukan pemeriksaan fisik kapal berupa (alat navigasi seperti radar, teropong, peta, GPS, bendera, Lampu, serulin, Radio komunikasi ) dan tidak dibuatkan berita acara hasil pemeriksaan fisik kapal dan tidak pula membuat berita acara hasil pemeriksaan dokumen kapal serta tidak mengecek kondisi garis muat kapal atau lambung timbul kapal KM Bunga Melati 79 GT 1417 yang mengangkut semen sebanyak 2.500 (dua ribu lima lima ratus) Ton tersebut, dimana seharusnya Kapasitas muatan maksimal KM Bunga Melati 79 GT 1417 tersebut adalah 1.000 (seribu) Ton.",
+        "referensi_peraturan": "Peraturan Menteri Perhubungan Nomor : PM 82 Tahun 2014 Tentang Tata cara penerbitan surat persetujuan berlayar Pasal 9"
+      },
+      {
+        "deskripsi_pelanggaran": "Nahkoda melayarkan kapalnya sedangkan yang bersangkutan mengetahui bahwa kapal tersebut tidak Layak Laut yang mengakibatkan kematian seseorang dan kerugian harta benda.",
+        "referensi_peraturan": "pasal 117 ayat (2)"
+      },
+      {
+        "deskripsi_pelanggaran": "Terdakwa selaku Syahbandar tidak melakukan pemeriksaan fisik kapal dan dokumen, serta tidak mengecek kondisi garis muat kapal sebelum menerbitkan Surat Persetujuan Berlayar (SPB) untuk KM Bunga Melati 79 GT 1417 yang melebihi kapasitas muatan maksimal.",
+        "referensi_peraturan": "Peraturan Menteri Perhubungan Nomor : PM 82 Tahun 2014 Tentang Tata cara penerbitan surat persetujuan berlayar Pasal 9"
+      },
+      {
+        "deskripsi_pelanggaran": "Perbuatan Terdakwa yang menerbitkan Surat Persetujuan Berlayar (SPB) untuk kapal tidak laik laut dan Nahkoda yang melayarkan kapal tidak layak laut, mengakibatkan kematian ABK dan kerugian pemilik kapal.",
+        "referensi_peraturan": "pasal 302 Ayat (1) Jo Ayat 3 jo pasal 117 Ayat 2 UU RI No 17 tahun 2008 tentang pelayaran Jo. Pasal 56 Ke (1) KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "Terdakwa sebagai Syahbandar menerbitkan Surat Persetujuan Berlayar (SPB) terhadap Kapal KM Bunga Melati 79 GT 1471 yang mengangkut semen sebanyak 2500 ton, padahal kapasitas muatan maksimal kapal tersebut adalah 1000 ton, tanpa melakukan pemeriksaan fisik kapal (alat navigasi, peta, GPS, dll.) dan dokumen kapal, serta tidak mengecek kondisi garis muat kapal atau lambung timbul kapal.",
+        "referensi_peraturan": "Peraturan Menteri Perhubungan Nomor : PM 82 Tahun 2014 Tentang Tata cara penerbitan surat persetujuan berlayar Pasal 9"
+      },
+      {
+        "deskripsi_pelanggaran": "Perbuatan terdakwa sebagai Syahbandar yang menerbitkan Surat Persetujuan Berlayar (SPB) terhadap Kapal KM Bunga Melati 79 GT 1471, meskipun kapal tersebut tidak laik laut karena melebihi garis muat kapal atau lambung kapal dan pemuatan, mengakibatkan ABK KM. BUNGA MELATI 79 GT 1471 atas nama FATTAHUL FIQO meninggal dunia.",
+        "referensi_peraturan": "Pasal 359 KUHP Jo. Pasal 55 ayat (1) ke 1 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "dengan sengaja memberikan bantuan pada waktu kejahatan dilakukan",
+        "referensi_peraturan": "pasal 56 ke (1) KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "kesalahannya (Kealpaannya) menyebabkan orang lain mati",
+        "referensi_peraturan": "pasal 359 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "terdakwa tidak pernah melakukan pemeriksaan fisik kapal berupa (alat navigasi seperti radar, teropon, peta, GPS, bendera, Lampu,serulin, Radio komunikasi ) dan tidak dibuatkan berita acara hasil pemeriksaan fisik kapal dan tidak pula membuat berita acara hasil pemeriksaan dokumen kapal serta tidak mengecek kondisi garis muat kapal atau lambung timbul kapal KM Bunga Melati 79 GT 1417 yang mengangkut semen sebanyak 2.500 (dua ribu lima lima ratus) Ton tersebut, dimana seharusnya Kapasitas muatan maksimal KM Bunga Melati 79 GT 1417 tersebut adalah 1.000 (seribu) Ton.",
+        "referensi_peraturan": "Peraturan Menteri Perhubungan Nomor : PM 82 Tahun 2014 Tentang Tata cara penerbitan surat persetujuan berlayar Pasal 9"
+      },
+      {
+        "deskripsi_pelanggaran": "Penerbitan Surat Persetujuan Berlayar (SPB) terhadap kapal yang tidak laik laut karena melebihi garis muat kapal dan pemuatan, tanpa melakukan pemeriksaan fisik dan dokumen kapal, bertentangan dengan kewajiban Syahbandar.",
+        "referensi_peraturan": "Peraturan Menteri Perhubungan Nomor : PM 82 Tahun 2014 Tentang Tata cara penerbitan surat persetujuan berlayar Pasal 9"
+      },
+      {
+        "deskripsi_pelanggaran": "Menyebabkan orang lain mati karena kesalahannya (kealpaannya).",
+        "referensi_peraturan": "pasal 359 KUHP"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa Samiadi Nor Bin Samidri, sebagai Syahbandar, menerbitkan Surat Persetujuan Berlayar (SPB) untuk kapal KM. BUNGA MELATI 79 GT 1471 yang mengangkut semen 2500 ton, padahal kapasitas maksimal kapal seharusnya 1000-1500 ton. Terdakwa tidak melakukan pemeriksaan fisik kapal, alat navigasi, atau mengecek kondisi garis muat kapal sebelum menerbitkan SPB, yang bertentangan dengan kewajibannya. Perbuatan ini menyebabkan kapal berlayar dalam kondisi tidak laik laut dan akhirnya tenggelam, mengakibatkan kematian seorang ABK dan kerugian harta benda."
+  }
+}

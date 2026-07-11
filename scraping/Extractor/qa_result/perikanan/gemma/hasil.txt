@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+  HASIL EVALUASI SUMMARY
+────────────────────────────────────────────────────────────
+
+  ── RULE-BASED (Layer 1)
+  Dimensi                                Avg     Min     Max
+  ───────────────────────────────────────────────────────
+  total                                 0.89    0.80    0.94
+  q length ok                           0.70    0.50    1.00
+  a length ok                           1.00    1.00    1.00
+  a legal keywords                      0.40    0.30    0.50
+  ref quality                           1.00    1.00    1.00
+  reasoning steps                       1.00    1.00    1.00
+  graph valid                           1.00    1.00    1.00
+  tier valid                            1.00    1.00    1.00
+  q self contained                      0.80    0.00    1.00
+  has inferensial                       1.00    1.00    1.00
+
+  ── LLM-AS-JUDGE (Layer 2)
+  Dimensi                                Avg     Min     Max
+  ───────────────────────────────────────────────────────
+  total                                 0.98    0.96    1.00
+  faithfulness                          1.00    1.00    1.00
+  answer relevancy                      1.00    1.00    1.00
+  legal accuracy                        1.00    1.00    1.00
+  reasoning quality                     0.88    0.80    1.00
+  graph consistency                     1.00    1.00    1.00
+
+  ── PER-ROW RANKING
+  #    Filename                                   Final  Flag
+  ─────────────────────────────────────────────────────────────────
+  1    1_Pid.Sus-PRK_2019_PN Jkt.Utr             0.964  ✓
+  2    1_Pid.Sus-PRK_2019_PN Mme                 0.960  ✓
+  3    1_Pid.Sus-PRK_2018_PN Mme                 0.956  ✓
+  4    1_Pid.Sus-PRK_2019_PN Lbh                 0.932  ✓
+  5    1_Pid.Sus-PRK_2020_PN Mme                 0.896  ✓
+
+  BAIK  (≥0.7): 5/5   SEDANG (0.4–0.7): 0/5   BURUK  (<0.4): 0/5
+
+  Overall final_score: 0.942

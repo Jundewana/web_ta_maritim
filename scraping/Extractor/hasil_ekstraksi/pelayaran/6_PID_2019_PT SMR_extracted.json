@@ -1,0 +1,69 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": null,
+      "pidana_pengganti": null,
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": null,
+        "nama_pengadilan": "Pengadilan Negeri Balikpapan",
+        "nomor_putusan": "682/Pid.B/2018/PN Bpp",
+        "tanggal_putusan": "22 Nopember 2018",
+        "tingkat_peradilan": "Pengadilan Negeri"
+      }
+    ],
+    "kesimpulan_putusan": "Menerima permohonan pencabutan banding dari Jaksa Penuntut Umum terhadap putusan Pengadilan Negeri Balikpapan Nomor 682/Pid.B/2018/PN Bpp tanggal 22 Nopember 2018 atas nama terdakwa KIM CHUNG SON. Menghentikan dan mengakhiri pemeriksaan perkara pidana Nomor 6/PID/2019/PT SMR pada pengadilan tingkat banding. Memerintahkan Panitera Muda Pidana untuk mencatat pencabutan perkara dalam Register Induk Perkara Pidana Banding. Membebani biaya perkara dalam pengadilan tingkat banding sejumlah Rp. 2.500,- kepada Negara.",
+    "lokasi_pengadilan": "Samarinda",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "SUPRAPTO, S.H.",
+        "SOESILO ATMOKO, S.H., M.H."
+      ],
+      "hakim_ketua": "MAS HUSHENDAR, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Tinggi Kalimantan Timur",
+    "nomor_putusan": "6/PID/2019/PT SMR",
+    "panitera_pengganti": "MARSINTARAYA HUTAPEA, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "18 Januari 2019"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "235 ayat (1)",
+        "peraturan": "Undang-Undang Nomor 8 Tahun1981 tentang Hukum Acara Pidana"
+      },
+      {
+        "pasal": "235 ayat (2)",
+        "peraturan": "Undang-Undang Nomor 8 Tahun1981 tentang Hukum Acara Pidana"
+      },
+      {
+        "pasal": "197 huruf i",
+        "peraturan": "Undang-Undang Nomor 8 Tahun1981 tentang Hukum Acara Pidana"
+      },
+      {
+        "pasal": "235",
+        "peraturan": "Undang-Undang Nomor 8 Tahun1981 tentang Hukum Acara Pidana"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Jaksa Penuntut Umum mengajukan permohonan banding terhadap putusan Pengadilan Negeri Balikpapan, namun kemudian mencabut permohonan banding tersebut. Pengadilan Tinggi Kalimantan Timur menerima pencabutan permohonan banding tersebut dan menghentikan pemeriksaan perkara pada tingkat banding.",
+      "lokasi_kejadian": "Pengadilan Negeri Balikpapan",
+      "tanggal_kejadian": "16 Januari 2019"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Nam Pho / Korea Utara; Umur/Tanggal lahir: 49 Tahun / 21 Januari 1969; Jenis Kelamin: Laki-laki; Kebangsaan/Kewarganegaraan: Korea Utara; Tempat tinggal: Nam Pho City Korea Utara / diatas kapal MV Wise Honest; Agama: Atheis; Pekerjaan: Nahkoda Kapal;",
+        "nama": "KIM CHUNG SON"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [],
+    "pelanggaran_hukum": [],
+    "perbuatan_terdakwa": null
+  }
+}

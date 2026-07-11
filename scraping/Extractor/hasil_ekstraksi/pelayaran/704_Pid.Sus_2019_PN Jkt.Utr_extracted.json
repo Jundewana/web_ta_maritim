@@ -1,0 +1,184 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": null,
+      "pidana_pengganti": null,
+      "pidana_penjara": "1 (satu) Tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "2 Maret 2019",
+        "tanggal_selesai": "22 Maret 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penuntut Umum",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "23 Maret 2019",
+        "tanggal_selesai": "30 April 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "",
+        "nomor_surat": "",
+        "tanggal_mulai": "30 April 2019",
+        "tanggal_selesai": "19 Mei 2019"
+      },
+      {
+        "instansi_penetap": "Plt Wakil Ketua Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Penahanan",
+        "lokasi_penetapan": "Pengadilan Negeri Jakarta Utara",
+        "nomor_surat": "",
+        "tanggal_mulai": "20 Mei 2019",
+        "tanggal_selesai": "18 Juni 2019"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Pengadilan Negeri Jakarta Utara",
+        "nomor_surat": "",
+        "tanggal_mulai": "12 Juni 2019",
+        "tanggal_selesai": "12 Juli 2019"
+      },
+      {
+        "instansi_penetap": "Plt Wakil Ketua Pengadilan Negeri Jakarta Utara",
+        "jenis_penetapan": "Perpanjangan",
+        "lokasi_penetapan": "Pengadilan Negeri Jakarta Utara",
+        "nomor_surat": "",
+        "tanggal_mulai": "13 Juli 2019",
+        "tanggal_selesai": "09 September 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa TINO terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana Turut serta melakukan kelalaian yang mengakibatkan kebakaran. Menjatuhkan pidana penjara selama 1 (satu) Tahun. Menetapkan masa penahanan yang telah dijalani dikurangkan seluruhnya dari pidana penjara. Memerintahkan Terdakwa tetap ditahan. Menetapkan barang bukti berupa 1 unit kapal KM Arta Mina Jaya dalam kondisi terbakar dan dokumen-dokumen kapal dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN. Membebankan Terdakwa untuk membayar biaya perkara sebesar Rp. 5.000,00.",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Tiares Sirait, S.H., M.H",
+        "Purnawan Narsongko, S.H"
+      ],
+      "hakim_ketua": "Ramses Pasaribu, S.H., M.H"
+    },
+    "nama_pengadilan": "Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "704/Pid.Sus/2019/PN Jkt Utr",
+    "panitera_pengganti": "Resya, S.H., M.H",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-09-02"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 188",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "Pasal 55 ayat (1) Ke-1",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "322",
+        "peraturan": "UU RI No. 17 Tahun 2008 Tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 187 Ke-1",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "Pasal 55 ayat (1) Ke-1",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "188",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "55 ayat (1) Ke-1",
+        "peraturan": "KUHP"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa TINO, selaku Nakhoda KM. Arta Mina Jaya, mengetahui kondisi Pompa Keong/pompa penyedot air kapal belum diperbaiki sejak Mei 2018. Pada tanggal 23 Februari 2019, TINO dihubungi oleh pengurus kapal, Sdr. YANTO, yang memberitahukan bahwa tukang las akan datang untuk memperbaiki dudukan pompa keong. TINO kemudian menunjukkan bagian yang akan dilas kepada tukang las, SUGIH ARDIANSYAH Alias EGI, dan memerintahkan KKM (Sdr. AKAI) serta Wakil KKM (Sdr. SUGENG RIYADI) untuk mendampingi dan menyiapkan air. TINO kemudian pergi. SUGIH ARDIANSYAH melakukan pengelasan tanpa sertifikasi keahlian dan tanpa memperhatikan prosedur keselamatan kerja yang memadai, seperti tidak membersihkan kotoran di sekitar area las secara menyeluruh, tidak menyediakan APAR atau blower. Setelah pengelasan selesai dan SUGIH ARDIANSYAH pergi, asap terlihat dari kamar mesin dan api membesar, membakar KM. Arta Mina Jaya dan menyebar ke 33 kapal lainnya di Dermaga Barat Pelabuhan Muara Baru, Jakarta Utara.",
+      "lokasi_kejadian": "Dermaga Barat No. 8 Pelabuhan Muara Baru Penjaringan Jakarta Utara",
+      "tanggal_kejadian": "2019-02-23"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir: Meral Karimun (Riau), Umur/Tanggal Lahir: 12 Agustus 1985, Jenis Kelamin: Laki-laki, Kebangsaan: Indonesia, Tempat Tinggal: Sungai Pasir Rt. 02 Rw. 01 Kel. Sungai Pasir Kec. Meral Kabupaten Karimun Kepulauan Riau, Agama: Budha, Pekerjaan: Nakhoda KM. Arma Mina Jaya, Pendidikan: SMA",
+        "nama": "TINO"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit kapal KM Arta Mina Jaya dalam kondisi terbakar",
+        "sumber": "Dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundel surat dokumen kapal KM Arta Mina Jaya berisikan : 1 (satu) surat keterangan aktivasi transmiter dengan nomor: 12781/PSDKP.3/PW.351/VIII/2017",
+        "sumber": "Dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah surat ukur dalam negeri dengan nomor: 8918/Bc",
+        "sumber": "Dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah sertifikat kelayakan dan pengawakan kapal penangkap ikan dengan nomor : PK.001/78/04/KOP.MBU/2018",
+        "sumber": "Dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) PAS besar",
+        "sumber": "Dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah surat izin penangkap ikan nomor: 26.17.0001.58.56301",
+        "sumber": "Dikembalikan kepada PT. Arta Mina Jaya melalui saksi GUNAWAN alias ATIAN"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Kelalaian Mengakibatkan Kebakaran",
+        "referensi_peraturan": "Pasal 188 KUHP Jo Pasal 55 ayat (1) Ke-1 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang melakukan kegiatan perbaikan, percobaan berlayar, kegiatan alih muat di kolam pelabuhan, menunda, dan bongkar muat barang berbahaya tanpa persetujuan dari Syahbandar",
+        "referensi_peraturan": "Pasal 216 ayat (1)"
+      },
+      {
+        "deskripsi_pelanggaran": "Melakukan pengelasan tanpa memiliki sertifikat atau keahlian di bidang juru las",
+        "referensi_peraturan": "Peraturan Menteri Tenaga Kerja Nomor 02 tahun 1982 tentang Kwalifikasi Juru Las ditempat kerja"
+      },
+      {
+        "deskripsi_pelanggaran": "Perbuatan terdakwa",
+        "referensi_peraturan": "Pasal 322 UU RI No. 17 Tahun 2008 Tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Perbuatan terdakwa",
+        "referensi_peraturan": "Pasal 187 Ke-1 KUHP Jo Pasal 55 ayat (1) Ke-1 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "Juru las tidak memiliki sertifikasi juru las sesuai dengan kualifikasi disertai buku kerja juru las",
+        "referensi_peraturan": "UU No.l Tahun 1970 tentang Keselamatan Kerja dan Peraturan Menteri Nomor 2 Tahun 1982 tentang Kwalifikasi Juru Las di tempat kerja"
+      },
+      {
+        "deskripsi_pelanggaran": "Melakukan perbaikan mesin pompa keong di dermaga tanpa sertifikasi keahlian resmi dan tidak memperhatikan Keselamatan Kerja (K3)",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "SUGIH ARDIANSYAH selaku tukang las, telah melakukan perbaikan mesin pompa keong di dermaga, kemudian dalam melakukan pengelasan SUGIH ARDIANSYAH tidak memiliki sertifikasi keahian resmi dan merupakan tukang las dari bengkel bubut dan las yang dikelola terdakwa WILLIS SUSANTO tidak memperhatikan Keselamatan Kerja (K3) ataupun memperhatikan setiap larangan yang wajib dihindari saat melakukan perbaikan kapal",
+        "referensi_peraturan": "UU No.l Tahun 1970 tentang Keselamatan Kerja dan Peraturan Menteri Nomor 2 Tahun 1982 tentang Kwalifikasi Juru Las di tempat kerja"
+      },
+      {
+        "deskripsi_pelanggaran": "Setiap kapal yang melakukan kegiatan perbengkelan/pengelasan (yang dapat menyebabkan resiko kebakaran) kapal harus minta izin terlebih dahulu, dan pengerjaannya bukan di kolam sandar kapal Pelabuhan Perikanan Samudera Nizam Zachman Jakarta (PPSNZJ) namun ada kolam khusus perbaikan di Pelabuhan Perikanan Samudera Nizam Zachman Jakarta (PPSNZJ)",
+        "referensi_peraturan": null
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa TINO, selaku Nakhoda KM. Arta Mina Jaya, dianggap lalai karena tidak memahami prosedur pengoperasian kapal rusak yang seharusnya diperbaiki di Dok, bukan di kolam/dermaga. Ia juga mengabaikan fungsi-fungsi keselamatan dengan membiarkan SUGIH ARDIANSYAH Alias EGI melakukan pengelasan di tempat yang tidak semestinya dan tanpa memastikan prosedur keselamatan kerja (K3) dipatuhi, padahal ia wajib mengetahui, mencermati, mengantisipasi, memahami, dan mengawasi proses kegiatan di atas kapal yang menjadi tanggung jawabnya. Kelalaian ini mengakibatkan kebakaran kapal."
+  }
+}

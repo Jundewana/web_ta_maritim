@@ -1,0 +1,417 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.50.000.000,00 (lima puluh juta rupiah)",
+      "pidana_pengganti": "2 (dua) bulan",
+      "pidana_penjara": "10 (sepuluh) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penahanan",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "10 Agustus 2019",
+        "tanggal_selesai": "29 Agustus 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penahanan",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "24 Januari 2020",
+        "tanggal_selesai": "12 Februari 2020"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri",
+        "jenis_penetapan": "Penahanan",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "27 Januari 2020",
+        "tanggal_selesai": "25 Februari 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "26 Februari 2020",
+        "tanggal_selesai": "25 April 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "yang pada intinya memuat kaidah bahwa : \"Walaupun surat tuduhan menyebutkan fakta dan keadaan yang menyertai perbuatan yang dituduhkan tidak secara lengkap tergambar, tidak dengan sendirinya mengakibatkan batalnya surat dakwaan\"",
+        "nama_pengadilan": "Mahkamah Agung RI",
+        "nomor_putusan": "36K/Kr/1968",
+        "tanggal_putusan": "23 Agustus 1969",
+        "tingkat_peradilan": "Mahkamah Agung RI"
+      }
+    ],
+    "kesimpulan_putusan": "Menyatakan Terdakwa Hendri Yadi terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar\" dan menjatuhkan pidana penjara selama 10 (sepuluh) bulan serta denda Rp.50.000.000,00.",
+    "lokasi_pengadilan": "Ranai",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Marselinus Ambarita, S.H, M.H",
+        "M. Fahri Ikhsan, S.H."
+      ],
+      "hakim_ketua": "Sahat S. P. Banjarnahor, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Ranai",
+    "nomor_putusan": "17/Pid.B/2020/PN Ran",
+    "panitera_pengganti": "Hendrik Hatorangan, S.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jl. Tondano, A5 B, Benhill, Jakarta Pusat 10210",
+        "gelar": "S.H.",
+        "kantor_hukum": "Kantor Hukum Yudha Waskita",
+        "nama": "ARMY MULYANTO",
+        "tanggal_surat_kuasa": "5 Februari 2020"
+      },
+      {
+        "alamat_kantor": "Jl. Tondano, A5 B, Benhill, Jakarta Pusat 10210",
+        "gelar": "S.H., CLA.",
+        "kantor_hukum": "Kantor Hukum Yudha Waskita",
+        "nama": "SYAIFUL HUDA",
+        "tanggal_surat_kuasa": "5 Februari 2020"
+      },
+      {
+        "alamat_kantor": "Jl. Tondano, A5 B, Benhill, Jakarta Pusat 10210",
+        "gelar": "S.H.",
+        "kantor_hukum": "Kantor Hukum Yudha Waskita",
+        "nama": "RONALD KOJONGIAN",
+        "tanggal_surat_kuasa": "5 Februari 2020"
+      },
+      {
+        "alamat_kantor": "Jl. Tondano, A5 B, Benhill, Jakarta Pusat 10210",
+        "gelar": "S.H.",
+        "kantor_hukum": "Kantor Hukum Yudha Waskita",
+        "nama": "JAROT SWANDARU",
+        "tanggal_surat_kuasa": "5 Februari 2020"
+      }
+    ],
+    "tanggal_putusan": "17 April 2020"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 323 Ayat (1) Jo Pasal 219 ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 312 Jo Pasal 145",
+        "peraturan": "UU RI No. 17 Tahun 2008 Tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Hendri Yadi selaku Nahkoda KM Konservasi diperintahkan oleh HRD PT. Pulau Bawah untuk berangkat ke Tarempa pada tanggal 7 Agustus 2019 guna menjemput barang-barang berupa mikol/wine, LPG, dan keranjang laundry. KM Konservasi berangkat dari Pulau Bawah menuju Pelabuhan Perikanan Tarempa, kemudian ke Tanjung Gedung Akiun untuk memuat barang, lalu kembali ke Pelabuhan Umum (Pelni) di Tarempa untuk bermalam. Pada tanggal 8 Agustus 2019, kapal berangkat dari Tarempa menuju Pulau Bawah dan ditangkap oleh Kapal Patroli KAL Baruk I-4-28 di Perairan Teluk Tarempa karena berlayar tanpa Surat Persetujuan Berlayar (SPB) dan membawa penumpang serta muatan yang tidak terdaftar.",
+      "lokasi_kejadian": "Perairan Teluk Tarempa Indonesia pada posisi 03° 13' 169\" U / 106° 12` 976\" T",
+      "tanggal_kejadian": "08 Agustus 2019"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Telaga; Umur/Tanggal lahir : 35 Tahun / 10 Mei 1984; Jenis kelamin : Laki-Laki; Kebangsaan : Indonesia; Tempat tinggal : Teluk Kelimpan Rt. 01 Rw. 01 Desa Telaga Kecamatan Siantan Selatan Kabupaten Kepulauan Anambas; Agama : Islam; Pekerjaan : Nahkoda KM Konservasi; Pendidikan : SMA:",
+        "nama": "Hendri Yadi"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit KM. Konservasi terbuat dari kayu isi kotor: 30 GT isi bersih 09 NT Mesin: Mitsubishi 8 MM 22 No seri 023433/190 PK",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS Garmin GPS Map 585",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Radio Icom IC-M200",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Icom IC-M710",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompas TC Tokyo Compas MFG co. Ltd",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Advanced Fire Fighting No. 6211857127060118 tanggal 06 Desember 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Basic Safety Training No. 611857127060118 tanggal 06 Desember 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan 60 Mil No DL.23/I/114/KPL.TPA-2010 tanggal 10 Maret 2010",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Pas Besar KSOP Bagansiapiapi No. 196/III/tanggal 9 Januari 2019",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "001/306/KUPP.Npg-2018 tanggal 4 Oktober 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Radio Kapal Barang No PK.002/7/11/KUHP.Npg-2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Nasional Garis Muatan Kapal Sementara No. PK.102/14/15/Kupp.Npg/2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Persetujuan Berlayar No.C2/Km.17/1428/XI/2018 tanggal 22 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Pernyataan Nakhoda (Master Seiling Declaration) tanggal 22 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Ukur Dalam Negeri No. 474/Rrd tanggal 04 Oktober 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Bebas Tindakan Sanitasi Kapal tanggal 20 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Keterangan Pengawakan Minimum No. PK. 304/25/1/KSOP-TPI.2018 tanggal 22 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Kapal No. Pk.",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit KM. Konservasi terbuat dari kayu isi kotor: 30 GT isi bersih 09 NT Mesin : Mitsubishi 8 MM 22 No seri 023433/190 PK",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS Garmin GPS Map 585",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Radio Icom IC-M200",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Icom IC-M710",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompas TC Tokyo Compas MFG co. Ltd",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Advanced Fire Fighting No. 6211857127060118 tanggal 06 Desember 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Basic Safety Training No. 611857127060118 tanggal 06 Desember 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan 60 Mil No DL.23/I/114/KPL.TPA-2010 tanggal 10 Maret 2010",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Pas Besar KSOP Bagansiapiapi No. 196/III/tanggal 9 Januari 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Kapal No. Pk. 001/306/KUPP.Npg-2018 tanggal 4 Oktober 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Radio Kapal Barang No PK.002/7/11/KUHP.Npg-2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Nasional Garis Muatan Kapal Sementara No. PK.10 2/14/15/Kupp.Npg/2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Persetujuan Berlayar No.C2/Km.17/1428/XI/2018 tanggal 22 November 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Pernyataan Nakhoda (Master Seiling Declaration) tanggal 22 November 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Ukur Dalam Negeri No. 474/Rrd tanggal 04 Oktober 201",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Bebas Tindakan Sanitasi Kapal tanggal 20 November 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Keterangan Pengawakan Minimum No. PK. 304/25/1/K SOP-TPI.2018 tanggal 22 November 2018",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit KM. Konservasi terbuat dari kayu isi kotor : 30 GT isi bersih 09 NT Mesin : Mitsubishi 8 M M 22 No seri 023433/190 PK",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS Garmin GPS Map 585",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Radio Icom IC-M200",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Icom IC-M710",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompas TC Tokyo Compas MFG co. Ltd",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Advanced Fire Fighting No. 6211857127060118 tanggal 06 Desember 2018",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Basic Safety Training No. 611857127060118 tanggal 06 Desember 2018",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan 60 Mil No DL.23/1/114/KPL.TPA-2010 tanggal 10 Maret 2010",
+        "sumber": "disita"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Pas Besar KSOP Bagansiapiapi No. 196/III/tanggal 9 Januari 2019",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Kapal No. Pk. 001/306/KUPP.Npg-2018 tanggal 4 Oktober 2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Radio Kapal Barang No PK.002/7/11/KUHP.Npg-2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Nasional Garis Muatan Kapal Sementara No. PK.102/14/15/Kupp Npg/2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Persetujuan Berlayar No.C2/Km.17/1428/XI/2018 tanggal 22 November 2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Pernyataan Nakhoda (Master Seiling Declaration) tanggal 22 November 2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Ukur Dalam Negeri No. 474/Rrd tanggal 04 Oktober 2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Bebas Tindakan Sanitasi Kapal tanggal 20 November 2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Keterangan Pengawakan Minimum No. PK. 304/25/1/KSOP-TPI.2018 tanggal 22 November 2018",
+        "sumber": "terlampir dalam berkas perkara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit KM. Konservasi terbuat dari kayu isi kotor : 30 GT isi bersih 09 NT Mesin : Mitsubishi 8 MM 22 No seri 023433/190 PK",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS Garmin GPS Map 585",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Radio Icom IC-M200",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Icom IC-M710",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Kompas TC Tokyo Compas MFG co. Ltd",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Advanced Fire Fighting No. 6211857127 060118 tanggal 06 Desember 2018",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keterampilan Basic Safety Training No. 611857127060 118 tanggal 06 Desember 2018",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan 60 Mil No DL.23/I/114/KPL.TPA-2 010 tanggal 10 Maret 2010",
+        "sumber": "Dikembalikan kepada orang atau kepada mereka dari siap benda itu disita;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Pas Besar KSOP Bagansiapiapi No. 196/III/tanggal 9 Januari 2019",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Kapal No. Pk. 001/306/KUPP. Npg-2018 tanggal 4 Oktober 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Keselamatan Radio Kapal Barang No PK.00 2/7/11/KUHP.Npg-2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Nasional Garis Muatan Kapal Sementara No. PK.102/14/15/Kupp.Npg/2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Persetujuan Berlayar No.C2/Km.17/1428/XI/2018 tanggal 22 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Pernyataan Nakhoda (Master Seiling Declaration) tanggal 22 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Ukur Dalam Negeri No. 474/Rrd tanggal 04 Oktober 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Sertifikat Bebas Tindakan Sanitasi Kapal tanggal 20 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Surat Keterangan Pengawakan Minimum No. PK. 304 /25/1/KSOP-TPI.2018 tanggal 22 November 2018",
+        "sumber": "Terlampir dalam berkas perkara;"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar",
+        "referensi_peraturan": "Pasal 323 Ayat (1) Jo Pasal 219 ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar",
+        "referensi_peraturan": "Pasal 323 Ayat (1) Jo Pasal 219 ayat (1) UU RI No. 17 Tahun 2008 Tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "yang mempekerjakan seseorang didalam Kapal dalam jabatan apa pun tanpa disijil dan tanpa memiliki kompetensi dan keterampilan serta dokumen pelaut yang dipersyaratkan",
+        "referensi_peraturan": "Pasal 312 Jo Pasal 145UU RI No. 17 Tahun 2008 Tentang Pelayaran."
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar",
+        "referensi_peraturan": "Pasal 323 ayat (1) Jo Pasal 219 ayat (1) Undang-Undang Republik Indonesia Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Nakhoda yang berlayar tanpa memiliki Surat Persetujuan Berlayar (SPB) yang dikeluarkan oleh Syahbandar"
+  }
+}

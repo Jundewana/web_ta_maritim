@@ -1,0 +1,40 @@
+────────────────────────────────────────────────────────────
+  HASIL EVALUASI SUMMARY
+────────────────────────────────────────────────────────────
+
+  ── RULE-BASED (Layer 1)
+  Dimensi                                Avg     Min     Max
+  ───────────────────────────────────────────────────────
+  total                                 0.89    0.78    0.94
+  q length ok                           1.00    1.00    1.00
+  a length ok                           0.73    0.60    0.92
+  a legal keywords                      0.50    0.20    0.70
+  ref quality                           1.00    1.00    1.00
+  reasoning steps                       1.00    1.00    1.00
+  graph valid                           1.00    1.00    1.00
+  tier valid                            1.00    1.00    1.00
+  q self contained                      1.00    1.00    1.00
+  has inferensial                       0.80    0.00    1.00
+
+  ── LLM-AS-JUDGE (Layer 2)
+  Dimensi                                Avg     Min     Max
+  ───────────────────────────────────────────────────────
+  total                                 0.96    0.96    0.96
+  faithfulness                          1.00    1.00    1.00
+  answer relevancy                      1.00    1.00    1.00
+  legal accuracy                        1.00    1.00    1.00
+  reasoning quality                     0.80    0.80    0.80
+  graph consistency                     1.00    1.00    1.00
+
+  ── PER-ROW RANKING
+  #    Filename                                   Final  Flag
+  ─────────────────────────────────────────────────────────────────
+  1    26_PID_2019_PT SMR                        0.953  ✓
+  2    17_Pid.B_2020_PN Ran                      0.953  ✓
+  3    8_Pid.B_2020_PN Kdi                       0.936  ✓
+  4    18_Pid.B_2020_PN Dgl                      0.932  ✓
+  5    6_PID_2019_PT SMR                         0.888  ✓
+
+  BAIK  (≥0.7): 5/5   SEDANG (0.4–0.7): 0/5   BURUK  (<0.4): 0/5
+
+  Overall final_score: 0.932

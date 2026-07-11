@@ -1,0 +1,502 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp100.000.000,00 (seratus juta rupiah)",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Jakarta Utara",
+        "nomor_surat": null,
+        "tanggal_mulai": "17 Agustus 2019",
+        "tanggal_selesai": "05 Serptember 2019"
+      },
+      {
+        "instansi_penetap": "Kejaksaan Agung R.I",
+        "jenis_penetapan": "Perpanjangan Penahan oleh Kejaksaan Agung R.I",
+        "lokasi_penetapan": "Jakarta Utara",
+        "nomor_surat": null,
+        "tanggal_mulai": "6 September 2019",
+        "tanggal_selesai": "12 September 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Jakarta Utara",
+        "nomor_surat": null,
+        "tanggal_mulai": "13 September 2019",
+        "tanggal_selesai": "17 September 2019"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri/Perikanan",
+        "jenis_penetapan": "Hakim Pengadilan Negeri/Perikanan Jakarta Utara",
+        "lokasi_penetapan": "Jakarta Utara",
+        "nomor_surat": null,
+        "tanggal_mulai": "18 September 2019",
+        "tanggal_selesai": "7 Oktober 2019"
+      },
+      {
+        "instansi_penetap": "Wakil Ketua Pengadilan Perikanan pada Pengadilan Negeri",
+        "jenis_penetapan": "Wakil Ketua Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+        "lokasi_penetapan": "Jakarta Utara",
+        "nomor_surat": null,
+        "tanggal_mulai": "8 Oktober 2019",
+        "tanggal_selesai": "17 Oktober 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "1. Menolak Eksepsi/Keberatan dari Penasihat Hukum Terdakwa Miekie Hidayat bin Kurniawan (Alm); 2. Memerintahkan Penuntut Umum untuk melanjutkan pemeriksaan perkara Nomor 1/Pid.Sus-PRK /2019./PN.Jakarta Utr, atas nama Terdakwa Miekie Hidayat bin Kurniawan (Alm); 3. Menangguhkan biaya perkara sampai dengan putusan akhir.",
+        "nama_pengadilan": "Pengadilan Negeri Jakarta Utara",
+        "nomor_putusan": "1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+        "tanggal_putusan": "4 Oktober 2019",
+        "tingkat_peradilan": "Tingkat Pertama"
+      },
+      {
+        "amar_putusan": "karena itu dapat dipergunakan untuk memperkuat pembuktian;",
+        "nama_pengadilan": "Pengadilan Negeri Balikpapan",
+        "nomor_putusan": "804/Pen.Pid/2019/PN.Bpp",
+        "tanggal_putusan": "20 Agustus 2019",
+        "tingkat_peradilan": "Pengadilan Negeri"
+      }
+    ],
+    "kesimpulan_putusan": "Menyatakan Terdakwa Miekie Hidayat bin Kurniawan (Alm) terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana perikanan \"dengan sengaja mengadakan dan mengedarkan ikan yang dilarang yang merugikan sumberdaya ikan di Wilayah Pengelolaan Perikanan Negara Republik Indonesia\".",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Drs. Sutardjo, M.Si.",
+        "Ganjil Sunarto, S.H., M.M."
+      ],
+      "hakim_ketua": "Ramses Pasaribu, S.H., M.H."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+    "panitera_pengganti": "Syahmisar, S.H., M.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jalan Menteng Nomor 64 B, Lagoa- Koja, Jakarta Utara 14270",
+        "gelar": "S.H.",
+        "kantor_hukum": "JD & Partners",
+        "nama": "Ir. Andi Darti",
+        "tanggal_surat_kuasa": "26 Agustus 2019"
+      },
+      {
+        "alamat_kantor": "Jalan Menteng Nomor 64 B, Lagoa- Koja, Jakarta Utara 14270",
+        "gelar": "S.H.",
+        "kantor_hukum": "JD & Partners",
+        "nama": "Jonri Simanjuntak",
+        "tanggal_surat_kuasa": "26 Agustus 2019"
+      }
+    ],
+    "tanggal_putusan": "9 Oktober 2019"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 88 Jo. Pasal 16 ayat (1)",
+        "peraturan": "Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Miekie Hidayat bin Kurniawan (Alm), selaku Manajer Pabrik PT Balikpapan Jaya Utama, pada tanggal 7 Juli 2019 menghubungi PT Samudera Naga Global untuk pengiriman 1 unit kontainer berisi kepiting jantan beku ke Taiwan. Namun, atas perintah Terdakwa dan Mr. Chen, kepiting bertelur disamarkan di bawah kepiting jantan saat verifikasi oleh petugas karantina pada tanggal 15 Juli 2019. Kontainer tersebut, dengan nomor SZLU 2023440, berangkat dari Balikpapan pada tanggal 16 Juli 2019 dan diamankan oleh pihak kepolisian di Pelabuhan Tanjung Priok, Jakarta, pada tanggal 23 Juli 2019. Pemeriksaan menunjukkan kontainer berisi 645 dus kepiting bertelur beku, yang dilarang untuk ditangkap dan/atau dikeluarkan dari wilayah Indonesia sesuai Peraturan Menteri Kelautan dan Perikanan Nomor 56/PERMEN-KP/2016. Terdakwa juga memerintahkan pembuangan sisa kepiting bertelur di cold storage setelah penangkapan.",
+      "lokasi_kejadian": "Pelabuhan Tanjung Priok, Jakarta Utara",
+      "tanggal_kejadian": "23 Juli 2019"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "(Alm); Tempat Lahir : Tanjung Pinang; Umur/tanggal lahir : 49 Tahun/1 Juli 1970; Jenis Kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Jalan Padat Karya Nomor 19 Rt 004 Rw-, Kelurahan Muara Rapak, Kecamatan Balikpapan, Kalimantan Timur; Agama : Islam; Pekerjaan : Karyawan Swasta. Selaku Manager Pabrik PT Balikpapan Jaya Utama dan penanggung jawab IUP-P PT. Balikpapan Jaya Utama.",
+        "nama": "Miekie Hidayat bin Kurniawan"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit Container dengan nomor SZLU 2023440",
+        "sumber": "MASRUKHIN"
+      },
+      {
+        "nama_barang_bukti": "Muatan Container – 645 CARTONS/BOX Kepiting Bertelur",
+        "sumber": "MASRUKHIN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar surat tugas Nomor: 1022/06.0/KI-500/VII/2019",
+        "sumber": "WINDA ANGGRAINI, ST.Pi (PNS Balai KIPM Balikpapan)"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Surat Keterangan Health Certificate Nomor 0145/SKHC/06 0-00130/2019 tanggal 15 Juli 2019",
+        "sumber": "WINDA ANGGRAINI, ST.Pi (PNS Balai KIPM Balikpapan)"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Berita Acara Pemeriksaan yang dilakukan Sdr. EDIYONO, S.Pi di Gudang PT. Balikpapan Jaya Utama",
+        "sumber": "WINDA ANGGRAINI, ST.Pi (PNS Balai KIPM Balikpapan)"
+      },
+      {
+        "nama_barang_bukti": "14 (empat belas) lembar asli lampiran Berita Acara Pemeriksaan yang dilakukan Sdr EDIYONO, S.Pi di gudang PT. Balikpapan Jaya Utama",
+        "sumber": "WINDA ANGGRAINI, ST.Pi (PNS Balai KIPM Balikpapan)"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) lembar rekapitulasi penerbitan Health Certificate",
+        "sumber": "WINDA ANGGRAINI, ST.Pi (PNS Balai KIPM Balikpapan)"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar draft Serifikat HC (Health Certificate) pengiriman ke PT. Balikpapan Jaya Utama",
+        "sumber": "WINDA ANGGRAINI, ST.Pi (PNS Balai KIPM Balikpapan)"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Rekaman CCTV milik PT. Balikpapan Jaya Utama",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) buah buku asli Jurnal/Mutasi tamu dan kendaraan",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) buah buku asli Dokumen keluar masuk barang",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) bundel asli Akte pendirian perusahaan Nomor 220 tanggal 28 Maret 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli sertifikat kelayakan pengolahan Nomor 83S2/64/SKP/BKIII/2018",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli sertifikat HACCP (Hazard Analisisand Critical Control Point) Nomor 058/PM/HACCP/PB/02/19 tanggal 28 Januari 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli sertifikat kelayakan pengolahan Nomor 12166/64/SKP/BKA/I/2019 tanggal 19 Juni 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli sertifikat Izin Gangguan Nomor 002146/ BPMP2T/IG/2012 tanaaal 25 Juli 2012 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar sertifikat Tanda Daftar Perusahaan Nomor 37/M-DAG/PER/9/2007 tanggal 4 September 2007 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 2 (dua) lembar sertifikat asli Dinas Penanaman Modal dan, Perizinan Terpadu (DPMPT) Nomor 503/01 /R-DPLH/DPMPT tanggal 9 Januari 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 5 (lima) lembar sertifikat Keputusan Kepala Dinas Penanaman Modal dan Perizinan Terpadu Kota Balikpapan Nomor 503/01/ DPLH/DPMPT tanggal 9 Januari 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli sertifikat Pengesahan Badan Hukum Perseroan Menten Hukum Dan Hak Asasi Manusia Repubil Indonesia Nomor AHU-19940.AH.01.01.Tahun 2011 tanggal 20 April 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli Surat Keterangan Domisili Nomor 030/KCS/ 08/2011 tanggal 18 Agustus 2011 milik Chen Lai Wang",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 2 (dua) lembar asli Pendaftaran Penanaman Modal Nomor 00905/1/PPM/PMA/2011 tanggal 29 Maret 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 3 (tiga) lembar asli Izin Prinsip Penanaman Modal Nomor 22/1/ IP/I/PMA/2013, Nomor Perusahaan: 03543.2011, NPWP: 03. 167.456.7-721.000 tanggal 11 Januari 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/ benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) lembar asli surat keterangan terdaftar NPWP Nomor PEM- 4527/WPJ.14/KP.1303/2011 tanggal 12 Juli 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) kartu asli NPWP Nomor 03.167.456.7-721.000 tanggal penerbit 11 Juli 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Pengukuhan Sebagai Wajib Pajak dan Wajib Retribusi Daerah Kepala Dinas Pendapatan Daerah Kota Balikpapan Nomor 31858/SK.KUH.2/VII/2012 tanggal 30 Juli 2012 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) kartu asli Pendapatan Daerah NPWP Nomor 2-0031858-01-01 tanggal 30 Juli 2012 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Izin Usaha Perikanan (IUP) Nomor 503/861 /IUP-P/DPMPTSP/V/2019 tanggal 16 Mei 2019 milik Sdr. Miekie Hidayat",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Sertifikat Kelayakan Pengolahan Nomor 6875/64/SKP/BK/VIII/2017 tanggal penerbitan 3 Agustus 2017 dan tanggal masa berlaku sampai 3 Agustus 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Sertifikat Kelayakan Pengolahan Nomor 8352/64/SKP/BK/III/2018 tanggal penerbitan 5 Maret 2018 dan tanggal masa berlaku sampai 5 Maret 2020 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) box kardus kemasan berwarna putih yang bergambarkan kepiting",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) box kardus kemasan berwarna biru yang bergambarkan kepiting",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundel sticker sticker BJU Frozen Mud Crab",
+        "sumber": "saksi UCOK MULYADI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Rekaman CCTV",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah buku asli Jurnal/Mutasi tamu dan kendaraan",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah buku asli Dokumen keluar masuk barang",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundel asli Akte pendirian perusahaan Nomor: 220 tanggal 28 Maret 2011",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kelayakan pengolahan Nomor: 8325/64/SKP/BKIII/2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat HACCP (Hazard Analisisand Critical Conttrol Point) Nomor: 058/PM/HACCP/PB/02/19 tanggal 28 Januari 2019",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kelayakan pengolahan Nomor: 12166/64/SKP/BK/VI/2019 tanggal 19 Juni 2019",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Izin Gangguan Nomor: 002146/ BPM2T/IG/2012 tanggal 25 Juli 2012",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Tanda Daftar Perusahaan Nomor: 37/M-DAG/PER/9/2007 tanggal 4 September 2007",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar asli sertifikat Dinas Penanaman Modal dan Perizinan Terpadu (DPMPT) Nomor: 53/01/R-DPLH/DPMPT tanggal 9 Januari 2019",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) lembar sertifikat eputussan Kepala Dinas Penanaman Modal dan Perizinan Terpadu Kota Balikpapan Nomor 503/01/DPLH/DPMPT tanggal 9 Januari 2019",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Pengesahan Badan Hukum Perseroan Menteri Hukum Dan Hak Asasi Manusia RI Nomor: AHU-19940.AH. 01.01 Tahun 2011",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Surat Keterangan Domisili Nomor 030/KCS/08/2011 tanggal 18 Agustus 2011",
+        "sumber": "Chen Lai Wang"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar asli Pendaftaran Penanaman Modal Nomor 00905/1/ PPM/PMA/2011 tanggal 29 Maret 2011",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar asli Izin Prinsip Penanaman Modal Nomor 22/1/P/I/ PMA/2013 tanggal 11 Januari 2011",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Surat Keterangan terdaftar NPWP Nomor: PEM-4527/WPJ.14/KP.1303/2011 tanggal 12 Juli 2011",
+        "sumber": "PT. Balipapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Kartu asli NPWP Nomor: 03.167.456.7-721.000 tanggal 11 Juli 2011",
+        "sumber": "PT. Balikpapan Jaya"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Pengukuhan Sebagai Wajib Pajak da Wajis Retribusi Daerah Kepala Dinas Pendapatan Daerah Kota Balikpapan Nomor: 31858/SK.KKUH.2/VIII/2012 tanggal 30 Juli 2012",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) kartu asli Pendapatan Daerah NPWP Nomor: 2-0031858-01-01 tanggal 30 Juli 2012",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Izin Usaha Perikanan (IUP) Nomor 503/ 861/IUP/P/DPMPTSP/V/2019 tanggal 16 Mei 2019",
+        "sumber": "Sdr. Mieke Hidayat"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Sertifikat Kelayakan Pengolahan Nomor 6875/64/SKP/BK/VIII/2017 tanggal 3 Agustus 2017 dan tanggal masa berlaku sampai 3 Agustus 2019",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Sertifikat Kelayakan Pengolahan Nomor 8352/64/ SKP/BK/III/2018 tanggal 5 Maret 2018 dan tanggal masa berlaku sampai 5 Maret 2020",
+        "sumber": "PT. Balikpapan Jaya Utama"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) box kardus keemasan berwarna putih yang bergambarkan Keppiting",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "5 (lima) box kardus keemasan berwarna biru yang bergambarkan Keppiting",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundle sticker-sticker BJU Frozen Mud Crab",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Container dengan nomor SZLU 2023440",
+        "sumber": "Dikembalikan kepada PT. Samudera Naga Global melalui Sdr. MASRUKHIN."
+      },
+      {
+        "nama_barang_bukti": "Muatan Container – 645 CARTONS/BOX Kepiting Bertelur",
+        "sumber": "Dirampas untuk Negara."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar surat tugas Nomor 1022/06.0/KI-500/VII/2019",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Surat Keterangan Health Certificate Nomor 0145/SKHC/06 0-00130/2019 tanggal 15 Juli 2019",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Berita Acara Pemeriksaan yang dilakukan Sdr. EDIYONO, S.Pi di Gudang PT. Balikpapan Jaya Utama",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "14 (empat belas) lembar asli lampiran Berita Acara Pemeriksaan yang dilakukan Sdr EDIYONO, S.Pi di gudang PT. Balikpapan Jaya Utama",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) lembar rekapitulasi penerbitan Health Certificate",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar draft Serifikat HC (Health Certificate) pengiriman ke PT. Balikpapan Jaya Utama",
+        "sumber": "Terlampir dalam berkas perkara;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Rekaman CCTV milik PT. Balikpapan Jaya Utama yang berlokasi di Jl. Mulawarman RT 007 Nomor 168 Kel. Teritip Kec. Balikpapan Timur, Kota Balikpapan Prov. Kalimantan Timur",
+        "sumber": "dikembalikan kepada pihak PT. Balikpapan Jaya Utama;"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Dokumen/surat-surat/benda lainnya yang ada hubungannya baik langsung maupun tidak langsung terhadap kegiatan pengiriman kepiting beku yang dimasukkan ke dalam 1 (satu) unit container nomor: SZLU 2023440 antara lain: 1 (satu) buah buku asli Jurnal/Mutasi tamu dan kendaraan",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah buku asli Dokumen keluar masuk barang",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundel asli Akte pendirian perusahaan no: 220 tanggal 28 Maret 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kelayakan pengolahan Nomor 83S2/ 64/SKP/BKIII/2018",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat HACCP (Hazard Analisisand Critical Control Point) Nomor 058/PM/HACCP/PB/02/19 tanggal 28 Januari 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat kelayakan pengolahan Nomor 12166/ 64/SKP/BKA/I/2019 tanggal 19 Juni 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Izin Gangguan Nomor 002146/ BPMP2T/IG/2012 tanggal 25 Juli 2012 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar sertifikat Tanda Daftar Perusahaan Nomor 37/M-DAG/PER/9/2007 tanggal 4 September 2007 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar sertifikat asli Dinas Penanaman Modal dan, Perizinan Terpadu (DPMPT) Nomor 503/01/R-DPLH/DPMPT tanggal 9 Januari 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "5 (lima) lembar sertifikat Keputusan Kepala Dinas Penanaman Modal dan Perizinan Terpadu Kota Balikpapan Nomor 503/01/ DPLH/DPMPT tanggal 9 Januari 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Pengesahan Badan Hukum Perseroan Menteri Hukum Dan Hak Asasi Manusia Republik Indonesia Nomor AHU-19940.AH.01.01.Tahun 2011 tanggal 20 April 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Surat Keterangan Domisili Nomor 030/KCS/08/2011 tanggal 18 Agustus 2011 milik Chen Lai Wang",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "2 (dua) lembar asli Pendaftaran Penanaman Modal Nomor 00905/ 1/PPM/PMA/2011 tanggal 29 Maret 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar asli Izin Prinsip Penanaman Modal Nomor 22/1/IP/I/PMA/2013, Nomor Perusahaan: 03543.2011, NPWP: 03.167.456. 7-721.000 tanggal 11 Januari 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli surat keterangan terdaftar NPWP Nomor PEM- 4527/WPJ.14/KP.1303/2011 tanggal 12 Juli 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) kartu asli NPWP Nomor 03.167.456.7-721.000 tanggal penerbit 11 Juli 2011 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Pengukuhan Sebagai Wajib Pajak dan Wajib Retribusi Daerah Kepala Dinas Pendapatan Daerah Kota Balikpapan Nomor 31858/SK.KUH.2/VII/2012 tanggal 30 Juli 2012 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) kartu asli Pendapatan Daerah NPWP Nomor 2-0031858-01-01 tanggal 30 Juli 2012 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli sertifikat Izin Usaha Perikanan (IUP) Nomor 503/861/IUP-P/DPMPTSP/V/2019 tanggal 16 Mei 2019 milik Sdr. Miekie Hidayat",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Sertifikat Kelayakan Pengolahan Nomor 6875/64/SKP/BK/VIII/2017 tanggal penerbitan 3 Agustus 2017 dan tanggal masa berlaku sampai 3 Agustus 2019 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar asli Sertifikat Kelayakan Pengolahan Nomor 8352/ 64/SKP/BK/III/2018 tanggal penerbitan 5 Maret 2018 dan tanggal masa berlaku sampai 5 Maret 2020 milik PT. BALIKPAPAN JAYA UTAMA",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "5 (lima) box kardus kemasan berwarna putih yang bergambarkan kepiting",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "5 (lima) box kardus kemasan berwarna biru yang bergambarkan kepiting",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bundel sticker sticker BJU Frozen Mud Crab",
+        "sumber": "Dikembalikan kepada pihak PT. BALIKPAPAN JAYA UTAMA."
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Tindak pidana yang dengan sengaja memasukkan, mengeluarkan, mengadakan, mengedarkan dan/atau memelihara ikan yang merugikan masyarakat, pembudidayaan ikan, sumber daya ikan, dan/atau lingkungan sumber daya ikan ke dalam dan/atau ke luar wilayah pengelolaan perikanan Republik Indonesia",
+        "referensi_peraturan": "Pasal 88 Jo. Pasal 16 ayat (1) Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perubahan atas Undang Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Penangkapan dan/atau pengeluaran Kepiting (Scylla spp.) dalam kondisi bertelur atau dengan ukuran lebar karapas dibawah 15 cm atau berat dibawah 200 gram per ekor",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Republik Indonesia Nomor 56/PERMEN-KP/2016 tentang Larangan Penangkapan dan/atau Pengeluaran Lobster (Panulirus spp.), Kepiting (Scylla spp.) dan Ranjungan (Portunus spp.) dari Wilayah Negara Republik Indonesia, Pasal 3 huruf (b)"
+      },
+      {
+        "deskripsi_pelanggaran": "Mengadakan Kepiting (Scylla spp) dari jenis yang dilarang, yaitu Kepiting (Scylla spp) bertelur sebanyak 645 (enam ratus empat puluh lima) Box atau kurang lebih 4,5 ton yang dibeli (diadakan) dari hasil tangkapan nelayan Balikpapan secara bertahap",
+        "referensi_peraturan": "Pasal 88 juncto Pasal 16 Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah diubah dengan Undang-Undang Republik Indonesia Nomor 45 Tahun 2009"
+      },
+      {
+        "deskripsi_pelanggaran": "Mengumpul atau memperoleh kepiting yang terbukti bertelur",
+        "referensi_peraturan": "Pasal 3 huruf (b) dan (d) Peraturan Menteri Kelautan dan Perikanan R I No. 56/PERMEN-KP/2016, tentang Larangan Penangkapan Ikan dan / atau Pengeluaran LOBSTER ( Panulirus spp), KEPITING( Scylla spp) dan RAJUNGAN (Portunus spp) dari wilayah Negara Republik Indonesia"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa Miekie Hidayat bin Kurniawan (Alm) dengan sengaja mengadakan dan mengedarkan kepiting bertelur (Scylla spp) yang dilarang, dengan cara membeli dari nelayan di Balikpapan, menyamarkan kepiting bertelur di bawah kepiting jantan saat verifikasi karantina, dan mengirimkannya ke luar wilayah pengelolaan perikanan Republik Indonesia (WPPRI) menuju Taiwan. Perbuatan ini merugikan sumber daya ikan karena melanggar larangan penangkapan dan/atau pengeluaran kepiting bertelur sesuai Peraturan Menteri Kelautan dan Perikanan Nomor 56/PERMEN-KP/2016, serta memerintahkan pembuangan sisa kepiting bertelur untuk menghindari pengecekan ulang."
+  }
+}

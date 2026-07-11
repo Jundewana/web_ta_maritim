@@ -1,0 +1,251 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.80.000.000,00 (delapan puluh juta rupiah)",
+      "pidana_pengganti": "pidana kurungan selama 3 (tiga) bulan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "kata \"Setiap Orang\" atau \"Hij\" sebagai siapa saja yang harus dijadikan Terdakwa atau Dader atau setiap orang sebagai Subyek Hukum (pendukung hak dan kewajiban) yang dapat diminta pertanggungjawaban dalam segala tindakannya;",
+        "nama_pengadilan": "Mahkamah Agung RI",
+        "nomor_putusan": "1398 K/Pid/1994",
+        "tanggal_putusan": "30 Juni 1995",
+        "tingkat_peradilan": "Mahkamah Agung"
+      }
+    ],
+    "kesimpulan_putusan": "Menyatakan Terdakwa DANG QUOC HOI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana “Melakukan dan Turut serta mengoperasikan kapal penangkap ikan berbendera asing, melakukan penangkapan ikan di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)” sebagaimana dakwaan alternatif Kesatu Penuntut Umum.",
+    "lokasi_pengadilan": "Ranai",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "SUTRIYADI, S.H., M.Si",
+        "R. RONTING, S.H., M.H."
+      ],
+      "hakim_ketua": "MARSELINUS AMBARITA, SH. MH."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Ranai",
+    "nomor_putusan": "4/Pid.Sus-Prk/2020/PN Ran",
+    "panitera_pengganti": "RIZA HARPENI, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-10-05"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) Jo. Pasal 55 ayat (1) ke-1 KUHP",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Atas Undang-Undang Republik Indonesia Nomor 31 Tahun 3004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 85 Jo. Pasal 9 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Atas Undang-Undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 55 ayat (1) ke-1",
+        "peraturan": "KUHP"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Dang Quoc Hoi, selaku Nahkoda KIA BV 93420 TS (kapal penangkap ikan asing berbendera Vietnam), bersama dengan Tung (DPO) Nahkoda KIA BV 93421 TS, pada tanggal 17 Juni 2020, melakukan penangkapan ikan di perairan Laut Natuna/ZEEI Laut Natuna Utara. Kapal Terdakwa terdeteksi oleh Kapal Pengawas KRI Bung Tomo-357, yang kemudian melakukan pengejaran dan pemeriksaan. Saat diperiksa, kapal Terdakwa tidak memiliki Surat Izin Penangkapan Ikan (SIPI) serta surat-surat/dokumen kapal dari pemerintah Indonesia, dan ditemukan alat penangkap ikan berupa jaring Pair Trawl serta ikan hasil tangkapan. Terdakwa mengakui telah melakukan penangkapan ikan sebanyak kurang lebih 10 kali di wilayah tersebut tanpa izin.",
+      "lokasi_kejadian": "perairan Laut Natuna/ZEEI Laut Natuna Utara pada posisi 06° 06' 80\" U-106° 42' 60\" T",
+      "tanggal_kejadian": "2020-06-17"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Nahkoda KIA BV 93420 TS",
+        "nama": "DANG QUOC HOI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) buah KIA BV 93420 TS jenis kayu beserta muatan dan alat kelengkapannya",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Mesin Pokok Kapal (MPK) merk HINO 10 silinder",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Kompas",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang HGP-660 series",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Marine Navigator Sunhang SH-1098",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom Any Tone",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom IC-707",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Super Star SS-2400 Plus",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Alat penangkap ikan Pair trawls",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) ekor ikan yang sudah dikeringkan",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Bendera Vietnam",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah KIA BV 93420 TS Jenis Kayu",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Mesin Pokok Kapal (MPK) Merk HINO 10 Silinder",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Kompas",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS HGP-660 Series",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Marine Navigator Sunhang SH-1098",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom Any Tone",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom IC-707",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Super Star SS-2400 Plus",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set Alat penangkap ikan (Pair Trawls)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) ekor ikan yang sudah dikeringkan",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Bendera Vietnam",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah KIA BV 93420 TS jenis kayu beserta muatan dan alat kelengkapannya",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Mesin Pokok Kapal (MPK) merk HINO 10 silinder",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Kompas",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang HGP-660 series",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Marine Navigator Sunhang SH-1098",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom Any Tone",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom IC-707",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Super Star SS-2400 Plus",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Alat penangkap ikan Pair trawls",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) ekor ikan yang sudah dikeringkan",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Bendera Vietnam",
+        "sumber": "dikembalikan kepada Pemerintah Vietnam"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah KIA BV 93420 TS jenis kayu beserta muatan dan alat kelengkapannya",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Mesin Pokok Kapal (MPK) merk HINO 10 silinder",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Kompas",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang HGP-660 series",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Marine Navigator Sunhang SH-1098",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom Any Tone",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom IC-707",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Super Star SS-2400 Plus",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Alat penangkap ikan Pair trawls",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) ekor ikan yang sudah dikeringkan",
+        "sumber": "dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Bendera Vietnam",
+        "sumber": "Dikembalikan kepada pemerintah Vietnam melalui Terdakwa DANG QUOC HOI"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "melakukan pengoperasian kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) UU Nomor 45 Tahun 2009 tentang Perubahan atas UU Nomor 31 Tahun 2004 tentang Perikanan Jo Pasal 102 UU Nomor 31 Tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP."
+      },
+      {
+        "deskripsi_pelanggaran": "memiliki, menguasai, membawa, dan atau menggunakan alat penangkap ikan dan atau alat bantu penangkapan ikan yang mengganggu dan merusak keberlanjutan sumber daya ikan Di Wilayah Pengelolaan Perikanan Negara Republik Indonesia",
+        "referensi_peraturan": "Pasal 85 Jo Pasal 9 UU Nomor 45 Tahun 2009 tentang Perubahan atas UU Nomor 31 Tahun 2004 tentang Perikanan Jo Pasal 102 Jo UU Nomor 31 Tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP."
+      }
+    ],
+    "perbuatan_terdakwa": "Melakukan dan Turut serta mengoperasikan kapal penangkap ikan berbendera asing, melakukan penangkapan ikan di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)"
+  }
+}

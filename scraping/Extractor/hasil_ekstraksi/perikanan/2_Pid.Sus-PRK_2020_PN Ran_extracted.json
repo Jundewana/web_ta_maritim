@@ -1,0 +1,123 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.100.000.000,00",
+      "pidana_pengganti": "Tidak ada",
+      "pidana_penjara": "Tidak ada"
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "kata \"setiap orang\" atau \"hij\" sebagai siapa saja yang harus dijadikan Terdakwa atau dader atau setiap orang sebagai subyek hukum (pendukung hak dan kewajiban) yang dapat diminta pertanggungjawaban dalam segala tindakannya; Menimbang, bahwa dengan demikian perkataan \"setiap orang\" secara historis kronologis manusia sebagai subyek hukum telah dengan sendirinya ada kemampuan bertanggung jawab kecuali secara tegas Undang-Undang menentukan lain;",
+        "nama_pengadilan": "Mahkamah Agung RI",
+        "nomor_putusan": "1398 K/Pid/1994",
+        "tanggal_putusan": "30 Juni 1995",
+        "tingkat_peradilan": "Mahkamah Agung"
+      }
+    ],
+    "kesimpulan_putusan": "Menyatakan Terdakwa NGUYEN VAN QUAN bersalah melakukan tindak pidana \"Turut serta mengoperasikan kapal penangkap ikan berbendera asing di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)\" dan menjatuhkan pidana denda sebesar Rp.100.000.000,00 (seratus juta rupiah). Barang bukti berupa penutup palka dimusnahkan, sementara video, foto, dan berita acara kejadian tetap terlampir dalam berkas perkara. Terdakwa dibebankan membayar biaya perkara sebesar Rp.5.000,00.",
+    "lokasi_pengadilan": "Ranai",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "SUGENG SULISTIAWAN, S.H.",
+        "Ir. UNTUNG SUNARDI, M.M."
+      ],
+      "hakim_ketua": "NANANG DWI KRISTANTO, SH. M. Hum."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Ranai",
+    "nomor_putusan": "2/Pid.Sus-Prk/2020/PN Ran",
+    "panitera_pengganti": "ERA TRISNAWATI, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-05-19"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2)",
+        "peraturan": "UU RI Nomor 45 Tahun 2009 tentang Perubahan atas UU RI No. 31 Tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP"
+      },
+      {
+        "pasal": "Pasal 85 jo Pasal 9",
+        "peraturan": "Undang-Undang RI Nomor 45 Tahun 2009 tentang perubahan atas Undang-Undang RI Nomor 31 tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP"
+      },
+      {
+        "pasal": "Pasal 93 ayat (2) jo Pasal 27 ayat (2)",
+        "peraturan": "Undang-Undang RI Nomor 45 Tahun 2009 tentang perubahan atas Undang-Undang RI Nomor 31 tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Kamis tanggal 26 Desember 2019, KRI Tjiptadi-381 mendeteksi dua kapal ikan asing, termasuk KIA One United Labuan 45 (BT 95999 TS) yang dinahkodai Terdakwa NGUYEN VAN QUAN, sedang melakukan penangkapan ikan secara ilegal di Zona Ekonomi Eksklusif Indonesia (ZEEI) perairan Natuna. Saat didekati, kapal-kapal tersebut berusaha melarikan diri. KRI Tjiptadi-381 mengejar KIA One United Labuan 45, yang mengalami kebakaran saat pengejaran. Setelah api berhasil dipadamkan, kapal tersebut diperiksa dan ditemukan tidak memiliki dokumen perizinan penangkapan ikan dari Pemerintah Indonesia. Kapal tersebut kemudian ditunda menuju Lanal Ranai, namun mengalami kebakaran kembali dan tenggelam pada 27 Desember 2019. Terdakwa dan ABK dibawa untuk proses hukum lebih lanjut.",
+      "lokasi_kejadian": "Perairan Laut Natuna, Zona Ekonomi Eksklusif Indonesia (ZEEI), pada posisi koordinat 04° 33' 25\" LU - 109° 16' 01\" BT",
+      "tanggal_kejadian": "2019-12-26"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Tien Giang; Umur/Tanggal lahir: 40 Tahun/ 26 Juli 1980; Jenis kelamin : Laki-laki; Kebangsaan : Vietnam; Tempat tinggal : Noi DKHK, Ap Bac 1, Xa Tan Dien, Huyen Go Cong Dong, Tinh Tien Giang, Vietnam / Kantor Kejaksaan Negeri Natuna; Agama : Budha; Pekerjaan : Nahkoda KIA One United Labuan 45 (BT 95999 TS); Pendidikan : Kelas 5",
+        "nama": "NGUYEN VAN QUAN"
+      },
+      {
+        "identitas_tambahan": "Nahkoda Kapal ikan asing BT 79789 TS (DPO); Warga Negara Vietnam",
+        "nama": "TRUONG DUC DUY"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) buah penutup palka bagian dalam dari kapal KIA One United Labuan 45 (BT 95999 TS) yang telah terbakar pada saat proses Pengawalan oleh KRI Tjiptadi-381",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "Video kejadian terbakar/tenggelamnya KIA One United Labuan 45 (BT 95999 TS)",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "Foto kejadian terbakar/tenggelamnya KIA One United Labuan 45 (BT 95999 TS)",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "Berita Acara Kejadian terbakar/tengggelamnya KIA One United Labuan 45 (BT 95999 TS). Pada saat proses pengawalan oleh KRI Tjiptadi-381",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "ikan campuran sekira kurang lebih satu palka",
+        "sumber": "palka KIA One United Labuan 45 (BT 95999 TS)"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Vidio kejadian terbakar/tenggelamnya KIA One United Labuan 45 (BT 95999 TS)",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Foto kejadian terbakar/tenggelamnya KIA One United Labuan 45 (BT 95999 TS)",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "Berkas Berita Acara Kejadian terbakar/tenggelamnya KIA One United Labuan 45 (BT 95999 TS) pada saat proses pengawalan oleh KRI Tjiptadi-381",
+        "sumber": "persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) penutup palka bagian dari kapal KIA One United Labuan 45 (BT 95999 TS) yang telah terbakar pada saat proses pengawalan oleh KRI Tjiptadi-381",
+        "sumber": "persidangan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Telah melakukan, menyuruh melakukan, atau turut serta melakukan perbuatan, memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki SIPI",
+        "referensi_peraturan": "pasal 27 ayat (2) UU RI No. 45 tahun 2009 tentang Perubahan atas Undang-Undang Nomor 31 tahun 2004 tentang Perikanan sebagaimana pada dakwaan Kedua Pasal 93 ayat (2) Jo Pasal 27 ayat (2) UU RI Nomor 45 Tahun 2009 tentang Perubahan atas UU RI No. 31 Tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "telah melakukan, menyuruh melakukan, atau turut serta melakukan, perbuatan, dengan sengaja memiliki, menguasai, membawa, dan atau menggunakan alat penangkap ikan dan atau alat bantu penangkapan ikan yang mengganggu dan merusak keberlanjutan sumber daya ikan di kapal penangkap ikan di wilayah pengelolaan perikanan Negara Republik Indonesia",
+        "referensi_peraturan": "Pasal 9 UU RI No. 49 tahun 2009 tentang Perubahan atas Undang – Undang Nomor 31 tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki SIPI",
+        "referensi_peraturan": "Pasal 27 ayat (2) UU RI No. 45 tahun 2009 tentang Perubahan atas Undang-Undang Nomor 31 tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "mengoperasikan kapal penangkap ikan berbendera asing di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 Ayat (2) Jo Pasal 27 Ayat (2) Undang-undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan sebagaimana telah dirubah dengan Undang-undang Republik Indonesia Nomor 45 Tahun 2009 Jo Pasal 55 ayat (1) ke-1 Kitab Undang-Undang Hukum Pidana"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa NGUYEN VAN QUAN terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Turut serta mengoperasikan kapal penangkap ikan berbendera asing di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)\"."
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp100.000.000,00",
+      "pidana_pengganti": "3 (tiga) bulan kurungan",
+      "pidana_penjara": "3 (tiga) tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Mei 2016",
+        "tanggal_selesai": "30 Mei 2016"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "1 Juni 2016",
+        "tanggal_selesai": "10 Juli 2016"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Juli 2016",
+        "tanggal_selesai": "30 Juli 2016"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri",
+        "jenis_penetapan": "Hakim Pengadilan Negeri",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "25 Juli 2016",
+        "tanggal_selesai": "23 Agustus 2016"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Perpanjangan oleh Ketua Pengadilan Negeri",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "25 Agustus 2016",
+        "tanggal_selesai": "22 Oktober 2016"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Tinggi",
+        "jenis_penetapan": "Hakim Pengadilan Tinggi",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "18 Oktober 2016",
+        "tanggal_selesai": "16 November 2016"
+      },
+      {
+        "instansi_penetap": "Wakil Ketua Pengadilan Tinggi",
+        "jenis_penetapan": "Perpanjangan Wakil Ketua Pengadilan Tinggi",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": null,
+        "tanggal_mulai": "17 November 2016",
+        "tanggal_selesai": "15 Januari 2017"
+      },
+      {
+        "instansi_penetap": "Ketua Mahkamah Agung Republik Indonesia u.b. Ketua Kamar Pidana",
+        "jenis_penetapan": "Penetapan Ketua Mahkamah Agung Republik Indonesia u.b. Ketua Kamar Pidana",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": "269/2017/965 K/Pid.Sus/PP/2017/MA",
+        "tanggal_mulai": "25 Januari 2017",
+        "tanggal_selesai": null
+      },
+      {
+        "instansi_penetap": "Ketua Mahkamah Agung Republik Indonesia u.b. Ketua Kamar Pidana",
+        "jenis_penetapan": "Penetapan Ketua Mahkamah Agung Republik Indonesia u.b. Ketua Kamar Pidana",
+        "lokasi_penetapan": "Rumah Tahanan Negara (Rutan)",
+        "nomor_surat": "270/2017/965 K/Pid.Sus/PP/2017/MA",
+        "tanggal_mulai": "16 Maret 2017",
+        "tanggal_selesai": null
+      }
+    ],
+    "histori_putusan_sebelumnya": [
+      {
+        "amar_putusan": "1. Menyatakan Terdakwa Taufik Arrahman bin Asnir telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana :\n   - Berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar;\n   - Mengangkut barang khusus dan barang berbahaya tidak sesuai persyaratan;\n2. Menjatuhkan pidana kepada Terdakwa oleh karena itu dengan pidana penjara selama 3 (tiga) tahun dan denda sebesar Rp100.000.000,00 (seratus juta rupiah) dengan ketentuan jika denda tidak dibayar maka diganti dengan pidana kurungan selama 3 (tiga) bulan ;\n3. Menetapkan masa penangkapan dan penahanan yang telah dijalani Terdakwa dikurangkan seluruhnya dari lamanya pidana yang dijatuhkan;\n4. Memerintahkan Terdakwa tetap ditahan;\n5. Menetapkan barang bukti berupa :\n   - Kapal MT Limindo Jaya 2 beserta perlengkapannya;\n   - Pemadam Kebakaran C 02 1 (satu) buah (tidak diterima);\n   - Peralatan Keselamatan Life Bouy 4 buah, Life Raft (tidak diterima) 5 (lima) buah Alat Navigasi SI-30 Universal Air Identifikasi System;\n   - Gps Furono GP 32 1(satu) unit;\n   - VHF STR Marine 6000 A 1 unit, LDT 2 unit teropong 1(satu) unit;\nDirampas untuk Negara ;\n- Crude Oil 375 ton tanpa dokumen;\nDirampas untuk Negara c.q. SKK Migas melalui PT.Pertaminan RU III ;\n6. Membebankan kepada Terdakwa untuk membayar biaya perkara sejumlah\nRp2.500,00 (dua ribu lima ratus rupiah);",
+        "nama_pengadilan": "Palembang",
+        "nomor_putusan": "1096/Pid.Sus/2016/PN.Plg",
+        "tanggal_putusan": "17 Oktober 2016",
+        "tingkat_peradilan": "Pengadilan Negeri"
+      },
+      {
+        "amar_putusan": "1. Menerima permintaan banding dari Jaksa Penuntut Umum dan Penasihat Hukum Terdakwa; 2. Menguatkan Putusan Pengadilan Negeri Palembang, tanggal 17 Oktober 2016 Nomor 1096/Pid.Sus/2016/PN.Plg., yang dimintakan banding tersebut ; 3. Menetapkan masa penangkapan dan penahanan yang telah dijalankan Terdakwa dikurangkan seluruhnya dari pidana yang dijatuhkan; 4. Menetapkan Terdakwa tetap berada dalam tahanan ; 5. Membebankan Terdakwa untuk membayar biaya perkara dalam kedua tingkat peradilan yang dalam tingkat banding ditetapkan sebesar Rp2.000,00 (dua ribu rupiah)",
+        "nama_pengadilan": "Pengadilan Tinggi Palembang",
+        "nomor_putusan": "169/PID/2016/PT.PLG.",
+        "tanggal_putusan": "16 Desember 2016",
+        "tingkat_peradilan": "Pengadilan Tinggi"
+      },
+      {
+        "amar_putusan": "Putusan Pengadilan Negeri Palembang yang dimintakan banding tersebut dikuatkan oleh Pengadilan Tinggi Palembang.",
+        "nama_pengadilan": "Pengadilan Negeri Palembang",
+        "nomor_putusan": "1096/Pid.Sus/2016/PN.Plg.",
+        "tanggal_putusan": "17 Oktober 2016",
+        "tingkat_peradilan": "Pengadilan Negeri"
+      }
+    ],
+    "kesimpulan_putusan": "Mahkamah Agung menolak permohonan kasasi dari Pemohon Kasasi I/Penuntut Umum dan Pemohon Kasasi II/Terdakwa TAUFIK ARAHMAN Bin ASNIR. Putusan Judex Facti (Pengadilan Tinggi Palembang) yang menguatkan Putusan Pengadilan Negeri Palembang dianggap tidak bertentangan dengan hukum dan/atau undang-undang. Terdakwa dibebani untuk membayar biaya perkara dalam tingkat kasasi.",
+    "lokasi_pengadilan": null,
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Dr. Salman Luthan, S.H., M.H.",
+        "Dr. H. Suhadi, S.H., M.H."
+      ],
+      "hakim_ketua": "Dr. Artidjo Alkostar, S.H., LLM."
+    },
+    "nama_pengadilan": "MAHKAMAH AGUNG",
+    "nomor_putusan": "965 K/Pid.Sus/2017",
+    "panitera_pengganti": "Agustina Dyah Prasetyaningsih, S.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": null,
+        "gelar": null,
+        "kantor_hukum": null,
+        "nama": null,
+        "tanggal_surat_kuasa": "23 Januari 2017"
+      }
+    ],
+    "tanggal_putusan": "2017-05-12"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 323 Ayat (1)",
+        "peraturan": "Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "302 Ayat (1)",
+        "peraturan": "Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 294 Ayat (1)",
+        "peraturan": "Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Selasa tanggal 10 Mei 2016 sekitar pukul 11.30 WIB, tim patroli TNI AL menemukan Kapal MT. Limindo Djaya-2 di perairan Muara Sungai Sembilang. Setelah diperiksa, Terdakwa sebagai Nakhoda tidak dapat menunjukkan dokumen kapal yang lengkap dan sah, termasuk Surat Persetujuan Berlayar, dan dokumen kapal lainnya sudah kadaluwarsa. Terdakwa juga mengakui memberangkatkan kapal dengan buru-buru tanpa mengecek alat navigasi dan mengetahui alat pencemaran air laut tidak berfungsi/rusak. Selain itu, Terdakwa mengangkut bahan berbahaya berupa minyak bumi Crude Oil tanpa dilengkapi persyaratan dan tanda-tanda tertentu.",
+      "lokasi_kejadian": "01 52' 27' LS - 104 54' 15\" BT atau sekitar Perairan Muara Sungai Sembilang",
+      "tanggal_kejadian": "10 Mei 2016"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Belawan; Umur/tanggal lahir: 30 tahun/9 Mei 1985; Jenis kelamin: Laki-laki; Kewarganegaraan: Indonesia; Tempat tinggal: Batu Aji, Komplek Garden 2, Batam; Agama: Islam; Pekerjaan: Pelaut/Nakhoda MT Limindo Djaya 2; (Almarhum)",
+        "nama": "TAUFIK ARAHMAN Bin ASNIR"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "Crude Oil 375 ton tanpa Dokumen",
+        "sumber": "Negara c.q. SKK Migas melalui Pertamina RU III"
+      },
+      {
+        "nama_barang_bukti": "Crude Oil 375 ton tanpa dokumen",
+        "sumber": "Negara c.q. SKK Migas melalui PT.Pertaminan RU III"
+      },
+      {
+        "nama_barang_bukti": "Kapal MT Limindo Jaya 2 beserta perlengkapannya",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Pemadam Kebakaran C 02 1 (satu) buah",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Peralatan Keselamatan Life Bouy 4 buah, Life Raft (tidak diterima) Life Jacket 5 (lima) buah, Alat Navigasi SI-30 Universal Air Identifikasi System",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "GPS Purono GP 32 1 (satu) unit",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "VHF STR Marine 6000 A 1 Unit, LDT 2 unit teropong 1(satu) unit",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Kapal MT Limindo Jaya 2 beserta perlengkapannya",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Pemadam Kebakaran C 02 1 (satu) buah (tidak diterima)",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Peralatan Keselamatan Life Bouy 4 buah, Life Raft (tidak diterima) 5 (lima) buah Alat Navigasi SI-30 Universal Air Identifikasi System",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "Gps Furono GP 32 1(satu) unit",
+        "sumber": "doc_1"
+      },
+      {
+        "nama_barang_bukti": "VHF STR Marine 6000 A 1 unit, LDT 2 unit teropong 1(satu) unit",
+        "sumber": "doc_1"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Nakhoda berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar",
+        "referensi_peraturan": "Pasal 219 ayat (1)"
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tidak dapat menunjukkan dokumen kapal berupa Surat Pemberitahuan Ijin Berlayar dari Syahbandar",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tidak dapat menunjukkan dokumen kapal berupa Buku Sijil",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tidak dapat menunjukkan dokumen kapal berupa Buku Kesehatan dari Karantina",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tidak dapat menunjukkan dokumen kapal berupa Cru list dari Syahbandar",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Dokumen Kapal berupa Surat Laut, Surat Ukur Internasional, Surat Garis Muat Kapal, Sertifikat Keselamatan Konstruksi Kapal Barang, Sertifikat Keselamatan Radio Kapal Barang hanya berupa fotokopi dan sudah kadaluwarsa (expire)",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Surat/Sertifikat Pencemaran Laut tidak ada di atas kapal",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tidak mengecek alat navigasi",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Alat pencemaran air laut tidak berfungsi/rusak",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tetap memberangkatkan kapal untuk berlayar meskipun dokumen tidak lengkap dan alat pencemaran air laut rusak",
+        "referensi_peraturan": null
+      },
+      {
+        "deskripsi_pelanggaran": "Melakukan perbuatan yang diatur dan diancam pidana",
+        "referensi_peraturan": "Pasal 323 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Nakhoda tidak dapat menunjukkan dokumen kapal berupa Surat Pemberitahuan Ijin Berlayar dari Syahbandar, Buku Sijil, Buku Kesehatan dari Karantina, Cru List dari Syahbandar",
+        "referensi_peraturan": "Pasal 302 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Dokumen kapal berupa Surat Laut, Surat Ukur Internasional, Surat Garis Muat Kapal, Sertifikat Keselamatan Konstruksi Kapal Barang, Sertifikat Keselatamatan Radio Kapal Barang hanya berupa fotokopi dan sudah kadaluwarsa (expire)",
+        "referensi_peraturan": "Pasal 302 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Surat/sertifikat pencemaran laut tidak ada di atas kapal",
+        "referensi_peraturan": "Pasal 302 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Terdakwa tidak mengecek lagi mengenai alat navigasi",
+        "referensi_peraturan": "Pasal 302 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Alat pencemaran air laut ada tetapi tidak berfungsi/rusak. Akan tetapi Terdakwa sebagai Nakhoda tetap memberangkatkan kapal untuk berlayar",
+        "referensi_peraturan": "Pasal 302 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Terdakwa sebagai Nakhoda tidak dapat menunjukkan dokumen kapal berupa Surat Pemberitahuan Ijin Berlayar dari Syahbandar, Buku Sijil, Buku Kesehatan dari Karantina, Cru List dari Syahbandar sedangkan dokumen kapal berupa Surat Laut, Surat Ukur Internasional, Surat Garis Muat Kapal, Sertifikat Keselamatan Konstruksi Kapal Barang, Sertifikat Keselatamatan Radio Kapal Barang hanya berupa fotokopi dan sudah kadaluwarsa (expire) termasuk surat/sertifikat pencemaran laut tidak ada di atas kapal.",
+        "referensi_peraturan": "Pasal 294 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Alat pencemaran air laut ada tetapi tidak berfungsi/rusak akan tetapi Terdakwa sebagai Nakhoda tetap memberangkatkan kapal untuk berlayar.",
+        "referensi_peraturan": "Pasal 294 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Terdakwa mengangkut bahan berbahaya berupa minyak bumi Crued Oil tidak dilengkapi dengan persyaratan dan tanda-tanda tertentu terhadap barang berbahaya yang diangkut.",
+        "referensi_peraturan": "Pasal 294 Ayat (1) Undang-Undang Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa TAUFIK ARAHMAN Bin ASNIR sebagai Nakhoda Kapal MT. Limindo Djaya-2 berlayar tanpa memiliki Surat Persetujuan Berlayar yang dikeluarkan oleh Syahbandar, melayarkan kapal yang tidak layak laut (dokumen kadaluwarsa, alat pencemaran air laut rusak), dan mengangkut barang berbahaya (minyak bumi Crude Oil 375 ton) tidak sesuai dengan persyaratan."
+  }
+}

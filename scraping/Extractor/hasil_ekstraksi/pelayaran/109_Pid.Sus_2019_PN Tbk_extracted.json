@@ -1,0 +1,542 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": null,
+      "pidana_pengganti": null,
+      "pidana_penjara": "1 (satu) bulan"
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa ALWI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"PELAYARAN\" sebagaimana dalam dakwaan tunggal.",
+    "lokasi_pengadilan": "Tanjung Balai Karimun",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Agus Soetrisno, SH",
+        "Renny Hidayati, SH"
+      ],
+      "hakim_ketua": "Bambang Setyawan, SH.MH"
+    },
+    "nama_pengadilan": "Pengadilan Negeri Tanjung Balai Karimun",
+    "nomor_putusan": "109/Pid.Sus/2019/PN Tbk",
+    "panitera_pengganti": "Tiurma Melvaria Sitompul, SH.MH",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jalan DI. Panjaitan Komplek Bintan Center Blok A No. 45 Tanjung Pinang-Kepulauan Riau",
+        "gelar": "SH.MH",
+        "kantor_hukum": "Law Office RIO IRWAN SAPUTRA & PARTNERS",
+        "nama": "RIO IRWAN SAPUTRA",
+        "tanggal_surat_kuasa": "8 Mei 2019"
+      },
+      {
+        "alamat_kantor": "Jalan DI. Panjaitan Komplek Bintan Center Blok A No. 45 Tanjung Pinang-Kepulauan Riau",
+        "gelar": "SH",
+        "kantor_hukum": "Law Office RIO IRWAN SAPUTRA & PARTNERS",
+        "nama": "SYUKRIANTO",
+        "tanggal_surat_kuasa": "8 Mei 2019"
+      }
+    ],
+    "tanggal_putusan": "2019-06-26"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "305 Ayat (1) Jo. Pasal 130 Ayat (1) jo pasal 126 ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa ALWI, Nakhoda KLM. TRI PUTRA II, berlayar dari Kuala Gaung menuju Batu Pahat Malaysia. Pada tanggal 05 Januari 2019, kapal tersebut dicegat oleh tim KRI Lepu - 861 di perairan Pulau Kundur. Setelah diperiksa, ditemukan bahwa kapal tidak memenuhi persyaratan keselamatan karena jumlah pelampung yang ada (10 buah) tidak sesuai dengan yang tertera di sertifikat keselamatan kapal (seharusnya 12 buah). Terdakwa kemudian dibawa ke Lanal Tanjung Balai Karimun untuk pemeriksaan lebih lanjut.",
+      "lokasi_kejadian": "Perairan Pulau Kundur, pada posisi 00° 33' 980\" U - 103°19'828\"T",
+      "tanggal_kejadian": "2019-01-05"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir: Teluk Pinang, Umur/tanggal lahir: 48 Tahun / 14 Juni 1971, Jenis kelamin: Laki-laki, Kebangsaan: Indonesia, Tempat tinggal: Jl. Gambus RT. 03 RW. 01 Teluk Pinang Kecamatan Gaung Anak Serka Kabupaten Indragiri Hilir, Agama: Islam, Pekerjaan: Nakhoda KLM. Tri Putra II",
+        "nama": "ALWI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "Kapal KLM. Tri Putra II 96 GT Warna Coklat",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "SPB No. C.6/KM.62/03/I/2019 Tanggal 04 Januari 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Pas Besar Sementara",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Surat Ukur Dalam Negeri Sementara No. 1252/Ppe s.d tanggal 27 Maret 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Kapal No. PK 001/56/KSOP/-SLP.2018 s.d 27 Maret 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Sertifikat bebas tindakan sanitasi s.d tanggal 27 Maret 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Sertifikat keselamatan radio kapal barang s.d 27 Maret 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Surat izin trayek Nomor 1389/DISHUB-RIAU/2018 tanggal 10 Oktober 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan pengawakan Minuman Nomor PK 304/7/17/KSOP.KE- 18 s.d 03 Maret 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "SIUUPER NO. AL.003.B.25/DPHB tanggal 03 April 2002",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Perjanjian Kerja Laut",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Buku Sijil",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Buku Kesehatan",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Crew List",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Manifest",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Nota Pelayaran Ekspor (NPE)",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Pemberitahuan Ekspor Barang",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Invoice",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Packing List",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Bill of Lading",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Dokumen Personil",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Muatan Kelapa 120.000 kg",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Muatan Arang 30.000 kg",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "Kapal KLM. Tri Putra II 96 GT Warna Coklat",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "SPB No. C.6/KM.62/03/1/2019 Tanggal 04 Januari 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar Sementara",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Surat Ukur Dalam Negeri Sementara No. 1252/Ppe s.d tanggal 27 Maret 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Kapal No. PK 001/56/KSOP/-SLP.2018 s.d 27 Maret 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat bebas tindakan sanitasi s.d tanggal 27 Maret 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat keselamatan radio kapal barang s.d 27 Maret 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Surat izin trayek Nomor 1389/DISHUB-RIAU/2018 tanggal 10 Oktober 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan pengawakan Minuman Nomor PK 304/7/17/KSOP.KE- 18 s.d 03 Maret 2019",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "SIUUPER NO. AL.003.B.25/DPHB tanggal 03 April 2002",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Perjanjian Kerja Laut",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Buku Sijil",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Buku Kesehatan",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Crew List",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Manifest",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Nota Pelayaran Ekspor (NPE)",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Pemberitahuan Ekspor Barang",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Invoice",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Packing List",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Bill of Lading",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Dokumen Personil",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Muatan Kelapa 120.000 kg",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Muatan Arang 30.000 kg",
+        "sumber": "Putusan Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "Kapal KLM. Tri Putra II 96 GT Warna Coklat",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "SPB No. C.6/KM.62/03/I/2019 Tanggal 04 Januari 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar Sementara",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat Ukur Dalam Negeri Sementara No. 1252/Ppe s.d tanggal 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Kapal No. PK 001/56/KSOP/-SLP.2018 s.d 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat bebas tindakan sanitasi s.d tanggal 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat keselamatan radio kapal barang s.d 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat izin trayek Nomor 1389/DISHUB-RIAU/2018 tanggal 10 Oktober 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan pengawakan Minuman Nomor PK 304/7/17/KSOP.KE- 18 s.d 03 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "SIUUPER NO. AL.003.B.25/DPHB tanggal 03 April 2002",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Perjanjian Kerja Laut",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Buku Sijil",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Buku Kesehatan",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Crew List",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Manifest",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Nota Pelayaran Ekspor (NPE)",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Pemberitahuan Ekspor Barang",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Invoice",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Packing List",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Bill of Lading",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Dokumen Personil",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Muatan Kelapa 120.000 kg",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Muatan Arang 30.000 kg",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Kapal KLM. Tri Putra II 96 GT Warna Coklat",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "SPB No. C.6/KM.62/03/I/2019 Tanggal 04 Januari 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar Sementara",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat Ukur Dalam Negeri Sementara No. 1252/Ppe s.d tanggal 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Kapal No. PK 001/56/KSOP/-SLP.2018 s.d 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat bebas tindakan sanitasi s.d tanggal 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat keselamatan radio kapal barang s.d 27 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat izin trayek Nomor 1389/DISHUB-RIAU/2018 tanggal 10 Oktober 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan pengawakan Minuman Nomor PK 304/7/17/KSOP.KE- 18 s.d 03 Maret 2019",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "SIUUPER NO. AL.003.B.25/DPHB tanggal 03 April 2002",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Perjanjian Kerja Laut",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Buku Sijil",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Buku Kesehatan",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Crew List",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Manifest",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Nota Pelayaran Ekspor (NPE)",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Pemberitahuan Ekspor Barang",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Invoice",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Packing List",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Bill of Lading",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Dokumen Personil",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Muatan Kelapa 120.000 kg",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Muatan Arang 30.000 kg",
+        "sumber": "Dokumen"
+      },
+      {
+        "nama_barang_bukti": "Kapal KLM. Tri Putra II 96 GT Warna Coklat",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "SPB No. C.6/KM.62/03/I/2019 Tanggal 04 Januari 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Pas Besar Sementara",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Surat Ukur Dalam Negeri Sementara No. 1252/Ppe s.d tanggal 27 Maret 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat Keselamatan Kapal No. PK 001/56/KSOP/-SLP.2018 s.d 27 Maret 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat bebas tindakan sanitasi s.d tanggal 27 Maret 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Sertifikat keselamatan radio kapal barang s.d 27 Maret 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Surat izin trayek Nomor 1389/DISHUB-RIAU/2018 tanggal 10 Oktober 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan pengawakan Minuman Nomor PK 304/7/17/KSOP.KE-18 s.d 03 Maret 2019",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "SIUUPER NO. AL.003.B.25/DPHB tanggal 03 April 2002",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Perjanjian Kerja Laut",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Buku Sijil",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Buku Kesehatan",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Crew List",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Manifest",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Nota Pelayaran Ekspor (NPE)",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Pemberitahuan Ekspor Barang",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Invoice",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Packing List",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Bill of Lading",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Dokumen Personil",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Muatan Kelapa 120.000 kg",
+        "sumber": "pemiliknya melalui Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "Muatan Arang 30.000 kg",
+        "sumber": "pemiliknya melalui Terdakwa"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "setiap orang yang tidak memelihara kapalnya sehingga tidak memenuhi sesuai persyaratan keselamatan kapal",
+        "referensi_peraturan": "Pasal 305 ayat (1) jo Pasal 130 ayat (1) jo Pasal 126 ayat (1) UU No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Tidak disertai surat izin trayek luar negeri",
+        "referensi_peraturan": "pasal 27 UU pelayaran No. 17 tahun 2008 jo pasal 290 UU Pelayaran No. 17 tahun 2008 tentang perizinan angkutan"
+      },
+      {
+        "deskripsi_pelanggaran": "Diduga dokumen-dokumen kapal palsu",
+        "referensi_peraturan": "pasal 126 (1) UU Pelayaran No. 17 tahun 2008, jo pasal 302 (1) UU Pelayaran No. 17 tahun 2008 tentang keselamatan kapal"
+      },
+      {
+        "deskripsi_pelanggaran": "Muatan diduga melebihi kapasitas (Over draft)",
+        "referensi_peraturan": "pasal 117 (2d) UU pelayaran No. 17 tahun 2008 tentang keselamatan angkutan perairan"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa ALWI sebagai Nakhoda KLM. Tri Putra II tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan kapal, yaitu jumlah pelampung tidak sesuai dengan sertifikat keselamatan kapal."
+  }
+}

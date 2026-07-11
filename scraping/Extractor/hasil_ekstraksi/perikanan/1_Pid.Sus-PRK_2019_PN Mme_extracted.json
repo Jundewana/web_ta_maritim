@@ -1,0 +1,136 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp 100.000.000,00",
+      "pidana_pengganti": "3 bulan kurungan/penjara",
+      "pidana_penjara": "1 tahun 5 bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara Kelas II B Maumere",
+        "nomor_surat": "SP Han/07/V/2019/Ditpoldarud",
+        "tanggal_mulai": "03 Mei 2019",
+        "tanggal_selesai": "22 Mei 2019"
+      },
+      {
+        "instansi_penetap": "Kepala Kejaksaan Tinggi NTT Asisten Tindak Pidana Umum selaku Penuntut Umum",
+        "jenis_penetapan": "Diperpanjang oleh Kepala Kejaksaan Tinggi NTT Asisten Tindak Pidana Umum selaku Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara Kelas II B Maumere",
+        "nomor_surat": "B-44/N.3.4/Eku.1/05/2019",
+        "tanggal_mulai": "23 Mei 2019",
+        "tanggal_selesai": "01 Juni 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara Kelas II B Maumere",
+        "nomor_surat": "PRINT-167/N.3.15/Eku.2/05/2019",
+        "tanggal_mulai": "27 Mei 2019",
+        "tanggal_selesai": "05 Juni 2019"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri",
+        "jenis_penetapan": "Perpanjangan oleh Ketua Pengadilan Negeri",
+        "lokasi_penetapan": "Rumah Tahanan Negara Kelas II B Maumere",
+        "nomor_surat": "50/Pen.Pid/2019/PN Mme",
+        "tanggal_mulai": "06 Juni 2019",
+        "tanggal_selesai": "15 Juni 2019"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Majelis Hakim Pengadilan Negeri Maumere",
+        "lokasi_penetapan": "Rumah Tahanan Negara Kelas II B Maumere",
+        "nomor_surat": "51/Pen.Pid/2019/PN Mme",
+        "tanggal_mulai": "10 Juni 2019",
+        "tanggal_selesai": "29 Juni 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Terdakwa KABIL KASUBBI Alias KABIL dinyatakan terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana penangkapan ikan dengan menggunakan bahan peledak di Wilayah Pengelolaan Perikanan Republik Indonesia. Dijatuhi pidana penjara selama 1 tahun 5 bulan dan denda sebesar Rp 100.000.000,00 dengan ketentuan apabila denda tidak dibayar diganti dengan pidana kurungan/penjara selama 3 bulan. Masa penahanan dikurangkan seluruhnya dari pidana yang dijatuhkan. Barang bukti berupa 1 unit perahu ketinting warna biru dikembalikan kepada Terdakwa, sementara barang bukti lainnya dirampas untuk dimusnahkan. Terdakwa dibebankan membayar biaya perkara sejumlah Rp 5.000,00.",
+    "lokasi_pengadilan": "Maumere",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "DODI EFRIZON, S.H.",
+        "ARIEF MAHARDIKA, S.H."
+      ],
+      "hakim_ketua": "CONSILIA INA L. PALANG AMA, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Maumere",
+    "nomor_putusan": "01/Pid.Sus-Prk/2019/PN Mme",
+    "panitera_pengganti": "LUKAS KATAN LETON, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 84 ayat (1) jo Pasal 8 Ayat (1)",
+        "peraturan": "Undang Undang Repulik Indonesia No 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perbahan atas Undang-undang No 31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa KABIL KASUBBI pada hari Kamis tanggal 02 Mei 2019 sekitar pukul 15.00 WITA di Perairan Nangaraso (Taka Wairesu) Kabupaten Sikka, melakukan penangkapan ikan dengan menggunakan bahan peledak (bom ikan). Terdakwa membakar sumbu bom ikan dengan rokok, melemparnya ke air, dan setelah meledak, menyelam untuk mengambil ikan yang mati. Aktivitas ini terlihat oleh saksi polisi yang sedang berpatroli, yang kemudian menginformasikan kepada tim lain untuk melakukan penangkapan. Terdakwa berhasil mengumpulkan 87 ekor ikan jenis campuran sebelum ditangkap.",
+      "lokasi_kejadian": "Perairan Nangaraso (Taka Wairesu), Kabupaten Sikka, Provinsi Nusa Tenggara Timur",
+      "tanggal_kejadian": "02 Mei 2019"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Alias KABIL; Tempat lahir : Perumaan; Umur/tgl lahir : 26 Tahun/02 September 1992; Jenis kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Waturia, RT. 017, RW. 005, Desa Kolisia, Kecamatan Magepanda, Kabupaten Sikka; Agama : Islam; Pekerjaan : Nelayan; Pendidikan : SD (tamat);",
+        "nama": "KABIL KASUBBI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 unit perahu ketinting warna biru",
+        "sumber": "Dikembalikan kepada Terdakwa"
+      },
+      {
+        "nama_barang_bukti": "87 ekor jenis ikan campuran",
+        "sumber": "telah dimusnahkan sesuai BA Pemusnahan BB"
+      },
+      {
+        "nama_barang_bukti": "1 buah alat dayung",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 buah masker selam warna hitam",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 kotak korek api kayu merk pelangi",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 bungkus rokok merk LA Bold dengan isi 16 batang",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 buah bunde (seroka ikan)",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 buah keranjang anyaman warna biru",
+        "sumber": "Dirampas untuk dimusnahkan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "dengan sengaja di wilayah pengelolaan perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak",
+        "referensi_peraturan": "Pasal 84 ayat (1) jo Pasal 8 Ayat (1) Undang Undang Repulik Indonesia No 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perbahan atas Undang-undang No 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "penangkapan ikan menggunakan bahan peledak di WPP-RI",
+        "referensi_peraturan": "Pasal 84 Ayat (1) Jo Pasal 8 Ayat (1) Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang-Undang Nomor 45 Tahun 2009 Tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "melakukan penangkapan ikan dan/atau pembudidayaan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan, yang dapat merugikan dan atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya",
+        "referensi_peraturan": "Pasal 84 ayat (1) jo Pasal 8 Ayat (1) Undang Undang Repulik Indonesia No 31 Tahun 2004 Tentang Perikanan sebagaimana telah diubah dan ditambah dengan Undang Undang Republik Indonesia Nomor 45 Tahun 2009 tentang perbahan atas Undang-undang No 31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Melakukan tindak pidana \"dengan sengaja di Wilayah Pengelolaan Perikanan Republik Indonesia melakukan penangkapan ikan dengan menggunakan bahan peledak\"."
+  }
+}

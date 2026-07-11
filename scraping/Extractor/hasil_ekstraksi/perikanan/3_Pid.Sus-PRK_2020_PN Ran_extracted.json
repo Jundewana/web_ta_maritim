@@ -1,0 +1,307 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.100.000.000,00 (seratus juta rupiah)",
+      "pidana_pengganti": "",
+      "pidana_penjara": ""
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa NGUYEN HOANG KIET terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana “melakukan dan menyuruh melakukan mengoperasikan kapal penangkap ikan berbendera asing, ikan di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)”. Menjatuhkan pidana denda sejumlah Rp.100.000.000,00 (seratus juta rupiah) kepada Terdakwa. Membebankan biaya perkara sejumlah Rp.5.000,00 (lima ribu rupiah) kepada Terdakwa.",
+    "lokasi_pengadilan": "Ranai",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "SUGENG SULISTIAWAN, S.H.",
+        "IR. UNTUNG SUNARDI, M.M."
+      ],
+      "hakim_ketua": "NANANG DWI KRISTANTO, S.H., M.Hum"
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Ranai",
+    "nomor_putusan": "3/Pid.Sus-Prk/2020/PN Ran",
+    "panitera_pengganti": "ERA TRISNAWATI, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-05-19"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) Jo Pasal 55 ayat (1) ke-1",
+        "peraturan": "UU RI Nomor 45 Tahun 2009 tentang Perubahan atas UU RI No 31 Tahun 2004 tentang Perikanan Jo KUHP"
+      },
+      {
+        "pasal": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) Jo Pasal 55 ayat (1) ke-1",
+        "peraturan": "UU RI Nomor 45 Tahun 2009 tentang Perubahan atas UU RI No 31 Tahun 2004 tentang Perikanan Jo KUHP"
+      },
+      {
+        "pasal": "Pasal 85 Jo Pasal 9 Jo Pasal 55 ayat (1) ke-1",
+        "peraturan": "Undang-undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan atas Undang-undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan Jo Kitab Undang-undang Hukum Pidana"
+      },
+      {
+        "pasal": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) Jo Pasal 55 ayat (1) ke-1",
+        "peraturan": "Undang-undang Nomor Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan atas Undang-undang Republik Indonesia Nomor 31 Tahun 2004 tentang Perikanan Jo Kitab Undang-undang Hukum Pidana"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa NGUYEN HOANG KIET selaku Nahkoda Kapal Ikan Asing BV 97576 TS bersama NGUYEN VAN UT selaku Nahkoda Kapal Ikan Asing BV 9395 TS (DPO) berangkat dari pelabuhan Vung Tau - Vietnam untuk menangkap ikan. Setelah 10 hari pertama menangkap ikan di perbatasan perairan Indonesia dan Malaysia tanpa hasil, Terdakwa masuk ke perairan Indonesia. Pada hari Kamis, 28 November 2019, sekira pukul 16.20 WIB, kapal Terdakwa BV 97576 TS ditangkap dan diperiksa oleh KRI Bung Tomo-357 di perairan Laut Natuna Utara, ZEEI, karena melakukan penangkapan ikan tanpa Surat Izin Penangkapan Ikan (SIPI) dari pemerintah Indonesia dan menggunakan alat tangkap Pair Trawl yang dilarang.",
+      "lokasi_kejadian": "Perairan Laut Natuna Utara, Zona Ekonomi Eksklusif Indonesia (ZEEI) pada posisi 04° 15' 44\" U – 110° 11' 96\" T",
+      "tanggal_kejadian": "2019-11-28"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir: Bac Lieu - Vietnam; Umur/tanggal lahir: 50 Tahun/ 1 Januari 1970; Jenis Kelamin: Laki-laki; Kebangsaan: Vietnam; Tempat tinggal: Ap Ba Dinh-Xa Vinh Binh Bac A-Nguyen Vinh Thuan-Tinh Kien Giang - Vietnam/Kantor Kejaksaan Negeri Natuna; Agama: Budha; Pekerjaan: Nahkoda KIA BV 97576 TS; Pendidikan: Kelas 6.",
+        "nama": "NGUYEN HOANG KIET"
+      },
+      {
+        "identitas_tambahan": "selaku Nahkoda Kapal Ikan Asing BV 97576 TS",
+        "nama": "NGUYEN HOANG KIET"
+      },
+      {
+        "identitas_tambahan": "selaku Nahkoda Kapal Ikan Asing BV 9395 TS (DPO)",
+        "nama": "NGUYEN VAN UT"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "KIA BV 97576 TS jenis kayu beserta muatan dan alat kelengkapan",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Mesin pokok kapal (MPK) Merk Cummin 12 Silinder",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Alat Navigasi",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "GPS Haiyang HIS-70A",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "GPS Haiyang HD-70C",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Alat komunikasi",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Radio Icom IC-2300H",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Radio Sea Eagle 6900",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Radio Wenden Super 4800",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Dokumen",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Buku So Danh Ba Thuyen Vien Tau Ca BV 97576 TS",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Buku So Danh Ba Thuyen Vien Tau Ca BV 9395 TS",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Giay Phep Khai Thac Thuy San",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "Giay Chung Nhan Dang Ky Tau Ca BV 97576 TS",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set alat penangkap ikan Pair Trawls",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Muatan ikan campuran kurang lebih 2 (dua) Palka",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah bendera Vietnam",
+        "sumber": "Dikembalikan kepada pemerintah Negara Vietnam melalui terdakwa Nguyen Hoang Kiet"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Kapal BV 97576 TS jenis kayu dengan mesin pokok kapal merk Cummins 12 silinder",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 Set Jaring Pair Trawl",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah GPS Haiyang HIS-70A",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah GPS Haiyang HD-70C",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah Radio Icom IC-2300H",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah Radio Sea Eagle 6900",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah Radio Wenden Super 4800",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah Bendera Vietnam",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah buku So Danh Ba Thuyen Vien Tau Ca BV 97576 TS",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah buku So Danh Ba Thuyen Vien Tau Ca BV 9395 TS",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah Fotocopy Giay Phep Khai Thanc Thuy San",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 buah Giay Chung Nhan Dang Ky Tau Ca BV 97576 TS",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit kapal BV 97576 TS dengan mesin pokok kapal merk Cummins 12 silinder",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang His-70A",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang HD-70C",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom IC-2300H",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu buah Radio Sea Eagle 6900",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Weden Super 4800",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit alat tangkap Trawl",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah buku So Danh Ba Thuyen Vien Tau Ca BV 97576 TS",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah buku So Danh Ba Thuyen Vien Tau Ca BV 9395 TS",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Fotocopy Giay Phep Khai Thanc Thuy San",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Giay Chung Nhan Dang Ky Tau Ca BV 97576 TS",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "± 5 (lima) ekor ikan campur",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah bendera Vietnam",
+        "sumber": "dihadapkan di persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit kapal BV 97576 TS beserta Mesin Pokok Kapal (MPK) merk Cummins 12 Silinder",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang HIS-70A",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Haiyang HD-70C",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Icom IC-2300H",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Super Star Sea Eagle 6900",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Weden Super 4800",
+        "sumber": "Dirampas untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit Alat tangkap Trawl",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "5 (lima) ekor ikan campur",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "So Danh Ba Thuyen Vien Tau Ca BV 97576 TS",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "So Danh Ba Thuyen Vien Tau Ca BV 9395 TS",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Fotocopy Giay Phep Khai Thanc Thuy San",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Giay Chung Nanh Dang Ky Tau Ca BV 97576 TS",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah bendera Vietnam",
+        "sumber": "Dikembalikan kepada Terdakwa"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "telah melakukan, menyuruh melakukan, atau turut serta melakukan perbuatan, memiliki dan/atau mengoperasikan kapal penangkap ikan berbendera asing melakukan penangkapan ikan di ZEEI yang tidak memiliki SIPI",
+        "referensi_peraturan": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) UU RI Nomor 45 Tahun 2009 tentang Perubahan atas UU RI No 31 Tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "melakukan dan menyuruh melakukan mengoperasikan kapal penangkap ikan berbendera asing, ikan di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) Undang-undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-undang Nomor 31 Tahun 2004 tentang Perikanan Jo Pasal 55 ayat (1) ke-1 Kitab Undang-undang Hukum Pidana"
+      },
+      {
+        "deskripsi_pelanggaran": "Memiliki, menguasai, membawa, dan/atau menggunakan alat penangkapan dan/atau alat bantu penangkapan ikan yang mengganggu dan merusak keberlanjutan sumber daya ikan di kapal penangkap ikan di wilayah pengelolaan perikanan Negara Republik Indonesia, seperti pukat hela dasar dua kapal (pair trawls) yang dapat merusak terumbu karang.",
+        "referensi_peraturan": "Undang-undang Republik Indonesia Nomor 45 tahun 2009 tentang Perubahan atas Undang-undang Nomor 31 tahun 2004 tentang Perikanan, Pasal 9"
+      },
+      {
+        "deskripsi_pelanggaran": "Mengoperasikan alat penangkap ikan pukat hela dua kapal (pair trawls) yang bersifat aktif di semua jalur penangkapan ikan dan semua Wilayah Pengelolaan Perikanan Negara Republik Indonesia (WPPNRI).",
+        "referensi_peraturan": "Peraturan Menteri Kelautan dan Perikanan Republik Indonesia Nomor 71/PERMEN-KP/2016 tanggal 30 Desember 2016 tentang Jalur Penangkapan Ikan dan Penempatan Alat Penangkapan Ikan di Wilayah Pengelolaan Perikanan Negara Republik Indonesia BAB V Pasal 25 ayat (4)"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa NGUYEN HOANG KIET mengoperasikan kapal penangkap ikan berbendera asing (Vietnam) di Zona Ekonomi Eksklusif Indonesia (ZEEI) tanpa memiliki Surat Izin Penangkapan Ikan (SIPI) dari pemerintah Indonesia. Terdakwa juga menggunakan alat tangkap ikan jenis Pair Trawl yang dilarang di wilayah perairan Indonesia, dan telah menangkap ikan sebanyak 2 palka di perairan Indonesia."
+  }
+}

@@ -1,0 +1,143 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp. 10.000.000,-",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa NACHROWI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Nakhoda yang melakukan kegiatan bongkar muat barang berbahaya tanpa persetujuan dari Syahbandar\" dan menjatuhkan pidana denda.",
+    "lokasi_pengadilan": "Donggala",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "TAUFIQURROHMAN, S.H., M.Hum",
+        "AHMAD GAZALI, S.H"
+      ],
+      "hakim_ketua": "LALU MOH. SANDI IRAMAYA, S.H"
+    },
+    "nama_pengadilan": "Pengadilan Negeri Donggala",
+    "nomor_putusan": "18/Pid.B/2020/PN Dgl",
+    "panitera_pengganti": "MARYANTO MANTONG PASOLANG, S.H.,M.H",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "5 Maret 2020"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "322 Jo. Pasal 216 ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa NACHROWI, selaku Nakhoda Kapal TB Varco, pada hari Senin tanggal 27 Mei 2019, melakukan kegiatan pengisian bahan bakar minyak jenis solar sebanyak 36 ton ke dalam tangki kapal TB Varco di Jetty PT. Palu Batu Madu, Desa Loli, Kecamatan Banawa, Kabupaten Donggala. Kegiatan ini dilakukan tanpa persetujuan dari Syahbandar Pelabuhan kelas II Teluk Palu, yang merupakan pelanggaran terhadap Pasal 216 ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaran. Terdakwa mengetahui pengisian bahan bakar tersebut dilakukan tanpa persetujuan Syahbandar namun tidak menolak dan membiarkannya terlaksana.",
+      "lokasi_kejadian": "Jetty PT. Palu Batu Madu, Desa Loli, Kecamatan Banawa, Kabupaten Donggala",
+      "tanggal_kejadian": "27 Mei 2019"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Mojokerto; Umur / Tanggal lahir : 55 Tahun/ 11 Mei 1964; Jenis kelamin : Laki-laki; Kebangsaan / : Indonesia; Tempat tinggal: Jl. Kalimas Banudua Gang Lebar No. 51 Surabaya Provinsi Jawa Timur ; Agama: Islam; Pekerjaan: Pelaut / Nahkoda TB Varco;",
+        "nama": "NACHROWI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) Unit Kapal TB. VARCO",
+        "sumber": "saksi KOSDAWI SIDJOKO, ST"
+      },
+      {
+        "nama_barang_bukti": "Bahan bakar minyak sebanyak \u0013 36 (tiga puluh enam) Ton",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar surat pengantar pengiriman / Deliver order (DO) dari PT. LAPADA SELARAS ENERGI Nomor DO: 00167 / LSE - DO - PLW / V / 2019 tanggal 27 Mei 2019",
+        "sumber": "PT. LAPADA SELARAS ENERGI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar surat pengantar pengiriman / Deliver order (DO) dari PT. LAPADA SELARAS ENERGI Nomor DO: 00168 / LSE - DO - PLW / V / 2019 tanggal 27 Mei 2019",
+        "sumber": "PT. LAPADA SELARAS ENERGI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar surat pengantar pengiriman/Deliver order (DO) dari PT. LAPADA SELARAS ENERGI Nomor DO: 00169 / LSE - DO - PLW / V / 2019 tanggal 27 Mei 2019",
+        "sumber": "PT. LAPADA SELARAS ENERGI"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar Surat Pengantar Pengiriman (SPP) dari Pertamina PATRA NIAGA dengan No. DO: 4018805524 Nomor Seri 0521336",
+        "sumber": "Pertamina PATRA NIAGA"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar Surat Pengantar Pengiriman (SPP) dari Pertamina PATRA NIAGA dengan No. DO: 4018806149 Nomor Seri 0521337",
+        "sumber": "Pertamina PATRA NIAGA"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) lembar Surat Pengantar Pengiriman (SPP) dari Pertamina PATRA NIAGA No. DO: 4018806149 dengan Nomor 0521338",
+        "sumber": "Pertamina PATRA NIAGA"
+      },
+      {
+        "nama_barang_bukti": "Surat Pengantar Pengiriman dari Pertamina dengan SHIPMENT NO : 14114025 dengan Nomor Barcode 39967",
+        "sumber": "Pertamina"
+      },
+      {
+        "nama_barang_bukti": "Surat Pengantar Pengiriman dari Pertamina dengan SHIPMENT NO : 14115519 dengan Nomor Barcode 39968",
+        "sumber": "Pertamina"
+      },
+      {
+        "nama_barang_bukti": "Surat Pengantar Pengiriman dari Pertamina dengan SHIPMENT NO : 14117841 1 (lembar) lembar Pas Besar TB. VARCO Nomor Urut: 3 Diterbitkan di Belawan pada tanggal 04 Oktober 2013 dipergunakan dalam perkara Jhoni markus alias jhon",
+        "sumber": "Pertamina"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Ukur Internasional (1969) Nomor: 1623/Gga. Dikeluarkan di Tanjung Pinang pada tanggal 09 April 2013",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Keselamatan Kontruksi Kapal Barang Nomor : AL.501/85/32/KSOP.SMD-19 diterbitkan di Samarinda pada tanggal 20 Mei 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Keselamatan Perlengkapan Kapal Barang Nomor : AL.501/85/33/KSOP.SMD-19 diterbitkan di Samarinda pada tanggal 20 Mei 2019",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Biro Klasifikasi Indonesia Sertifikat Klasifikasi Lambung Nomor : 040750, dikeluarkan di Jakarta pada tanggal 20 September 2018",
+        "sumber": "Biro Klasifikasi Indonesia"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Biro Klasifikasi Indonesia Sertifikat Klasifikasi Mesin Nomor: 026470, dikeluarkan di Jakarta pada tanggal 20 September 2018",
+        "sumber": "Biro Klasifikasi Indonesia"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Garis Muat Internasional (1966) Nomor : 026893, dikeluarkan di Jakarta pada tanggal 20 September 2018",
+        "sumber": null
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Ahli Nautika Tingkat V Manajemen Nomor : 6200517106m50217 an. NACHRAWI, beserta Pengukuhan keabsahan dan sertifikat ketrampilannya",
+        "sumber": "NACHRAWI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Ahli Tehnika Tingkat IV Manajemen Nomor : 6200192929S40518 an. MIFTAHHUDIN, beserta Pengukuhan keabsahan dan sertifikat ketrampilannya",
+        "sumber": "MIFTAHHUDIN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Buku Pelaut an. NACHRAWI",
+        "sumber": "NACHRAWI"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Buku Pelaut an. MIFTAHHUDIN",
+        "sumber": "MIFTAHHUDIN"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Buah Buku Sijil kapal TB. VARCO GT 161 NO. 1623/Gga",
+        "sumber": "terdakwa NACHROWI"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Nakhoda yang melakukan kegiatan perbaikan, percobaan berlayar, kegiatan alih muat di kolam pelabuhan, menunda, dan bongkar muat barang berbahaya tanpa persetujuan dari Syahbandar sebagaimana dimaksud dalam Pasal 216 ayat (1) yaitu Kapal yang melakukan kegiatan perbaikan, percobaan berlayar, kegiatan alih muat di kolam pelabuhan, menunda, dan bongkar muat barang berbahaya wajib mendapat persetujuan dari Syahbandar",
+        "referensi_peraturan": "pasal 322 Jo. Pasal 216 ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaan"
+      }
+    ],
+    "perbuatan_terdakwa": "Nakhoda yang melakukan kegiatan bongkar muat barang berbahaya (pengisian bahan bakar minyak jenis solar) tanpa persetujuan dari Syahbandar Pelabuhan kelas II Teluk Palu."
+  }
+}

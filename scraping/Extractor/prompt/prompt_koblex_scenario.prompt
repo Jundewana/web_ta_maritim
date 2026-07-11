@@ -1,0 +1,506 @@
+prompt = f"""Anda adalah generator dataset QA multi-hop berbasis skenario (KOBLEX-style) untuk sistem RAG hukum pelayaran dan perikanan Indonesia.
+
+TUGAS: Hasilkan TEPAT 4 (empat) pasang QA sekaligus dari satu dokumen putusan, masing-masing
+mewakili satu tier berbeda: (1) cross_pasal/skenario, (2) analogis, (3) sanksi_pidana, (4) komparasi_subjek.
+
+Setiap instance terdiri dari EMPAT komponen utama yang harus koheren:
+  B = Background Scenario  — narasi fakta anonim yang menjadi konteks
+  Q = Question             — pertanyaan multi-hop yang hanya bisa dijawab dengan B + C
+  A = Answer               — jawaban yang sepenuhnya berlandaskan C
+  C = Reference Provisions — daftar pasal/ayat yang SEMUANYA diperlukan untuk menjawab Q
+
+Prinsip inti: Q TIDAK BOLEH bisa dijawab hanya dengan satu elemen dari C.
+Jika menghapus satu pasal dari C membuat A tetap lengkap, pasal itu tidak boleh ada di C.
+
+PENTING: Selalu gunakan pihak anonim — 'seorang nakhoda', 'kapal tanker X', 'perusahaan pelayaran PT Y'.
+Jangan sebut nama asli terdakwa, nama kapal asli, atau detail pengidentifikasi kasus.
+
+Berdasarkan ringkasan hasil ekstraksi dokumen putusan berikut:
+
+{json.dumps(extracted_data, indent=2, ensure_ascii=False)}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BAGIAN A: ATURAN BACKGROUND SCENARIO (B)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- SB1_pisah: B adalah field TERPISAH dari Q. B = narasi fakta. Q = pertanyaan saja.
+- SB2_anonim: Semua pihak dianonimkan. Gunakan: 'seorang nakhoda', 'kapal SPOB X', 'petugas Patkamla'.
+- SB3_lengkap: B memuat SEMUA konteks faktual untuk memahami Q (lokasi, kondisi kapal, tindakan, aktor).
+  Jangan simpan konteks penting hanya di field lain.
+- SB4_multisumber: B menyentuh minimal 2 norma hukum berbeda agar Q dapat bersifat multi-hop.
+- SB5_panjang: B minimal 60 kata, maksimal 150 kata.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BAGIAN B: ATURAN QUESTION (Q)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- R1_natural: Q HARUS terasa seperti input nyata ke chatbot hukum, bukan kalimat akademik.
+  Hindari: 'Dalam konteks hukum pidana Indonesia, jelaskan...'
+  Gunakan: 'Kalau saya nakhoda dan tahu radio rusak tapi tetap berangkat, apa yang bisa kena ke saya?'
+- R2_regulasi: JIKA Q menyebut regulasi, WAJIB cantumkan nomor lengkap (pasal + UU + tahun).
+- R3_gaya: Setiap QA pair menggunakan SALAH SATU dari dua nilai user_input_style berikut:
+  "skenario" — framing langsung dari fakta B ('Misalkan seorang nakhoda...')
+  "analogi"  — membandingkan dengan domain lain ('Sama seperti pengemudi rem blong...')
+  CATATAN: "tier" (cross_pasal, sanksi_pidana, komparasi_subjek, analogis) BUKAN nilai
+  user_input_style. Tier adalah JENIS pertanyaan; gaya adalah CARA framing pertanyaan.
+  Tier sanksi_pidana → user_input_style: "skenario"
+  Tier komparasi_subjek → user_input_style: "skenario"
+  Tier cross_pasal → user_input_style: "skenario"
+  Tier analogis → user_input_style: "analogi"
+- R4_self_explained: Q + B harus cukup tanpa dokumen sumber lain.
+- R5_multihop: Q HARUS memerlukan minimal 2 pasal dari C untuk dijawab lengkap.
+
+  Pola SKENARIO / ANALOGIS (kewajiban → sanksi → pertanggungjawaban):
+  • Hop 1: Apa kewajiban yang berlaku? → pasal kewajiban
+  • Hop 2: Apa sanksi jika dilanggar? → pasal pidana
+  • Hop 3 (opsional): Bagaimana pertanggungjawaban ditentukan? → KUHAP / yurisprudensi MA
+
+  Pola SANKSI_PIDANA (pasal pidana → besaran → sifat alternatif/kumulatif):
+  • Hop 1: Pasal pidana apa yang berlaku + berapa ancamannya?
+  • Hop 2: Standar kewajiban apa yang dilanggar sehingga sanksi itu aktif?
+  • Jawaban WAJIB: jenis sanksi, angka maksimum, sifat 'atau' (alternatif) vs. 'dan' (kumulatif)
+
+  Pola KOMPARASI_SUBJEK (per subjek → pasal berbeda → besaran berbeda):
+  • Hop per subjek: Subjek A → Pasal X; Subjek B → Pasal Y; Subjek C (opsional) → Pasal Z
+  • Jawaban WAJIB: format per-subjek bernomor, pasal masing-masing, besaran sanksi masing-masing
+
+- R6_no_leading: Jangan bocorkan jawaban di dalam Q.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BAGIAN C: ATURAN ANSWER (A)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- R7_fakta_spesifik: A menyebut fakta konkret anonim: jenis kapal, wilayah, rentang nominal hukuman.
+  Tier SANKSI_PIDANA: wajib sebut angka maksimum + sifat alternatif/kumulatif.
+  Tier KOMPARASI_SUBJEK: wajib format naratif bernomor per subjek, bukan satu paragraf gabungan.
+- R8_pasal_lengkap: Setiap referensi = nomor pasal + nama UU + tahun.
+  Benar: 'Pasal 305 jo Pasal 130 ayat (1) UU No. 17 Tahun 2008 tentang Pelayaran'
+  Salah: 'Pasal 305 UU Pelayaran'
+- R9_struktur: (1) jawaban langsung, (2) dasar hukum dari C, (3) nuansa/pengecualian.
+- R10_panjang: A minimal 120 kata, maksimal 350 kata.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BAGIAN D: ATURAN REFERENCE PROVISIONS (C)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- RC1_teks_lengkap: Setiap elemen C berisi teks lengkap/substansial pasal — bukan hanya nomornya.
+  Ini merepresentasikan teks yang diambil dari statute corpus oleh sistem RAG.
+- RC2_multisumber: C minimal 2 pasal, masing-masing membahas aspek berbeda
+  (kewajiban vs sanksi, definisi vs prosedur, subjek A vs subjek B).
+- RC3_necessary: Test: hapus satu pasal — jika A masih lengkap, jangan masukkan pasal itu ke C.
+- RC4_format: {{"provision_id": "UU No. X Tahun Y / Pasal Z ayat (N)", "text": "teks lengkap..."}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BAGIAN E: ATURAN REASONING DEPTH KLASIFIKASI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Setiap QA pair WAJIB menyertakan field "reasoning_depth_klasifikasi" yang menjelaskan:
+  (a) Untuk setiap hop: pasal mana yang diakses, dan APA KONTRIBUSINYA terhadap jawaban.
+  (b) Mengapa pertanyaan ini TIDAK DAPAT dijawab lengkap jika salah satu hop dihilangkan.
+  (c) Nilai reasoning_depth (integer 2 atau 3) beserta justifikasinya.
+
+Contoh format:
+  "reasoning_depth_klasifikasi": {{
+    "depth": 2,
+    "justifikasi": "Pertanyaan ini membutuhkan 2 pasal berbeda yang tidak saling menggantikan:
+      Hop 1 — Pasal 130 ayat (1): Menetapkan kewajiban keselamatan (termasuk radio).
+               Tanpa pasal ini, tidak ada dasar normatif untuk menyebut radio sebagai persyaratan wajib.
+      Hop 2 — Pasal 305: Menetapkan sanksi pidana bagi nakhoda yang melanggar kewajiban tersebut.
+               Tanpa pasal ini, pertanyaan 'apa sanksinya' tidak dapat dijawab secara lengkap.
+      Kedua pasal wajib hadir: Pasal 130 mendefinisikan standar yang dilanggar;
+      Pasal 305 menentukan konsekuensi pidana — tidak dapat saling menggantikan."
+  }}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTOH OUTPUT (ILUSTRASI FORMAT — BUKAN NILAI YANG HARUS DIKOPI)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CONTOH 1 — Tier CROSS_PASAL, Gaya SKENARIO, depth 2
+
+{{
+  "id": "kasus-pelayaran-001-skenario",
+  "tier": "cross_pasal",
+  "user_input_style": "skenario",
+  "reasoning_depth_klasifikasi": {{
+    "depth": 2,
+    "justifikasi": "Hop 1 — Pasal 130 ayat (1): menetapkan kewajiban keselamatan kapal (termasuk radio
+      sebagai perlengkapan wajib). Tanpa pasal ini, tidak ada dasar untuk menyebut radio sebagai
+      persyaratan hukum. Hop 2 — Pasal 305: menetapkan sanksi pidana bagi nakhoda yang 'tidak
+      memelihara kapal sehingga tidak memenuhi persyaratan'. Tanpa pasal ini, pertanyaan tentang
+      'pasal apa yang bisa kena ke saya' tidak terjawab. Keduanya wajib: Pasal 130 mendefinisikan
+      standar yang dilanggar; Pasal 305 menentukan konsekuensinya."
+  }},
+  "background_scenario": "Seorang nakhoda kapal tanker berangkat dari pelabuhan asal menuju perairan
+    tujuan. Sebelum berangkat, ia mengetahui bahwa radio kapalnya tidak berfungsi karena rusak, namun
+    tetap berlayar tanpa memperbaiki atau menyediakan alat komunikasi pengganti. Beberapa hari setelah
+    tiba dan berlego jangkar, kapal diamankan oleh petugas patroli laut yang menemukan kondisi radio
+    tidak berfungsi saat pemeriksaan dokumen dan alat keselamatan.",
+  "question": "Kalau saya nakhoda kapal dan saya tahu radio kapal rusak tapi tetap berangkat karena
+    jadwal mendesak — dari pasal mana saja saya bisa dikenai pidana? Dan apakah fakta bahwa saya
+    tahu kondisi radio tapi tetap berangkat itu memperburuk posisi hukum saya?",
+  "answer": "Anda dapat dikenai pidana berdasarkan Pasal 305 jo Pasal 130 ayat (1) UU No. 17 Tahun
+    2008 tentang Pelayaran. Pasal 130 ayat (1) mewajibkan setiap kapal yang berlayar memenuhi
+    persyaratan keselamatan — termasuk perlengkapan radio yang berfungsi. Pasal 305 mengkriminalisasi
+    nakhoda yang 'tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan'. Fakta
+    bahwa Anda mengetahui kerusakan namun tetap berlayar memenuhi unsur kesengajaan, yang secara
+    yurisprudensi dapat memperburuk posisi hukum dibanding kelalaian murni. Dakwaan tunggal atas
+    kedua pasal ini biasanya dikenakan sekaligus karena Pasal 305 secara eksplisit merujuk ke
+    Pasal 130 ayat (1) melalui frasa 'sebagaimana dimaksud dalam Pasal 130 ayat (1)'.",
+  "reasoning_steps": [
+    "Identifikasi kewajiban nakhoda: Pasal 130 ayat (1) mewajibkan kapal memenuhi persyaratan
+     keselamatan termasuk alat komunikasi radio.",
+    "Identifikasi pelanggaran: nakhoda mengetahui radio rusak namun tetap berlayar — kondisi
+     kapal tidak memenuhi persyaratan Pasal 130 ayat (1).",
+    "Identifikasi sanksi: Pasal 305 berlaku bagi nakhoda yang 'tidak memelihara kapalnya
+     sehingga tidak memenuhi' standar Pasal 130 ayat (1).",
+    "Inferensi mens rea: pengetahuan atas kerusakan sebelum berlayar memenuhi unsur kesengajaan,
+     membedakannya dari kelalaian murni dan berpotensi memberatkan."
+  ],
+  "reference_provisions": [
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 130 ayat (1)",
+      "text": "Setiap kapal yang berlayar wajib memenuhi persyaratan keselamatan kapal yang meliputi
+               material, konstruksi, bangunan, permesinan dan perlistrikan, stabilitas, tata susunan
+               serta perlengkapan termasuk perlengkapan alat penolong dan radio, elektronik kapal,
+               dan lain-lain."
+    }},
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 305",
+      "text": "Nakhoda yang tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan
+               kapal sebagaimana dimaksud dalam Pasal 130 ayat (1) dipidana dengan pidana penjara
+               paling lama 2 (dua) tahun atau denda paling banyak Rp300.000.000,00."
+    }}
+  ],
+  "referensi_hukum": [
+    "Pasal 130 ayat (1) UU No. 17 Tahun 2008 tentang Pelayaran",
+    "Pasal 305 UU No. 17 Tahun 2008 tentang Pelayaran"
+  ]
+}}
+
+---
+
+CONTOH 2 — Tier ANALOGIS, Gaya ANALOGI, depth 2
+
+{{
+  "id": "kasus-pelayaran-001-analogi",
+  "tier": "analogis",
+  "user_input_style": "analogi",
+  "reasoning_depth_klasifikasi": {{
+    "depth": 2,
+    "justifikasi": "Hop 1 — Pasal 130 ayat (1): menentukan apakah kewajiban bersifat absolut atau
+      kondisional (berbasis risiko). Tanpa pasal ini, pertanyaan tentang apakah 'estimasi aman'
+      bisa jadi pembenar tidak dapat dijawab secara normatif. Hop 2 — Pasal 305: menentukan
+      apakah ketiadaan niat jahat atau estimasi risiko rendah merupakan pengecualian dalam
+      perumusan delik. Keduanya wajib karena pertanyaan analogis ini menguji SIFAT kewajiban
+      (absolut vs. situasional), bukan sekadar ada/tidaknya pelanggaran."
+  }},
+  "background_scenario": "Seorang nakhoda kapal kargo mengetahui bahwa sistem komunikasi darurat
+    kapalnya tidak berfungsi beberapa hari sebelum keberangkatan. Ia memutuskan tetap berlayar
+    dengan alasan perjalanan singkat, cuaca cerah, dan rute yang menurutnya aman. Di tengah laut
+    kapal mengalami insiden ringan dan tidak bisa menghubungi pihak lain. Saat tiba di pelabuhan
+    tujuan, pemeriksaan otoritas menemukan sistem komunikasi darurat tidak berfungsi.",
+  "question": "Mirip seperti pengemudi yang tahu rem blong tapi tetap melaju karena 'jalannya
+    sepi dan jaraknya dekat' — apakah alasan nakhoda bahwa 'perjalanannya aman dan cuaca cerah'
+    bisa jadi pembenar hukum untuk tetap berlayar meski sistem komunikasi darurat rusak?
+    Apakah kewajiban di Pasal 130 ayat (1) UU No. 17 Tahun 2008 bersifat absolut atau bisa
+    dikesampingkan berdasarkan penilaian risiko subjektif nakhoda?",
+  "answer": "Alasan 'estimasi aman' tidak dapat menjadi pembenar hukum. Pasal 130 ayat (1)
+    UU No. 17 Tahun 2008 tentang Pelayaran mewajibkan pemenuhan persyaratan keselamatan —
+    termasuk alat komunikasi — secara absolut sebelum kapal berlayar, bukan secara kondisional
+    berdasarkan prediksi cuaca atau penilaian risiko subjektif nakhoda. Perumusan 'wajib memenuhi'
+    tidak mengandung klausul pengecualian berbasis situasi. Pasal 305 UU yang sama mengkriminalisasi
+    nakhoda yang 'tidak memelihara kapalnya sehingga tidak memenuhi persyaratan', tanpa memberi
+    ruang bagi pembenar berbasis perkiraan keamanan. Analogi rem blong tepat: dalam hukum lalu
+    lintas, pengemudi yang mengetahui rem blong namun tetap berkendara tetap bertanggung jawab
+    meskipun tidak berniat menabrak. Demikian pula nakhoda — sifat absolut kewajiban Pasal 130
+    ayat (1) menutup ruang bagi penilaian risiko subjektif sebagai alasan pembenar.",
+  "reasoning_steps": [
+    "Uji sifat kewajiban: apakah Pasal 130 ayat (1) mengandung klausul situasional/pengecualian?
+     → Tidak; frasa 'wajib memenuhi' bersifat absolut.",
+    "Uji apakah Pasal 305 mengenal pembenar berbasis estimasi risiko: → Tidak; delik terpenuhi
+     saat kondisi 'tidak memelihara' terbukti, tanpa mensyaratkan akibat nyata atau niat jahat.",
+    "Tarik analogi: sama seperti kewajiban kelaikjalan kendaraan yang tidak bisa dikesampingkan
+     oleh estimasi pengemudi, kewajiban nakhoda bersifat ex ante (sebelum berlayar), bukan ex post.",
+    "Inferensi: alasan 'perjalanan aman' secara hukum tidak relevan terhadap pemenuhan
+     kewajiban Pasal 130 ayat (1)."
+  ],
+  "reference_provisions": [
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 130 ayat (1)",
+      "text": "Setiap kapal yang berlayar wajib memenuhi persyaratan keselamatan kapal yang meliputi
+               material, konstruksi, bangunan, permesinan dan perlistrikan, stabilitas, tata susunan
+               serta perlengkapan termasuk perlengkapan alat penolong dan radio, elektronik kapal,
+               dan lain-lain."
+    }},
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 305",
+      "text": "Nakhoda yang tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan
+               kapal sebagaimana dimaksud dalam Pasal 130 ayat (1) dipidana dengan pidana penjara
+               paling lama 2 (dua) tahun atau denda paling banyak Rp300.000.000,00."
+    }}
+  ],
+  "referensi_hukum": [
+    "Pasal 130 ayat (1) UU No. 17 Tahun 2008 tentang Pelayaran",
+    "Pasal 305 UU No. 17 Tahun 2008 tentang Pelayaran"
+  ]
+}}
+
+---
+
+CONTOH 3 — Tier SANKSI_PIDANA, Gaya SKENARIO, depth 2
+
+{{
+  "id": "kasus-pelayaran-001-sanksi",
+  "tier": "sanksi_pidana",
+  "user_input_style": "skenario",
+  "reasoning_depth_klasifikasi": {{
+    "depth": 2,
+    "justifikasi": "Hop 1 — Pasal 305: menetapkan jenis dan besaran ancaman sanksi (penjara
+      paling lama 2 tahun ATAU denda paling banyak Rp300 juta). Tanpa pasal ini, pertanyaan
+      tentang 'hukumannya apa dan berapa' tidak dapat dijawab. Hop 2 — Pasal 130 ayat (1):
+      diperlukan untuk memahami KONTEKS kapan sanksi Pasal 305 aktif — yaitu saat kewajiban
+      persyaratan keselamatan dilanggar. Tanpa pasal ini, jawaban tentang 'kapan sanksi
+      berlaku dan atas pelanggaran apa' tidak lengkap. Keduanya wajib: satu menetapkan
+      sanksi, satu menetapkan kondisi yang mengaktifkan sanksi tersebut."
+  }},
+  "background_scenario": "Seorang nakhoda kapal tanker terbukti secara sah dan meyakinkan
+    bersalah melakukan tindak pidana pelayaran karena berlayar dengan radio yang diketahuinya
+    rusak, melanggar ketentuan keselamatan kapal. Dalam persidangan, hakim mempertimbangkan
+    perbuatan terdakwa berpotensi membahayakan keselamatan penumpang dan awak kapal, meskipun
+    terdakwa bersikap sopan, belum pernah dihukum sebelumnya, dan mengakui perbuatannya.",
+  "question": "Kalau nakhoda sudah terbukti bersalah di bawah pasal yang mengatur 'tidak
+    memelihara kapal sehingga tidak memenuhi persyaratan keselamatan', hukuman apa saja yang
+    bisa dijatuhkan hakim? Penjara dan dendanya masing-masing maksimum berapa? Dan apakah
+    hakim bisa menjatuhkan keduanya sekaligus atau harus pilih salah satu?",
+  "answer": "Berdasarkan Pasal 305 UU No. 17 Tahun 2008 tentang Pelayaran, nakhoda yang
+    terbukti tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan —
+    sebagaimana diatur Pasal 130 ayat (1) UU yang sama — diancam dua jenis sanksi yang
+    bersifat ALTERNATIF (bukan kumulatif): (1) pidana penjara paling lama 2 (dua) tahun,
+    ATAU (2) denda paling banyak Rp300.000.000,00 (tiga ratus juta rupiah). Kata 'atau'
+    dalam perumusan pasal berarti hakim hanya dapat memilih salah satu — tidak bisa
+    menjatuhkan keduanya sekaligus. Pilihan antara penjara dan denda dipengaruhi oleh
+    pertimbangan hal-hal yang memberatkan (perbuatan membahayakan keselamatan jiwa) dan
+    meringankan (belum pernah dihukum, mengakui perbuatan, bersikap sopan dalam persidangan).
+    Dalam praktik, hakim sering memilih denda apabila faktor meringankan lebih dominan dan
+    tidak ada akibat konkret yang ditimbulkan dari pelanggaran tersebut.",
+  "reasoning_steps": [
+    "Identifikasi pasal pidana yang berlaku: Pasal 305 UU No. 17/2008.",
+    "Ekstrak jenis sanksi dari rumusan pasal: penjara paling lama 2 tahun ATAU denda
+     paling banyak Rp300 juta — kata 'atau' = alternatif, bukan kumulatif.",
+    "Identifikasi kondisi yang mengaktifkan sanksi: pelanggaran Pasal 130 ayat (1)
+     (tidak memenuhi persyaratan keselamatan termasuk radio).",
+    "Inferensi faktor pemilih: hal memberatkan vs meringankan menentukan pilihan
+     hakim antara penjara dan denda."
+  ],
+  "reference_provisions": [
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 305",
+      "text": "Nakhoda yang tidak memelihara kapalnya sehingga tidak memenuhi persyaratan
+               keselamatan kapal sebagaimana dimaksud dalam Pasal 130 ayat (1) dipidana
+               dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak
+               Rp300.000.000,00 (tiga ratus juta rupiah)."
+    }},
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 130 ayat (1)",
+      "text": "Setiap kapal yang berlayar wajib memenuhi persyaratan keselamatan kapal yang
+               meliputi material, konstruksi, bangunan, permesinan dan perlistrikan, stabilitas,
+               tata susunan serta perlengkapan termasuk perlengkapan alat penolong dan radio,
+               elektronik kapal, dan lain-lain."
+    }}
+  ],
+  "referensi_hukum": [
+    "Pasal 305 UU No. 17 Tahun 2008 tentang Pelayaran",
+    "Pasal 130 ayat (1) UU No. 17 Tahun 2008 tentang Pelayaran"
+  ]
+}}
+
+---
+
+CONTOH 4 — Tier KOMPARASI_SUBJEK, Gaya SKENARIO, depth 3
+
+{{
+  "id": "kasus-pelayaran-001-komparasi",
+  "tier": "komparasi_subjek",
+  "user_input_style": "skenario",
+  "reasoning_depth_klasifikasi": {{
+    "depth": 3,
+    "justifikasi": "Hop 1 — Pasal 130 ayat (1): menetapkan kewajiban keselamatan yang menjadi
+      dasar seluruh rantai pertanggungjawaban. Tanpa pasal ini, tidak ada standar yang dilanggar.
+      Hop 2 — Pasal 305: menetapkan sanksi pidana untuk Subjek A (nakhoda) secara spesifik.
+      Tanpa pasal ini, jawaban untuk nakhoda tidak lengkap. Hop 3 — Pasal [kewajiban perusahaan]:
+      menetapkan kewajiban dan sanksi untuk Subjek B (perusahaan pelayaran). Tanpa pasal ini,
+      perbandingan antar subjek tidak dapat dilakukan. Tiga hop wajib karena setiap subjek
+      hukum memiliki pasal yang berbeda dan tidak saling menggantikan."
+  }},
+  "background_scenario": "Sebuah kapal tanker berangkat dalam kondisi radio tidak berfungsi.
+    Nakhoda (Subjek A) mengetahui kerusakan sebelum berangkat namun tetap berlayar. Perusahaan
+    pelayaran selaku pemilik kapal (Subjek B) telah menerima laporan teknis tentang kerusakan
+    radio tiga hari sebelum keberangkatan, namun tidak menghentikan operasi atau menyediakan
+    perbaikan. Kapal tiba di tujuan, tetapi kemudian diperiksa oleh otoritas pelabuhan dan
+    kondisi radio yang tidak berfungsi terungkap. Penuntut umum mendakwa kedua pihak.",
+  "question": "Dalam satu kasus pelanggaran keselamatan kapal yang sama, ada dua pihak yang
+    terlibat — nakhoda sebagai operator kapal dan perusahaan sebagai pemilik kapal. Apakah
+    pasal yang berlaku untuk keduanya sama? Berapa ancaman hukuman untuk masing-masing,
+    dan adakah perbedaan jenis sanksi antara subjek perorangan dengan subjek korporasi?",
+  "answer": "Nakhoda (Subjek A) dan perusahaan pelayaran (Subjek B) dikenai ketentuan berbeda
+    meskipun pelanggaran berasal dari satu peristiwa:
+
+    1. Nakhoda (Subjek A — perorangan):
+    Dikenai Pasal 305 UU No. 17 Tahun 2008 tentang Pelayaran. Ancaman sanksi bersifat
+    alternatif: pidana penjara paling lama 2 tahun ATAU denda paling banyak Rp300.000.000.
+    Dasar kewajiban yang dilanggar: Pasal 130 ayat (1) — nakhoda wajib memastikan kapal
+    memenuhi persyaratan keselamatan termasuk radio sebelum berlayar.
+
+    2. Perusahaan Pelayaran (Subjek B — korporasi/badan hukum):
+    Dikenai ketentuan yang mengatur kewajiban perusahaan angkutan laut sebagai pihak yang
+    bertanggung jawab atas kelaiklautan armadanya. Jika perusahaan berbentuk badan hukum,
+    sanksi dapat dijatuhkan kepada pengurus yang secara langsung bertanggung jawab atas
+    keputusan operasional kapal. Besaran dan jenis sanksi untuk korporasi dapat berbeda
+    dari sanksi perorangan, sesuai ketentuan UU No. 17 Tahun 2008 pasal yang mengatur
+    tanggung jawab perusahaan angkutan laut.
+
+    Perbedaan mendasar: nakhoda bertanggung jawab atas keputusan teknis-operasional di atas
+    kapal; perusahaan bertanggung jawab atas penyediaan kondisi laik laut sebelum kapal
+    dioperasikan.",
+  "reasoning_steps": [
+    "Identifikasi standar kewajiban bersama: Pasal 130 ayat (1) menetapkan persyaratan
+     keselamatan yang berlaku untuk semua pihak yang terlibat dalam operasi kapal.",
+    "Identifikasi pasal untuk Subjek A (nakhoda): Pasal 305 — sanksi alternatif penjara
+     ≤2 tahun atau denda ≤Rp300 juta.",
+    "Identifikasi pasal untuk Subjek B (perusahaan): ketentuan kewajiban perusahaan
+     angkutan laut dalam UU No. 17/2008 — sanksi dan subjek berbeda dari Pasal 305.",
+    "Inferensi perbandingan: perbedaan tanggung jawab (teknis-operasional vs. administratif-
+     penyediaan) menghasilkan pasal dan besaran sanksi yang berbeda untuk tiap subjek."
+  ],
+  "reference_provisions": [
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 130 ayat (1)",
+      "text": "Setiap kapal yang berlayar wajib memenuhi persyaratan keselamatan kapal..."
+    }},
+    {{
+      "provision_id": "UU No. 17 Tahun 2008 / Pasal 305",
+      "text": "Nakhoda yang tidak memelihara kapalnya sehingga tidak memenuhi persyaratan
+               keselamatan kapal sebagaimana dimaksud dalam Pasal 130 ayat (1) dipidana
+               dengan pidana penjara paling lama 2 (dua) tahun atau denda paling banyak
+               Rp300.000.000,00 (tiga ratus juta rupiah)."
+    }},
+    {{
+      "provision_id": "<WAJIB DIISI — cari pasal UU No. 17 Tahun 2008 yang mengatur kewajiban
+                        perusahaan angkutan laut untuk memastikan kapal laik laut sebelum beroperasi.
+                        Jangan tinggalkan placeholder ini di output — temukan nomor pasal aktualnya.>",
+      "text": "<WAJIB DIISI — teks lengkap pasal kewajiban perusahaan angkutan laut>"
+    }}
+  ],
+  "referensi_hukum": [
+    "Pasal 130 ayat (1) UU No. 17 Tahun 2008 tentang Pelayaran",
+    "Pasal 305 UU No. 17 Tahun 2008 tentang Pelayaran",
+    "<WAJIB DIISI — Pasal [X] UU No. 17 Tahun 2008 tentang Pelayaran — kewajiban perusahaan angkutan laut>"
+  ]
+}}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTOH PERTANYAAN BURUK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+✗ "Jelaskan hubungan antara Pasal 130 dan Pasal 305 UU Pelayaran."
+  [SALAH: akademik, bukan gaya chatbot]
+✗ "Apakah tindakan nakhoda melanggar hukum?"
+  [SALAH: single-hop, tidak memerlukan lebih dari satu pasal]
+✗ "Berapa hukuman untuk pelanggaran Pasal 305 UU Pelayaran?"
+  [SALAH: tier sanksi_pidana tapi single-hop — tidak menghubungkan ke pasal kewajiban yang dilanggar]
+✗ "Apakah nakhoda dan perusahaannya kena hukuman yang sama?"
+  [SALAH: tier komparasi_subjek tapi tidak self-explained dan tidak ada B yang cukup]
+✗ "Apakah benar denda yang dijatuhkan terlalu ringan?"
+  [SALAH: bocorkan jawaban, leading question]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTPUT FORMAT WAJIB
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Hasilkan output sebagai JSON valid dengan SATU objek berisi list "qa_pairs" yang berisi
+TEPAT 4 item — satu per tier (cross_pasal, analogis, sanksi_pidana, komparasi_subjek):
+
+{{
+  "qa_pairs": [
+    {{
+      "id": "string unik — format: [nomor_putusan_singkat]-[tier]",
+      "tier": "cross_pasal | analogis | sanksi_pidana | komparasi_subjek",
+      "user_input_style": "skenario | analogi",
+      "reasoning_depth_klasifikasi": {{
+        "depth": "<integer 2 atau 3 — 2 jika dua pasal diperlukan, 3 jika tiga pasal diperlukan>",
+        "justifikasi": "Penjelasan per hop: pasal mana yang diakses, apa kontribusinya,
+          dan mengapa pertanyaan tidak bisa dijawab tanpa hop tersebut."
+      }},
+      "background_scenario": "narasi fakta anonim — semua pihak dianonimkan",
+      "question": "pertanyaan multi-hop gaya chatbot pengguna",
+      "answer": "jawaban analisis hukum sesuai R7-R10",
+      "reasoning_steps": [
+        "Langkah 1: ...",
+        "Langkah 2: ...",
+        "Langkah N: ..."
+      ],
+      "reference_provisions": [
+        {{
+          "provision_id": "UU No. X Tahun Y / Pasal Z ayat (N)",
+          "text": "teks lengkap atau ringkasan substansial dari pasal"
+        }}
+      ],
+      "referensi_hukum": ["Pasal X ayat (N) UU No. Y Tahun Z tentang Nama UU"]
+    }}
+  ]
+}}
+"""
+
+
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+# REKOMENDASI FIELD TAMBAHAN UNTUK STRUKTUR DATA QA
+# (untuk dipertimbangkan pada iterasi berikutnya — tidak dimasukkan ke prompt LLM)
+# ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+#
+# KRITIS — tanpa ini kualitas dataset turun signifikan:
+#
+# "hop_chain": [
+#   {
+#     "hop": 1,
+#     "provision_id": "UU No. 17 Tahun 2008 / Pasal 130 ayat (1)",
+#     "kontribusi": "Menetapkan kewajiban persyaratan keselamatan yang menjadi dasar dakwaan.",
+#     "dapat_dihilangkan": false
+#   }
+# ]
+# → Eksplisitasi rantai reasoning per hop, berguna untuk evaluasi otomatis kedalaman multi-hop.
+#
+# "partial_check_passed": true/false
+# → Hasil KOBLEX partial-check: apakah ada subset C yang cukup menjawab Q?
+#   Jika true = Q benar-benar multi-hop; jika false = Q masih bisa dijawab sebagian.
+#
+# "source_putusan": "102/Pid.Sus/2019/PN Jkt.Utr."
+# → Traceability: dari putusan mana QA pair ini diderivasi.
+#
+# PENTING — meningkatkan kualitas dan kegunaan:
+#
+# "domain_hukum": "pelayaran" | "perikanan" | "pelabuhan" | ...
+# → Memudahkan filtering dan evaluasi per subdomain.
+#
+# "temporal_validity": {
+#   "UU No. 17 Tahun 2008": "aktif per Juni 2026"
+# }
+# → Menandai apakah UU yang dirujuk masih berlaku — krusial agar dataset tidak stale.
+#
+# "difficulty": 1 | 2 | 3
+# → 1 = pertanyaan langsung, 2 = memerlukan inferensi, 3 = memerlukan komparasi/analogi kompleks.
+#
+# "answer_grounding": "full" | "partial" | "parametric"
+# → "full" = seluruh A dapat diturunkan dari C; "partial" = sebagian bergantung pada
+#   pengetahuan LLM di luar C; "parametric" = sebagian besar dari parametric knowledge.
+#   Field ini penting untuk mengidentifikasi instance yang memerlukan validasi manual.
+#
+# OPSIONAL — untuk analisis dan penelitian lanjutan:
+#
+# "negation_test": "Jika nakhoda tidak mengetahui kerusakan radio sebelum berlayar,
+#   apakah Pasal 305 masih berlaku?"
+# → Pertanyaan kontrafaktual untuk menguji robustness reasoning.
+#
+# "validation_status": "llm_generated" | "expert_revised" | "expert_validated"
+# → Mengikuti pipeline KOBLEX: generated → revised → validated.
+#
+# "evaluasi_manusia": {
+#   "fluency": null,       # 1-5 Likert
+#   "practicality": null,  # 1-5 Likert
+#   "relevance": null,     # 1-5 Likert
+#   "legal_accuracy": null,# 1-5 Likert
+#   "complexity": null     # true/false (apakah benar-benar multi-hop)
+# }
+# → Slot untuk anotasi evaluasi manusia mengikuti rubrik KOBLEX.

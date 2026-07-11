@@ -1,0 +1,121 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": null,
+      "pidana_pengganti": null,
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan pemeriksaan perkara Pidana Perikanan Nomor : 2 / Pid.sus .PRK/2020 / PN.Mdn terhadap Terdakwa HERI BUANA SIREGAR dinyatakan Gugur karena terdakwa meninggal dunia. Barang bukti dikembalikan kepada yang berhak melalui Penuntut Umum, dan biaya perkara dibebankan kepada Negara sebesar nihil.",
+    "lokasi_pengadilan": "Medan",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "DR.Ir. YOES SUMARYONO, MH, M.Sc",
+        "JUNUN, SH.M.Si"
+      ],
+      "hakim_ketua": "MORGAN SIMANJUNTAK, SH.M.Hum"
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Medan",
+    "nomor_putusan": "2 / Pidsus .PRK /2020/ PN Mdn",
+    "panitera_pengganti": "RUDI HARAPAN HUTAHURUK, SH, MH.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-03-09"
+  },
+  "overview_kasus": {
+    "dakwaan": [],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa HERI BUANA SIREGAR meninggal dunia pada tanggal 27 Februari 2020 karena sakit, sehingga pemeriksaan perkara Pidana Perikanan Nomor: 2/Pid.sus.Prk / 2020 / PN.Mdn dinyatakan gugur dan dihentikan.",
+      "lokasi_kejadian": "Desa Bogak, Kecamatan Tanjung Tiram, Kabupaten Batubara",
+      "tanggal_kejadian": "2020-02-27"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir: Sungai Rampah; Tanggal lahir/Umur: 31 Desember 1953/ 66 Tahun; Jenis Kelamin: Laki-laki; Kebangsaan: Indonesia; Tempat Tinggal: Gang Mesjid Dusun XIII Desa Bogak Kecamatan Tanjung Tiram Kabupaten Batubara; Agama: Islam; Pekerjaan: Nelayan / Nakhoda KM. Primadona Sakti GT. 29 Nomor 166/PPo",
+        "nama": "HERI BUANA SIREGAR"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) buah KM. Primadona Sakti GT. 29 Nomor : 166/PPo terbuat dari kayu dengan mesin pokok merk Mitsubishi 8 DC 9 Nomor Mesin 323423",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit GPS merk Garmin",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit Fish Finder merk Furuno",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit radio komunikasi merk Star",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah drum air",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah kompor rebusan",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah jangkar (peralatan labuh)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "25 (dua puluh lima) buah baju pelampung / life jacket (alat keselamatan)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) gulung pukat cincin kecil / purse seine (alat tangkap)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Persetujuan Berlayar Nomor : B.55 / KM. 62 / 90 / 06 / 2019 tanggal 28 Juni 2019",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Daftar Awak Kapal Nelayan tanggal 28 Juni 2019",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Laik Operasi Kapal Perikanan Nomor : 634 / AHN.B / V / 2019 tanggal 30 Mei 2019",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Izin Usaha Perikanan Nomor : Nomor : 02.17.01.1298.0336 tanggal 09 Juni 2017",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Izin Penangkapan ikan Nomor : 26.18.1298.03.00516 tanggal 09 Juni 2018 s.d 08 Juni 2019",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Sertifikat Kelaikan dan Pengawakan Kapal Penangkap Ikan Nomor : PK.001/11/09/UPP.TT-18 tanggal 11 September 2018 s.d 10 September 2019",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Pas Besar Nomor Urut PK.205/12/9/UPP.TT-18 tanggal 11 September 2018 s.d 10 September 2019",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar SKK Nakhoda an. HERI BUANA Nomor : PK. 305/14/12/KSOP.Tba-17 tanggal 09 Mei 2017",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) lembar Surat Izin Usaha Perikanan (SIUP) Nomor: 523.3a/0937-J/IUP/2013 tanggal 25 Nopember 2013 s.d 24 Nopember 2033",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "Uang tunai sebanyak Rp. 1.500.000,- ( satu juta lima ratus ribu rupiah) dari hasil penjualan ikan basah campur-campur sebanyak 150 kg. (seratus lima puluh) kilogram",
+        "sumber": "Penuntut Umum"
+      }
+    ],
+    "pelanggaran_hukum": [],
+    "perbuatan_terdakwa": "Perkara Pidana Perikanan yang melibatkan terdakwa sebagai Nelayan/Nakhoda KM. Primadona Sakti GT. 29, dengan barang bukti berupa kapal, alat tangkap ikan (pukat cincin), dan dokumen kapal."
+  }
+}

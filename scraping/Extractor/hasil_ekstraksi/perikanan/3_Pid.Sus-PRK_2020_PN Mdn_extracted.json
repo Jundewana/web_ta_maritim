@@ -1,0 +1,292 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp 100.000.000,00",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": "1 (satu) Tahun"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "19 Maret 2020",
+        "tanggal_selesai": "28 Maret 2020"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": "20 Maret 2020",
+        "tanggal_selesai": "8 April 2020"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Medan",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "Pengadilan Negeri Medan",
+        "nomor_surat": null,
+        "tanggal_mulai": "9 April 2020",
+        "tanggal_selesai": "18 April 2020"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa MUSTAPA KAMAL SINAMBELA terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana 'Setiap orang yang memiliki dan/atau mengoperasian kapal penangkap ikan diwilayah pengelolaan perikanan Negara Republik Indonesia dan/atau di laut lepas yang tidak memiliki SIPI'. Menjatuhkan pidana penjara selama 1 (satu) Tahun dan denda sejumlah Rp 100.000.000,00,- (seratus juta rupiah) dengan ketentuan apabila denda tidak dibayar diganti dengan pidana kurungan selama 2 (dua) bulan. Menetapkan masa penangkapan dan penahanan dikurangkan seluruhnya dari pidana yang dijatuhkan dan Terdakwa tetap ditahan. Barang bukti berupa kapal, jaring trawl, dan 100 kg ikan campuran dimusnahkan, sementara barang bukti lainnya dirampas untuk negara. Membebankan biaya perkara kepada Terdakwa sejumlah Rp 5.000,-.",
+    "lokasi_pengadilan": "Medan",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "HENDI SANTOSA, S.H",
+        "M. JONI KEMRI S.Pi, S.H"
+      ],
+      "hakim_ketua": "MORGAN SIMANJUNTAK, S.H., M.Hum"
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Medan",
+    "nomor_putusan": "3/Pid.Sus-PRK/2020/PN.Mdn",
+    "panitera_pengganti": "RESMIATI TARIGAN, S.H., M.H",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-04-13"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 93 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 27 ayat (1)",
+        "peraturan": "Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 85 Jo Pasal 9",
+        "peraturan": "Undang-Undang No. 45 Tahun 2009 Tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan Jo. Peraturan Menteri Kelautan dan Perikanan Republik Indonesia Nomor 2/PERMEN-KP/2015 Tentang Larangan Penggunaan Alat Penangkap Ikan Pukat Hela (trawls) dan Pukat Tarik (Seine Nets) di wilayah pengelolaan Perikanan Negara Republik Indonesia."
+      },
+      {
+        "pasal": "Pasal 98 Jo Pasal 42 ayat (3)",
+        "peraturan": "Undang-Undang Republik Indonesia No. 45 Tahun 2009 Tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Kamis tanggal 10 Oktober 2019, terdakwa MUSTAPA KAMAL SINAMBELA selaku Nakhoda kapal KM Sinar Bahari Baru berangkat dari dermaga Sibolga menuju perairan timur Pulau Nias untuk menangkap ikan. Kapal tersebut menggunakan jaring trawl (pukat harimau) yang dilarang dan tidak dilengkapi dengan SIPI (Surat Izin Penangkapan Ikan), SPB (Surat Persetujuan Berlayar), serta SIUP (Surat Izin Usaha Perikanan). Sekitar pukul 08.30 WIB, kapal terdakwa terdeteksi oleh KRI Cut Nyak Dien-375. Setelah didekati, terdakwa memerintahkan ABK untuk menarik jaring trawl. Pemeriksaan oleh petugas TNI-AL menemukan alat penangkap ikan jenis trawl di atas kapal dan hasil tangkapan ikan sekitar 100 Kg, serta tidak adanya dokumen perizinan yang lengkap. Kapal beserta terdakwa dan ABK kemudian dikawal menuju Lanal Nias untuk diproses lebih lanjut.",
+      "lokasi_kejadian": "Perairan Timur Pulau Nias Teritorial Indonesia pada posisi 01º 09.423 U-098º 38.741 T",
+      "tanggal_kejadian": "2019-10-10"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir: Rawang Pasar V; Umur / Tanggal Lahir: 41 Tahun / 23 Oktober 1978; Jenis Kelamin: Laki-laki; Tempat Tinggal: Jl. Ceret Ujung Aek Muara Pinang Kabupaten Tapanuli Tengah Sumatera Utara; Agama: Kristen Protestan; Pekerjaan: Nelayan/Nahkoda KM. Sinar Bahari Baru.",
+        "nama": "MUSTAPA KAMAL SINAMBELA"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 unit KM Sinar Baru terbuat dari kayu",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "85 buah drum",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "230 PK Mesin RF 10",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah jangkar",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah radio",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah kompas",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah adaptor (charger)",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 buah GPS",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "2 ACC/baterai",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 set jaring trawl",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "surat Keterangan Kecakapan sebagai termaktub dalam Pasal III (4) Peraturan Kapal 1935",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "± 100 Kilogram ikan campuran",
+        "sumber": "Menyatakan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit Kapal KM SINAR BAHARI BARU",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit jarring trawl",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "85 buah drum",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit mesin RF 10 250 PK",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit jangkar",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit radio",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit kompas",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit Adaptor (charger)",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit GPS",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "2 unit Accu/baterai",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "100 kg ikan campuran (Busuk)",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan dari Syahbandar di Sibolga",
+        "sumber": "Penuntut Umum mengajukan barang bukti"
+      },
+      {
+        "nama_barang_bukti": "1 unit Kapal KM SINAR BAHARI BARU",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit jarring trawl",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "85 buah drum",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit mesin RF 10 250 PK",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit jangkar",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit radio",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit kompas",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit Adaptor (charger)",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit GPS",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "2 unit Accu/baterai",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "100 kg ikan campuran (Busuk)",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan dari Syahbandar di Sibolga",
+        "sumber": "barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit Kapal KM SINAR BAHARI BARU",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit jarring trawl",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "100 kg ikan campuran (Busuk)",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "85 buah drum",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "230 PK unit mesin RF 10",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit jangkar",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit radio",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit kompas",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit Adaptor (charger)",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "1 unit GPS",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "2 unit Accu/baterai",
+        "sumber": "Menetapkan barang bukti berupa"
+      },
+      {
+        "nama_barang_bukti": "Surat Keterangan Kecakapan dari Syahbandar di Sibolga",
+        "sumber": "Menetapkan barang bukti berupa"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 ayat (1) Jo Pasal 27 ayat (1) Undang-Undang Republik Indonesia Nomor 45 Tahun 2009 tentang Perubahan Atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "deskripsi_pelanggaran": "Menggunakan alat penangkapan ikan Pukat Tarik/Trawl",
+        "referensi_peraturan": "Pasal 85 Jo Pasal 9 Undang-Undang No. 45 Tahun 2009 Tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan Jo. Peraturan Menteri Kelautan dan Perikanan Republik Indonesia Nomor 2/PERMEN-KP/2015 Tentang Larangan Penggunaan Alat Penangkap Ikan Pukat Hela (trawls) dan Pukat Tarik (Seine Nets) di wilayah pengelolaan Perikanan Negara Republik Indonesia"
+      },
+      {
+        "deskripsi_pelanggaran": "Tidak memiliki Surat Persetujuan Berlayar (SPB)",
+        "referensi_peraturan": "Pasal 98 Jo Pasal 42 ayat (3) Undang-Undang Republik Indonesia No. 45 Tahun 2009 Tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 Tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa MUSTAPA KAMAL SINAMBELA terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana mengoperasikan kapal penangkap ikan berbendera Indonesia di wilayah pengelolaan perikanan Negara Republik Indonesia dan/atau di laut lepas yang tidak memiliki SIPI (Surat Izin Penangkapan Ikan)."
+  }
+}

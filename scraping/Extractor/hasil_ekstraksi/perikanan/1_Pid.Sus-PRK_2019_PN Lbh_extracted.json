@@ -1,0 +1,260 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp500.000,- (lima ratus ribu rupiah)",
+      "pidana_pengganti": "3 (tiga) bulan penjara",
+      "pidana_penjara": "9 (sembilan) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-04-04",
+        "tanggal_selesai": "2019-04-23"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-05-15",
+        "tanggal_selesai": "2019-05-24"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri",
+        "jenis_penetapan": "Hakim Pengadilan Negeri",
+        "lokasi_penetapan": "rutan",
+        "nomor_surat": null,
+        "tanggal_mulai": "2019-05-17",
+        "tanggal_selesai": "2019-06-05"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa NASARUDIN LAKODA alias LU telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Melakukan Penangkapan ikan dengan menggunakan bahan peledak\".",
+    "lokasi_pengadilan": "Labuha",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Erni Lily Gumolili, S.H.,M.H.",
+        "Irwan Hamid, S.H.. M.H."
+      ],
+      "hakim_ketua": "Achmad Rasjid, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Labuha",
+    "nomor_putusan": "1/Pid.Sus-PRK/2019/PN Lbh",
+    "panitera_pengganti": "Saleman Latuopono. S.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": null,
+        "gelar": "S. H.",
+        "kantor_hukum": null,
+        "nama": "JOHANA RAHAJAAN",
+        "tanggal_surat_kuasa": "21 Mei 2019"
+      }
+    ],
+    "tanggal_putusan": "23 Mei 2019"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 1 ayat (1)",
+        "peraturan": "Undang-undang Darurat RI nomor 12 tahun 1951"
+      },
+      {
+        "pasal": "84 ayat (1)",
+        "peraturan": "Undang-undang Perikanan nomor 31 tahun 2004"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Nasarudin Lakoda berlayar ke perairan Pulau Sali Besar, melihat ikan berkumpul, lalu membakar sumbu bom rakitan dan melemparkannya ke arah ikan. Bom meledak, ikan mati dan mengapung. Terdakwa mengumpulkan ikan mati tersebut. Kemudian, saksi Marwan, Jal, Nyong, dan Haji Lang melintas dan ikut mengumpulkan ikan. Sekitar 15 menit kemudian, petugas Polsek, saksi Munawir Adam, datang dan melihat terdakwa mengumpulkan ikan. Terdakwa mengakui perbuatannya dan dibawa ke Kantor Polsek Gane Barat bersama barang bukti.",
+      "lokasi_kejadian": "Perairan Pulau Sali Besar Kecamatan Gane Barat Kabupaten Halmahera Selatan",
+      "tanggal_kejadian": "Rabu, 03 April 2019"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "alias Lu",
+        "nama": "Nasarudin Lakoda"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit perahu ketinting",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "505 (lima ratus lima) ekor ikan jenis Dolosi dan kembung telah dijual oleh penyidik dibuktikan dengan kwitansi penjualan sebesar Rp. 150.000,- (seratus lima puluh ribu rupiah)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah botol kosong",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah botol aqua berisi butiran putih (pupuk)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah Colbox",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah pak korek api kayu",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah sumbu (dopis)",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "20 (dua puluh) karet gelang",
+        "sumber": "Penuntut Umum"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit Perahu Ketinting",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah Botol Kosong",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "1 buah buah botol agua berisi butiran putih (pupuk)",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "505 (lima ratus lima) ekor ikan jenis Dolosi dan kembung",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah Colboxs",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah pak korek api kayu",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah sumbu(dopis)",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "20 (dua puluh) karet gelang",
+        "sumber": "Saksi Munawir Adam"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit Perahu Ketinting",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah Botol Kosong",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "1 buah buah botol agua berisi butiran putih (pupuk)",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "505 (lima ratus lima) ekor ikan jenis Dolosi dan kembung",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah Colboxs",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah pak korek api kayu",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah sumbu(dopis)",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "20 (dua puluh) karet gelang",
+        "sumber": "Saksi Marwan Armin"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Unit Perahu Ketinting",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah Botol Kosong",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "1 buah buah botol agua berisi butiran putih (pupuk)",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "505 (lima ratus lima) ekor ikan jenis Dolosi dan kembung",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah Colboxs",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah pak korek api kayu",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah sumbu(dopis)",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "20 (dua puluh) karet gelang",
+        "sumber": "Saksi"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit perahu ketinting",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "505 (lima ratus lima) ekor ikan jenis Dolosi dan kembung telah dijual oleh penyidik dibuktikan dengan kwitansi penjualan sebesar Rp. 150.000,- (seratus lima puluh ribu rupiah)",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah botol kosong",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah botol aqua berisi butiran putih (pupuk)",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah Colbox",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah pak korek api kayu",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "3 (tiga) buah sumbu (dopis)",
+        "sumber": "Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "20 (dua puluh) karet gelang",
+        "sumber": "Pengadilan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Pengeboman Ikan",
+        "referensi_peraturan": "Pasal 84 ayat (1) Undang-Undang Perikanan Nomor 31 Tahun 2004"
+      },
+      {
+        "deskripsi_pelanggaran": "memasukkan ke Indonesia membuat, menerima, mencoba memperoleh, menyerahkan atau mencoba menyerahkan, menguasai, membawa, mempunyai persediaan padanya atau mempunyai dalam miliknya, menyimpan, mengangkut, menyembunyikan, mempergunakan, atau mengeluarkan dari Indonesia sesuatu senjata api, amunisi atau bahan peledak",
+        "referensi_peraturan": "Pasal 1 ayat (1) Undang-undang Darurat RI nomor 12 tahun 1951"
+      },
+      {
+        "deskripsi_pelanggaran": "Melakukan Penangkapan ikan dengan menggunakan bahan peledak",
+        "referensi_peraturan": "Pasal 84 ayat (1) Undang Undang Nomor 31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Melakukan Penangkapan ikan dengan menggunakan bahan peledak"
+  }
+}

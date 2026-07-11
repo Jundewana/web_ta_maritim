@@ -1,0 +1,112 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.20.000.000,-",
+      "pidana_pengganti": "kurungan selama 2 (dua) bulan",
+      "pidana_penjara": null
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": null,
+        "jenis_penetapan": "penangkapan",
+        "lokasi_penetapan": "sekitar perairan Jakarta-Banten",
+        "nomor_surat": null,
+        "tanggal_mulai": "08 Oktober 2018",
+        "tanggal_selesai": null
+      },
+      {
+        "instansi_penetap": "Pengadilan Negeri",
+        "jenis_penetapan": "penahanan",
+        "lokasi_penetapan": null,
+        "nomor_surat": null,
+        "tanggal_mulai": null,
+        "tanggal_selesai": null
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa Selamat Riyadi, telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan kapal\".",
+    "lokasi_pengadilan": "Jakarta Utara",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Sutedjo Bomantoro, SH, MH",
+        "Dodong Iman Rusdani, SH, MH"
+      ],
+      "hakim_ketua": "Chrisfajar Sosiawan, SH, MH"
+    },
+    "nama_pengadilan": "Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "580/Pid.Sus/2019/PN.Jkt.Utr.",
+    "panitera_pengganti": "J.Ricardo H.M., SH, MH",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-07-02"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 305 Jo Pasal 130 ayat (1)",
+        "peraturan": "UURI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 305 Jo. Pasal 130 Ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 305 Jo. Pasal 130 Ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 305 Jo. Pasal 130 Ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 305 Jo. Pasal 130 Ayat (1)",
+        "peraturan": "UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "Pasal 305 jo Pasal 130 ayat (1)",
+        "peraturan": "Undang Undang No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa Selamat Riyadi, nahkoda kapal SPOB Niagara V, pada hari Minggu tanggal 07 Oktober 2018 melakukan pengisian bahan bakar minyak solar di depo Pertamina Tanjung Geram Merak Banten. Pada hari Senin tanggal 08 Oktober 2018, saat akan melakukan pengisian di dekat jety Indonesia Power, kapal dihentikan oleh KRI Tenggiri-856 di perairan Jakarta-Banten. Setelah dilakukan pemeriksaan, ditemukan bahwa kapal yang dinahkodai terdakwa tidak memenuhi persyaratan keselamatan kapal karena hanya terdapat 1 (satu) alat pemadam kebakaran yang sudah kadaluwarsa, padahal idealnya harus ada 6 (enam) buah dalam kondisi baik dan layak pakai.",
+      "lokasi_kejadian": "perairan Jakarta-Banten pada posisi titik koordinat 05 53 52 S-106 00 22 T",
+      "tanggal_kejadian": "08 Oktober 2018"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir : Waymuli Umur/Tgl Lahir : 36 tahun/13 Juli 1983 Jenis Kelamin : Laki-laki Kewarganegaraan : Indonesia Tempat Tinggal : Link Sumur Jaya RT.001/RW.006, Kelurahan Taman Sari, Kec. Pulo Merak, Cilegon, Banten Agama : Islam Pekerjaan : Nahkoda SPOB Niagara V Pendidikan : -",
+        "nama": "Selamat Riyadi"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal SPOB Niagara V dan muatannya",
+        "sumber": "Diajukan dan ditetapkan sebagai barang bukti dalam persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) Tabung Chemical Foam Fire Extinguisher model AFFF",
+        "sumber": "Diajukan dan ditetapkan sebagai barang bukti dalam persidangan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) bendel dokumen kapal",
+        "sumber": "Diajukan dan ditetapkan sebagai barang bukti dalam persidangan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "melakukan tindak pidana Pelayaran",
+        "referensi_peraturan": "Pasal 305 Jo Pasal 130 ayat (1) UURI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "tidak memelihara kapalnya sehingga tidak memenuhi sesuai persyaratan keselamatan kapal",
+        "referensi_peraturan": "Pasal 305 Jo. Pasal 130 Ayat (1) UU RI No. 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "deskripsi_pelanggaran": "Tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan kapal",
+        "referensi_peraturan": "Pasal 305 jo Pasal 130 ayat (1) Undang Undang No. 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa selaku nahkoda tidak memelihara kapalnya sehingga tidak memenuhi persyaratan keselamatan kapal, yaitu tidak tersedianya alat pemadam kebakaran yang idealnya harus ada 6 (enam) buah dan hanya terdapat 1 (satu) buah alat pemadam kebakaran yang sudah kadaluwarsa."
+  }
+}

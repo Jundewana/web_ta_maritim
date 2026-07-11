@@ -1,0 +1,91 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp.100.000.000,00",
+      "pidana_pengganti": "Tanpa dijatuhi kurungan pengganti denda.",
+      "pidana_penjara": "Terdakwa tidak dijatuhi pidana penjara."
+    },
+    "histori_penahanan": [],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa BUI VAN NGO terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana mengoperasikan kapal penangkap ikan berbendera asing di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI). Menjatuhkan pidana denda sejumlah Rp.100.000.000,00 (seratus juta rupiah). Barang bukti berupa kapal, radio, GPS, kompas, dan jaring Purse Seine dimusnahkan, sedangkan bendera Malaysia dikembalikan kepada Pemerintah Malaysia melalui Terdakwa. Membebankan biaya perkara sejumlah Rp.5.000,00 kepada Terdakwa.",
+    "lokasi_pengadilan": "Ranai",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Sugeng Sulistiawan, S.H.",
+        "Ir. Untung Sunardi, M.M."
+      ],
+      "hakim_ketua": "Nanang Dwi Kristanto, S.H., M.Hum."
+    },
+    "nama_pengadilan": "Pengadilan Perikanan pada Pengadilan Negeri Ranai",
+    "nomor_putusan": "1/Pid.Sus-Prk/2020/PN Ran.",
+    "panitera_pengganti": "Hadry.B. S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2020-04-20"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 92 Jo Pasal 26 ayat (1) Jo Pasal 102",
+        "peraturan": "Undang-Undang RI No.45 Tahun 2009 tentang Perubahan atas Undang-Undang No.31 Tahun 2004 Tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 93 Ayat (2) Jo Pasal 27 Ayat (2) Jo Pasal 76A Jo Pasal 102",
+        "peraturan": "Undang-Undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan Jo Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 97 Ayat (1) Jo Pasal 38 Ayat (1) Jo Pasal 102 Jo Pasal 76A",
+        "peraturan": "Undang-undang Nomor 31 Tahun 2004 tentang Perikanan Jo Undang-undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-undang Nomor 31 Tahun 2004 tentang Perikanan"
+      },
+      {
+        "pasal": "Pasal 98 Jo Pasal 42 Ayat (3) Jo Pasal 76 A Jo Pasal 102",
+        "peraturan": "Undang-undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-undang Nomor 31 Tahun 2004 tentang Perikanan Jo Undang-undang Nomor 31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa BUI VAN NGO selaku Nakhoda TFA 063, kapal perikanan berbendera asing, berangkat dari pelabuhan Malaysia menuju Perairan Indonesia pada tanggal 08 September 2019. Pada hari Rabu tanggal 11 September 2019 sekitar pukul 13.15 WIB, kapal KRI Cut Nyak Dlen-375 mendeteksi dan mengejar TFA 063 di Perairan Zona Ekonomi Eksklusif Indonesia (ZEEI). Kapal TFA 063 akhirnya tertangkap pada pukul 04.35 WIB dan setelah pemeriksaan diketahui melakukan penangkapan ikan tanpa memiliki dokumen yang sah dari Pemerintah Indonesia (SIUP dan SIPI), serta alat tangkap Jaring Purse Seine berada di atas palka siap dioperasikan meskipun belum ada ikan hasil tangkapan. Terdakwa dan ABK kemudian ditangkap dan dikawal menuju Lanal Tarempa.",
+      "lokasi_kejadian": "Perairan Zona Ekonomi Eklusif Indonesia (ZEEI) pada posisi 04° 08' 638\" LU / 104° 52` 950\" BT",
+      "tanggal_kejadian": "2019-09-11"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat Lahir : Kien Giang - Vietnam; Umur/tanggal lahir : 24 Tahun/ 12 Mei 1995; Jenis Kelamin : Laki-laki; Kebangsaan : Vietnam; Tempat tinggal : Xa Vinh Phu-Ap Vinh Que-Huyen Chau Thanh Kien Giang - Vietnam; Agama : Budha; Pekerjaan : Nahkoda TFA 063; Pendidikan : Setingkat SD (Tidak Tamat).",
+        "nama": "BUI VAN NGO"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit Kapal TFA 063",
+        "sumber": "Dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Radio Sea Eagle 6900",
+        "sumber": "Dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah GPS Navigator Sunhang SH-70A",
+        "sumber": "Dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah Kompas Express",
+        "sumber": "Dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set alat tangkap Jaring Purse Seine",
+        "sumber": "Dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah bendera Malaysia",
+        "sumber": "Dikembalikan kepada Pemerintah Malaysia melalui Terdakwa"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "mengoperasikan kapal penangkap ikan berbendera asing di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)",
+        "referensi_peraturan": "Pasal 93 ayat (2) Jo Pasal 27 ayat (2) Jo Pasal 76A Undang-undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-undang Nomor 31 Tahun 2004 tentang Perikanan Jo Pasal 102 Undang-undang Nomor 31 Tahun 2004 tentang Perikanan"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa BUI VAN NGO terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"mengoperasikan kapal penangkap ikan berbendera asing di Zona Ekonomi Eksklusif Indonesia (ZEEI) yang tidak memiliki Surat Izin Penangkapan Ikan (SIPI)\"."
+  }
+}

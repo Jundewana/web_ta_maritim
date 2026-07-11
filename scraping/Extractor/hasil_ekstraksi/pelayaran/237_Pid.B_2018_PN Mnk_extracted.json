@@ -1,0 +1,140 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp50.000.000,00 (lima puluh juta rupiah)",
+      "pidana_pengganti": "2 (dua) bulan kurungan",
+      "pidana_penjara": "6 (enam) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "",
+        "nomor_surat": "Sp.Han/12/VIII/2018/Dit.Polair",
+        "tanggal_mulai": "17 Agustus 2018",
+        "tanggal_selesai": "5 September 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Perpanjangan Penahanan",
+        "lokasi_penetapan": "",
+        "nomor_surat": "B-185/Epp.2/08/2018",
+        "tanggal_mulai": "6 September 2018",
+        "tanggal_selesai": "15 Oktober 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "",
+        "nomor_surat": "PRINT-116/T.1.12/Ep.2/10/2018",
+        "tanggal_mulai": "15 Oktober 2018",
+        "tanggal_selesai": "3 November 2018"
+      },
+      {
+        "instansi_penetap": "Majelis Hakim Pengadilan Negeri Manokwari",
+        "jenis_penetapan": "Majelis Hakim",
+        "lokasi_penetapan": "Pengadilan Negeri Manokwari",
+        "nomor_surat": "237/Pid.B/2018/PN.Mnk.",
+        "tanggal_mulai": "02 November 2018",
+        "tanggal_selesai": "01 Desember 2018"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Manokwari",
+        "jenis_penetapan": "Perpanjangan Ketua Pengadilan",
+        "lokasi_penetapan": "Pengadilan Negeri Manokwari",
+        "nomor_surat": "237/Pid.B/2018/PN.Mnk.",
+        "tanggal_mulai": "02 Desember 2018",
+        "tanggal_selesai": "30 Januari 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa SAFPRI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"DENGAN SENGAJA MELAKUKAN PENGANGKUTAN BAHAN BAKAR MINYAK TANPA IZIN USAHA\".",
+    "lokasi_pengadilan": "Manokwari",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "JULIUS MANIANI, S.H.",
+        "BEHINDS JEFRI TULAK, S.H., M.H."
+      ],
+      "hakim_ketua": "SONNY A.B. LAOEMOERY, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Manokwari",
+    "nomor_putusan": "237/Pid.B/2018/PN.Mnk.",
+    "panitera_pengganti": "Baharim L. Siantar, S.H.",
+    "penasihat_hukum": [],
+    "tanggal_putusan": "2019-01-30"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "53 huruf b",
+        "peraturan": "Undang-Undang RI Nomor 22 tahun 2001 Tentang Minyak dan gas bumi"
+      },
+      {
+        "pasal": "53 huruf 'b' dan 'd'",
+        "peraturan": "Undang-undang RI Nomor 22Tahun 2001 tentang Minyak dan Gas Bumi"
+      },
+      {
+        "pasal": "323 ayat (1) jo. Pasal 219 ayat (1)",
+        "peraturan": "Undang-undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      },
+      {
+        "pasal": "323 Ayat (1) jo. Pasal 217 ayat (2)",
+        "peraturan": "Undang-Undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa SAFPRI pada hari Rabu, tanggal 01 Agustus 2018, sekitar pukul 11.00 WIT, bertempat di perairan muara Kilo 9 Kabupaten Teluk Bintuni, ditemukan oleh Saksi SOFYAN EFENDI, SH dan Saksi SYAMFIRDAUS dari Tim Lidik Subdit Gakkum Ditpolair Polda Papua yang sedang melakukan penyelidikan adanya dugaan tindak pidana migas. Saat ditemukan, KM. Kembang Emas yang dinahkodai SAFPRI sedang mengangkut bahan bakar minyak jenis solar yang dibeli dari kapal LCT di perairan Arandai tanpa izin usaha. Selain itu, ditemukan mesin alkon dan selang plastik sepanjang 50 meter yang digunakan untuk memindahkan BBM.",
+      "lokasi_kejadian": "perairan muara Kilo 9 Kabupaten Teluk Bintuni",
+      "tanggal_kejadian": "2018-08-01"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Nelayan (Nahkoda KM Kembang Emas)",
+        "nama": "SAFPRI"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (Satu) Unit KM Kembang Emas",
+        "sumber": "Dikembalikan kepada Pemilik Barang Sdr ADHAM SAPPE alias ADAM"
+      },
+      {
+        "nama_barang_bukti": "1 (Satu) Lembar pas kecil nama Kapal KM Kembang Emas dikeluarkan di Bintuni tanggal 02 Juni 2017",
+        "sumber": "Dikembalikan kepada Pemilik Barang Sdr ADHAM SAPPE alias ADAM"
+      },
+      {
+        "nama_barang_bukti": "1 (Satu) Lembar Sertifikat Kesempurnaan nama Kapal KM Kembang Emas dikeluarkan di Bintuni tanggal 02 Juni 2017",
+        "sumber": "Dikembalikan kepada Pemilik Barang Sdr ADHAM SAPPE alias ADAM"
+      },
+      {
+        "nama_barang_bukti": "1 (Satu) lembar surat keterangan Kecakapan atas nama SAFRI dikeluarkan di Bintuni tanggal 21 Oktober 2017",
+        "sumber": "Dikembalikan kepada Terdakwa AN. SAFPRI"
+      },
+      {
+        "nama_barang_bukti": "20 (Dua puluh) ton BBM Jenis Solar dalam Tengki",
+        "sumber": "Dirampas Untuk Negara"
+      },
+      {
+        "nama_barang_bukti": "1 (Satu) Unit Mesin Alkon Merek Honda",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "Selang dengan Ukuran Panjang 50 m (Lima puluh) meter",
+        "sumber": "Dirampas untuk dimusnahkan"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Melakukan pengangkutan dan niaga bahan bakar minyak jenis solar tanpa izin usaha",
+        "referensi_peraturan": "Pasal 53 huruf 'b' dan 'd' Undang-undang RI Nomor 22 Tahun 2001 tentang Minyak dan Gas Bumi"
+      },
+      {
+        "deskripsi_pelanggaran": "Sebagai nahkoda yang berlayar tanpa memiliki surat persetujuan berlayar yang dikeluarkan oleh syahbandar",
+        "referensi_peraturan": "Pasal 323 ayat (1) jo. Pasal 219 ayat (1) Undang-undang RI Nomor 17 Tahun 2008 tentang Pelayaran"
+      }
+    ],
+    "perbuatan_terdakwa": "Terdakwa SAFPRI terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"DENGAN SENGAJA MELAKUKAN PENGANGKUTAN BAHAN BAKAR MINYAK TANPA IZIN USAHA\"."
+  }
+}

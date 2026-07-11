@@ -1,0 +1,475 @@
+{
+  "dataset_info": {
+    "judul": "Dataset Multi-Hop QA GraphRAG — Tindak Pidana Perikanan Kepiting Bertelur (v2)",
+    "sumber_putusan": "Putusan Pengadilan Perikanan pada Pengadilan Negeri Jakarta Utara",
+    "nomor_putusan": "1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+    "tanggal_putusan": "2019-10-09",
+    "versi": "v2",
+    "catatan_desain": [
+      "Pertanyaan bersifat natural — ditulis seolah user mengetik langsung ke sistem RAG hukum.",
+      "Jika pertanyaan menyebut regulasi, nomor dokumen hukum disertakan secara eksplisit.",
+      "Jika tidak menyebut regulasi, pertanyaan bersifat skenario, analogi, atau berbasis contoh konkret.",
+      "Jawaban selalu mencantumkan fakta spesifik dan referensi hukum lengkap dari dokumen putusan.",
+      "Setiap QA mengandung field 'user_input_style' yang menjelaskan gaya penulisan pertanyaan."
+    ]
+  },
+  "generation_prompt": {
+    "versi": "v2",
+    "instruksi_sistem": "Anda adalah generator dataset QA multi-hop untuk sistem RAG hukum perikanan Indonesia. Tugas Anda menghasilkan pasangan pertanyaan-jawaban yang terasa seperti pertanyaan nyata dari pengguna awam kepada chatbot hukum — bukan pertanyaan akademik atau ujian. Ikuti semua aturan di bawah ini dengan ketat.",
+    "aturan_pertanyaan": {
+      "R1_natural": "Pertanyaan HARUS terasa seperti input nyata pengguna ke chatbot, bukan kalimat akademik. Gunakan bahasa percakapan, kalimat tidak sempurna, atau framing personal ('Saya punya teman...', 'Misalnya kalau...'). Hindari kalimat formal seperti 'Dalam konteks hukum pidana Indonesia, jelaskan...'",
+      "R2_regulasi": "JIKA pertanyaan menyebut atau mengandalkan regulasi tertentu, WAJIB cantumkan nomor dokumen hukum yang spesifik. Contoh benar: 'Berdasarkan Pasal 3 huruf b Permen KP No. 56/PERMEN-KP/2016, apakah...'. Contoh salah: 'Berdasarkan peraturan menteri terkait kepiting bertelur, apakah...'",
+      "R3_tanpa_regulasi": "JIKA pertanyaan tidak menyebut regulasi secara spesifik, gunakan salah satu dari tiga gaya: (a) SKENARIO: 'Misalkan seorang pengepul ikan di Balikpapan ketahuan menyimpan kepiting bertelur di cold storage-nya...', (b) ANALOGI: 'Sama seperti SIM yang tidak membebaskan pengemudi dari pidana tabrak lari, apakah izin usaha perikanan...', (c) BERBASIS CONTOH: 'Dalam kasus Miekie Hidayat yang diadili di PN Jakarta Utara tahun 2019...'",
+      "R4_self_explained": "Pertanyaan HARUS dapat dipahami tanpa membaca dokumen sumber. Jika ada konteks yang diperlukan, masukkan langsung ke dalam kalimat pertanyaan — jangan simpan di field 'konteks_skenario' saja.",
+      "R5_multihop": "Pertanyaan harus memerlukan minimal 2 hop penalaran: menghubungkan fakta spesifik + norma hukum, atau membandingkan dua pasal, atau menganalisis implikasi dari rangkaian kejadian.",
+      "R6_no_leading": "Jangan bocorkan jawaban di dalam pertanyaan. Pertanyaan yang diakhiri dengan 'Apakah benar bahwa...' dan lalu menyebutkan jawabannya adalah pertanyaan yang buruk."
+    },
+    "aturan_jawaban": {
+      "R7_fakta_spesifik": "Jawaban WAJIB menyebut fakta konkret dari dokumen putusan: nama pihak, nomor HC, nomor kontainer, tanggal, nominal denda, nama hakim — sesuai yang relevan.",
+      "R8_pasal_lengkap": "Setiap referensi hukum harus menyebut nomor pasal lengkap, nama undang-undang, dan tahun. Contoh benar: 'Pasal 88 jo. Pasal 16 ayat (1) UU No. 31 Tahun 2004 tentang Perikanan sebagaimana diubah UU No. 45 Tahun 2009'. Contoh salah: 'Pasal 88 UU Perikanan'.",
+      "R9_struktur": "Jawaban harus terstruktur: (1) jawaban langsung atas pertanyaan, (2) dasar hukum atau fakta pendukung, (3) nuansa atau pengecualian jika ada.",
+      "R10_panjang": "Jawaban minimal 120 kata, maksimal 350 kata. Cukup komprehensif untuk berguna, cukup ringkas untuk dibaca di chatbot."
+    },
+    "aturan_graph_relations": {
+      "R11_tipe_predikat": "Setiap triplet wajib memiliki field 'predicate_type' dengan nilai: 'faktual' (langsung dari dokumen), 'normatif' (hubungan antar norma hukum), 'prosedural' (urutan atau kewenangan), atau 'inferensial' (kesimpulan dari penalaran multi-hop).",
+      "R12_inferensial_wajib": "Setiap QA pair HARUS mengandung minimal 1 triplet bertipe 'inferensial' — ini yang membedakan multi-hop dari single-lookup.",
+      "R13_jumlah": "Minimal 4 triplet, maksimal 8 triplet per QA pair.",
+      "R14_subjek_spesifik": "Subjek dan objek triplet harus spesifik, bukan generik. 'Pasal 88 UU No. 31 Tahun 2004' lebih baik dari 'UU Perikanan'. 'Miekie Hidayat' lebih baik dari 'Terdakwa'."
+    },
+    "format_output": {
+      "fields_wajib": ["id", "tier", "persona_penanya", "user_input_style", "question", "answer", "reasoning_steps", "referensi_hukum", "graph_relations"],
+      "field_opsional": ["konteks_tambahan"],
+      "catatan": "Field 'konteks_skenario' dari versi v1 DIHAPUS. Konteks sekarang terintegrasi langsung ke dalam 'question'. Field 'user_input_style' ditambahkan untuk menjelaskan gaya penulisan pertanyaan."
+    },
+    "tipe_tier": {
+      "cross_pasal": "Menghubungkan dua atau lebih pasal dari instrumen hukum berbeda",
+      "timeline_multi_aktor": "Melibatkan kronologi dengan beberapa aktor berbeda",
+      "norma_kontradiksi": "Membandingkan norma yang mendukung atau bertentangan",
+      "hipotetis": "Skenario kontrafaktual — 'bagaimana jika...'",
+      "analogis": "Penalaran berdasarkan analogi ke situasi berbeda",
+      "proporsionalitas": "Analisis kepatutan atau proporsionalitas sanksi"
+    },
+    "contoh_pertanyaan_baik": [
+      "Saya baca Permen KP No. 56/PERMEN-KP/2016 — di situ dilarang 'mengumpulkan' kepiting bertelur. Tapi saya nelayan kecil yang kadang dapat kepiting bertelur nyasar ke jaring saya. Apakah saya otomatis melanggar kalau saya tidak langsung buang ke laut?",
+      "Dalam kasus Miekie Hidayat tahun 2019, kenapa health certificate dari BKIPM bisa terbit padahal isi kontainernya kepiting bertelur semua? Apa yang salah dari sistem pengawasannya?",
+      "Kalau perusahaan saya punya IUP lengkap, HACCP, semua izin beres — lalu ketahuan saya ikut ekspor kepiting bertelur tanpa sengaja karena salah sortir di gudang — apakah izin-izin itu bisa jadi alasan pembenar di pengadilan?"
+    ],
+    "contoh_pertanyaan_buruk": [
+      "Dalam konteks hukum pidana Indonesia, jelaskan hubungan antara Permen KP dan UU Perikanan dalam kasus kepiting bertelur. [SALAH: terlalu akademik, bukan gaya user chatbot]",
+      "Berdasarkan peraturan yang berlaku, apakah tindakan terdakwa memenuhi unsur deelneming? [SALAH: menyebut konsep hukum tanpa konteks, tidak self-explained]",
+      "Apakah benar bahwa denda Rp100 juta dalam putusan kasus ini tidak proporsional karena nilainya hanya 3-7% dari nilai barang? [SALAH: pertanyaan bocorkan jawabannya sendiri]"
+    ]
+  },
+  "multi_hop_qa": [
+    {
+      "id": "QA-01",
+      "tier": "cross_pasal",
+      "persona_penanya": "Pelaku usaha perikanan yang membaca berkas perkara",
+      "user_input_style": "regulasi_spesifik — menyebut nomor pasal dan UU secara eksplisit",
+      "question": "Saya lagi baca dakwaan kasus ekspor kepiting bertelur. Di situ jaksa pakai dua aturan sekaligus: Pasal 16 ayat (1) UU No. 31 Tahun 2004 tentang Perikanan jo. UU No. 45 Tahun 2009, dan Permen KP No. 56/PERMEN-KP/2016. Apakah kedua aturan itu memang harus dipakai bersamaan, atau salah satunya sudah cukup untuk menjerat terdakwa?",
+      "answer": "Keduanya memang harus dipakai bersama dan saling melengkapi, bukan saling menggantikan. Pasal 16 ayat (1) UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 melarang setiap orang mengadakan, memiliki, menjual, atau mengeluarkan 'ikan yang dilarang' — tapi UU ini tidak mendefinisikan spesies apa yang masuk kategori 'dilarang'. Kekosongan itu diisi oleh Permen KP No. 56/PERMEN-KP/2016 yang di Pasal 3 huruf (b) dan (d) secara tegas menyebut kepiting bertelur (Scylla spp.) sebagai komoditas yang dilarang ditangkap, dikumpulkan, maupun dikeluarkan dari wilayah Indonesia. Jadi, Permen KP adalah 'definisi teknis' yang mengkonkretkan larangan abstrak dalam UU — tanpa Permen KP, jaksa tidak bisa membuktikan bahwa kepiting bertelur masuk kategori 'dilarang' dalam Pasal 16. Adapun Pasal 88 UU yang sama adalah ketentuan pidananya: barangsiapa melanggar Pasal 16 diancam hukuman di sini. Dalam kasus Miekie Hidayat (Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr), tiga instrumen ini bekerja sebagai satu sistem: Permen KP mendefinisikan larangan, Pasal 16 menetapkan perbuatan yang dilarang, dan Pasal 88 menjatuhkan sanksinya.",
+      "reasoning_steps": [
+        "Mengidentifikasi bahwa Pasal 16 UU Perikanan menggunakan frasa 'ikan yang dilarang' tanpa mendefinisikan spesies tertentu — ini norma blanket yang membutuhkan pengisian",
+        "Menelusuri Permen KP No. 56/2016 Pasal 3 huruf (b) dan (d) sebagai regulasi teknis yang mengisi definisi 'ikan yang dilarang' dengan spesies kepiting bertelur (Scylla spp.)",
+        "Menghubungkan Pasal 88 sebagai ketentuan pidana yang menjadi sanksi atas pelanggaran Pasal 16, membentuk sistem tiga lapis",
+        "Menyimpulkan bahwa tanpa Permen KP tidak ada bukti hukum bahwa kepiting bertelur 'dilarang', dan tanpa UU tidak ada sanksi pidana yang bisa dijatuhkan"
+      ],
+      "referensi_hukum": "Pasal 88 jo. Pasal 16 ayat (1) UU No. 31 Tahun 2004 tentang Perikanan jo. UU No. 45 Tahun 2009; Pasal 3 huruf (b) dan (d) Permen KP No. 56/PERMEN-KP/2016; Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+      "graph_relations": [
+        {
+          "subject": "Pasal 16 ayat (1) UU No. 31 Tahun 2004",
+          "predicate": "menggunakan norma blanket",
+          "object": "frasa 'ikan yang dilarang' tanpa mendefinisikan spesies",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Permen KP No. 56/PERMEN-KP/2016 Pasal 3",
+          "predicate": "mengisi definisi teknis untuk",
+          "object": "kepiting bertelur (Scylla spp.) sebagai ikan yang dilarang",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Pasal 88 UU No. 31 Tahun 2004",
+          "predicate": "menjatuhkan sanksi pidana atas",
+          "object": "pelanggaran Pasal 16 ayat (1)",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Dakwaan kasus Miekie Hidayat",
+          "predicate": "menggunakan tiga instrumen hukum secara berjenjang",
+          "object": "Permen KP (definisi) → Pasal 16 (larangan) → Pasal 88 (sanksi)",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-02",
+      "tier": "norma_kontradiksi",
+      "persona_penanya": "Nelayan atau pengepul ikan skala kecil",
+      "user_input_style": "skenario_personal — pertanyaan berbasis situasi diri sendiri, regulasi disebut eksplisit",
+      "question": "Saya pengepul ikan di Balikpapan. Kadang saya beli hasil tangkapan nelayan yang campur-campur, termasuk ada kepiting bertelur di dalamnya. Saya tidak ekspor, semua saya jual di pasar lokal sini saja. Nah, Permen KP No. 56/PERMEN-KP/2016 itu larangannya hanya untuk ekspor, atau berlaku juga untuk yang jual di dalam negeri kayak saya?",
+      "answer": "Larangan dalam Permen KP No. 56/PERMEN-KP/2016 berlaku untuk semua kegiatan, termasuk jual-beli domestik — bukan hanya ekspor. Pasal 3 huruf (b) melarang 'mengumpulkan', huruf (c) melarang 'menyimpan', dan huruf (d) melarang 'memperoleh' kepiting bertelur, tanpa ada syarat bahwa kegiatannya harus lintas batas negara. Artinya, membeli kepiting bertelur dari nelayan — bahkan untuk dijual di pasar lokal — sudah masuk cakupan larangan. Yang memang tidak berlaku untuk situasi Anda adalah unsur 'mengeluarkan dari wilayah RI' yang ada di dakwaan kasus ekspor; unsur itu gugur karena tidak ada kegiatan ekspor. Tapi unsur 'mengadakan' dan 'mengedarkan' dalam Pasal 16 ayat (1) UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 tetap berlaku untuk perdagangan domestik. Referensi konkretnya: dalam kasus Miekie Hidayat (Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr), hakim menyatakan rangkaian perbuatan 'mengadakan dan mengedarkan' terbukti — ini mencakup seluruh rantai dari membeli sampai mengirim, bukan hanya momen ekspor. Jadi risiko hukum Anda nyata, meski Anda tidak ekspor sekalipun.",
+      "reasoning_steps": [
+        "Membaca Pasal 3 Permen KP No. 56/2016 secara lengkap — menemukan bahwa larangan di huruf (b), (c), (d) tidak mencantumkan syarat kegiatan lintas batas",
+        "Memisahkan unsur 'pengeluaran dari wilayah RI' yang hanya relevan untuk kasus ekspor dari unsur 'mengadakan' dan 'mengedarkan' yang berlaku umum",
+        "Menghubungkan Pasal 16 ayat (1) UU Perikanan yang mencakup frasa 'mengadakan' sebagai perbuatan yang meliputi aktivitas memperoleh/membeli",
+        "Mengacu pada putusan Miekie Hidayat sebagai preseden bahwa rangkaian perbuatan dari hulu (beli) hingga hilir (edar) semuanya termasuk unsur tindak pidana"
+      ],
+      "referensi_hukum": "Pasal 3 huruf (b), (c), (d) Permen KP No. 56/PERMEN-KP/2016; Pasal 16 ayat (1) jo. Pasal 88 UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009; Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+      "graph_relations": [
+        {
+          "subject": "Permen KP No. 56/2016 Pasal 3 huruf (b), (c), (d)",
+          "predicate": "melarang tanpa syarat lintas batas",
+          "object": "mengumpulkan, menyimpan, dan memperoleh kepiting bertelur",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Unsur 'pengeluaran dari wilayah RI'",
+          "predicate": "hanya relevan dalam",
+          "object": "dakwaan kasus dengan kegiatan ekspor",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Pasal 16 ayat (1) UU No. 31 Tahun 2004",
+          "predicate": "mencakup perbuatan",
+          "object": "mengadakan dan mengedarkan di pasar domestik sekalipun",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Pengepul yang membeli kepiting bertelur untuk pasar lokal",
+          "predicate": "tetap memenuhi unsur pidana berdasarkan",
+          "object": "Pasal 88 jo. Pasal 16 UU No. 31 Tahun 2004 meski tanpa ekspor",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-03",
+      "tier": "timeline_multi_aktor",
+      "persona_penanya": "Masyarakat umum yang membaca berita kasus",
+      "user_input_style": "berbasis_contoh — merujuk langsung ke kasus nyata tanpa menyebut nomor regulasi",
+      "question": "Dalam kasus ekspor kepiting bertelur tahun 2019 yang diadili di PN Jakarta Utara, saya bingung — kepiting bertelurnya itu dapat health certificate resmi dari karantina, tapi isinya justru kepiting yang dilarang. Bagaimana bisa petugas karantina keluarkan sertifikat resmi untuk barang ilegal? Siapa yang sebenarnya salah di sini?",
+      "answer": "Petugas karantina tidak salah secara prosedural — mereka dikibulin secara sistematis. Ini rekayasa tiga lapis yang dirancang oleh Miekie Hidayat selaku Manajer Pabrik PT Balikpapan Jaya Utama. Lapisan pertama: staf administrasinya, Puji Astuti, mengajukan permohonan Health Certificate ke Balai KIPM Balikpapan dengan mencantumkan produk sebagai 'frozen mud crab' (kepiting jantan beku) — bukan kepiting bertelur. Lapisan kedua: pekerja gudangnya, Ucok Mulyadi, memuat kepiting bertelur ke dalam kontainer SZLU 2023440. Lapisan ketiga dan paling kritis: ketika petugas BKIPM datang untuk inspeksi fisik, Miekie sendiri yang menyusun kepiting bertelur di lapisan bawah kontainer dan kepiting jantan di lapisan atas — sehingga yang terlihat oleh petugas saat cek visual hanya kepiting jantan. Berdasarkan kondisi yang sudah direkayasa itulah Health Certificate No. 0145/SKHC/06.0-00130/2019 tertanggal 15 Juli 2019 diterbitkan secara sah. Jadi dokumennya asli, tapi realitas barang yang diperlihatkan palsu. Ini bukan pemalsuan dokumen, melainkan penipuan fisik terhadap proses pemeriksaan.",
+      "reasoning_steps": [
+        "Mengidentifikasi tiga aktor dengan peran berbeda: Miekie (otak dan sutradara), Puji Astuti (pembuat permohonan HC dengan keterangan palsu), Ucok Mulyadi (pekerja yang memuat barang)",
+        "Menelusuri bahwa HC No. 0145/SKHC/06.0-00130/2019 diterbitkan sah secara prosedural berdasarkan inspeksi fisik yang sudah direkayasa",
+        "Mengidentifikasi modus penyusunan fisik kepiting (bertelur di bawah, jantan di atas) sebagai mekanisme inti penipuan terhadap petugas BKIPM",
+        "Menyimpulkan bahwa kesalahan bukan pada petugas karantina melainkan pada rekayasa aktif terdakwa yang membuat inspeksi formal menghasilkan sertifikasi yang keliru"
+      ],
+      "referensi_hukum": "Pasal 88 jo. Pasal 16 ayat (1) UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009; Permen KP No. 56/PERMEN-KP/2016; Health Certificate No. 0145/SKHC/06.0-00130/2019; Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+      "graph_relations": [
+        {
+          "subject": "Puji Astuti",
+          "predicate": "mengajukan permohonan HC dengan mencantumkan produk",
+          "object": "frozen mud crab (kepiting jantan beku) — bukan kepiting bertelur",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Miekie Hidayat",
+          "predicate": "menyusun kepiting bertelur di bawah untuk mengelabui",
+          "object": "petugas BKIPM saat inspeksi fisik di gudang PT Balikpapan Jaya Utama",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Health Certificate No. 0145/SKHC/06.0-00130/2019",
+          "predicate": "diterbitkan sah namun berdasarkan",
+          "object": "kondisi fisik barang yang sudah direkayasa terdakwa",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Rekayasa tiga lapis oleh Miekie, Puji, dan Ucok",
+          "predicate": "menghasilkan dokumen resmi yang menutupi",
+          "object": "645 dus kepiting bertelur di dalam kontainer SZLU 2023440",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-04",
+      "tier": "timeline_multi_aktor",
+      "persona_penanya": "Anggota keluarga terdakwa yang ingin tahu sisa hukuman",
+      "user_input_style": "berbasis_contoh dengan angka konkret — pertanyaan berfokus pada kalkulasi faktual",
+      "question": "Kakak saya kena kasus perikanan, ditangkap Agustus 2019 dan baru divonis Oktober 2019 dengan hukuman 1 tahun penjara. Selama proses itu dia sudah ditahan terus. Masa tahanan sebelum vonis itu dihitung tidak sebagai bagian dari hukumannya? Dan kalau dihitung, berapa lama lagi dia harus jalani sisanya?",
+      "answer": "Masa tahanan sebelum vonis memang dihitung dan dikurangkan penuh dari hukuman — ini disebut prinsip aftrek yang berlaku dalam hukum acara pidana Indonesia. Berdasarkan Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr atas nama Miekie Hidayat, penahanan berlangsung dalam lima fase: ditahan oleh Penyidik 20 hari (17 Agustus – 5 September 2019), diperpanjang Kejaksaan Agung RI 7 hari (6–12 September), ditahan Penuntut Umum 5 hari (13–17 September), ditahan Hakim PN/Perikanan Jakarta Utara 20 hari (18 September – 7 Oktober), dan terakhir oleh Wakil Ketua Pengadilan Perikanan 10 hari (8–17 Oktober). Total: 62 hari. Amar putusan secara eksplisit menyatakan 'masa penangkapan dan penahanan yang telah dijalani terdakwa dikurangkan seluruhnya dari pidana yang dijatuhkan'. Dengan vonis 1 tahun (365 hari) dikurangi 62 hari yang sudah dijalani, sisa hukuman yang perlu dijalani sekitar 303 hari atau kurang lebih 10 bulan.",
+      "reasoning_steps": [
+        "Mengidentifikasi lima fase penahanan beserta instansi yang berwenang: Penyidik, Kejaksaan Agung, Penuntut Umum, Hakim PN, Wakil Ketua Pengadilan Perikanan",
+        "Menghitung total durasi: 20 + 7 + 5 + 20 + 10 = 62 hari",
+        "Menemukan klausul aftrek dalam amar putusan yang menyatakan masa penahanan dikurangkan seluruhnya",
+        "Menghitung sisa hukuman: 365 hari - 62 hari = 303 hari ≈ 10 bulan"
+      ],
+      "referensi_hukum": "Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr (amar putusan klausul pengurangan masa penahanan); KUHAP (prinsip aftrek penahanan pra-putusan)",
+      "graph_relations": [
+        {
+          "subject": "Fase penahanan lima instansi",
+          "predicate": "berlangsung selama total",
+          "object": "62 hari (17 Agustus – 17 Oktober 2019)",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Amar putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+          "predicate": "secara eksplisit menerapkan prinsip aftrek dengan",
+          "object": "pengurangan seluruh masa penahanan dari vonis 1 tahun",
+          "predicate_type": "prosedural"
+        },
+        {
+          "subject": "Prinsip aftrek KUHAP",
+          "predicate": "menjamin bahwa",
+          "object": "masa penahanan pra-vonis tidak dijalani dua kali oleh terpidana",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Sisa hukuman efektif",
+          "predicate": "dihitung sebagai",
+          "object": "365 hari dikurangi 62 hari = sekitar 303 hari (10 bulan)",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-05",
+      "tier": "norma_kontradiksi",
+      "persona_penanya": "Pengusaha perikanan berizin lengkap",
+      "user_input_style": "analogi_plus_regulasi — menggunakan analogi sebelum menyebut aturan spesifik",
+      "question": "Saya dengar ada pengusaha ikan yang punya IUP lengkap, HACCP, sertifikat kelayakan pengolahan — semuanya aktif — tapi tetap dipidana karena kirim kepiting bertelur. Saya punya semua izin itu juga. Logika saya, kalau izin sudah lengkap dan sah, artinya kegiatan usaha saya sah di mata hukum. Apa izin-izin itu tidak bisa jadi alasan bahwa saya tidak melanggar hukum, atau paling tidak bisa meringankan hukuman kalau saya nanti ketahuan?",
+      "answer": "Izin usaha lengkap tidak bisa menjadi alasan pembenar (dalam doktrin hukum pidana disebut rechtvaardigingsgrond) atas pelanggaran larangan khusus. Analoginya seperti SIM: punya SIM tidak membebaskan pengemudi dari pidana tabrak lari. Izin Usaha Perikanan No. 503/861/IUP-P/DPMPTSP/V/2019 dan sertifikat HACCP No. 058/PM/HACCP/PB/02/19 milik PT Balikpapan Jaya Utama hanya memberikan kewenangan untuk mengolah dan mengekspor produk perikanan yang sah — bukan produk yang secara eksplisit dilarang Permen KP No. 56/PERMEN-KP/2016. Izin usaha tidak pernah mengoverride larangan spesies tertentu. Nah, soal meringankan: kelengkapan izin bisa dipertimbangkan hakim sebagai faktor yang menunjukkan Anda pengusaha formal, bukan pelaku kriminal murni. Ini mungkin yang memengaruhi vonis dalam kasus Miekie Hidayat — hanya 1 tahun penjara dan denda Rp100.000.000, padahal Pasal 88 UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 membuka ruang hukuman yang jauh lebih berat. Tapi 'meringankan' beda dengan 'membebaskan'. Anda tetap bisa dipidana.",
+      "reasoning_steps": [
+        "Mengidentifikasi jenis izin yang relevan: IUP No. 503/861/IUP-P/DPMPTSP/V/2019 dan HACCP No. 058/PM/HACCP/PB/02/19 — keduanya mengatur kewenangan usaha perikanan legal",
+        "Menelaah bahwa izin-izin tersebut tidak mencakup kewenangan untuk menangani komoditas yang dilarang Permen KP No. 56/2016",
+        "Menerapkan doktrin rechtvaardigingsgrond: izin usaha tidak bisa mengesampingkan larangan khusus spesies",
+        "Menghubungkan vonis ringan (1 tahun, Rp100 juta) sebagai indikasi izin usaha menjadi faktor meringankan, bukan pembenar"
+      ],
+      "referensi_hukum": "Pasal 88 jo. Pasal 16 ayat (1) UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009; Permen KP No. 56/PERMEN-KP/2016; IUP No. 503/861/IUP-P/DPMPTSP/V/2019; HACCP No. 058/PM/HACCP/PB/02/19; Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+      "graph_relations": [
+        {
+          "subject": "IUP No. 503/861/IUP-P/DPMPTSP/V/2019",
+          "predicate": "memberikan kewenangan terbatas untuk",
+          "object": "mengolah dan mengekspor produk perikanan yang sah secara hukum",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Permen KP No. 56/PERMEN-KP/2016",
+          "predicate": "tidak bisa dikecualikan oleh",
+          "object": "IUP atau sertifikat HACCP manapun",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Vonis 1 tahun penjara dan denda Rp100.000.000",
+          "predicate": "berada di bawah ancaman maksimum Pasal 88 — mengindikasikan",
+          "object": "hakim mempertimbangkan kelengkapan izin sebagai faktor meringankan",
+          "predicate_type": "inferensial"
+        },
+        {
+          "subject": "Kelengkapan izin usaha",
+          "predicate": "menjadi faktor meringankan namun tidak menjadi",
+          "object": "alasan pembenar (rechtvaardigingsgrond) dari tindak pidana",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-06",
+      "tier": "cross_pasal",
+      "persona_penanya": "Mahasiswa hukum atau praktisi hukum muda",
+      "user_input_style": "regulasi_spesifik dengan pertanyaan teknis — menyebut nomor pasal dan konsep hukum",
+      "question": "Dalam kasus ekspor kepiting bertelur ilegal yang diadili di PN Jakarta Utara tahun 2019, isi kontainer sudah jelas — ratusan dus kepiting bertelur beku, tidak bisa dibantah. Tapi jaksa juga repot-repot buktikan bahwa health certificate-nya (HC No. 0145/SKHC/06.0-00130/2019) menyebut 'frozen mud crab', sementara dokumen ekspornya bilang 'frozen soft shell crab'. Untuk apa inkonsistensi dokumen itu dibuktikan, kalau barang bukti fisiknya sudah sangat kuat? Apa peran unsur 'dengan sengaja' di Pasal 88 UU No. 31 Tahun 2004 di sini?",
+      "answer": "Bukti fisik (645 dus kepiting bertelur dari kontainer SZLU 2023440) sudah membuktikan actus reus — perbuatan fisiknya terjadi. Tapi Pasal 88 UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 mensyaratkan frasa 'dengan sengaja', artinya jaksa wajib buktikan juga mens rea — bahwa terdakwa tahu produknya dilarang dan sengaja melakukannya. Kalau terdakwa bisa berargumen 'saya tidak tahu itu kepiting bertelur, salah sortir di gudang', maka unsur sengaja bisa goyah. Di sinilah inkonsistensi tiga lapis dokumen menjadi sangat penting: HC No. 0145/SKHC/06.0-00130/2019 menyebut 'frozen mud crab', dokumen ekspor menyebut 'frozen soft shell crab', dan isi nyata kontainer adalah kepiting bertelur. Tiga deskripsi berbeda dari satu pengiriman yang sama — tidak ada kekeliruan administrasi yang bisa menjelaskan tiga lapisan penyamaran ini sekaligus. Orang yang tidak tahu produknya dilarang tidak akan membuat tiga versi deskripsi yang berbeda. Kombinasi inkonsistensi dokumen plus tindakan fisik menyusun kepiting bertelur di bawah kepiting jantan saat inspeksi karantina itulah yang membuktikan kesengajaan secara meyakinkan.",
+      "reasoning_steps": [
+        "Membedakan actus reus (fakta fisik 645 dus kepiting bertelur terbukti) dari mens rea (kesengajaan) yang harus dibuktikan terpisah untuk memenuhi Pasal 88",
+        "Mengidentifikasi bahwa frasa 'dengan sengaja' dalam Pasal 88 membuka celah pembelaan 'tidak tahu' jika tidak ada bukti kesengajaan",
+        "Menelusuri tiga lapis inkonsistensi: HC menyebut 'frozen mud crab' ≠ dokumen ekspor 'frozen soft shell crab' ≠ isi nyata kontainer 'kepiting bertelur'",
+        "Menyimpulkan bahwa tiga penyamaran berbeda tidak bisa dijelaskan sebagai kekeliruan, sehingga membuktikan kesengajaan secara inferensial"
+      ],
+      "referensi_hukum": "Pasal 88 jo. Pasal 16 ayat (1) UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 (unsur 'dengan sengaja'); Health Certificate No. 0145/SKHC/06.0-00130/2019 (produk 'frozen mud crab'); Kontainer SZLU 2023440",
+      "graph_relations": [
+        {
+          "subject": "645 dus kepiting bertelur beku dalam kontainer SZLU 2023440",
+          "predicate": "membuktikan unsur objektif (actus reus) namun tidak otomatis membuktikan",
+          "object": "kesengajaan (mens rea) yang disyaratkan Pasal 88",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "HC No. 0145/SKHC/06.0-00130/2019",
+          "predicate": "mencantumkan deskripsi produk berbeda dari dokumen ekspor",
+          "object": "'frozen mud crab' vs 'frozen soft shell crab' vs isi nyata kepiting bertelur",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Tiga lapis inkonsistensi deskripsi produk",
+          "predicate": "tidak dapat dijelaskan sebagai kekeliruan administratif sehingga membuktikan",
+          "object": "kesengajaan (mens rea) terdakwa secara inferensial",
+          "predicate_type": "inferensial"
+        },
+        {
+          "subject": "Penyusunan fisik kepiting bertelur di bawah kepiting jantan",
+          "predicate": "memperkuat bukti kesengajaan dengan cara",
+          "object": "mengelabui petugas BKIPM saat inspeksi fisik berlangsung",
+          "predicate_type": "faktual"
+        }
+      ]
+    },
+    {
+      "id": "QA-07",
+      "tier": "hipotetis",
+      "persona_penanya": "Pengusaha cold storage yang beroperasi murni domestik",
+      "user_input_style": "skenario_hipotetis_personal — 'bagaimana kalau kasus saya' tanpa menyebut nomor regulasi",
+      "question": "Saya punya cold storage dan jual kepiting ke restoran-restoran di Balikpapan, sama sekali tidak ekspor. Suatu hari saya ketahuan menyimpan kepiting bertelur — mungkin campur tidak sengaja dari nelayan. Pertanyaan saya: kalau saya ketahuan begitu, siapa yang bakal datang tangkap saya, polisi biasa atau ada instansi khusus perikanan? Dan saya akan diadili di pengadilan mana?",
+      "answer": "Ada dua instansi yang berwenang menyidik tindak pidana perikanan. Pertama, Penyidik Polri — dalam kasus Miekie Hidayat (Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr), yang menangkap adalah Direktorat Kepolisian Perairan berdasarkan informasi intelijen. Kedua, Penyidik Pegawai Negeri Sipil (PPNS) dari Kementerian Kelautan dan Perikanan — ini instansi khusus perikanan yang juga punya kewenangan penyidikan berdasarkan UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009. Soal pengadilan: Anda akan diadili di Pengadilan Perikanan — dalam hal wilayah Kalimantan Timur, secara administratif ini bisa berada di bawah yurisdiksi yang berbeda dari kasus Jakarta, tapi sistem Pengadilan Perikanan dibentuk di beberapa PN di seluruh Indonesia. Yang penting dipahami: yurisdiksi Pengadilan Perikanan melekat pada jenis tindak pidana (pelanggaran hukum perikanan), bukan pada apakah ada kegiatan ekspor atau tidak. Jadi meski Anda murni beroperasi domestik, Anda tetap masuk yurisdiksi pengadilan perikanan, bukan pengadilan negeri biasa.",
+      "reasoning_steps": [
+        "Mengidentifikasi dua penyidik berwenang: Polri (Direktorat Kepolisian Perairan seperti dalam kasus Miekie) dan PPNS KKP berdasarkan UU No. 31 Tahun 2004",
+        "Memeriksa bahwa larangan Permen KP No. 56/2016 Pasal 3 bersifat nasional — berlaku untuk cold storage domestik sekalipun",
+        "Mengidentifikasi bahwa yurisdiksi Pengadilan Perikanan melekat pada jenis perkara, bukan aspek ekspor-impor",
+        "Menyimpulkan bahwa operasi murni domestik tidak mengubah penyidik yang berwenang maupun pengadilan yang mengadili"
+      ],
+      "referensi_hukum": "UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 (kewenangan penyidikan PPNS dan Polri); Permen KP No. 56/PERMEN-KP/2016 Pasal 3; Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr (penangkapan oleh Direktorat Kepolisian Perairan)",
+      "graph_relations": [
+        {
+          "subject": "Direktorat Kepolisian Perairan Polri",
+          "predicate": "berwenang menyidik dan melakukan penangkapan dalam",
+          "object": "tindak pidana perikanan — sebagaimana dilakukan dalam kasus Miekie Hidayat 2019",
+          "predicate_type": "prosedural"
+        },
+        {
+          "subject": "PPNS Kementerian Kelautan dan Perikanan",
+          "predicate": "berwenang menyidik berdasarkan",
+          "object": "UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009",
+          "predicate_type": "prosedural"
+        },
+        {
+          "subject": "Yurisdiksi Pengadilan Perikanan",
+          "predicate": "melekat pada jenis tindak pidana, bukan pada",
+          "object": "ada tidaknya kegiatan ekspor dalam perkara",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Operasi cold storage murni domestik yang menyimpan kepiting bertelur",
+          "predicate": "tetap tunduk pada penyidikan dan pengadilan perikanan karena",
+          "object": "larangan Permen KP No. 56/2016 berlaku nasional tanpa syarat ekspor",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-08",
+      "tier": "hipotetis",
+      "persona_penanya": "Jurnalis atau pengamat hukum yang membaca teks putusan",
+      "user_input_style": "berbasis_contoh_anomali — merujuk ke fakta aneh dalam putusan yang butuh penjelasan",
+      "question": "Saya lagi baca teks putusan perkara kepiting bertelur di PN Jakarta Utara tahun 2019. Ada yang janggal: nama terdakwanya diikuti tulisan '(Alm.)' — berarti sudah meninggal dunia — tapi majelis hakim tetap menjatuhkan vonis penjara 1 tahun dan denda Rp100 juta. Ini legal? Dan kalau terdakwanya sudah meninggal, siapa yang bayar denda itu — apakah bisa ditagih ke keluarganya?",
+      "answer": "Ini anomali prosedural yang serius. Dalam hukum pidana Indonesia, prinsip personalitas pidana menyatakan bahwa sanksi pidana melekat pada diri pelaku dan hapus bersama kematiannya — tidak bisa diwariskan. Seharusnya, kematian terdakwa menghapus kewenangan jaksa untuk menuntut dan hakim untuk menjatuhkan pidana. Dalam Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr, meski Miekie Hidayat bin Kurniawan tercatat (Alm.), majelis hakim yang diketuai Ramses Pasaribu, S.H., M.H. tetap menjatuhkan vonis. Kemungkinan terbesar: kematian terjadi di ujung persidangan dan proses sudah terlanjur selesai. Konsekuensinya terbagi tiga: (1) Pidana penjara 1 tahun otomatis gugur dan tidak bisa dieksekusi ke siapapun. (2) Denda Rp100.000.000 dan biaya perkara Rp5.000 tidak bisa ditagih ke ahli waris — denda pidana beda dengan utang perdata. (3) Yang tetap bisa dieksekusi adalah perampasan barang bukti: 645 dus kepiting bertelur dan kontainer SZLU 2023440 yang dirampas untuk negara, karena perampasan melekat pada benda, bukan pada person terdakwa.",
+      "reasoning_steps": [
+        "Mengidentifikasi anomali: terdakwa Miekie Hidayat bin Kurniawan disebut (Alm.) dalam putusan yang dijatuhkan hakim Ramses Pasaribu, S.H., M.H.",
+        "Menerapkan prinsip personalitas pidana: kematian seharusnya menghapus kewenangan pemidanaan",
+        "Memisahkan komponen putusan: pidana penjara dan denda (personal — gugur bersama kematian) vs. perampasan barang bukti (in rem — melekat pada benda)",
+        "Menyimpulkan bahwa denda Rp100 juta dan penjara 1 tahun tidak dapat dieksekusi, tapi perampasan 645 dus kepiting dan kontainer SZLU 2023440 tetap berlaku"
+      ],
+      "referensi_hukum": "Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr (Majelis Hakim diketuai Ramses Pasaribu, S.H., M.H.); KUHP (prinsip personalitas pidana); amar putusan: denda Rp100.000.000 dengan kurungan pengganti 2 bulan, biaya perkara Rp5.000, dan perampasan barang bukti",
+      "graph_relations": [
+        {
+          "subject": "Prinsip personalitas pidana",
+          "predicate": "menyatakan bahwa sanksi pidana hapus bersama",
+          "object": "kematian terdakwa dan tidak dapat diwariskan ke ahli waris",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Denda Rp100.000.000 dan biaya perkara Rp5.000",
+          "predicate": "tidak dapat ditagihkan kepada ahli waris karena",
+          "object": "bersifat sanksi pidana personal, bukan utang perdata",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Perampasan 645 dus kepiting bertelur dan kontainer SZLU 2023440",
+          "predicate": "tetap dapat dieksekusi karena",
+          "object": "sifatnya in rem — melekat pada benda, bukan pada person terdakwa",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Putusan terhadap Miekie Hidayat bin Kurniawan (Alm.)",
+          "predicate": "menimbulkan anomali prosedural di mana hanya",
+          "object": "perampasan barang bukti yang secara hukum masih dapat dieksekusi",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-09",
+      "tier": "timeline_multi_aktor",
+      "persona_penanya": "Aktivis atau pengamat hukum yang kritis terhadap selektivitas penuntutan",
+      "user_input_style": "berbasis_contoh dengan pertanyaan normatif — merujuk ke kasus nyata, menyebut pasal KUHP",
+      "question": "Dalam kasus kepiting bertelur yang diadili di PN Jakarta Utara 2019 itu, dari fakta persidangan jelas ada tiga orang yang terlibat: bos yang perintahkan dan atur semuanya, staf yang urus dokumen health certificate-nya, dan pekerja gudang yang angkut kepitingnya. Tapi yang diadili cuma si bosnya saja. Menurut Pasal 55 dan 56 KUHP tentang penyertaan, apakah dua orang lainnya itu bisa ikut dipidana? Dan kenapa jaksa tidak mendakwa mereka juga?",
+      "answer": "Berdasarkan Pasal 55 KUHP tentang turut serta (medepleger) dan Pasal 56 KUHP tentang pembantuan (medeplichtigheid), keduanya berpotensi dijerat. Puji Astuti yang membuat permohonan Health Certificate dengan keterangan produk yang salah atas perintah Miekie Hidayat bisa dijerat sebagai pembantu (Pasal 56) jika terbukti ia tahu permohonan itu untuk menyamarkan kepiting bertelur. Kalau ia hanya menjalankan perintah tanpa tahu isi kontainer, unsur sengajanya lemah. Ucok Mulyadi yang secara fisik memindahkan kepiting bertelur dari cold storage dan memuatnya ke kontainer posisinya lebih dekat ke actus reus — lebih sulit berargumen tidak tahu. Lalu mengapa jaksa tidak mendakwa keduanya? Kemungkinan besar mereka dijadikan saksi mahkota — saksi yang berasal dari lingkaran pelaku dan mendapat imunitas penuntutan agar bersedia bersaksi memberatkan terdakwa utama. Jaksa Penuntut Umum memiliki diskresi penuh sebagai dominus litis untuk memilih siapa yang dituntut. Fokus pada satu aktor utama adalah strategi lazim untuk memastikan pembuktian kuat di persidangan, meskipun secara substansi dua orang lain itu bisa juga dipidana.",
+      "reasoning_steps": [
+        "Mengidentifikasi tiga aktor: Miekie Hidayat (otak dan pelaksana utama), Puji Astuti (administrasi HC), Ucok Mulyadi (pekerja gudang yang memuat barang)",
+        "Menerapkan Pasal 55 KUHP (medepleger) dan Pasal 56 KUHP (medeplichtigheid) untuk menilai potensi pertanggungjawaban Puji dan Ucok",
+        "Menganalisis kekuatan mens rea masing-masing: Puji (ambigu, bergantung pengetahuan isi kontainer), Ucok (lebih kuat karena langsung menangani barang terlarang)",
+        "Menjelaskan konsep saksi mahkota dan diskresi jaksa sebagai dominus litis sebagai penjelasan penuntutan selektif hanya terhadap Miekie"
+      ],
+      "referensi_hukum": "Pasal 55 KUHP (turut serta/medepleger); Pasal 56 KUHP (pembantuan/medeplichtigheid); Pasal 88 jo. Pasal 16 ayat (1) UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009; Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+      "graph_relations": [
+        {
+          "subject": "Puji Astuti",
+          "predicate": "berpotensi dijerat Pasal 56 KUHP (pembantuan) jika terbukti mengetahui",
+          "object": "permohonan HC dibuat untuk menyamarkan kepiting bertelur",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Ucok Mulyadi",
+          "predicate": "posisinya lebih dekat ke actus reus karena secara fisik",
+          "object": "memindahkan kepiting bertelur ke kontainer SZLU 2023440",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Puji Astuti dan Ucok Mulyadi",
+          "predicate": "kemungkinan dijadikan saksi mahkota dengan imunitas penuntutan agar",
+          "object": "bersedia memberikan kesaksian yang memberatkan Miekie Hidayat",
+          "predicate_type": "prosedural"
+        },
+        {
+          "subject": "Jaksa Penuntut Umum sebagai dominus litis",
+          "predicate": "menggunakan diskresi penuntutan selektif yang secara hukum sah namun",
+          "object": "meninggalkan dua pelaku potensial tanpa pertanggungjawaban pidana",
+          "predicate_type": "inferensial"
+        }
+      ]
+    },
+    {
+      "id": "QA-10",
+      "tier": "proporsionalitas",
+      "persona_penanya": "Peneliti kebijakan kelautan atau jurnalis investigatif",
+      "user_input_style": "analisis_dengan_angka — pertanyaan disertai data konkret, mendorong penilaian normatif",
+      "question": "Dalam putusan kasus Miekie Hidayat di PN Jakarta Utara tahun 2019, dendanya Rp100 juta untuk pengiriman 645 dus kepiting bertelur ke Taiwan. Kalau harga kepiting bakau ekspor itu sekitar USD 15–30 per kg dan satu dus isinya sekitar 10 kg, total nilainya bisa mencapai Rp1,4–2,9 miliar. Denda Rp100 juta itu kan cuma 3–7% dari nilai barangnya. Dari sisi teori hukum, apakah denda itu masuk kategori efektif sebagai efek jera? Dan kenapa hakim tidak pakai ancaman denda maksimum di Pasal 88 UU No. 31 Tahun 2004?",
+      "answer": "Dari perspektif teori deterrence dalam kriminologi, denda yang efektif sebagai jera harus melebihi keuntungan potensial yang diharapkan pelaku. Kalau nilai barangnya Rp1,4–2,9 miliar dan dendanya hanya Rp100 juta (3–7%), seorang pelaku rasional masih menghitung bahwa secara finansial ini 'worth it' — apalagi risiko ketahuannya tidak pasti 100%. Jadi secara teori, denda tersebut tidak memenuhi syarat efek jera yang memadai. Soal mengapa hakim tidak memakai ancaman maksimum Pasal 88 UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 — hakim punya diskresi dalam menentukan berat ringannya pemidanaan berdasarkan faktor meringankan yang terbukti di persidangan, antara lain kelengkapan izin usaha PT Balikpapan Jaya Utama (IUP, HACCP, sertifikat kelayakan pengolahan) yang menunjukkan terdakwa pengusaha formal. Idealnya, pemidanaan perikanan mempertimbangkan empat lapis: nilai ekonomi barang, kerugian ekologis (setiap kepiting bertelur yang tidak dilepas = ribuan larva hilang), kapasitas finansial pelaku, dan efek sinyal ke pasar. Keempat lapis itu tidak tampak terrefleksi dalam angka Rp100 juta.",
+      "reasoning_steps": [
+        "Menghitung estimasi nilai ekonomis 645 dus: 645 × 10 kg × USD 15–30/kg = USD 96.750–193.500 ≈ Rp1,4–2,9 miliar",
+        "Membandingkan denda Rp100 juta dengan nilai barang: 3–7% — jauh di bawah threshold efek jera menurut teori deterrence",
+        "Mengidentifikasi diskresi hakim dalam penerapan Pasal 88 dan kemungkinan faktor meringankan yang memengaruhi (izin usaha lengkap PT Balikpapan Jaya Utama)",
+        "Menyimpulkan bahwa denda tidak mencerminkan nilai ekologis atau sinyal kebijakan yang memadai untuk pencegahan kejahatan perikanan"
+      ],
+      "referensi_hukum": "Pasal 88 UU No. 31 Tahun 2004 jo. UU No. 45 Tahun 2009 (ancaman denda maksimum); Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr (denda Rp100.000.000 dengan kurungan pengganti 2 bulan, untuk pengiriman 645 dus kepiting bertelur via kontainer SZLU 2023440); Permen KP No. 56/PERMEN-KP/2016",
+      "graph_relations": [
+        {
+          "subject": "Denda Rp100.000.000 dalam putusan Miekie Hidayat",
+          "predicate": "setara hanya 3–7% dari nilai ekonomi",
+          "object": "645 dus kepiting bertelur senilai estimasi Rp1,4–2,9 miliar",
+          "predicate_type": "faktual"
+        },
+        {
+          "subject": "Teori deterrence kriminologi",
+          "predicate": "mensyaratkan denda efektif harus",
+          "object": "melebihi keuntungan potensial pelaku agar menciptakan efek jera",
+          "predicate_type": "normatif"
+        },
+        {
+          "subject": "Hakim dalam Putusan No. 1/Pid.Sus-Prk/2019/PN Jkt.Utr",
+          "predicate": "menggunakan diskresi di bawah ancaman maksimum Pasal 88 kemungkinan karena",
+          "object": "kelengkapan izin usaha PT Balikpapan Jaya Utama menjadi faktor meringankan",
+          "predicate_type": "inferensial"
+        },
+        {
+          "subject": "Denda perikanan yang tidak mencerminkan nilai ekologis dan sinyal pasar",
+          "predicate": "menciptakan preseden bahwa risiko hukum dapat dimasukkan sebagai",
+          "object": "biaya bisnis yang masih menguntungkan bagi pelaku ekspor ilegal",
+          "predicate_type": "inferensial"
+        }
+      ]
+    }
+  ]
+}

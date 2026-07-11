@@ -1,0 +1,198 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp. 100.000.000,00",
+      "pidana_pengganti": "Kurungan masing-masing selama 6 (enam) bulan",
+      "pidana_penjara": "Terdakwa I MAKMUR TAWE dipidana penjara selama 2 (dua) tahun dan 3 (tiga) bulan, Terdakwa II TAKSIL dipidana penjara selama 2 (dua) tahun dan 6 (enam) bulan."
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "SP. Han/14/VII/2018/Ditpolairud",
+        "tanggal_mulai": "28 Juli 2018",
+        "tanggal_selesai": "16 Agustus 2018"
+      },
+      {
+        "instansi_penetap": "Asisten Tindak Pidana Umum Kejaksaan Tinggi Nusa Tenggara Timur selaku Penuntut Umum",
+        "jenis_penetapan": "Diperpanjang",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "B-89/P.3.4/Ep.1/08/2018",
+        "tanggal_mulai": "17 Agustus 2018",
+        "tanggal_selesai": "26 Agustus 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "PRINT-332/P.3.15/Euh.2/08/2018",
+        "tanggal_mulai": "16 Agustus 2018",
+        "tanggal_selesai": "25 Agustus 2018"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Hakim Pengadilan Negeri Maumere",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "85/Pen.Pid/2018/PN Mme",
+        "tanggal_mulai": "23 Agustus 2018",
+        "tanggal_selesai": "11 September 2018"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Diperpanjang",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "85/Pen.Pid/2018/PN Mme",
+        "tanggal_mulai": "12 September 2018",
+        "tanggal_selesai": "21 September 2018"
+      },
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "SP. Han/15/VII/2018/Ditpolairud",
+        "tanggal_mulai": "28 Juli 2018",
+        "tanggal_selesai": "16 Agustus 2018"
+      },
+      {
+        "instansi_penetap": "Asisten Tindak Pidana Umum Kejaksaan Tinggi Nusa Tenggara Timur selaku Penuntut Umum",
+        "jenis_penetapan": "Diperpanjang",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "B-90/P.3.4/Ep.1/08/2018",
+        "tanggal_mulai": "17 Agustus 2018",
+        "tanggal_selesai": "26 Agustus 2018"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "PRINT-333/P.3.15/Euh.2/08/2018",
+        "tanggal_mulai": "16 Agustus 2018",
+        "tanggal_selesai": "25 Agustus 2018"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Hakim Pengadilan Negeri Maumere",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "85/Pen.Pid/2018/PN Mme",
+        "tanggal_mulai": "23 Agustus 2018",
+        "tanggal_selesai": "11 September 2018"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Maumere",
+        "jenis_penetapan": "Diperpanjang",
+        "lokasi_penetapan": "Rumah Tahanan Negara Maumere",
+        "nomor_surat": "85/Pen.Pid/2018/PN Mme",
+        "tanggal_mulai": "12 September 2018",
+        "tanggal_selesai": "21 September 2018"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa I MAKMUR TAWE dan Terdakwa II TAKSIL terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Secara bersama-sama dengan sengaja di Wilayah Pengelolaan Perikanan Republik Indonesia (WPP-RI) melakukan penangkapan ikan dan/atau pembudidayaan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya\" sebagaimana Dakwaan Tunggal Penuntut Umum.",
+    "lokasi_pengadilan": "Maumere",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "DODI EFRIZON, SH",
+        "ARIEF MAHARDIKA, SH"
+      ],
+      "hakim_ketua": "JOHNICOL RICHARD FRANS SINE, SH."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Maumere",
+    "nomor_putusan": "01/Pid.Sus-Prk/2018/PN Mme",
+    "panitera_pengganti": "LUKAS KATAN LETON",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": null,
+        "nama": "DODI EFRIZON",
+        "tanggal_surat_kuasa": null
+      },
+      {
+        "alamat_kantor": null,
+        "gelar": "SH.",
+        "kantor_hukum": null,
+        "nama": "JOHNICOL RICHARD F. SINE",
+        "tanggal_surat_kuasa": null
+      },
+      {
+        "alamat_kantor": null,
+        "gelar": "SH",
+        "kantor_hukum": null,
+        "nama": "ARIEF MAHARDIKA",
+        "tanggal_surat_kuasa": null
+      }
+    ],
+    "tanggal_putusan": "13 September 2018"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 84 ayat (1) Jo. Pasal 8 ayat (1) Jo. Pasal 55 ayat (1) ke-1",
+        "peraturan": "Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan Jo. Undang-undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan Jo. KUHPidana"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Terdakwa I MAKMUR TAWE dan Terdakwa II TAKSIL pada hari Jumat tanggal 27 Juli 2018 sekitar jam 07.15 Wita di Teluk Loh Tui, Perairan Ndete, Kecamatan Magepanda, Kabupaten Sikka, melakukan penangkapan ikan dengan menggunakan bahan peledak. Kejadian ini terungkap saat anggota POLAIRUD melakukan patroli dan menerima informasi adanya aktivitas pengeboman ikan. Setelah mencegat perahu Jolor yang diawaki kedua Terdakwa, ditemukan 169 ekor ikan berbagai jenis dan alat-alat penangkapan. Para Terdakwa mengakui telah melakukan pengeboman ikan sebanyak dua kali di perairan tersebut.",
+      "lokasi_kejadian": "Teluk Loh Tui, Perairan Ndete pada koordinat 08° 28'000\" LS --- 122° 00'579\" BT, Kecamatan Magepanda, Kabupaten Sikka",
+      "tanggal_kejadian": "27 Juli 2018"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "biasa dipanggil MAKMUR; Tempat lahir : Permaan; Umur/tanggal lahir : 56 tahun / 06 Agustus 1961; Jenis kelamin : Laki-laki. Kebangsaan : Indonesia. Tempat tinggal : Ndete, RT.002, RW.001, Desa Reroroja, Kecamatan Magepanda, Kabupaten Sikka; Agama : Islam; Pekerjaan : Nelayan;",
+        "nama": "MAKMUR TAWE"
+      },
+      {
+        "identitas_tambahan": "biasa dipanggil TAKSIL",
+        "nama": "TAKSIL"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 (satu) unit perahu jolor warna hijau putih les kuning",
+        "sumber": "Dikembalikan kepada Terdakwa I"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah alat dayung",
+        "sumber": "Dikembalikan kepada Terdakwa I"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) buah masker selam",
+        "sumber": "Dikembalikan kepada Terdakwa I"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah bunde (serokan ikan)",
+        "sumber": "Dikembalikan kepada Terdakwa I"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah keranjang anyaman",
+        "sumber": "Dikembalikan kepada Terdakwa I"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) buah korek api gas",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) bungkus rokok merk Surya dan Surya Pro",
+        "sumber": "Dirampas untuk dimusnahkan"
+      },
+      {
+        "nama_barang_bukti": "169 (seratus enam puluh sembilan) ekor ikan jenis campuran",
+        "sumber": "6 (enam) ekor ikan dijadikan sebagai sampel untuk diperiksa di Laboratorium Kriminal Mabes Polri Cabang Denpasar (sesuai Berita Acara Pemeriksaan Laboratoris Kriminalistik Nomor LAB: 807/KBF/2018, tanggal 01 Agustus 2018)dan sisanya sebanyak 163 (seratus enam puluh tiga) ekor ikan, telah dimusnahkan (sesuai Berita Acara Pemusnahan Benda Sitaan/Barang Bukti tanggal 02 Agustus 2018)"
+      },
+      {
+        "nama_barang_bukti": "2 (dua) botol bahan peledak siap pakai",
+        "sumber": "Disiapkan oleh Terdakwa I dari rumahnya"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Secara bersama-sama dengan sengaja di Wilayah Pengelolaan Perikanan Republik Indonesia (WPP-RI) melakukan penangkapan ikan dan/atau pembudidayaan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya",
+        "referensi_peraturan": "Pasal 84 ayat (1) Jo. Pasal 8 ayat (1) Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan Jo. Undang-undang Nomor 45 Tahun 2009 tentang Perubahan atas Undang-Undang Nomor 31 Tahun 2004 tentang Perikanan Jo. Pasal 55 ayat (1) ke-1 KUHPidana"
+      }
+    ],
+    "perbuatan_terdakwa": "Secara bersama-sama dengan sengaja di Wilayah Pengelolaan Perikanan Republik Indonesia (WPP-RI) melakukan penangkapan ikan dan/atau pembudidayaan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara, dan/atau bangunan yang dapat merugikan dan/atau atau membahayakan kelestarian sumber daya ikan dan/atau lingkungannya."
+  }
+}

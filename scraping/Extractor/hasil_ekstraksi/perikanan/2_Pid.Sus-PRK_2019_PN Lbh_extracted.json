@@ -1,0 +1,171 @@
+{
+  "hasil_putusan": {
+    "detail_hukuman": {
+      "denda": "Rp200.000.000,-",
+      "pidana_pengganti": "1 (satu) bulan kurungan",
+      "pidana_penjara": "1 (satu) tahun dan 2 (dua) bulan"
+    },
+    "histori_penahanan": [
+      {
+        "instansi_penetap": "Penyidik",
+        "jenis_penetapan": "Penyidik",
+        "lokasi_penetapan": "Rumah Tahanan Negara Labuha",
+        "nomor_surat": null,
+        "tanggal_mulai": "22 Juni 2019",
+        "tanggal_selesai": "11 Juli 2019"
+      },
+      {
+        "instansi_penetap": "Penuntut Umum",
+        "jenis_penetapan": "Penuntut Umum",
+        "lokasi_penetapan": "Rumah Tahanan Negara Labuha",
+        "nomor_surat": null,
+        "tanggal_mulai": "11 Juli 2019",
+        "tanggal_selesai": "20 Juli 2019"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Labuha",
+        "jenis_penetapan": "Perpanjangan Pertama",
+        "lokasi_penetapan": "Rumah Tahanan Negara Labuha",
+        "nomor_surat": null,
+        "tanggal_mulai": "21 Juli 2019",
+        "tanggal_selesai": "30 Juli 2019"
+      },
+      {
+        "instansi_penetap": "Hakim Pengadilan Negeri Labuha",
+        "jenis_penetapan": "Hakim",
+        "lokasi_penetapan": "Rumah Tahanan Negara Labuha",
+        "nomor_surat": null,
+        "tanggal_mulai": "25 Juli 2019",
+        "tanggal_selesai": "13 Agustus 2019"
+      },
+      {
+        "instansi_penetap": "Ketua Pengadilan Negeri Labuha",
+        "jenis_penetapan": "Perpanjangan",
+        "lokasi_penetapan": "Rumah Tahanan Negara Labuha",
+        "nomor_surat": null,
+        "tanggal_mulai": "14 Agustus 2019",
+        "tanggal_selesai": "23 Agustus 2019"
+      }
+    ],
+    "histori_putusan_sebelumnya": [],
+    "kesimpulan_putusan": "Menyatakan Terdakwa I. AHNIR M. LIBI Alias AHNIR, Terdakwa II. ARIFIN RENYAAN Alias IPIN dan Terdakwa III. LAMET TEKEN Alias MEMET telah terbukti secara sah dan meyakinkan bersalah melakukan tindak pidana \"Secara Bersama-Sama Melakukan Penangkapan ikan dengan menggunakan bahan peledak\". Menjatuhkan pidana penjara masing-masing selama 1 (satu) tahun dan 2 (dua) bulan dan denda sejumlah Rp200.000.000,- (dua ratus juta rupiah), dengan ketentuan apabila pidana denda tidak dibayar maka diganti dengan pidana kurungan selama 1 (satu) bulan. Masa penangkapan dan penahanan dikurangkan seluruhnya dari pidana yang dijatuhkan dan para Terdakwa tetap berada dalam tahanan. Barang bukti berupa perahu longboat, kompresor, mesin jonson, kacamata/masker selam, selang kompresor, jerigen, dan jaring kecil dirampas untuk negara, sedangkan 20 Kg ikan jenis dolosi dimusnahkan. Para Terdakwa dibebankan membayar biaya perkara masing-masing sejumlah Rp. 2.000,-.",
+    "lokasi_pengadilan": "Labuha, Kabupaten Halmahera Selatan",
+    "majelis_hakim": {
+      "hakim_anggota": [
+        "Bonita Pratiwi Putri, S.H."
+      ],
+      "hakim_ketua": "Bonita Pratiwi Putri, S.H."
+    },
+    "nama_pengadilan": "Pengadilan Negeri Labuha",
+    "nomor_putusan": "2/Pid.Sus-PRK/2019/PN Lbh",
+    "panitera_pengganti": "Saleman Latupono, S.H.",
+    "penasihat_hukum": [
+      {
+        "alamat_kantor": "Jalan Poros Tomori Kabupaten Halmahera Selatan",
+        "gelar": "S.H.",
+        "kantor_hukum": null,
+        "nama": "JOHANA RAHAJAAN",
+        "tanggal_surat_kuasa": "6 Agustus 2019"
+      }
+    ],
+    "tanggal_putusan": "2019-08-16"
+  },
+  "overview_kasus": {
+    "dakwaan": [
+      {
+        "pasal": "Pasal 84 ayat (1)",
+        "peraturan": "Undang-Undang Perikanan Nomor 31 Tahun 2004"
+      },
+      {
+        "pasal": "Pasal 55 Ayat (1) ke-1",
+        "peraturan": "KUHP"
+      },
+      {
+        "pasal": "Pasal 85",
+        "peraturan": "UU Perikanan nomor 31 tahun 2004"
+      }
+    ],
+    "ringkasan_kejadian": {
+      "kronologi_singkat": "Pada hari Rabu tanggal 19 Juni 2019 sekitar pukul 15.00 Wit, Terdakwa I AHNIR M.LIBI ALIAS AHNIR bersama Terdakwa II ARIFIN RENYAAN alias IPIN dan Terdakwa III LAMET TEKEN alias MEMET melakukan penangkapan ikan di sekitar perairan tapa / teluk labungku Pasir Putih Kecamatan Obi Utara Kabupaten Halmahera Selatan. Terdakwa I bertugas mengecek keberadaan ikan, lalu melempar bahan peledak (bom) dan menyelam untuk mengambil ikan. Terdakwa III berperan sebagai motoris/pembawa longboat, sedangkan Terdakwa II melakukan penyelaman di permukaan laut untuk mengambil ikan yang telah mati dan terapung. Penangkapan ikan ini menggunakan bahan peledak (bom) yang menyebabkan kerusakan terumbu karang dan ikan hasil tangkapan mengalami patah tulang serta hancur.",
+      "lokasi_kejadian": "sekitar perairan tapa / teluk labungku Pasir Putih Kecamatan Obi Utara Kabupaten Halmahera Selatan",
+      "tanggal_kejadian": "2019-06-19"
+    },
+    "terdakwa": [
+      {
+        "identitas_tambahan": "Tempat lahir : Obi Utara; Umur/Tanggal lahir : 34 tahun/12 Juni 1985; Jenis kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Desa Cap Kecamatan Obi Utara Kabupaten Halmahera Selatan; Agama : Islam; Pekerjaan : Nelayan;",
+        "nama": "Ahnir M. Libi Alias Ahnir"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir : Obi Utara; Umur/tanggal lahir : 34 Tahun/31 Desember 1984; Jenis kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Desa Cap Kecamatan Obi Kabupaten Halmahera Selatan; Agama : Islam; Pekerjaan : Petani;",
+        "nama": "Arifin Renyaan Alias Ipin"
+      },
+      {
+        "identitas_tambahan": "Tempat lahir : Obi Utara; Umur/tanggal lahir : 33 Tahun/9 Oktober 1985; Jenis kelamin : Laki-laki; Kebangsaan : Indonesia; Tempat tinggal : Desa Cap Kecamatan Obi Kabupaten Halmahera Selatan; Agama : Islam; Pekerjaan : Petani;",
+        "nama": "Lamet Teken Alias Memet"
+      }
+    ]
+  },
+  "temuan_penting": {
+    "barang_bukti": [
+      {
+        "nama_barang_bukti": "1 Unit Perahu Longboat",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Kompresor merek Shark",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Mesin Jonson 15 PK Merek Yamaha",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 Unit Kacamata / masker selam",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "2 Ikat selang kompresor warna kuning",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 jerigen tempat penyimpanan kunci",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 ikat jaring kecil / Salapa",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "20 Kg ikan jenis dolosi",
+        "sumber": "Penuntut Umum, Terdakwa, Saksi SULASTRA, Saksi MUHAMMAD RUSLI ODE HUMA, Pengadilan"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) unit loangboat tanpa nama dengan mesin tempel merek yamaha 15 PK",
+        "sumber": "Saksi SULASTRA, Saksi SULASTRA dan Saudara Ikran Mahmud"
+      },
+      {
+        "nama_barang_bukti": "1 (satu) set kompresor",
+        "sumber": "Saksi SULASTRA, Saksi SULASTRA dan Saudara Ikran Mahmud"
+      }
+    ],
+    "pelanggaran_hukum": [
+      {
+        "deskripsi_pelanggaran": "Pengeboman Ikan",
+        "referensi_peraturan": "Pasal 84 ayat (1) Undang-Undang Perikanan Nomor 31 Tahun 2004 Jo Pasal 55 Ayat (1) ke-1 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "memiliki, menguasai, membawa, dan atau menggunakan alat penangkapan ikan dan atau alat bantu penangkapan ikan yang berada dikapal penangkap ikan yang tidak sesuai dengan ukuran yang ditetapkan, alat penangkapan ikan yang tidak sesuai dengan persyaratan, atau standart yang ditetapkan untuk tipe alat tertentu dan atau alat penangkapan ikan yang dilarang",
+        "referensi_peraturan": "Pasal 85 UU Perikanan nomor 31 tahun 2004 Jo Pasal 55 KUHP"
+      },
+      {
+        "deskripsi_pelanggaran": "setiap orang yang dengan sengaja di wilayah pengelolaan perikanan republik indonesia melakukan penangkapan ikan dan/atau pembudidayaan ikan dengan menggunakan bahan kimia, bahan biologis, bahan peledak, alat dan/atau cara dan/atau bangunan yang dapat merugikan dan/atau membahayakan kelestarian sumber daya ikan dan/atau lingkunganya sebagaimana dalam pasal 8 ayat (1)",
+        "referensi_peraturan": "Pasal 84 ayat (1)"
+      },
+      {
+        "deskripsi_pelanggaran": "setiap orang yang dengan sengaja memiliki, menguasai, membawa, dan/atau menggunakan alat penangkap ikan dan/atau alat bantu penangkap ikan yang mengganggu dan merusak keberlanjutan sumber daya ikan di kapal penagkap ikan di wilayah pengelolaan perikanan negara republik indonesia sebagaimana dimaksud dalam pasal 9",
+        "referensi_peraturan": "Pasal 85"
+      }
+    ],
+    "perbuatan_terdakwa": "Secara Bersama-Sama Melakukan Penangkapan ikan dengan menggunakan bahan peledak"
+  }
+}

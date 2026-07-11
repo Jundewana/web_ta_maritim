@@ -1,0 +1,1584 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ADE — Agentic Document Extractor</title>
+<script>
+  (function() {
+    try {
+      const stored = localStorage.getItem('ade_theme');
+      const preferred = stored === 'light' || stored === 'dark'
+        ? stored
+        : (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+      document.documentElement.setAttribute('data-theme', preferred);
+    } catch (e) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    }
+  })();
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+  :root{
+    --bg:#171b22;--bg2:#1d232c;--bg3:#232a35;
+    --surface:#252b35;--surface2:#2d3542;
+    --border:#384150;--border2:#4a5568;
+    --accent:#c27a49;--green:#6aa37d;--red:#d06b61;--yellow:#d0a14d;
+    --text:#edf1f6;--text2:#c1cbd8;--text3:#91a0b3;
+    --page-top:#181d25;--page-bottom:#11151b;
+    --chrome:rgba(17,21,27,.94);--chrome2:#171c24;--chrome3:#202734;
+    --panel:rgba(20,25,32,.98);--panel-soft:rgba(23,28,36,.96);
+    --code-bg:#141922;--shadow:0 18px 50px rgba(0,0,0,.5);
+    --mono:'IBM Plex Mono',monospace;--sans:'IBM Plex Sans',sans-serif
+  }
+  :root[data-theme="light"]{
+    --bg:#FAF9F6;--bg2:#F0EEE5;--bg3:#E8E1D3;
+    --surface:#FFFFFF;--surface2:#F6F2EA;
+    --border:#D8D1C5;--border2:#C5BAA8;
+    --accent:#A85F34;--green:#5C8A69;--red:#C44E4E;--yellow:#B7812E;
+    --text:#2F2C27;--text2:#514A40;--text3:#7C7368;
+    --page-top:#FAF9F6;--page-bottom:#F1EBDD;
+    --chrome:rgba(240,238,229,.96);--chrome2:#EFE8DB;--chrome3:#E9E2D6;
+    --panel:rgba(255,255,255,.82);--panel-soft:rgba(255,255,255,.94);
+    --code-bg:#F4EFE5;--shadow:0 18px 50px rgba(20,20,19,.12)
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:linear-gradient(180deg, var(--page-top) 0%, var(--page-bottom) 100%);color:var(--text);font-family:var(--sans);font-size:14px;min-height:100vh;display:flex;flex-direction:column;transition:background-color .2s ease,color .2s ease}
+  header{border-bottom:1px solid var(--border);padding:14px 28px;display:flex;align-items:center;gap:14px;background:var(--chrome);backdrop-filter:blur(8px);box-shadow:0 1px 0 rgba(255,255,255,.03)}
+  .logo{width:30px;height:30px;background:linear-gradient(135deg, #c27a49, #a85f34);display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:600;font-size:12px;color:#fff;flex-shrink:0;border-radius:8px;box-shadow:0 6px 14px rgba(194,122,73,.24)}
+  header h1{font-family:var(--mono);font-size:14px;font-weight:600;letter-spacing:.08em;color:var(--text)}
+  .bstatus{margin-left:auto;display:flex;align-items:center;gap:7px;font-family:var(--mono);font-size:11px;color:var(--text3)}
+  .sdot{width:8px;height:8px;border-radius:50%;background:var(--text3);flex-shrink:0;transition:background .3s}
+  .sdot.ok{background:var(--green);box-shadow:0 0 6px var(--green)}
+  .sdot.err{background:var(--red);box-shadow:0 0 6px var(--red)}
+  .app{display:grid;grid-template-columns:360px 1fr;flex:1;overflow:hidden;height:calc(100vh - 57px)}
+  .theme-toggle-btn{display:flex;align-items:center;justify-content:center;width:24px;height:24px;flex-shrink:0;border-radius:7px;border:1px solid rgba(0,0,0,.12);background:transparent;color:var(--text3);cursor:pointer;transition:all .18s;font-family:var(--mono);font-size:12px;line-height:1}
+  .theme-toggle-btn:hover{background:var(--surface2);color:var(--text);border-color:var(--accent)}
+  /* LEFT PANEL */
+  .pl{border-right:1px solid var(--border);display:flex;flex-direction:column;overflow:hidden;background:var(--panel)}
+  .slabel{font-family:var(--mono);font-size:10px;font-weight:600;letter-spacing:.12em;color:var(--text3);padding:10px 18px 8px;border-bottom:1px solid var(--border);text-transform:uppercase;display:flex;align-items:center;gap:8px}
+  .sdot2{width:5px;height:5px;border-radius:50%;background:var(--accent);flex-shrink:0}
+  .cblock{padding:12px 18px;border-bottom:1px solid var(--border)}
+  .frow{display:flex;gap:6px;align-items:center}
+  input[type=text],input[type=password]{flex:1;background:var(--surface);border:1px solid var(--border2);color:var(--text);font-family:var(--mono);font-size:12px;padding:7px 11px;outline:none;transition:border-color .15s,box-shadow .15s;border-radius:8px}
+  input[type=text],input[type=password],select,textarea,.bicon,.bping,.bdl,.bdls,.qabtn,.brun,.tab,.ctab,.cfile,.fitem,.grel-card,.jtree,.mbox{box-shadow:0 1px 0 rgba(0,0,0,.26)}
+  input[type=text]:focus,input[type=password]:focus{border-color:var(--accent)}
+  input[type=text]:focus,input[type=password]:focus,select:focus,textarea:focus{border-color:var(--accent);box-shadow:0 0 0 3px rgba(194,122,73,.22)}
+  .bicon{background:var(--surface);border:1px solid var(--border2);color:var(--text2);cursor:pointer;padding:7px 9px;font-size:12px;transition:all .15s;font-family:var(--mono);border-radius:8px}
+  .bicon:hover{border-color:var(--accent);color:var(--accent);background:var(--surface2)}
+  .brow{padding:10px 18px;border-bottom:1px solid var(--border);display:flex;gap:6px;align-items:center}
+  .brow input{flex:1;background:var(--surface);border:1px solid var(--border2);color:var(--text2);font-family:var(--mono);font-size:11px;padding:6px 10px;outline:none;border-radius:8px}
+  .brow input:focus{border-color:var(--accent);color:var(--text)}
+  .bping{background:var(--surface);border:1px solid var(--border2);color:var(--text2);font-family:var(--mono);font-size:10px;padding:6px 10px;cursor:pointer;letter-spacing:.06em;white-space:nowrap;transition:all .15s;border-radius:8px}
+  .bping:hover{border-color:var(--accent);color:var(--accent);background:var(--surface2)}
+  .dzone{margin:14px 18px 6px;border:1px dashed var(--border2);padding:20px 14px;text-align:center;cursor:pointer;transition:all .2s;position:relative;background:linear-gradient(180deg, var(--surface) 0%, var(--bg2) 100%);border-radius:14px}
+  .dzone:hover,.dzone.over{border-color:var(--accent);background:linear-gradient(180deg, var(--surface2) 0%, var(--bg3) 100%)}
+  .dzone input{position:absolute;inset:0;opacity:0;cursor:pointer;width:100%;height:100%}
+  .dicon{font-size:22px;margin-bottom:6px;opacity:.35}
+  .dzone p{font-size:11px;color:var(--text3);font-family:var(--mono);line-height:1.6}
+  .dzone p span{color:var(--accent)}
+  .flist{overflow-y:auto;padding:0 18px 8px;max-height:130px}
+  .flist::-webkit-scrollbar{width:3px}
+  .flist::-webkit-scrollbar-thumb{background:var(--border2)}
+  .fitem{display:flex;align-items:center;gap:8px;padding:8px 10px;border:1px solid var(--border);margin-bottom:5px;background:var(--surface);transition:border-color .2s;border-radius:10px}
+  .fitem.processing{border-color:#a0783c;background:#2c2518}
+  .fitem.done{border-color:#4d735d;background:#1f2b26}
+  .fitem.error{border-color:#814943;background:#2b1d1c}
+  .ficon{font-family:var(--mono);font-size:9px;font-weight:600;color:var(--accent);background:rgba(194,122,73,.16);padding:2px 5px;flex-shrink:0;border-radius:4px}
+  .finfo{flex:1;min-width:0}
+  .fname{font-family:var(--mono);font-size:11px;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .fsize{font-family:var(--mono);font-size:10px;color:var(--text3);margin-top:1px}
+  .fstat{font-family:var(--mono);font-size:10px;flex-shrink:0}
+  .fstat.idle{color:var(--text3)}.fstat.processing{color:var(--yellow)}.fstat.done{color:var(--green)}.fstat.error{color:var(--red)}
+  .brem{background:none;border:none;color:var(--text3);cursor:pointer;font-size:14px;padding:1px 4px;transition:color .15s;flex-shrink:0}
+  .brem:hover{color:var(--red)}
+  /* Model select */
+  .sel-wrap{padding:10px 18px;border-bottom:1px solid var(--border)}
+  select{width:100%;background:var(--surface);border:1px solid var(--border2);color:var(--text2);font-family:var(--mono);font-size:11px;padding:7px 10px;outline:none;cursor:pointer;border-radius:8px}
+  /* Schema textarea */
+  .sblock{border-top:1px solid var(--border);display:flex;flex-direction:column;min-height:0;flex:1}
+  textarea{background:var(--surface);border:none;border-top:1px solid var(--border);color:var(--text2);font-family:var(--mono);font-size:11px;padding:10px 14px;resize:none;flex:1;outline:none;line-height:1.6;overflow-y:auto;min-height:80px}
+  textarea::-webkit-scrollbar{width:3px}
+  textarea::-webkit-scrollbar-thumb{background:var(--border2)}
+  .rblock{padding:14px 18px;border-top:1px solid var(--border);flex-shrink:0}
+  .brun{width:100%;background:linear-gradient(135deg, #c27a49, #a85f34);border:none;color:#fff;font-family:var(--mono);font-size:13px;font-weight:600;letter-spacing:.08em;padding:11px;cursor:pointer;text-transform:uppercase;transition:all .2s;display:flex;align-items:center;justify-content:center;gap:8px;border-radius:12px;box-shadow:0 8px 18px rgba(194,122,73,.20)}
+  .brun:hover{background:linear-gradient(135deg, #cb885a, #b06b40)}
+  .brun:disabled{background:var(--border2);color:#f7f9fc;cursor:not-allowed;box-shadow:none}
+  .spinner{width:13px;height:13px;border:2px solid rgba(255,255,255,.38);border-top-color:#fff;border-radius:50%;animation:spin .7s linear infinite;display:none}
+  .brun.loading .spinner{display:block}
+  .brun.loading .blabel{display:none}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  /* Category panel */
+  .cat-wrap{display:flex;flex-direction:column;border-top:1px solid var(--border);max-height:200px;flex-shrink:0}
+  .cat-head{display:flex;align-items:center;justify-content:space-between;padding:8px 18px;border-bottom:1px solid var(--border);flex-shrink:0;background:linear-gradient(180deg, var(--chrome3) 0%, var(--chrome2) 100%)}
+  .cat-tabs{display:flex;overflow-x:auto;border-bottom:1px solid var(--border);background:var(--chrome2);flex-shrink:0}
+  .cat-tabs::-webkit-scrollbar{height:3px}
+  .cat-tabs::-webkit-scrollbar-thumb{background:var(--border2)}
+  .ctab{font-family:var(--mono);font-size:10px;padding:7px 12px;cursor:pointer;color:var(--text3);border:none;background:none;border-bottom:2px solid transparent;white-space:nowrap;transition:all .15s;text-transform:uppercase;letter-spacing:.05em}
+  .ctab:hover{color:var(--text2)}
+  .ctab.active{color:var(--accent);border-bottom-color:var(--accent)}
+  .cat-files{flex:1;overflow-y:auto;padding:6px 12px}
+  .cat-files::-webkit-scrollbar{width:3px}
+  .cat-files::-webkit-scrollbar-thumb{background:var(--border2)}
+  .cfile{display:flex;align-items:center;padding:7px 8px;border:1px solid var(--border2);margin-bottom:4px;background:#232b37;cursor:pointer;transition:all .15s;gap:8px}
+  .cfile:hover{border-color:var(--accent);background:rgba(194,122,73,.12)}
+  .cfile-name{font-family:var(--mono);font-size:10px;color:var(--text2);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cfile-sz{font-family:var(--mono);font-size:9px;color:var(--text3);flex-shrink:0}
+  .cat-empty{padding:16px;text-align:center;color:var(--text3);font-family:var(--mono);font-size:10px}
+  /* RIGHT PANEL */
+  .pr{display:flex;flex-direction:column;overflow:hidden;background:transparent}
+  .sbar{display:flex;gap:20px;padding:10px 22px;border-bottom:1px solid var(--border);background:var(--chrome);flex-shrink:0;align-items:center}
+  .stat{display:flex;align-items:center;gap:7px}
+  .sv{font-family:var(--mono);font-size:18px;font-weight:600;color:var(--accent)}
+  .sl{font-family:var(--mono);font-size:10px;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;line-height:1.3}
+  .sep{width:1px;height:26px;background:var(--border)}
+  .pbw{flex:1;background:var(--bg3);border:1px solid var(--border);height:3px;overflow:hidden}
+  .pb{height:100%;background:var(--accent);transition:width .4s ease;width:0%}
+  .abar{display:flex;gap:8px;align-items:center;padding:10px 22px;border-bottom:1px solid var(--border);background:var(--chrome);flex-shrink:0}
+  .bdl{background:rgba(106,163,125,.12);border:1px solid var(--green);color:var(--green);font-family:var(--mono);font-size:11px;padding:6px 14px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:all .15s;border-radius:8px}
+  .bdl:hover{background:rgba(106,163,125,.18)}
+  .bdl.blue{background:rgba(194,122,73,.12);border-color:var(--accent);color:var(--accent)}
+  .bdl.blue:hover{background:rgba(194,122,73,.18)}
+  .bdl.ylw{background:rgba(208,161,77,.12);border-color:var(--yellow);color:var(--yellow)}
+  .bdl.ylw:hover{background:rgba(208,161,77,.18)}
+  .bdl:disabled{opacity:.3;cursor:not-allowed}
+  .anote{font-family:var(--mono);font-size:10px;color:var(--text3);margin-left:auto}
+  .tabs{display:flex;border-bottom:1px solid var(--border);background:var(--chrome2);overflow-x:auto;flex-shrink:0}
+  .tabs::-webkit-scrollbar{height:3px}
+  .tabs::-webkit-scrollbar-thumb{background:var(--border2)}
+  .tab{font-family:var(--mono);font-size:11px;padding:10px 18px;cursor:pointer;color:var(--text3);border-bottom:2px solid transparent;white-space:nowrap;transition:all .15s;display:flex;align-items:center;gap:6px;background:none;border-top:none;border-left:none;border-right:none;letter-spacing:.05em}
+  .tab:hover{color:var(--text2)}
+  .tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+  .tbadge{font-size:9px;padding:1px 5px;font-weight:600;background:var(--green);color:#0d1117}
+  .tbadge.proc{background:var(--yellow)}
+  .tbadge.err{background:var(--red);color:#1b2029}
+  .oa{flex:1;overflow-y:auto;padding:22px}
+  .oa::-webkit-scrollbar{width:5px}
+  .oa::-webkit-scrollbar-thumb{background:var(--border2)}
+  .empty{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:14px;opacity:.35}
+  .eglyph{font-family:var(--mono);font-size:44px;color:var(--text3)}
+  .empty p{font-family:var(--mono);font-size:12px;color:var(--text3);text-align:center;line-height:1.8}
+  .rhead{display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:14px;gap:8px;flex-wrap:wrap}
+  .rfname{font-family:var(--mono);font-size:13px;color:var(--accent);font-weight:500}
+  .rmeta{font-family:var(--mono);font-size:10px;color:var(--text3);margin-top:3px}
+  .bdls{background:var(--bg3);border:1px solid var(--border2);color:var(--text2);font-family:var(--mono);font-size:11px;padding:6px 12px;cursor:pointer;transition:all .15s}
+  .bdls:hover{border-color:var(--accent);color:var(--accent)}
+  .qabtn{background:rgba(208,161,77,.14);border:1px solid var(--yellow);color:var(--yellow);font-family:var(--mono);font-size:11px;padding:6px 12px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;transition:all .15s}
+  .qabtn:hover{background:rgba(208,161,77,.22)}
+  .jtree{background:var(--code-bg);border:1px solid var(--border);padding:14px 16px;font-family:var(--mono);font-size:12px;line-height:1.9;overflow-x:auto;white-space:pre;border-radius:14px;color:var(--text)}
+  .jtree::-webkit-scrollbar{width:4px;height:4px}
+  .jtree::-webkit-scrollbar-thumb{background:#526074}
+  .jk{color:#8dc2ff}.js{color:#8fe0a9}.jn{color:#ffbd7a}.jb{color:#d2a7ff}.jnull{color:#95a3b8}.jp{color:#aeb8c7}
+  .ppanel{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:18px}
+  .pring{width:44px;height:44px;border:2px solid var(--yellow);border-radius:50%;animation:pr 1.2s ease-out infinite;position:relative}
+  .pring::after{content:'';position:absolute;inset:7px;background:var(--yellow);border-radius:50%;opacity:.6;animation:pd 1.2s ease-out infinite}
+  @keyframes pr{0%{transform:scale(.8);opacity:1}100%{transform:scale(1.4);opacity:0}}
+  @keyframes pd{0%,100%{opacity:.6}50%{opacity:1}}
+  .plabel{font-family:var(--mono);font-size:12px;color:var(--yellow);letter-spacing:.1em}
+  .epanel{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:12px}
+  .emsg{font-family:var(--mono);font-size:12px;color:var(--red);text-align:center;max-width:420px;line-height:1.7}
+  .lp{border-top:1px solid var(--border);background:var(--bg2);max-height:110px;overflow-y:auto;flex-shrink:0}
+  .lp::-webkit-scrollbar{width:3px}
+  .lp::-webkit-scrollbar-thumb{background:var(--border2)}
+  .le{font-family:var(--mono);font-size:11px;padding:3px 20px;line-height:1.5;display:flex;gap:12px}
+  .le:first-child{padding-top:8px}.le:last-child{padding-bottom:8px}
+  .lt{color:var(--text3);flex-shrink:0}.lm{color:var(--text2)}
+  .lm.ok{color:var(--green)}.lm.err{color:var(--red)}.lm.warn{color:var(--yellow)}.lm.info{color:var(--accent)}
+  /* MODAL */
+  .modal{position:fixed;inset:0;background:rgba(7,9,12,.62);display:none;align-items:center;justify-content:center;z-index:1000;backdrop-filter:blur(4px)}
+  .modal.open{display:flex}
+  .mbox{background:var(--surface);border:1px solid var(--border);width:90%;max-width:860px;max-height:88vh;display:flex;flex-direction:column;box-shadow:var(--shadow);border-radius:18px;overflow:hidden}
+  .mhead{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border);flex-shrink:0}
+  .mtitle{font-family:var(--mono);font-size:13px;font-weight:600;color:var(--accent)}
+  .mclose{background:none;border:none;color:var(--text3);cursor:pointer;font-size:20px;line-height:1;padding:0;transition:color .15s}
+  .mclose:hover{color:var(--accent)}
+  .mcontent{flex:1;overflow-y:auto;padding:16px 18px}
+  .mcontent::-webkit-scrollbar{width:5px}
+  .mcontent::-webkit-scrollbar-thumb{background:var(--border2)}
+  .mfoot{display:flex;gap:8px;padding:12px 18px;border-top:1px solid var(--border);flex-shrink:0;flex-wrap:wrap;align-items:center;background:var(--chrome2)}
+  /* QA sections */
+  .qasec{margin-bottom:12px;padding:10px 14px;border-left:2px solid var(--accent);background:var(--bg2);border-radius:10px}
+  .qasec-hd{font-family:var(--mono);font-size:10px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+  .qasec-body{font-family:var(--mono);font-size:12px;line-height:1.8;color:var(--text)}
+  /* QA pills */
+  .qa-pill{font-family:var(--mono);font-size:10px;padding:3px 10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;border:1px solid}
+  .qa-pill-yellow{background:rgba(208,161,77,.16);border-color:var(--yellow);color:var(--yellow)}
+  .qa-pill-blue{background:rgba(194,122,73,.16);border-color:var(--accent);color:var(--accent)}
+  .qa-pill-green{background:rgba(106,163,125,.16);border-color:var(--green);color:var(--green)}
+  /* Graph relation cards */
+  .grel-card{display:flex;align-items:center;gap:8px;padding:7px 10px;background:var(--bg2);border:1px solid var(--border);margin-bottom:6px;flex-wrap:wrap;border-radius:12px}
+  .grel-node{font-family:var(--mono);font-size:11px;color:var(--text);background:var(--surface);border:1px solid var(--border2);padding:3px 8px;white-space:nowrap;max-width:200px;overflow:hidden;text-overflow:ellipsis;border-radius:999px}
+  .grel-mid{display:flex;flex-direction:column;align-items:center;gap:3px;min-width:90px}
+  .grel-arrow{font-family:var(--mono);font-size:10px;color:var(--text3)}
+  .grel-pred{font-family:var(--mono);font-size:11px;font-weight:600;white-space:nowrap;text-align:center;color:var(--text)}
+  .grel-type{font-family:var(--mono);font-size:9px;padding:1px 5px;border:1px solid;letter-spacing:.06em;text-transform:uppercase;text-align:center}
+  .grel-raw{font-family:var(--mono);font-size:11px;color:var(--text);padding:4px 0}
+  /* Loading spinner inside modal */
+  .qa-loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:16px}
+  .qa-spinner{width:32px;height:32px;border:2px solid var(--border2);border-top-color:var(--yellow);border-radius:50%;animation:spin .8s linear infinite}
+  .qa-loading-txt{font-family:var(--mono);font-size:12px;color:var(--yellow);letter-spacing:.08em}
+  /* Batch modal */
+  .bqabox{max-width:520px}
+
+  :root[data-theme="light"] .pl,
+  :root[data-theme="light"] .sbar,
+  :root[data-theme="light"] .abar,
+  :root[data-theme="light"] .mfoot { background: rgba(240,238,229,.96) !important; }
+  :root[data-theme="light"] .brow,
+  :root[data-theme="light"] .sel-wrap,
+  :root[data-theme="light"] .sblock,
+  :root[data-theme="light"] .rblock,
+  :root[data-theme="light"] .lp { background: rgba(255,255,255,.72) !important; }
+  :root[data-theme="light"] .dzone {
+    background: linear-gradient(180deg, rgba(255,255,255,.92) 0%, rgba(244,239,229,.95) 100%) !important;
+    border-color: rgba(168,95,52,.26);
+    box-shadow: 0 1px 2px rgba(20,20,19,.04);
+  }
+  :root[data-theme="light"] .dzone:hover,
+  :root[data-theme="light"] .dzone.over {
+    background: linear-gradient(180deg, rgba(255,255,255,.98) 0%, rgba(239,232,219,.98) 100%) !important;
+    border-color: rgba(168,95,52,.48);
+  }
+  :root[data-theme="light"] .dzone p span { color: var(--accent); }
+  :root[data-theme="light"] .cat-head,
+  :root[data-theme="light"] .tabs,
+  :root[data-theme="light"] .cat-tabs { background: rgba(239,232,219,.98) !important; }
+  :root[data-theme="light"] .fitem.processing { border-color: rgba(168,95,52,.28); background: rgba(168,95,52,.10); }
+  :root[data-theme="light"] .fitem.done { border-color: rgba(92,138,105,.28); background: rgba(92,138,105,.10); }
+  :root[data-theme="light"] .fitem.error { border-color: rgba(196,78,78,.28); background: rgba(196,78,78,.10); }
+  :root[data-theme="light"] .cfile { background: rgba(255,255,255,.76); border-color: rgba(61,61,58,.12); }
+  :root[data-theme="light"] .cfile:hover { background: rgba(168,95,52,.10); }
+  :root[data-theme="light"] .qasec,
+  :root[data-theme="light"] .grel-card { background: rgba(255,255,255,.80); }
+  :root[data-theme="light"] .grel-node { background: rgba(240,238,229,.95); }
+  :root[data-theme="light"] .jtree { background: rgba(244,239,229,.95); border-color: rgba(61,61,58,.14); }
+  :root[data-theme="light"] .grel-pred,
+  :root[data-theme="light"] .grel-raw,
+  :root[data-theme="light"] .qasec-body { color: var(--text); }
+
+  @media print{
+    @page{margin:12mm}
+    :root{--bg:#171b22;--bg2:#1d232c;--bg3:#232a35;--border:#384150;--border2:#4a5568;--accent:#c27a49;--green:#6aa37d;--red:#d06b61;--yellow:#d0a14d;--text:#edf1f6;--text2:#c1cbd8;--text3:#91a0b3}
+    body{background:#171b22 !important;color:#edf1f6 !important}
+    header,.pl,.pr,.sbar,.abar,.cat-head,.cat-tabs,.brow,.sel-wrap,.sblock,.rblock,.tabs,.lp{background:#171b22 !important;box-shadow:none !important}
+    .modal{display:none !important}
+    .app{height:auto;overflow:visible}
+    .oa{padding:0}
+    .jtree,.mbox,.qasec,.grel-card,.fitem,.cfile{box-shadow:none !important}
+    .pl{page-break-after:always}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">ADE</div>
+  <h1>AGENTIC DOCUMENT EXTRACTOR</h1>
+  <div class="bstatus">
+    <button class="theme-toggle-btn" id="themeBtn" type="button" onclick="toggleTheme()" title="Mode terang">☀</button>
+    <div class="sdot" id="sdot"></div>
+    <span id="stxt">checking backend…</span>
+  </div>
+</header>
+
+<div class="app">
+  <!-- ============================== LEFT PANEL ============================== -->
+  <div class="pl">
+
+    <div class="slabel"><span class="sdot2"></span>Backend URL</div>
+    <div class="brow">
+      <input type="text" id="burl" value="http://localhost:5123"/>
+      <button class="bping" onclick="ping()">PING</button>
+    </div>
+
+    <div class="slabel"><span class="sdot2"></span>API Key</div>
+    <div class="cblock">
+      <div class="frow">
+        <input type="password" id="apiKey" placeholder="land_sk_••••••••••••"/>
+        <button class="bicon" onclick="toggleKey()">👁</button>
+      </div>
+    </div>
+
+    <div class="slabel"><span class="sdot2"></span>QA Model</div>
+    <div class="sel-wrap">
+      <select id="qaModel">
+        <option value="gemma3:12b">gemma3:12b (Ollama)</option>
+        <option value="qwen3.6:27b">qwen3.6:27b (Ollama)</option>
+        <option value="openai/chatgpt">ChatGPT GPT-4o (OpenAI API)</option>
+      </select>
+    </div>
+
+    <div class="slabel"><span class="sdot2"></span>QA Prompt</div>
+    <div class="sel-wrap">
+      <select id="qaPromptChoice">
+        <option value="default">Default prompt</option>
+        <option value="koblex_scenario_atomik">KOBLEX skenario atomik</option>
+        <option value="koblex_scenario">KOBLEX skenario</option>
+      </select>
+    </div>
+
+    <div class="slabel"><span class="sdot2"></span>PDF Documents</div>
+    <div class="dzone" id="dzone">
+      <input type="file" id="fi" accept=".pdf" multiple/>
+      <div class="dicon">⬆</div>
+      <p><span>Click to browse</span> or drag & drop<br>PDF files (max 100)</p>
+    </div>
+    <div class="flist" id="flist"></div>
+
+    <!-- Category panel -->
+    <div class="cat-wrap">
+      <div class="cat-head">
+        <span class="slabel" style="padding:0;border:none"><span class="sdot2"></span>Extracted Results</span>
+        <button class="bping" onclick="loadCategories()" title="Refresh">⟳</button>
+        <button class="bping" id="loadAllCat" onclick="selectAllCatFiles()" title="Load all files in current category" disabled>All</button>
+      </div>
+      <div class="cat-tabs" id="catTabs"></div>
+      <div class="cat-files" id="catFiles"><div class="cat-empty">No categories loaded</div></div>
+    </div>
+
+    <div class="sblock">
+      <div class="slabel"><span class="sdot2"></span>Extraction Schema (JSON)</div>
+      <textarea id="schema" rows="6"></textarea>
+    </div>
+
+    <div class="rblock">
+      <button class="brun" id="runBtn" onclick="run()" disabled>
+        <div class="spinner"></div>
+        <span class="blabel">▶ Run Extraction</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- ============================== RIGHT PANEL ============================== -->
+  <div class="pr">
+    <div class="sbar" id="sbar" style="display:none">
+      <div class="stat"><div class="sv" id="sTotal">0</div><div class="sl">Total</div></div>
+      <div class="sep"></div>
+      <div class="stat"><div class="sv" id="sDone" style="color:var(--green)">0</div><div class="sl">Done</div></div>
+      <div class="sep"></div>
+      <div class="stat"><div class="sv" id="sPend" style="color:var(--yellow)">0</div><div class="sl">Pending</div></div>
+      <div class="sep"></div>
+      <div class="stat"><div class="sv" id="sErr" style="color:var(--red)">0</div><div class="sl">Errors</div></div>
+      <div class="pbw"><div class="pb" id="pb"></div></div>
+    </div>
+    <div class="abar" id="abar" style="display:none">
+      <button class="bdl" id="djson" onclick="dlAll('json')" disabled>↓ All JSON</button>
+      <button class="bdl blue" id="djsonl" onclick="dlAll('jsonl')" disabled>↓ All JSONL</button>
+      <button class="bdl ylw" id="bqabtn" onclick="openBatchQAModal()" disabled>✨ Batch QA</button>
+      <span class="anote" id="anote">Run extraction to see results</span>
+    </div>
+    <div class="tabs" id="tabs"></div>
+    <div class="oa" id="oa">
+      <div class="empty"><div class="eglyph">{ }</div><p>Upload PDFs and run extraction<br>Results appear here per document</p></div>
+    </div>
+    <div class="lp" id="lp"></div>
+  </div>
+</div>
+
+<!-- ====================== QA MODAL ====================== -->
+<div class="modal" id="qaModal">
+  <div class="mbox">
+    <div class="mhead">
+      <div class="mtitle" id="qaModalTitle">Generate QA</div>
+      <button class="mclose" onclick="closeQAModal()">×</button>
+    </div>
+    <div class="mcontent" id="qaContent">
+      <div class="qa-loading">
+        <div class="qa-spinner"></div>
+        <div class="qa-loading-txt">GENERATING QA…</div>
+      </div>
+    </div>
+    <div class="mfoot">
+      <button class="bdl" id="qaDownloadJson" onclick="downloadQA('json')" disabled>↓ JSON</button>
+      <button class="bdl blue" id="qaDownloadCsv" onclick="downloadQA('csv')" disabled>↓ CSV</button>
+      <button class="bdl ylw" id="qaDownloadTsv" onclick="downloadQA('tsv')" disabled>↓ TSV</button>
+      <button class="bdl" style="margin-left:auto;border-color:var(--border2);color:var(--text2);background:var(--bg3)" onclick="closeQAModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- ====================== BATCH QA MODAL ====================== -->
+<div class="modal" id="bqaModal">
+  <div class="mbox bqabox">
+    <div class="mhead">
+      <div class="mtitle">Batch Generate QA</div>
+      <button class="mclose" onclick="closeBatchQAModal()">×</button>
+    </div>
+    <div class="mcontent" id="bqaContent">
+      <div class="qa-loading">
+        <div class="qa-spinner"></div>
+        <div class="qa-loading-txt" id="bqaText">Starting…</div>
+        <div class="pbw" style="width:300px;height:4px"><div class="pb" id="bqaPb"></div></div>
+      </div>
+    </div>
+    <div class="mfoot">
+      <button class="bdl" id="bqaDlJson" onclick="downloadBatchQA('json')" disabled>↓ All JSON</button>
+      <button class="bdl blue" id="bqaDlCsv" onclick="downloadBatchQA('csv')" disabled>↓ All CSV</button>
+      <button class="bdl ylw" id="bqaDlTsv" onclick="downloadBatchQA('tsv')" disabled>↓ All TSV</button>
+      <button class="bdl" style="margin-left:auto;border-color:var(--border2);color:var(--text2);background:var(--bg3)" onclick="closeBatchQAModal()">Close</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============================================================
+// STATE
+// ============================================================
+let files      = [];   // { id, file, name, size, status, result, error, saved?, remoteName?, category?, qa? }
+let activeId   = null;
+let running    = false;
+let currentQA  = null;
+let currentCat = null;
+let isBatchQA  = false;
+let batchQACancel = false;
+
+// ============================================================
+// DEFAULT SCHEMA
+// ============================================================
+const SCHEMA = `{
+  "type": "object",
+  "properties": {
+    "overview_kasus": {
+      "type": "object",
+      "properties": {
+        "terdakwa": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nama": {
+                "type": "string"
+              },
+              "identitas_tambahan": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "nama",
+              "identitas_tambahan"
+            ]
+          }
+        },
+        "dakwaan": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "pasal": {
+                "type": "string"
+              },
+              "peraturan": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "pasal",
+              "peraturan"
+            ]
+          }
+        },
+        "ringkasan_kejadian": {
+          "type": "object",
+          "properties": {
+            "kronologi_singkat": {
+              "type": "string"
+            },
+            "tanggal_kejadian": {
+              "type": "string"
+            },
+            "lokasi_kejadian": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "kronologi_singkat",
+            "tanggal_kejadian",
+            "lokasi_kejadian"
+          ]
+        }
+      },
+      "required": [
+        "terdakwa",
+        "dakwaan",
+        "ringkasan_kejadian"
+      ]
+    },
+    "temuan_penting": {
+      "type": "object",
+      "properties": {
+        "perbuatan_terdakwa": {
+          "type": "string"
+        },
+        "pelanggaran_hukum": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "deskripsi_pelanggaran": {
+                "type": "string"
+              },
+              "referensi_peraturan": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "deskripsi_pelanggaran",
+              "referensi_peraturan"
+            ]
+          }
+        },
+        "barang_bukti": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nama_barang_bukti": {
+                "type": "string"
+              },
+              "sumber": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "nama_barang_bukti",
+              "sumber"
+            ]
+          }
+        }
+      },
+      "required": [
+        "perbuatan_terdakwa",
+        "pelanggaran_hukum",
+        "barang_bukti"
+      ]
+    },
+    "hasil_putusan": {
+      "type": "object",
+      "properties": {
+        "nomor_putusan": {
+          "description": "Nomor identifikasi unik yang diberikan kepada putusan pengadilan.",
+          "x-alternativeNames": [
+            "Nomor Putusan",
+            "Nomor Perkara",
+            "Nomor Registrasi Putusan"
+          ],
+          "type": "string"
+        },
+        "tanggal_putusan": {
+          "description": "Tanggal resmi putusan pengadilan dikeluarkan atau ditetapkan.",
+          "format": "YYYY-MM-DD",
+          "x-alternativeNames": [
+            "Tanggal Putusan",
+            "Tanggal Penetapan Putusan",
+            "Tanggal Ditetapkan"
+          ],
+          "type": "string"
+        },
+        "nama_pengadilan": {
+          "description": "Nama lengkap pengadilan yang mengeluarkan putusan",
+          "type": "string"
+        },
+        "lokasi_pengadilan": {
+          "description": "Kota atau wilayah pengadilan",
+          "type": "string"
+        },
+        "majelis_hakim": {
+          "type": "object",
+          "properties": {
+            "hakim_ketua": {
+              "type": "string"
+            },
+            "hakim_anggota": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "hakim_ketua",
+            "hakim_anggota"
+          ]
+        },
+        "panitera_pengganti": {
+          "description": "Nama panitera pengganti dalam persidangan",
+          "type": "string"
+        },
+        "histori_penahanan": {
+          "description": "Riwayat penahanan terdakwa berdasarkan surat perintah atau penetapan penahanan",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "jenis_penetapan": {
+                "description": "Jenis penetapan penahanan (misalnya: penyidik, penuntut umum, hakim)",
+                "type": "string"
+              },
+              "instansi_penetap": {
+                "description": "Instansi atau pejabat yang menetapkan penahanan",
+                "type": "string"
+              },
+              "lokasi_penetapan": {
+                "description": "Lokasi atau lembaga tempat penetapan penahanan",
+                "type": "string"
+              },
+              "tanggal_mulai": {
+                "type": "string"
+              },
+              "tanggal_selesai": {
+                "type": "string"
+              },
+              "nomor_surat": {
+                "description": "Nomor surat perintah atau penetapan penahanan (jika disebutkan)",
+                "type": "string"
+              }
+            },
+            "required": [
+              "jenis_penetapan",
+              "instansi_penetap",
+              "lokasi_penetapan",
+              "tanggal_mulai",
+              "tanggal_selesai",
+              "nomor_surat"
+            ]
+          }
+        },
+        "penasihat_hukum": {
+          "description": "Daftar penasihat hukum atau advokat yang mendampingi terdakwa",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "nama": {
+                "type": "string"
+              },
+              "gelar": {
+                "type": "string"
+              },
+              "kantor_hukum": {
+                "type": "string"
+              },
+              "alamat_kantor": {
+                "type": "string"
+              },
+              "tanggal_surat_kuasa": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "nama",
+              "gelar",
+              "kantor_hukum",
+              "alamat_kantor",
+              "tanggal_surat_kuasa"
+            ]
+          }
+        },
+        "histori_putusan_sebelumnya": {
+          "description": "Riwayat putusan pengadilan sebelumnya apabila perkara melalui banding, kasasi, atau peninjauan kembali",
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "tingkat_peradilan": {
+                "description": "Misalnya: Pengadilan Negeri, Pengadilan Tinggi, Mahkamah Agung",
+                "type": "string"
+              },
+              "nama_pengadilan": {
+                "type": "string"
+              },
+              "nomor_putusan": {
+                "type": "string"
+              },
+              "tanggal_putusan": {
+                "type": "string"
+              },
+              "amar_putusan": {
+                "description": "Ringkasan amar putusan sebelumnya",
+                "type": "string"
+              }
+            },
+            "required": [
+              "tingkat_peradilan",
+              "nama_pengadilan",
+              "nomor_putusan",
+              "tanggal_putusan",
+              "amar_putusan"
+            ]
+          }
+        },
+        "kesimpulan_putusan": {
+          "type": "string"
+        },
+        "detail_hukuman": {
+          "type": "object",
+          "properties": {
+            "pidana_penjara": {
+              "type": "string"
+            },
+            "denda": {
+              "type": "string"
+            },
+            "pidana_pengganti": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "pidana_penjara",
+            "denda",
+            "pidana_pengganti"
+          ]
+        }
+      },
+      "required": [
+        "nomor_putusan",
+        "tanggal_putusan",
+        "nama_pengadilan",
+        "lokasi_pengadilan",
+        "majelis_hakim",
+        "panitera_pengganti",
+        "histori_penahanan",
+        "penasihat_hukum",
+        "histori_putusan_sebelumnya",
+        "kesimpulan_putusan",
+        "detail_hukuman"
+      ]
+    }
+  },
+  "required": [
+    "overview_kasus",
+    "temuan_penting",
+    "hasil_putusan"
+  ]
+}`;
+document.getElementById('schema').value = SCHEMA;
+
+// ============================================================
+// HELPERS
+// ============================================================
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function mkId(){ return 'id_' + Date.now() + '_' + Math.floor(Math.random()*1e6); }
+function backend(){ return document.getElementById('burl').value.trim().replace(/\/+$/,''); }
+function countF(o,n=0){ if(!o||typeof o!=='object') return n+1; for(const k in o) n=countF(o[k],n+1); return n; }
+function dl(content, name, type){ const a=document.createElement('a'); a.href=URL.createObjectURL(new Blob([content],{type})); a.download=name; a.click(); }
+function $id(id){ return document.getElementById(id); }
+function setTheme(theme){
+  const next = theme === 'light' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem('ade_theme', next); } catch {}
+  const btn = $id('themeBtn');
+  if (btn) {
+    btn.textContent = next === 'dark' ? '☀' : '☾';
+    btn.title = next === 'dark' ? 'Mode terang' : 'Mode gelap';
+  }
+}
+function toggleTheme(){
+  const current = document.documentElement.getAttribute('data-theme') || 'dark';
+  setTheme(current === 'dark' ? 'light' : 'dark');
+}
+
+// ============================================================
+// BACKEND PING
+// ============================================================
+async function ping(){
+  const url = backend();
+  const dot = $id('sdot'), txt = $id('stxt');
+  dot.className='sdot'; txt.textContent='checking…';
+  try{
+    const r = await fetch(url+'/health',{signal:AbortSignal.timeout(5000)});
+    if(r.ok){ dot.className='sdot ok'; txt.textContent='online · '+url; log('Backend OK','ok'); }
+    else throw new Error('HTTP '+r.status);
+  } catch(e){
+    dot.className='sdot err'; txt.textContent='offline';
+    log('Backend unreachable: '+e.message,'err');
+  }
+  updateBtn();
+}
+window.addEventListener('load',()=>{ setTimeout(ping,600); setTimeout(loadCategories,900); });
+$id('burl').addEventListener('change', ping);
+setTheme(document.documentElement.getAttribute('data-theme') || 'dark');
+
+// ============================================================
+// FILE MANAGEMENT
+// ============================================================
+const dzone = $id('dzone');
+const fi    = $id('fi');
+dzone.addEventListener('dragover',  e=>{ e.preventDefault(); dzone.classList.add('over'); });
+dzone.addEventListener('dragleave', ()=> dzone.classList.remove('over'));
+dzone.addEventListener('drop', e=>{
+  e.preventDefault(); dzone.classList.remove('over');
+  addFiles([...e.dataTransfer.files].filter(f=>f.type==='application/pdf'));
+});
+fi.addEventListener('change', ()=>{ addFiles([...fi.files]); fi.value=''; });
+
+function addFiles(arr){
+  arr.forEach(f=>{
+    if(files.length>=100){ log('Max 100 files','warn'); return; }
+    if(files.find(x=>x.name===f.name&&x.file)) return;
+    files.push({ id:mkId(), file:f, name:f.name, size:f.size, status:'idle', result:null, error:null });
+  });
+  ra();
+}
+function removeFile(btn){
+  if(running) return;
+  const id = btn.getAttribute('data-id');
+  files = files.filter(f=>f.id!==id);
+  if(activeId===id) activeId = files[0]?.id||null;
+  ra();
+}
+
+// ============================================================
+// RENDER
+// ============================================================
+function ra(){ renderList(); renderTabs(); renderOut(); updateBtn(); updateSum(); }
+
+function renderList(){
+  $id('flist').innerHTML = files.filter(f=>!f.saved).map(f=>`
+    <div class="fitem ${f.status}">
+      <span class="ficon">PDF</span>
+      <div class="finfo">
+        <div class="fname" title="${esc(f.name)}">${esc(f.name)}</div>
+        <div class="fsize">${(f.size/1024).toFixed(1)} KB</div>
+      </div>
+      <span class="fstat ${f.status}">${{idle:'IDLE',processing:'●',done:'✓',error:'✗'}[f.status]}</span>
+      ${!running?`<button class="brem" data-id="${f.id}" onclick="removeFile(this)">×</button>`:''}
+    </div>`).join('');
+}
+
+function renderTabs(){
+  if(!activeId && files.length) activeId = files[0].id;
+  $id('tabs').innerHTML = files.map(f=>{
+    const badge =
+      f.status==='processing'?`<span class="tbadge proc">●</span>`:
+      f.status==='done'?`<span class="tbadge">✓</span>`:
+      f.status==='error'?`<span class="tbadge err">✗</span>`:'';
+    const short = f.name.length>26?f.name.slice(0,24)+'…':f.name;
+    return `
+    <div class="tab ${f.id===activeId?'active':''}" style="padding:0;display:flex;align-items:stretch">
+      <div style="padding:10px 6px 10px 18px;display:flex;align-items:center;gap:6px" data-id="${f.id}" onclick="swTab(this)">
+        ${esc(short)}${badge}
+      </div>
+      <button class="brem" style="padding:0 12px;height:auto;display:flex;align-items:center" data-id="${f.id}" onclick="removeFile(this);event.stopPropagation()">×</button>
+    </div>`;
+  }).join('');
+}
+
+function swTab(btn){
+  const id = btn.getAttribute('data-id');
+  if(!files.find(x=>x.id===id)) return;
+  activeId = id;
+  ra();
+}
+
+function renderOut(){
+  const oa = $id('oa');
+  if(!files.length){
+    oa.innerHTML=`<div class="empty"><div class="eglyph">{ }</div><p>Upload PDFs and run extraction<br>Results appear here per document</p></div>`;
+    return;
+  }
+  const f = files.find(x=>x.id===activeId);
+  if(!f) return;
+  if(f.status==='idle'){
+    oa.innerHTML=`<div class="empty"><div class="eglyph">{ }</div><p>${esc(f.name)}<br><span style="font-size:11px;color:var(--text3)">Waiting…</span></p></div>`;
+  } else if(f.status==='processing'){
+    oa.innerHTML=`<div class="ppanel"><div class="pring"></div><div class="plabel">EXTRACTING · ${esc(f.name)}</div></div>`;
+  } else if(f.status==='error'){
+    oa.innerHTML=`<div class="epanel"><div style="font-size:32px">⚠</div><div class="emsg">${esc(f.error||'Unknown error')}</div></div>`;
+  } else if(f.status==='done'){
+    const qaLabel = f.qa ? '✓ QA Generated' : '✨ Generate QA';
+    oa.innerHTML=`
+      <div class="rhead">
+        <div>
+          <div class="rfname">${esc(f.name)}</div>
+          <div class="rmeta">${countF(f.result)} fields extracted · ${new Date().toLocaleTimeString()}</div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap">
+          <button class="bdls" data-id="${f.id}" onclick="dlsById(this)">↓ JSON</button>
+          <button class="qabtn" data-id="${f.id}" onclick="openQAModal(this)">${qaLabel}</button>
+        </div>
+      </div>
+      <div class="jtree">${cj(f.result,0)}</div>`;
+  }
+}
+
+// ============================================================
+// JSON COLORIZER
+// ============================================================
+function cj(v,d){
+  const p='  '.repeat(d), p1='  '.repeat(d+1);
+  if(v===null)             return `<span class="jnull">null</span>`;
+  if(typeof v==='boolean') return `<span class="jb">${v}</span>`;
+  if(typeof v==='number')  return `<span class="jn">${v}</span>`;
+  if(typeof v==='string')  return `<span class="js">"${esc(v)}"</span>`;
+  if(Array.isArray(v)){
+    if(!v.length) return `<span class="jp">[]</span>`;
+    return `<span class="jp">[</span>\n`+v.map((x,i)=>`${p1}${cj(x,d+1)}${i<v.length-1?'<span class="jp">,</span>':''}`).join('\n')+`\n${p}<span class="jp">]</span>`;
+  }
+  if(typeof v==='object'){
+    const ks=Object.keys(v);
+    if(!ks.length) return `<span class="jp">{}</span>`;
+    return `<span class="jp">{</span>\n`+ks.map((k,i)=>`${p1}<span class="jk">"${esc(k)}"</span><span class="jp">: </span>${cj(v[k],d+1)}${i<ks.length-1?'<span class="jp">,</span>':''}`).join('\n')+`\n${p}<span class="jp">}</span>`;
+  }
+  return String(v);
+}
+
+// ============================================================
+// EXTRACTION
+// ============================================================
+async function run(){
+  const apiKey = $id('apiKey').value.trim();
+  const be     = backend();
+  if(!apiKey){ log('API key required','err'); return; }
+  let schema;
+  try{ schema = $id('schema').value.trim(); JSON.parse(schema); }
+  catch(e){ log('Invalid schema: '+e.message,'err'); return; }
+  const pending = files.filter(f=>f.status==='idle'||f.status==='error');
+  if(!pending.length){ log('No files to process','warn'); return; }
+  running = true;
+  const btn = $id('runBtn');
+  btn.classList.add('loading'); btn.disabled=true;
+  $id('sbar').style.display='flex';
+  $id('abar').style.display='flex';
+  log(`Batch started: ${pending.length} file(s)`,'info');
+  for(const f of pending) await extractOne(f,apiKey,schema,be);
+  running=false;
+  btn.classList.remove('loading');
+  updateBtn(); updateSum();
+  const done=files.filter(x=>x.status==='done').length;
+  log(`Batch complete: ${done}/${files.length} succeeded`,done===files.length?'ok':'warn');
+  if(done>0){
+    $id('djson').disabled=false;
+    $id('djsonl').disabled=false;
+    $id('bqabtn').disabled=false;
+    $id('anote').textContent=`${done} result(s) ready`;
+  }
+}
+
+async function extractOne(f,apiKey,schema,be){
+  f.status='processing'; ra(); log(`Processing: ${f.name}`,'info');
+  try{
+    const form=new FormData();
+    form.append('file',f.file,f.name);
+    form.append('api_key',apiKey);
+    form.append('schema',schema);
+    const res=await fetch(be+'/extract',{method:'POST',body:form});
+    const data=await res.json();
+    if(!res.ok) throw new Error(data.error||`HTTP ${res.status}`);
+    f.result=data.result; f.status='done';
+    log(`✓ Done: ${f.name}`,'ok');
+  } catch(e){
+    f.status='error'; f.error=e.message;
+    log(`✗ Error [${f.name}]: ${e.message}`,'err');
+  }
+  ra();
+}
+
+// ============================================================
+// DOWNLOAD EXTRACTION
+// ============================================================
+function dlsById(btn){
+  const id=btn.getAttribute('data-id');
+  const f=files.find(x=>x.id===id);
+  if(!f?.result) return;
+  dl(JSON.stringify(f.result,null,2),f.name.replace('.pdf','')+'_extracted.json','application/json');
+}
+function dlAll(fmt){
+  const done=files.filter(f=>f.status==='done');
+  if(fmt==='json'){
+    dl(JSON.stringify(done.map(f=>({filename:f.name,extracted:f.result})),null,2),`batch_${Date.now()}.json`,'application/json');
+  } else {
+    dl(done.map(f=>JSON.stringify({filename:f.name,...f.result})).join('\n'),`batch_${Date.now()}.jsonl`,'application/x-ndjson');
+  }
+}
+
+// ============================================================
+// CATEGORY PANEL
+// ============================================================
+async function loadCategories(){
+  try{
+    const res=await fetch(backend()+'/results/categories');
+    if(!res.ok) return;
+    const cats=await res.json();
+    const el=$id('catTabs');
+    if(!cats.length){ el.innerHTML=''; $id('catFiles').innerHTML='<div class="cat-empty">No categories found</div>'; $id('loadAllCat').disabled=true; return; }
+    el.innerHTML=cats.map((c,i)=>`
+      <button class="ctab ${i===0?'active':''}" data-cat="${esc(c.name)}" onclick="selectCat(this)">
+        ${esc(c.name)} (${c.count})
+      </button>`).join('');
+    if(!currentCat) currentCat=cats[0].name;
+    $id('loadAllCat').disabled=false;
+    loadCatFiles(currentCat);
+  } catch(e){ /* backend not ready */ }
+}
+function selectCat(btn){
+  document.querySelectorAll('.ctab').forEach(b=>b.classList.remove('active'));
+  btn.classList.add('active');
+  currentCat=btn.getAttribute('data-cat');
+  loadCatFiles(currentCat);
+}
+async function loadCatFiles(cat){
+  try{
+    const res=await fetch(backend()+`/results/by-category/${encodeURIComponent(cat)}`);
+    if(!res.ok) return;
+    const items=await res.json();
+    const el=$id('catFiles');
+    if(!items.length){ el.innerHTML='<div class="cat-empty">No results in this category</div>'; $id('loadAllCat').disabled=true; return; }
+    el.innerHTML=items.map(it=>`
+      <div class="cfile" data-cat="${esc(it.category)}" data-file="${esc(it.name)}" onclick="viewCatFile(this)">
+        <div class="cfile-name" title="${esc(it.filename)}">${esc(it.filename)}</div>
+        <div class="cfile-sz">${(it.size/1024).toFixed(0)} KB</div>
+      </div>`).join('');
+    $id('loadAllCat').disabled=false;
+  } catch(e){ /* ignore */ }
+}
+
+async function selectAllCatFiles(){
+  if(!currentCat){ log('No category selected','warn'); return; }
+  const res=await fetch(backend()+`/results/by-category/${encodeURIComponent(currentCat)}`);
+  if(!res.ok){ log('Failed to load category file list','err'); return; }
+  const items=await res.json();
+  if(!items.length){ log('No files to load in this category','warn'); return; }
+
+  const existing = new Set(files.filter(f=>f.saved&&f.category===currentCat).map(f=>f.remoteName));
+  let loaded = 0;
+  for(const it of items){
+    if(existing.has(it.name)) continue;
+    const id = mkId();
+    const displayName = it.name.replace('_extracted.json','');
+    const entry = { id, file:null, name: displayName, size: it.size, status:'processing', result:null, error:null, saved:true, remoteName:it.name, category:currentCat };
+    files.push(entry);
+    activeId = id; ra();
+    try{
+      const fileRes = await fetch(backend()+`/results/file-by-category/${encodeURIComponent(currentCat)}/${encodeURIComponent(it.name)}`);
+      if(!fileRes.ok) throw new Error('File not found');
+      entry.result = await fileRes.json();
+      entry.status = 'done';
+      loaded += 1;
+      log(`Loaded ${displayName}`,'ok');
+    } catch(e){
+      entry.status='error';
+      entry.error='Failed to load';
+      log(`Failed to load ${displayName}: ${e.message}`,'err');
+    }
+    ra();
+  }
+  updateSum();
+  if(loaded) log(`Loaded ${loaded} file(s) from ${currentCat}`,'ok');
+}
+
+async function viewCatFile(el){
+  const cat=el.getAttribute('data-cat');
+  const file=el.getAttribute('data-file');
+  const be=backend();
+  let existing=files.find(f=>f.saved&&f.remoteName===file&&f.category===cat);
+  if(existing){ activeId=existing.id; ra(); return; }
+  const id=mkId();
+  const displayName=file.replace('_extracted.json','');
+  existing={ id,file:null,name:displayName,size:0,status:'processing',result:null,error:null,saved:true,remoteName:file,category:cat };
+  files.push(existing);
+  activeId=id; ra();
+  try{
+    const res=await fetch(be+`/results/file-by-category/${encodeURIComponent(cat)}/${encodeURIComponent(file)}`);
+    if(!res.ok) throw new Error('File not found');
+    existing.result=await res.json();
+    existing.status='done'; ra();
+    log(`Loaded: ${displayName}`,'ok');
+  } catch(e){
+    existing.status='error'; existing.error='Failed to load'; ra();
+    log(`Failed to load: ${e.message}`,'err');
+  }
+}
+
+// ============================================================
+// QA MODAL
+// ============================================================
+function openQAModal(btn){
+  const id  = btn.getAttribute('data-id');
+  const f   = files.find(x=>x.id===id);
+  if(!f || !f.result){
+    log('No extraction result found for this file','err');
+    return;
+  }
+
+  // Reset state
+  currentQA = null;
+  const model = $id('qaModel').value;
+  const promptChoice = $id('qaPromptChoice').value;
+
+  // Set modal title
+  $id('qaModalTitle').textContent = 'Generate QA — ' + f.name;
+
+  // Show loading state
+  $id('qaContent').innerHTML = `
+    <div class="qa-loading">
+      <div class="qa-spinner"></div>
+      <div class="qa-loading-txt">GENERATING QA · ${esc(model)}</div>
+    </div>`;
+
+  // Disable download buttons
+  $id('qaDownloadJson').disabled = true;
+  $id('qaDownloadCsv').disabled  = true;
+  $id('qaDownloadTsv').disabled  = true;
+
+  // Open modal FIRST so user sees loading
+  $id('qaModal').classList.add('open');
+
+  log(`Generating QA for ${f.name} using ${model} / ${promptChoice}…`, 'info');
+
+  // Kick off async generation
+  generateQA(f, model, promptChoice);
+}
+
+async function generateQA(f, model, promptChoice){
+  const be = backend();
+  try{
+    const res = await fetch(be+'/generate-qa', {
+      method:  'POST',
+      headers: {'Content-Type':'application/json'},
+      body:    JSON.stringify({ extracted_data: f.result, model: model, prompt_choice: promptChoice })
+    });
+
+    let data;
+    try { data = await res.json(); }
+    catch(e){ throw new Error('Backend returned non-JSON response'); }
+
+    if(!res.ok) throw new Error(data.error || `HTTP ${res.status}`);
+    if(!data.qa) throw new Error('Backend response missing "qa" field');
+
+    // Store result
+    currentQA = { filename: f.name };
+    if (Array.isArray(data.qa)) {
+      currentQA.qa_pairs = data.qa;
+    } else {
+      Object.assign(currentQA, data.qa);
+    }
+    f.qa = currentQA;
+
+    // Render
+    renderQA(currentQA);
+
+    // Enable downloads
+    $id('qaDownloadJson').disabled = false;
+    $id('qaDownloadCsv').disabled  = false;
+    $id('qaDownloadTsv').disabled  = false;
+
+    // Update Generate QA button label in main view
+    ra();
+    log(`✓ QA generated for ${f.name}`, 'ok');
+
+  } catch(e){
+    log(`✗ QA failed: ${e.message}`, 'err');
+    $id('qaContent').innerHTML = `
+      <div class="epanel">
+        <div style="font-size:32px">⚠</div>
+        <div class="emsg">${esc(e.message)}</div>
+      </div>`;
+  }
+}
+
+function closeQAModal(){
+  $id('qaModal').classList.remove('open');
+}
+
+// ============================================================
+// RENDER QA — FIXED VERSION
+// ============================================================
+function renderQA(qa){
+  const qaItems = Array.isArray(qa)
+    ? qa
+    : (Array.isArray(qa.qa_pairs) ? qa.qa_pairs : [qa]);
+
+  // --- helpers ---
+  const txt = (v) => {
+    if (v === null || v === undefined || v === '') return '';
+    return esc(String(v))
+      .replace(/\\n/g, '<br>')
+      .replace(/\n/g, '<br>');
+  };
+
+  const sec = (icon, title, bodyHtml, borderColor) => {
+    if (!bodyHtml) return '';
+    const bc = borderColor || 'var(--accent)';
+    return `
+      <div class="qasec" style="border-left-color:${bc}">
+        <div class="qasec-hd" style="color:${bc}">${icon} ${title}</div>
+        <div class="qasec-body">${bodyHtml}</div>
+      </div>`;
+  };
+
+  const bulletList = (val) => {
+    if (!val) return '';
+    let arr = val;
+    if (!Array.isArray(arr)) {
+      // Try splitting literal \n or real newlines
+      arr = String(val).split(/\\n|\n/).map(s => s.replace(/^[-•]\s*/,'')).map(s=>s.trim()).filter(Boolean);
+    }
+    if (!arr.length) return '';
+    return arr.map(x => {
+      const s = (typeof x === 'object') ? JSON.stringify(x, null, 2) : String(x);
+      return `<div style="display:flex;gap:9px;margin-bottom:6px;align-items:flex-start">
+        <span style="color:var(--accent);flex-shrink:0;margin-top:2px;font-size:14px">›</span>
+        <span style="line-height:1.75">${esc(s)}</span>
+      </div>`;
+    }).join('');
+  };
+
+  const graphCards = (rels) => {
+    if (!rels) return '';
+    let arr = rels;
+    if (typeof rels === 'string') {
+      // try parse as JSON
+      try { arr = JSON.parse(rels); }
+      catch(e) {
+        // split by literal \n
+        arr = String(rels).split(/\\n|\n/).map(s=>s.trim()).filter(Boolean);
+      }
+    }
+    if (!Array.isArray(arr) || !arr.length) return '';
+
+    const typeColor = {
+      faktual:    '#00d4ff',
+      normatif:   '#a6e3a1',
+      prosedural: '#fab387',
+      inferensial:'#cba6f7',
+    };
+
+    return arr.map(rel => {
+      // If each element is a stringified JSON object
+      if (typeof rel === 'string') {
+        try { rel = JSON.parse(rel); }
+        catch(e){ return `<div class="grel-raw">${esc(rel)}</div>`; }
+      }
+      const subj  = rel.subject   || rel.s || '?';
+      const pred  = rel.predicate || rel.p || '?';
+      const obj   = rel.object    || rel.o || '?';
+      const ptype = String(rel.predicate_type || '').toLowerCase();
+      const col   = typeColor[ptype] || 'var(--text2)';
+      return `
+        <div class="grel-card">
+          <span class="grel-node" title="${esc(subj)}">${esc(subj)}</span>
+          <div class="grel-mid">
+            <span class="grel-arrow">──▶</span>
+            <span class="grel-pred" style="color:${col}">${esc(pred)}</span>
+            ${ptype ? `<span class="grel-type" style="border-color:${col};color:${col}">${esc(ptype)}</span>` : ''}
+          </div>
+          <span class="grel-node" title="${esc(obj)}">${esc(obj)}</span>
+        </div>`;
+    }).join('');
+  };
+
+  // --- helpers for individual QA pairs ---
+  const renderQAPair = (item, index) => {
+    const tier    = item.tier || '';
+    const persona = item.persona_penanya || '';
+    const style   = item.user_input_style || '';
+    const question = item.question || item.pertanyaan || '';
+    const answer   = item.answer   || item.jawaban   || '';
+
+    let out = '';
+    if (qaItems.length > 1) {
+      out += `<div class="qasec" style="border-left-color:var(--accent)"><div class="qasec-hd" style="color:var(--accent)">QA Pair ${index}</div></div>`;
+    }
+
+    if (tier || persona || style) {
+      out += `
+        <div class="qasec" style="border-left-color:var(--yellow)">
+          <div class="qasec-hd" style="color:var(--yellow)">📋 Informasi QA</div>
+          <div style="display:flex;flex-wrap:wrap;gap:7px;margin-top:4px">
+            ${tier    ? `<span class="qa-pill qa-pill-yellow">${esc(tier)}</span>`    : ''}
+            ${persona ? `<span class="qa-pill qa-pill-blue">${esc(persona)}</span>`   : ''}
+            ${style   ? `<span class="qa-pill qa-pill-green">${esc(style)}</span>`    : ''}
+          </div>
+        </div>`;
+    }
+
+    if (question) {
+      out +=
+        sec('❓', 'Pertanyaan', `<div style="font-size:13px;line-height:1.85;color:var(--text)">${txt(question)}</div>`) +
+        sec('💡', 'Jawaban', `<div style="line-height:1.9">${txt(answer)}</div>`, 'var(--green)') +
+        sec('📍', 'Reasoning Steps', bulletList(item.reasoning_steps)) +
+        sec('⚖️', 'Konteks Hukum', bulletList(item.referensi_hukum || item.konteks_hukum), '#fab387') +
+        sec('🔗', 'Graph Relations', graphCards(item.graph_relations), '#cba6f7');
+
+      if (item.konteks_tambahan) {
+        out += sec('📝', 'Konteks Tambahan', txt(item.konteks_tambahan), 'var(--text3)');
+      }
+    } else {
+      out +=
+        sec('📋', 'Skenario',     txt(item.skenario)) +
+        sec('📍', 'Step-by-Step', bulletList(item.step_by_step)) +
+        sec('❓', 'Pertanyaan',   txt(item.pertanyaan)) +
+        sec('💡', 'Jawaban',      txt(item.jawaban), 'var(--green)') +
+        sec('⚖️', 'Konteks Hukum', bulletList(item.konteks_hukum), '#fab387');
+    }
+
+    return out;
+  };
+
+  let content = '';
+  if (qaItems.length > 1) {
+    content += `<div class="qasec" style="border-left-color:var(--accent)"><div class="qasec-hd" style="color:var(--accent)">📚 ${qaItems.length} QA pairs generated</div></div>`;
+  }
+  content += qaItems.map((item, idx) => renderQAPair(item, idx+1)).join('');
+
+  if (!content) {
+    content = `<div class="emsg">QA berhasil di-generate tapi tidak ada field yang bisa ditampilkan.<br>
+      <pre style="font-size:10px;margin-top:12px;color:var(--text3);text-align:left">${esc(JSON.stringify(qa,null,2))}</pre></div>`;
+  }
+
+  $id('qaContent').innerHTML = content;
+}
+
+// ============================================================
+// QA DOWNLOAD
+// ============================================================
+function qaBaseName(){
+  return (currentQA?.filename||'qa').replace(/\.pdf$/i,'').replace(/_extracted$/,'');
+}
+
+function downloadQA(fmt){
+  if(!currentQA) return;
+  const base = qaBaseName();
+  const items = Array.isArray(currentQA.qa_pairs)
+    ? currentQA.qa_pairs
+    : [currentQA];
+
+  if(fmt==='json'){
+    dl(JSON.stringify(items,null,2), base+'.json','application/json');
+    return;
+  }
+
+  const sep = fmt==='csv' ? ',' : '\t';
+  const ext = fmt==='csv' ? '.csv' : '.tsv';
+  const headers = ['Filename','PairIndex','ID','Tier','Persona','Style','Question','Answer','Background_Scenario','Reasoning_Steps','Reasoning_Depth_Klasifikasi','Reference_Provisions','Referensi_Hukum','Graph_Relations','Context'];
+  const q = (v) => {
+    const s = String(v||'').replace(/\r?\n/g,' ');
+    return fmt==='csv' ? '"'+s.replace(/"/g,'""')+'"' : s.replace(/\t/g,' ');
+  };
+
+  const rows = items.map((item,index) => {
+    const flat = {
+      filename:         currentQA.filename || '',
+      pair_index:       index + 1,
+      id:               item.id || '',
+      tier:             item.tier || '',
+      persona_penanya:  item.persona_penanya || '',
+      user_input_style: item.user_input_style || '',
+      question:         item.question || item.pertanyaan || '',
+      answer:           item.answer   || item.jawaban   || '',
+      background_scenario: item.background_scenario || '',
+      reasoning_steps:  Array.isArray(item.reasoning_steps)
+                          ? item.reasoning_steps.join(' | ')
+                          : (item.reasoning_steps || item.step_by_step || ''),
+      reasoning_depth_klasifikasi: JSON.stringify(item.reasoning_depth_klasifikasi || {}),
+      reference_provisions: JSON.stringify(item.reference_provisions || []),
+      referensi_hukum:  Array.isArray(item.referensi_hukum)
+                          ? item.referensi_hukum.join(' | ')
+                          : (item.referensi_hukum || item.konteks_hukum || ''),
+      graph_relations:  JSON.stringify(item.graph_relations || []),
+      konteks_tambahan: item.konteks_tambahan || item.skenario || ''
+    };
+    return [flat.filename,flat.pair_index,flat.id,flat.tier,flat.persona_penanya,flat.user_input_style,
+            flat.question,flat.answer,flat.background_scenario,flat.reasoning_steps,
+            flat.reasoning_depth_klasifikasi,flat.reference_provisions,flat.referensi_hukum,
+            flat.graph_relations,flat.konteks_tambahan].map(v=>q(v)).join(sep);
+  }).join('\n');
+
+  dl(headers.join(sep)+'\n'+rows, base+ext, 'text/plain');
+}
+
+// ============================================================
+// BATCH QA
+// ============================================================
+function openBatchQAModal(){
+  const dones = files.filter(f=>f.status==='done'&&f.result);
+  if(!dones.length){ log('No completed extractions','warn'); return; }
+  $id('bqaContent').innerHTML = `
+    <div class="qa-loading">
+      <div class="qa-spinner"></div>
+      <div class="qa-loading-txt" id="bqaText">Starting batch QA for ${dones.length} document(s)…</div>
+      <div class="pbw" style="width:300px;height:4px"><div class="pb" id="bqaPb"></div></div>
+    </div>`;
+  $id('bqaDlJson').disabled = true;
+  $id('bqaDlCsv').disabled  = true;
+  $id('bqaDlTsv').disabled  = true;
+  $id('bqaModal').classList.add('open');
+  runBatchQA(dones);
+}
+
+async function runBatchQA(dones){
+  isBatchQA = true; batchQACancel = false;
+  const be    = backend();
+  const model = $id('qaModel').value;
+  const promptChoice = $id('qaPromptChoice').value;
+  let ok = 0;
+  for(let i=0;i<dones.length;i++){
+    if(batchQACancel) break;
+    const f = dones[i];
+    $id('bqaText').textContent = `(${i+1}/${dones.length}) ${f.name} · ${model}`;
+    $id('bqaPb').style.width = (i/dones.length*100)+'%';
+    if(!f.qa){
+      log(`Batch QA: ${f.name}`,'info');
+      try{
+        const res  = await fetch(be+'/generate-qa',{
+          method:'POST', headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({extracted_data:f.result, model, prompt_choice: promptChoice})
+        });
+        let data;
+        try { data = await res.json(); } catch(e){ throw new Error('Non-JSON response'); }
+        if(!res.ok) throw new Error(data.error||`HTTP ${res.status}`);
+        if(!data.qa) throw new Error('Missing "qa" field');
+        const item = { filename:f.name };
+        if (Array.isArray(data.qa)) {
+          item.qa_pairs = data.qa;
+        } else {
+          Object.assign(item, data.qa);
+        }
+        f.qa = item;
+        ok++;
+        log(`✓ Batch QA done: ${f.name}`,'ok');
+      } catch(e){
+        log(`✗ Batch QA error [${f.name}]: ${e.message}`,'err');
+      }
+    } else { ok++; }
+  }
+  isBatchQA = false;
+  $id('bqaPb').style.width = '100%';
+  if(batchQACancel){
+    $id('bqaText').textContent = 'Batch canceled.';
+  } else {
+    $id('bqaText').textContent = `Done! ${ok}/${dones.length} QA generated.`;
+    $id('bqaContent').querySelector('.qa-spinner').style.display='none';
+  }
+  if(ok>0){
+    $id('bqaDlJson').disabled = false;
+    $id('bqaDlCsv').disabled  = false;
+    $id('bqaDlTsv').disabled  = false;
+  }
+  renderBatchQAResults(dones);
+  ra(); // refresh buttons label in main view
+}
+
+function renderBatchQAResults(dones){
+  const items = dones.map(f=>{
+    const qaPairs = Array.isArray(f.qa?.qa_pairs) ? f.qa.qa_pairs.length : 0;
+    const status = f.qa ? `OK (${qaPairs} QA pair${qaPairs===1?'':'s'})` : '<span class="err">Failed</span>';
+    return `
+      <div class="qasec" style="border-left-color:var(--accent)">
+        <div class="qasec-hd">${esc(f.name)}</div>
+        <div class="qasec-body" style="font-size:13px;color:var(--text)">${status}</div>
+      </div>`;
+  }).join('');
+  $id('bqaContent').innerHTML = `
+    <div class="qasec" style="border-left-color:var(--accent)">
+      <div class="qasec-hd">Batch QA summary</div>
+      <div class="qasec-body" style="display:grid;gap:10px;margin-top:8px">${items}</div>
+    </div>`;
+}
+
+function closeBatchQAModal(){
+  if(isBatchQA) batchQACancel=true;
+  $id('bqaModal').classList.remove('open');
+}
+
+function downloadBatchQA(fmt){
+  const dones = files.filter(f=>f.qa);
+  if(!dones.length) return;
+  const base = 'batch_qa_'+Date.now();
+  const q = (v,f) => {
+    const s = String(v||'').replace(/\r?\n/g,' ');
+    return f==='csv' ? '"'+s.replace(/"/g,'""')+'"' : s.replace(/\t/g,' ');
+  };
+  if(fmt==='json'){
+    const payload = dones.map(f=>({
+      filename: f.qa.filename||f.name,
+      qa_pairs: Array.isArray(f.qa.qa_pairs) ? f.qa.qa_pairs : []
+    }));
+    dl(JSON.stringify(payload,null,2), base+'.json','application/json');
+    log('Downloaded: '+base+'.json','ok');
+    return;
+  }
+
+  const sep = fmt==='csv' ? ',' : '\t';
+  const ext = fmt==='csv' ? '.csv' : '.tsv';
+  const headers = ['Filename','PairIndex','ID','Tier','Persona','Style','Question','Answer','Background_Scenario','Reasoning_Steps','Reasoning_Depth_Klasifikasi','Reference_Provisions','Referensi_Hukum','Graph_Relations','Context'];
+  const rows = dones.flatMap(f => {
+    const pairs = Array.isArray(f.qa.qa_pairs) ? f.qa.qa_pairs : [];
+    if(!pairs.length){
+      return [[
+        q(f.qa.filename||f.name,fmt),
+        q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt), q('',fmt)
+      ].join(sep)];
+    }
+    return pairs.map((item,index) => {
+      const reasoning = Array.isArray(item.reasoning_steps) ? item.reasoning_steps.join(' | ') : (item.reasoning_steps || item.step_by_step || '');
+      const references = Array.isArray(item.referensi_hukum) ? item.referensi_hukum.join(' | ') : (item.referensi_hukum || item.konteks_hukum || '');
+      return [
+        q(f.qa.filename||f.name,fmt),
+        q(index+1,fmt),
+        q(item.id||'',fmt),
+        q(item.tier||'',fmt),
+        q(item.persona_penanya||'',fmt),
+        q(item.user_input_style||'',fmt),
+        q(item.question||item.pertanyaan||'',fmt),
+        q(item.answer||item.jawaban||'',fmt),
+        q(item.background_scenario||'',fmt),
+        q(reasoning,fmt),
+        q(JSON.stringify(item.reasoning_depth_klasifikasi||{}),fmt),
+        q(JSON.stringify(item.reference_provisions||[]),fmt),
+        q(references,fmt),
+        q(JSON.stringify(item.graph_relations||[]),fmt),
+        q(item.konteks_tambahan||item.skenario||'',fmt)
+      ].join(sep);
+    });
+  }).join('\n');
+  dl(headers.join(sep)+'\n'+rows, base+ext,'text/plain');
+  log('Downloaded: '+base+ext,'ok');
+}
+
+// ============================================================
+// UTILS
+// ============================================================
+function toggleKey(){ const i=$id('apiKey'); i.type=i.type==='password'?'text':'password'; }
+
+function updateBtn(){
+  const ok  = $id('sdot').classList.contains('ok');
+  const key = $id('apiKey').value.trim().length>0;
+  const hf  = files.some(f=>!f.saved);
+  $id('runBtn').disabled = !hf||!key||!ok||running;
+}
+
+function updateSum(){
+  const t=files.length,
+        d=files.filter(f=>f.status==='done').length,
+        p=files.filter(f=>['idle','processing'].includes(f.status)).length,
+        e=files.filter(f=>f.status==='error').length;
+  $id('sTotal').textContent=t;
+  $id('sDone').textContent=d;
+  $id('sPend').textContent=p;
+  $id('sErr').textContent=e;
+  $id('pb').style.width=t?(d/t*100)+'%':'0%';
+  const hasDone=d>0;
+  $id('djson').disabled=!hasDone;
+  $id('djsonl').disabled=!hasDone;
+  $id('bqabtn').disabled=!hasDone;
+  if(hasDone){
+    $id('anote').textContent=`${d} result(s) ready`;
+    $id('sbar').style.display='flex';
+    $id('abar').style.display='flex';
+  }
+}
+
+function log(msg,type=''){
+  const p=$id('lp'), t=new Date().toTimeString().split(' ')[0];
+  const el=document.createElement('div'); el.className='le';
+  el.innerHTML=`<span class="lt">${t}</span><span class="lm ${type}">${esc(msg)}</span>`;
+  p.appendChild(el); p.scrollTop=p.scrollHeight;
+  while(p.children.length>120) p.removeChild(p.firstChild);
+}
+
+$id('apiKey').addEventListener('input', updateBtn);
+log('Ready. Start backend then upload PDFs.','info');
+</script>
+</body>
+</html>
